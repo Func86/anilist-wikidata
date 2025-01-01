@@ -18,7 +18,7 @@ WHERE {
   OPTIONAL { ?item wdt:P5737 ?page }
 }
 GROUP BY ?item ?lang
-ORDER BY ?animeId`;
+ORDER BY ?animeId ?lang`;
 
 class SPARQLQueryDispatcher {
 	constructor() {
