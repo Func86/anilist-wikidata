@@ -4,7 +4,7 @@ const sparqlQuery = `\
 SELECT (MIN(xsd:integer(?value)) AS ?animeId)
        ?lang
        (SAMPLE(?label) AS ?title)
-       (SAMPLE(?page) AS ?page)
+       (SAMPLE(?finalPage) AS ?page)
 WHERE {
   ?item p:P8729/ps:P8729 ?value.
 
@@ -14,8 +14,12 @@ WHERE {
   ?item rdfs:label ?label.
   BIND(LANG(?label) AS ?lang)
   FILTER(STRSTARTS(?lang, "zh"))
-  
+
   OPTIONAL { ?item wdt:P5737 ?page }
+
+  OPTIONAL { ?item wdt:P144/wdt:P5737 ?fallbackPage }
+
+  BIND(COALESCE(?page, ?fallbackPage) AS ?finalPage)
 }
 GROUP BY ?item ?lang
 ORDER BY ?animeId ?lang`;
