@@ -6,7 +6,7 @@ SELECT (MIN(xsd:integer(?value)) AS ?animeId)
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
 WHERE {
-  ?item p:P8729/ps:P8729 ?value.
+  ?item wdt:P8729 ?value.
 
   OPTIONAL { ?item wdt:P364 ?originalLanguage. }
   FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
@@ -23,7 +23,19 @@ WHERE {
     OPTIONAL { ?series wdt:P144/wdt:P5737 ?seriesOriginPage }
   }
 
-  OPTIONAL { ?item wdt:P144/wdt:P5737 ?originPage }
+  OPTIONAL {
+    ?item wdt:P144 ?origin
+    OPTIONAL {
+      ?origin p:P5737 ?originPageStatement.
+      ?originPageStatement ps:P5737 ?originPage.
+      # Using "p:" and then "ps:" instead of "wdt:" would cause the deprecated ones to be included,
+      # so we need to filter them out manually
+      ?originPageStatement wikibase:rank ?originPageRank
+      # Filter out pages in non-Chinese languages
+      OPTIONAL { ?originPageStatement pq:P407 ?originPageLang }
+    }
+    FILTER(?originPageRank != wikibase:DeprecatedRank && (!BOUND(?originPageLang) || ?originPageLang = wd:Q7850))
+  }
 
   BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage) AS ?finalPage)
 }
