@@ -21,6 +21,8 @@ WHERE {
     ?item wdt:P179 ?series
     OPTIONAL { ?series wdt:P5737 ?seriesPage }
     OPTIONAL { ?series wdt:P144/wdt:P5737 ?seriesOriginPage }
+    # The link to the media mix page of the series
+    OPTIONAL { ?series wdt:P8345/wdt:P5737 ?seriesMedmixPage }
   }
 
   OPTIONAL {
@@ -35,11 +37,14 @@ WHERE {
       OPTIONAL { ?originPageStatement pq:P407 ?originPageLang }
     }
     FILTER(?originPageRank != wikibase:DeprecatedRank && (!BOUND(?originPageLang) || ?originPageLang = wd:Q7850))
+    # Somehow querying the media mix of the series would cause the order of the results to be different,
+    # so we need to query more specifically before fallback to the origin page
+    OPTIONAL { ?origin wdt:P361/wdt:P5737 ?originEntityPage }
   }
 
   OPTIONAL { ?item wdt:P8345/wdt:P5737 ?medmixPage }
 
-  BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage, ?medmixPage) AS ?finalPage)
+  BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originEntityPage, ?originPage, ?medmixPage, ?seriesMedmixPage) AS ?finalPage)
 }
 GROUP BY ?item ?lang
 ORDER BY ?animeId ?lang`;
