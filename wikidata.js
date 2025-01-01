@@ -37,7 +37,9 @@ WHERE {
     FILTER(?originPageRank != wikibase:DeprecatedRank && (!BOUND(?originPageLang) || ?originPageLang = wd:Q7850))
   }
 
-  BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage) AS ?finalPage)
+  OPTIONAL { ?item wdt:P8345/wdt:P5737 ?medmixPage }
+
+  BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage, ?medmixPage) AS ?finalPage)
 }
 GROUP BY ?item ?lang
 ORDER BY ?animeId ?lang`;
