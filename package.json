@@ -1,0 +1,19 @@
+{
+  "name": "anilist-wikidata",
+  "version": "0.0.1",
+  "description": "Wikidata translations for AniList",
+  "main": "wikidata.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Func86/anilist-wikidata.git"
+  },
+  "keywords": [
+    "anilist"
+  ],
+  "author": "Func",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Func86/anilist-wikidata/issues"
+  }
+}
