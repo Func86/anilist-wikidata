@@ -17,9 +17,15 @@ WHERE {
 
   OPTIONAL { ?item wdt:P5737 ?page }
 
-  OPTIONAL { ?item wdt:P144/wdt:P5737 ?fallbackPage }
+  OPTIONAL {
+    ?item wdt:P179 ?series
+    OPTIONAL { ?series wdt:P5737 ?seriesPage }
+    OPTIONAL { ?series wdt:P144/wdt:P5737 ?seriesOriginPage }
+  }
 
-  BIND(COALESCE(?page, ?fallbackPage) AS ?finalPage)
+  OPTIONAL { ?item wdt:P144/wdt:P5737 ?originPage }
+
+  BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage) AS ?finalPage)
 }
 GROUP BY ?item ?lang
 ORDER BY ?animeId ?lang`;
