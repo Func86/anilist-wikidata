@@ -99,6 +99,6 @@ for (const { id, isAnime, lang, page, title } of response.results.bindings) {
 
 fs.writeFileSync(
   './wikidata.json',
-  JSON.stringify(animeData, null, 2).slice(0, -1).trimEnd() + ',\n' + JSON.stringify(mangaData, null, 2).slice(1)
+  JSON.stringify(animeData, null, '\t').slice(0, -1).trimEnd() + ',\n' + JSON.stringify(mangaData, null, '\t').slice(1)
 );
-fs.writeFileSync('./anime-wikidata.json', JSON.stringify(animeData, null, 2));
+fs.writeFileSync('./wikidata-anime.json', JSON.stringify(animeData, null, '\t'));
