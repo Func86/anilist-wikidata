@@ -1,12 +1,14 @@
 import fs from 'node:fs';
 
 const sparqlQuery = `\
-SELECT (MIN(xsd:integer(?value)) AS ?animeId)
+SELECT (MIN(xsd:integer(?value)) AS ?id)
+       ?isAnime
        ?lang
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
-WHERE {
+WHERE {{
   ?item wdt:P8729 ?value.
+  BIND(true AS ?isAnime)
 
   OPTIONAL { ?item wdt:P364 ?originalLanguage. }
   FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
@@ -45,9 +47,19 @@ WHERE {
   OPTIONAL { ?item wdt:P8345/wdt:P5737 ?medmixPage }
 
   BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originEntityPage, ?originPage, ?medmixPage, ?seriesMedmixPage) AS ?finalPage)
-}
-GROUP BY ?item ?lang
-ORDER BY ?animeId ?lang`;
+} UNION {
+  ?item wdt:P8731 ?value.
+  BIND(false AS ?isAnime)
+
+  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+  ?item rdfs:label ?label.
+  BIND(LANG(?label) AS ?lang)
+  FILTER(STRSTARTS(?lang, "zh"))
+}}
+GROUP BY ?isAnime ?item ?lang
+ORDER BY DESC(?isAnime) ?id ?lang`;
 
 class SPARQLQueryDispatcher {
 	constructor() {
@@ -58,7 +70,7 @@ class SPARQLQueryDispatcher {
 		const fullUrl = this.endpoint + '?query=' + encodeURIComponent(sparqlQuery);
 		const headers = {
 			'Accept': 'application/sparql-results+json',
-			'User-Agent': 'AnimeServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)'
+			'User-Agent': 'AcgServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)'
 		};
 
 		const body = await fetch(fullUrl, { headers });
@@ -73,16 +85,20 @@ function normalizeTitle(title) {
 		.trim();
 }
 
-const data = {};
+const animeData = {}, mangaData = {};
 const queryDispatcher = new SPARQLQueryDispatcher();
 const response = await queryDispatcher.query();
-for (const { animeId, lang, page, title } of response.results.bindings) {
-	data[animeId.value] ??= {};
+for (const { id, isAnime, lang, page, title } of response.results.bindings) {
+	const item = isAnime.value === 'true' ? (animeData[id.value] ??= {}) : (mangaData[id.value] ??= {});
 	if (page) {
-		data[animeId.value].page = page.value;
+		item.page = page.value;
 	}
-	data[animeId.value].title ??= {};
-	data[animeId.value].title[lang.value] = normalizeTitle(title.value);
+	item.title ??= {};
+	item.title[lang.value] = normalizeTitle(title.value);
 }
 
-fs.writeFileSync('./wikidata.json', JSON.stringify(data, null, 2));
+fs.writeFileSync(
+  './wikidata.json',
+  JSON.stringify(animeData, null, 2).slice(0, -1).trimEnd() + ',\n' + JSON.stringify(mangaData, null, 2).slice(1)
+);
+fs.writeFileSync('./anime-wikidata.json', JSON.stringify(animeData, null, 2));
