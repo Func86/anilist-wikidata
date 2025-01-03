@@ -25,5 +25,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add ./wikidata.json
-          git diff --cached --quiet || git commit -m "Update wikidata.json with latest data" && git push
+          git add .
+          git diff --cached --quiet || git commit -m "Update from wikidata" && git push
