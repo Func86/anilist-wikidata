@@ -7,15 +7,54 @@ SELECT (MIN(xsd:integer(?value)) AS ?id)
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
 WHERE {{
-  ?item wdt:P8729 ?value.
   BIND(true AS ?isAnime)
+  {
+    ?item wdt:P8729 ?value.
 
-  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
-  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+    OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+    FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
 
-  ?item rdfs:label ?label.
-  BIND(LANG(?label) AS ?lang)
-  FILTER(STRSTARTS(?lang, "zh"))
+    ?item rdfs:label ?label.
+    BIND(LANG(?label) AS ?lang)
+    FILTER(STRSTARTS(?lang, "zh"))
+  } UNION {
+    ?item wdt:P8729 ?value.
+
+    OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+    FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+    SERVICE wikibase:label {
+      bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
+      ?item rdfs:label ?autoLabel.
+    }
+    SERVICE wikibase:label {
+      bd:serviceParam wikibase:language "en".
+      ?item rdfs:label ?enLabel.
+    }
+
+    OPTIONAL {
+      ?item wdt:P144 ?origin.
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
+        ?origin rdfs:label ?originLabel.
+      }
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "en".
+        ?origin rdfs:label ?originEnLabel.
+      }
+    }
+
+    # Query the title variants of the origin entity, when all of the following conditions are met:
+    # 1. The title of the item is in English or undefined
+    # 2. The title of the origin entity is in Chinese
+    # 3. The English title of the item is the same as the English title of the origin entity
+    # We have to use a UNION query because the it would timeout/OOM when querying rdfs:label on variables
+    # that are bounded with BIND, even if it's as simple as BIND(?item AS ?itemCopy).
+    FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && ?enLabel = ?originEnLabel)
+    ?origin rdfs:label ?label.
+    BIND(LANG(?label) AS ?lang)
+    FILTER(STRSTARTS(?lang, "zh"))
+  }
 
   OPTIONAL { ?item wdt:P5737 ?page }
 
