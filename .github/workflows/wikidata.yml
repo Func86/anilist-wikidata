@@ -5,6 +5,7 @@ on:
 
 jobs:
   update_wikidata:
+    name: Update from Wikidata
     runs-on: ubuntu-latest
 
     steps:
@@ -18,6 +19,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Run script to fetch data
         run: node wikidata.js
 
@@ -26,4 +30,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git diff --cached --quiet || git commit -m "Update from wikidata" && git push
+          git diff --cached --quiet || git commit -m "Update from Wikidata" && git push
