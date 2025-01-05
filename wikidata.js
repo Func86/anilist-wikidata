@@ -1,4 +1,7 @@
 import fs from 'node:fs';
+import core from '@actions/core';
+
+import wikidata from './wikidata.json' assert { type: 'json' };
 
 const sparqlQuery = `\
 SELECT (MIN(xsd:integer(?value)) AS ?id)
@@ -6,6 +9,7 @@ SELECT (MIN(xsd:integer(?value)) AS ?id)
        ?lang
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
+       (SAMPLE(?dateModified) AS ?dateModified)
 WHERE {{
   BIND(true AS ?isAnime)
   {
@@ -17,6 +21,8 @@ WHERE {{
     ?item rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
     FILTER(STRSTARTS(?lang, "zh"))
+
+    ?item schema:dateModified ?dateModified.
   } UNION {
     ?item wdt:P8729 ?value.
 
@@ -27,6 +33,7 @@ WHERE {{
     # keeping these inside an OPTIONAL block can make the query way faster, from >20s to 6-8s
     OPTIONAL {
       ?item wdt:P144 ?origin.
+      ?origin schema:dateModified ?dateModified.
       SERVICE wikibase:label {
         bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
         ?item rdfs:label ?autoLabel.
@@ -91,6 +98,8 @@ WHERE {{
   ?item rdfs:label ?label.
   BIND(LANG(?label) AS ?lang)
   FILTER(STRSTARTS(?lang, "zh"))
+
+  ?item schema:dateModified ?dateModified.
 }}
 GROUP BY ?isAnime ?item ?lang
 ORDER BY DESC(?isAnime) ?id ?lang`;
@@ -122,8 +131,15 @@ function normalizeTitle(title) {
 const animeData = {}, mangaData = {};
 const queryDispatcher = new SPARQLQueryDispatcher();
 const response = await queryDispatcher.query();
-for (const { id, isAnime, lang, page, title } of response.results.bindings) {
-	const item = isAnime.value === 'true' ? (animeData[id.value] ??= {}) : (mangaData[id.value] ??= {});
+for (const { id, isAnime, lang, page, title, dateModified } of response.results.bindings) {
+	if (dateModified.value < wikidata[id.value]?.dateModified) {
+		core.warning(`Wikidata out of sync for ${id.value}: ${dateModified.value} < ${wikidata[id.value]?.dateModified}`);
+		console.warn(`Wikidata out of sync for ${id.value}: ${dateModified.value} < ${wikidata[id.value]?.dateModified}`);
+		(isAnime.value === 'true' ? animeData : mangaData)[id.value] = wikidata[id.value];
+		continue;
+	}
+
+	const item = (isAnime.value === 'true' ? animeData : mangaData)[id.value] ??= { dateModified: dateModified.value };
 	if (page) {
 		item.page = page.value;
 	}
@@ -135,4 +151,4 @@ fs.writeFileSync(
   './wikidata.json',
   JSON.stringify(animeData, null, '\t').slice(0, -1).trimEnd() + ',\n' + JSON.stringify(mangaData, null, '\t').slice(1)
 );
-fs.writeFileSync('./wikidata-anime.json', JSON.stringify(animeData, null, '\t'));
+fs.writeFileSync('./wikidata-anime.json', JSON.stringify(animeData, (key, value) => key === 'dateModified' ? undefined : value, '\t'));
