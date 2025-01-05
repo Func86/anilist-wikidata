@@ -23,23 +23,18 @@ WHERE {{
     OPTIONAL { ?item wdt:P364 ?originalLanguage. }
     FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
 
-    SERVICE wikibase:label {
-      bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
-      ?item rdfs:label ?autoLabel.
-    }
-    SERVICE wikibase:label {
-      bd:serviceParam wikibase:language "en".
-      ?item rdfs:label ?enLabel.
-    }
-
+    # In this branch of the UNION query, we only want items with P144 (origin) statements, but somehow,
+    # keeping these inside an OPTIONAL block can make the query way faster, from >20s to 6-8s
     OPTIONAL {
       ?item wdt:P144 ?origin.
       SERVICE wikibase:label {
         bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
+        ?item rdfs:label ?autoLabel.
         ?origin rdfs:label ?originLabel.
       }
       SERVICE wikibase:label {
         bd:serviceParam wikibase:language "en".
+        ?item rdfs:label ?enLabel.
         ?origin rdfs:label ?originEnLabel.
       }
     }
