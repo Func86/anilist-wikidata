@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import core from '@actions/core';
+import { diff } from 'deep-object-diff';
 
 import wikidata from './wikidata.json' assert { type: 'json' };
 
@@ -128,18 +129,19 @@ function normalizeTitle(title) {
 		.trim();
 }
 
-const animeData = {}, mangaData = {};
+const data = {}, isAnimeMap = {};
 const queryDispatcher = new SPARQLQueryDispatcher();
 const response = await queryDispatcher.query();
 for (const { id, isAnime, lang, page, title, dateModified } of response.results.bindings) {
 	if (dateModified.value < wikidata[id.value]?.dateModified) {
 		core.warning(`Wikidata out of sync for ${id.value}: ${dateModified.value} < ${wikidata[id.value]?.dateModified}`);
 		console.warn(`Wikidata out of sync for ${id.value}: ${dateModified.value} < ${wikidata[id.value]?.dateModified}`);
-		(isAnime.value === 'true' ? animeData : mangaData)[id.value] = wikidata[id.value];
+		data[id.value] = wikidata[id.value];
 		continue;
 	}
 
-	const item = (isAnime.value === 'true' ? animeData : mangaData)[id.value] ??= { dateModified: dateModified.value };
+	const item = data[id.value] ??= { dateModified: dateModified.value };
+	isAnimeMap[id.value] = isAnime.value === 'true';
 	if (page) {
 		item.page = page.value;
 	}
@@ -147,8 +149,22 @@ for (const { id, isAnime, lang, page, title, dateModified } of response.results.
 	item.title[lang.value] = normalizeTitle(title.value);
 }
 
-fs.writeFileSync(
-  './wikidata.json',
-  JSON.stringify(animeData, null, '\t').slice(0, -1).trimEnd() + ',\n' + JSON.stringify(mangaData, null, '\t').slice(1)
+for (const id in data) {
+	// Nothing changed other than dateModified
+	if (data[id].dateModified > wikidata[id]?.dateModified && Object.keys(diff(data[id], wikidata[id])).length === 1) {
+		data[id] = wikidata[id];
+	}
+}
+
+fs.writeFileSync('./wikidata.json',
+	JSON.stringify(data, (key, value) => {
+		return (key && !isNaN(key) && !isAnimeMap[key]) ? undefined : value;
+	}, '\t').slice(0, -1).trimEnd() + ',\n' + JSON.stringify(data, (key, value) => {
+		return (key && !isNaN(key) && isAnimeMap[key]) ? undefined : value;
+	}, '\t').slice(1)
 );
-fs.writeFileSync('./wikidata-anime.json', JSON.stringify(animeData, (key, value) => key === 'dateModified' ? undefined : value, '\t'));
+fs.writeFileSync('./wikidata-anime.json',
+	JSON.stringify(data, (key, value) => {
+		return ('dateModified' === key || (key && !isNaN(key) && !isAnimeMap[key])) ? undefined : value;
+	}, '\t')
+);
