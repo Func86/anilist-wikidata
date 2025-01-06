@@ -1080,6 +1080,13 @@
 			"zh": "头文字D Second Stage"
 		}
 	},
+	"187": {
+		"dateModified": "2024-11-11T14:17:24Z",
+		"page": "头文字D",
+		"title": {
+			"en": "Initial D Third Stage"
+		}
+	},
 	"193": {
 		"dateModified": "2025-01-05T18:13:05Z",
 		"title": {
@@ -1991,6 +1998,13 @@
 			"zh-hant": "幻影死神",
 			"zh-hk": "幻影死神",
 			"zh-tw": "幻影死神"
+		}
+	},
+	"372": {
+		"dateModified": "2024-11-14T15:51:48Z",
+		"page": "魔卡少女樱",
+		"title": {
+			"en": "Cardcaptor Sakura Movie 2: The Sealed Card"
 		}
 	},
 	"373": {
@@ -3235,6 +3249,13 @@
 			"zh-hant": "貓眼女槍手"
 		}
 	},
+	"656": {
+		"dateModified": "2024-09-20T16:41:15Z",
+		"page": "AIR",
+		"title": {
+			"en": "Air in Summer"
+		}
+	},
 	"658": {
 		"dateModified": "2025-01-05T18:40:51Z",
 		"title": {
@@ -3742,6 +3763,13 @@
 			"zh": "頭文字D",
 			"zh-hans": "头文字D",
 			"zh-hant": "頭文字D"
+		}
+	},
+	"822": {
+		"dateModified": "2024-07-06T09:50:15Z",
+		"page": "头文字D",
+		"title": {
+			"en": "Initial D Extra Stage"
 		}
 	},
 	"825": {
@@ -4317,6 +4345,13 @@
 			"zh": "大魔法峠"
 		}
 	},
+	"934": {
+		"dateModified": "2025-01-05T18:53:09Z",
+		"page": "寒蝉鸣泣之时",
+		"title": {
+			"en": "Higurashi no Naku Koro ni"
+		}
+	},
 	"935": {
 		"dateModified": "2025-01-05T18:20:51Z",
 		"page": "魔女之刃",
@@ -4521,6 +4556,13 @@
 		"page": "龙珠系列",
 		"title": {
 			"zh": "七龍珠Z 單獨一人的最終決戰～向弗利札挑戰的Z戰士孫悟空之父～"
+		}
+	},
+	"987": {
+		"dateModified": "2024-10-18T09:21:22Z",
+		"page": "龙珠系列",
+		"title": {
+			"en": "Dragon Ball GT: A Hero's Legacy"
 		}
 	},
 	"990": {
@@ -5302,6 +5344,13 @@
 			"zh-hk": "MUSASHI -GUN道-"
 		}
 	},
+	"1202": {
+		"dateModified": "2024-05-30T07:53:09Z",
+		"page": "魔塔大陆_在世界终结续咏诗篇的少女",
+		"title": {
+			"en": "Ar Tonelico: Sekai no Owari de Utai Tsuzukeru Shōjo"
+		}
+	},
 	"1203": {
 		"dateModified": "2024-11-14T15:51:50Z",
 		"title": {
@@ -5803,6 +5852,13 @@
 		"dateModified": "2024-02-23T20:20:33Z",
 		"title": {
 			"zh": "闇の司法官ジャッジ"
+		}
+	},
+	"1344": {
+		"dateModified": "2024-10-17T07:32:01Z",
+		"page": "8_Man",
+		"title": {
+			"en": "8 Man After"
 		}
 	},
 	"1346": {
@@ -7695,6 +7751,13 @@
 			"zh": "西部曠野天使"
 		}
 	},
+	"1929": {
+		"dateModified": "2025-01-05T18:27:33Z",
+		"page": "光之美少女系列",
+		"title": {
+			"en": "Futari wa Pretty Cure Max Heart"
+		}
+	},
 	"1930": {
 		"dateModified": "2024-12-26T18:08:32Z",
 		"title": {
@@ -8010,6 +8073,13 @@
 			"zh-hant": "魔法小天使",
 			"zh-hk": "我係小忌廉",
 			"zh-tw": "魔法小天使"
+		}
+	},
+	"2048": {
+		"dateModified": "2024-07-24T18:53:43Z",
+		"page": "装甲骑兵",
+		"title": {
+			"en": "Armor Hunter Mellowlink"
 		}
 	},
 	"2051": {
@@ -10497,6 +10567,13 @@
 			"zh-hant": "十字架與吸血鬼"
 		}
 	},
+	"3002": {
+		"dateModified": "2024-04-22T23:07:54Z",
+		"page": "赌博默示录",
+		"title": {
+			"en": "Kaiji: Ultimate Survivor"
+		}
+	},
 	"3006": {
 		"dateModified": "2025-01-05T08:54:02Z",
 		"title": {
@@ -11163,6 +11240,13 @@
 			"zh": "巨神GORG"
 		}
 	},
+	"3328": {
+		"dateModified": "2024-02-23T19:10:47Z",
+		"page": "校园的日子",
+		"title": {
+			"en": "School Days: Magical Heart Kokoro-chan"
+		}
+	},
 	"3332": {
 		"dateModified": "2025-01-05T18:28:43Z",
 		"title": {
@@ -11705,6 +11789,13 @@
 			"zh": "我與我 兩個綠蒂"
 		}
 	},
+	"3692": {
+		"dateModified": "2025-01-05T18:21:32Z",
+		"page": "光之美少女系列",
+		"title": {
+			"en": "Yes! Pretty Cure 5 Go Go!"
+		}
+	},
 	"3701": {
 		"dateModified": "2025-01-05T18:20:13Z",
 		"title": {
@@ -11801,6 +11892,13 @@
 		"dateModified": "2024-10-28T13:45:22Z",
 		"title": {
 			"zh": "神燈"
+		}
+	},
+	"3759": {
+		"dateModified": "2024-02-23T19:10:49Z",
+		"page": "校园的日子",
+		"title": {
+			"en": "School Days: Valentine Days"
 		}
 	},
 	"3761": {
@@ -12769,6 +12867,13 @@
 			"zh-hant": "夢幻蠟筆王國"
 		}
 	},
+	"4654": {
+		"dateModified": "2024-07-10T08:10:13Z",
+		"page": "魔法禁书目录",
+		"title": {
+			"en": "A Certain Magical Index, season 1"
+		}
+	},
 	"4657": {
 		"dateModified": "2025-01-05T19:22:05Z",
 		"page": "地下城与勇士",
@@ -12819,6 +12924,13 @@
 			"zh": "青春動畫全集"
 		}
 	},
+	"4725": {
+		"dateModified": "2025-01-05T18:58:19Z",
+		"page": "食灵-零-",
+		"title": {
+			"en": "Ga-Rei: Zero"
+		}
+	},
 	"4744": {
 		"dateModified": "2024-12-17T16:59:42Z",
 		"title": {
@@ -12832,6 +12944,13 @@
 		"dateModified": "2025-01-05T08:54:33Z",
 		"title": {
 			"zh": "酷媽寶貝蛋"
+		}
+	},
+	"4793": {
+		"dateModified": "2024-10-28T07:00:41Z",
+		"page": "宝可梦系列",
+		"title": {
+			"en": "Pokémon: Pikachu & Pichu"
 		}
 	},
 	"4800": {
@@ -12898,6 +13017,13 @@
 			"zh-hk": "海貓鳴泣之時",
 			"zh-sg": "海猫鸣泣之时",
 			"zh-tw": "海貓悲鳴時"
+		}
+	},
+	"4898": {
+		"dateModified": "2024-07-09T06:34:23Z",
+		"page": "黑执事",
+		"title": {
+			"en": "Black Butler, season 1"
 		}
 	},
 	"4903": {
@@ -14130,6 +14256,13 @@
 			"zh-hk": "東京地震8.0"
 		}
 	},
+	"6213": {
+		"dateModified": "2024-07-10T06:45:18Z",
+		"page": "某科学的超电磁炮",
+		"title": {
+			"en": "A Certain Scientific Railgun, season 1"
+		}
+	},
 	"6261": {
 		"dateModified": "2025-01-05T18:19:52Z",
 		"title": {
@@ -14185,6 +14318,13 @@
 		"dateModified": "2024-04-30T04:20:59Z",
 		"title": {
 			"zh": "机动战士高达UC OVA"
+		}
+	},
+	"6347": {
+		"dateModified": "2024-07-10T08:13:08Z",
+		"page": "笨蛋测验召唤兽",
+		"title": {
+			"en": "Baka to Test to Shōkanjū, season 1"
 		}
 	},
 	"6366": {
@@ -14448,12 +14588,26 @@
 			"zh-hk": "超時空甩尾"
 		}
 	},
+	"6682": {
+		"dateModified": "2024-04-10T15:35:38Z",
+		"page": "11eyes-罪与罚与救赎之少女-",
+		"title": {
+			"en": "11eyes"
+		}
+	},
 	"6702": {
 		"dateModified": "2024-11-09T15:40:30Z",
 		"page": "妖精的尾巴",
 		"title": {
 			"zh": "FAIRY TAIL",
 			"zh-hant": "FAIRY TAIL"
+		}
+	},
+	"6707": {
+		"dateModified": "2024-07-09T06:34:40Z",
+		"page": "黑执事",
+		"title": {
+			"en": "Black Butler II"
 		}
 	},
 	"6730": {
@@ -15041,6 +15195,13 @@
 			"zh-tw": "四疊半宿舍，青春迷走"
 		}
 	},
+	"7791": {
+		"dateModified": "2024-09-22T21:46:00Z",
+		"page": "轻音少女",
+		"title": {
+			"en": "K-On!!"
+		}
+	},
 	"7845": {
 		"dateModified": "2025-01-05T18:30:32Z",
 		"title": {
@@ -15407,6 +15568,13 @@
 			"zh-hant": "不思議魔法繽紛藥房"
 		}
 	},
+	"8516": {
+		"dateModified": "2024-07-10T08:13:39Z",
+		"page": "笨蛋测验召唤兽",
+		"title": {
+			"en": "Baka to Test to Shōkanjū: Ni!"
+		}
+	},
 	"8525": {
 		"dateModified": "2024-04-01T08:51:13Z",
 		"title": {
@@ -15480,6 +15648,13 @@
 			"zh-hans": "小鸡之恋",
 			"zh-hant": "小雞之戀",
 			"zh-hk": "小雞之戀"
+		}
+	},
+	"8769": {
+		"dateModified": "2024-02-23T18:46:11Z",
+		"page": "我的妹妹哪有这么可爱！",
+		"title": {
+			"en": "Oreimo"
 		}
 	},
 	"8777": {
@@ -15572,6 +15747,13 @@
 			"zh-hans": "STAR DRIVER 闪亮的塔科特",
 			"zh-hant": "STAR DRIVER 閃亮的塔科特",
 			"zh-hk": "STAR DRIVER 閃亮的塔科特"
+		}
+	},
+	"8937": {
+		"dateModified": "2024-07-10T08:10:38Z",
+		"page": "魔法禁书目录",
+		"title": {
+			"en": "A Certain Magical Index II"
 		}
 	},
 	"8956": {
@@ -15775,6 +15957,13 @@
 		"dateModified": "2024-02-23T18:26:31Z",
 		"title": {
 			"zh": "宫西达也剧场 你看起来很好吃"
+		}
+	},
+	"9471": {
+		"dateModified": "2024-02-23T16:04:45Z",
+		"page": "笨蛋测验召唤兽",
+		"title": {
+			"en": "Baka to Test to Shōkanjū: Matsuri"
 		}
 	},
 	"9479": {
@@ -16130,6 +16319,13 @@
 			"zh": "名侦探柯南：沉默的15分钟"
 		}
 	},
+	"9969": {
+		"dateModified": "2024-02-23T17:04:19Z",
+		"page": "银魂",
+		"title": {
+			"en": "Gintama'"
+		}
+	},
 	"9979": {
 		"dateModified": "2024-11-12T08:52:38Z",
 		"title": {
@@ -16190,6 +16386,13 @@
 			"zh-hans": "幻想嘉年华",
 			"zh-hant": "幻想嘉年華",
 			"zh-hk": "幻想嘉年華"
+		}
+	},
+	"10020": {
+		"dateModified": "2024-02-23T18:46:12Z",
+		"page": "我的妹妹哪有这么可爱！",
+		"title": {
+			"en": "Oreimo"
 		}
 	},
 	"10029": {
@@ -16382,6 +16585,13 @@
 			"zh-hans": "美妙旋律 彩虹之梦",
 			"zh-hant": "星光少女 極光之夢",
 			"zh-hk": "星光少女 極光之夢"
+		}
+	},
+	"10271": {
+		"dateModified": "2024-04-22T23:07:55Z",
+		"page": "赌博默示录",
+		"title": {
+			"en": "Kaiji: Against All Rules"
 		}
 	},
 	"10278": {
@@ -16598,6 +16808,13 @@
 			"zh": "火影忍者劇場版 血獄"
 		}
 	},
+	"10604": {
+		"dateModified": "2024-02-23T17:19:05Z",
+		"page": "绯弹的亚里亚",
+		"title": {
+			"en": "Aria the Scarlet Ammo Special"
+		}
+	},
 	"10607": {
 		"dateModified": "2025-01-05T18:38:57Z",
 		"title": {
@@ -16747,6 +16964,13 @@
 		"dateModified": "2025-01-05T18:47:01Z",
 		"title": {
 			"zh": "走投無路危險爺爺"
+		}
+	},
+	"11001": {
+		"dateModified": "2024-12-29T08:40:10Z",
+		"page": "图书馆战争",
+		"title": {
+			"en": "Library War: The Wings of Revolution"
 		}
 	},
 	"11005": {
@@ -16969,6 +17193,13 @@
 			"zh-tw": "法外製裁者"
 		}
 	},
+	"11737": {
+		"dateModified": "2024-12-29T11:21:36Z",
+		"page": "青之驱魔师",
+		"title": {
+			"en": "Blue Exorcist - The Movie"
+		}
+	},
 	"11743": {
 		"dateModified": "2024-11-11T14:10:04Z",
 		"page": "魔法禁书目录",
@@ -17132,6 +17363,13 @@
 			"zh-hans": "宇宙战舰大和号2199",
 			"zh-hant": "宇宙戰艦大和號2199",
 			"zh-hk": "宇宙戰艦大和號2199"
+		}
+	},
+	"12031": {
+		"dateModified": "2024-04-01T08:04:47Z",
+		"page": "王者天下",
+		"title": {
+			"en": "Kingdom, season 1"
 		}
 	},
 	"12049": {
@@ -17461,6 +17699,13 @@
 			"zh": "宇宙少年蘇藍"
 		}
 	},
+	"12979": {
+		"dateModified": "2025-01-05T19:45:06Z",
+		"page": "李洛克的青春全力忍传",
+		"title": {
+			"en": "Rock Lee & His Ninja Pals"
+		}
+	},
 	"13125": {
 		"dateModified": "2024-10-12T09:09:56Z",
 		"page": "来自新世界",
@@ -17602,6 +17847,13 @@
 			"zh-tw": "PSYCHO-PASS"
 		}
 	},
+	"13655": {
+		"dateModified": "2024-03-27T11:09:45Z",
+		"page": "Little_Busters!",
+		"title": {
+			"en": "Little Busters!, season 1"
+		}
+	},
 	"13759": {
 		"dateModified": "2024-12-31T19:30:18Z",
 		"page": "樱花庄的宠物女孩",
@@ -17652,6 +17904,13 @@
 			"zh": "少女與戰車",
 			"zh-hans": "少女与战车",
 			"zh-hant": "少女與戰車"
+		}
+	},
+	"14175": {
+		"dateModified": "2024-09-08T05:51:09Z",
+		"page": "花开伊吕波",
+		"title": {
+			"en": "Hanasaku Iroha: The Movie – Home Sweet Home"
 		}
 	},
 	"14199": {
@@ -17790,6 +18049,13 @@
 			"zh-hk": "見習元氣女神"
 		}
 	},
+	"14719": {
+		"dateModified": "2024-11-25T09:23:15Z",
+		"page": "JOJO的奇妙冒险",
+		"title": {
+			"en": "JoJo's Bizarre Adventure, season 1"
+		}
+	},
 	"14735": {
 		"dateModified": "2024-10-03T06:20:54Z",
 		"title": {
@@ -17890,10 +18156,24 @@
 			"zh-tw": "超速變形螺旋柴德"
 		}
 	},
+	"15039": {
+		"dateModified": "2024-09-28T19:38:30Z",
+		"page": "我们仍未知道那天所看见的花的名字",
+		"title": {
+			"en": "Anohana: The Flower We Saw That Day - The Movie"
+		}
+	},
 	"15043": {
 		"dateModified": "2025-01-05T18:12:00Z",
 		"title": {
 			"zh": "你好 七葉"
+		}
+	},
+	"15051": {
+		"dateModified": "2024-06-15T05:51:57Z",
+		"page": "LoveLive!",
+		"title": {
+			"en": "Love Live! School Idol Project, season 1"
 		}
 	},
 	"15085": {
@@ -17984,6 +18264,13 @@
 			"zh-hans": "琴浦小姐",
 			"zh-hant": "琴浦小姐",
 			"zh-hk": "琴浦小姐"
+		}
+	},
+	"15417": {
+		"dateModified": "2024-02-23T17:04:20Z",
+		"page": "银魂",
+		"title": {
+			"en": "Gintama': Enchousen"
 		}
 	},
 	"15535": {
@@ -18133,6 +18420,13 @@
 			"zh-tw": "黑色嘉年華"
 		}
 	},
+	"16049": {
+		"dateModified": "2024-07-10T06:45:40Z",
+		"page": "某科学的超电磁炮",
+		"title": {
+			"en": "A Certain Scientific Railgun S"
+		}
+	},
 	"16067": {
 		"dateModified": "2025-01-05T18:23:17Z",
 		"title": {
@@ -18266,6 +18560,27 @@
 			"zh-hans": "光之美少女 All Stars New Stage2 心之朋友",
 			"zh-hant": "光之美少女 All Stars New Stage2 心之朋友",
 			"zh-hk": "光之美少女 All Stars New Stage2 心之朋友"
+		}
+	},
+	"16444": {
+		"dateModified": "2024-02-23T18:27:39Z",
+		"page": "问题儿童都来自异世界",
+		"title": {
+			"en": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? ~Onsen Man'yū-ki~"
+		}
+	},
+	"16498": {
+		"dateModified": "2024-08-09T15:45:49Z",
+		"page": "进击的巨人",
+		"title": {
+			"en": "Attack on Titan, season 1"
+		}
+	},
+	"16512": {
+		"dateModified": "2025-01-05T18:33:42Z",
+		"page": "恶魔幸存者2",
+		"title": {
+			"en": "Devil Survivor 2: The Animation"
 		}
 	},
 	"16518": {
@@ -18519,6 +18834,13 @@
 			"zh-hant": "芋川椋三玄關番之卷"
 		}
 	},
+	"17389": {
+		"dateModified": "2024-04-07T00:28:36Z",
+		"page": "王者天下",
+		"title": {
+			"en": "Kingdom, season 2"
+		}
+	},
 	"17423": {
 		"dateModified": "2025-01-05T18:32:11Z",
 		"title": {
@@ -18535,6 +18857,13 @@
 		"dateModified": "2025-01-05T18:24:51Z",
 		"title": {
 			"zh": "狼少年肯"
+		}
+	},
+	"17549": {
+		"dateModified": "2024-02-23T18:38:41Z",
+		"page": "悠哉日常大王",
+		"title": {
+			"en": "Non Non Biyori, season 1"
 		}
 	},
 	"17624": {
@@ -18694,6 +19023,13 @@
 			"zh-tw": "飆速宅男"
 		}
 	},
+	"18195": {
+		"dateModified": "2024-03-27T11:09:47Z",
+		"page": "Little_Busters!",
+		"title": {
+			"en": "Little Busters! Refrain"
+		}
+	},
 	"18229": {
 		"dateModified": "2025-01-05T18:33:45Z",
 		"title": {
@@ -18807,6 +19143,13 @@
 		"dateModified": "2025-01-05T18:27:03Z",
 		"title": {
 			"zh": "怪傑多摩龍"
+		}
+	},
+	"19111": {
+		"dateModified": "2024-06-15T05:52:01Z",
+		"page": "LoveLive!",
+		"title": {
+			"en": "Love Live! School Idol Project, season 2"
 		}
 	},
 	"19115": {
@@ -19045,6 +19388,13 @@
 			"zh": "六法犯法君"
 		}
 	},
+	"20021": {
+		"dateModified": "2024-12-17T07:13:35Z",
+		"page": "刀剑神域",
+		"title": {
+			"en": "Sword Art Online Extra Edition"
+		}
+	},
 	"20031": {
 		"dateModified": "2025-01-05T19:08:58Z",
 		"title": {
@@ -19175,6 +19525,13 @@
 			"zh-hant": "黑色子彈"
 		}
 	},
+	"20458": {
+		"dateModified": "2024-06-02T10:12:27Z",
+		"page": "魔法科高中的劣等生",
+		"title": {
+			"en": "The Irregular at Magic High School, season 1"
+		}
+	},
 	"20461": {
 		"dateModified": "2025-01-05T18:10:37Z",
 		"title": {
@@ -19213,6 +19570,13 @@
 			"zh": "生存遊戲社"
 		}
 	},
+	"20481": {
+		"dateModified": "2024-03-07T18:09:54Z",
+		"page": "Little_Busters!",
+		"title": {
+			"en": "Little Busters! EX"
+		}
+	},
 	"20483": {
 		"dateModified": "2025-01-05T19:17:05Z",
 		"title": {
@@ -19238,6 +19602,13 @@
 			"zh": "世界征服 謀略之星"
 		}
 	},
+	"20497": {
+		"dateModified": "2024-02-23T18:38:48Z",
+		"page": "悠哉日常大王",
+		"title": {
+			"en": "Non Non Biyori: Okinawa e Ikukoto ni Natta"
+		}
+	},
 	"20503": {
 		"dateModified": "2025-01-05T18:56:07Z",
 		"page": "魔女的使命",
@@ -19261,6 +19632,13 @@
 		"dateModified": "2025-01-05T18:49:47Z",
 		"title": {
 			"zh": "Baby Steps ~網球優等生~"
+		}
+	},
+	"20513": {
+		"dateModified": "2024-02-23T18:57:41Z",
+		"page": "心理测量者",
+		"title": {
+			"en": "Psycho-Pass 2"
 		}
 	},
 	"20514": {
@@ -19446,6 +19824,13 @@
 			"zh-hant": "天使之羽 -琥珀之瞳-"
 		}
 	},
+	"20573": {
+		"dateModified": "2024-02-23T19:06:29Z",
+		"page": "最近妹妹的样子有点怪",
+		"title": {
+			"en": "Saikin, Imōto no Yōsu ga Chotto Okaishiin Da Ga."
+		}
+	},
 	"20574": {
 		"dateModified": "2024-08-30T12:11:37Z",
 		"page": "高分少女",
@@ -19565,6 +19950,13 @@
 			"zh": "東京喰種",
 			"zh-hant": "東京喰種",
 			"zh-hk": "東京喰種"
+		}
+	},
+	"20606": {
+		"dateModified": "2024-07-09T06:35:03Z",
+		"page": "黑执事",
+		"title": {
+			"en": "Black Butler: Book of Circus"
 		}
 	},
 	"20607": {
@@ -19798,6 +20190,13 @@
 		"dateModified": "2025-01-05T18:37:02Z",
 		"title": {
 			"zh": "偶像大師 灰姑娘女孩"
+		}
+	},
+	"20694": {
+		"dateModified": "2024-02-23T18:38:46Z",
+		"page": "悠哉日常大王",
+		"title": {
+			"en": "Non Non Biyori Repeat"
 		}
 	},
 	"20701": {
@@ -20253,6 +20652,13 @@
 			"zh": "夜晚的小雙俠"
 		}
 	},
+	"20923": {
+		"dateModified": "2024-07-09T04:24:02Z",
+		"page": "食戟之灵",
+		"title": {
+			"en": "Food Wars! Shokugeki no Soma, season 1"
+		}
+	},
 	"20928": {
 		"dateModified": "2024-10-30T12:27:24Z",
 		"title": {
@@ -20344,6 +20750,13 @@
 			"zh": "六花的勇者"
 		}
 	},
+	"20958": {
+		"dateModified": "2024-08-09T15:45:53Z",
+		"page": "进击的巨人",
+		"title": {
+			"en": "Attack on Titan, season 2"
+		}
+	},
 	"20964": {
 		"dateModified": "2025-01-05T18:36:42Z",
 		"title": {
@@ -20421,6 +20834,13 @@
 			"zh": "奇幻自衛隊",
 			"zh-hant": "GATE 奇幻自衛隊",
 			"zh-tw": "GATE 奇幻自衛隊"
+		}
+	},
+	"20996": {
+		"dateModified": "2024-10-03T16:27:59Z",
+		"page": "银魂",
+		"title": {
+			"en": "Gintama°"
 		}
 	},
 	"20997": {
@@ -20656,6 +21076,20 @@
 		"dateModified": "2025-01-05T18:41:11Z",
 		"title": {
 			"zh-hans": "命运石之门0"
+		}
+	},
+	"21128": {
+		"dateModified": "2024-09-29T13:01:02Z",
+		"page": "野良神",
+		"title": {
+			"en": "Noragami Aragoto"
+		}
+	},
+	"21131": {
+		"dateModified": "2024-04-30T04:19:13Z",
+		"page": "学战都市Asterisk",
+		"title": {
+			"en": "The Asterisk War: The Academy City on the Water"
 		}
 	},
 	"21134": {
@@ -21022,6 +21456,13 @@
 			"zh": "虹色時光"
 		}
 	},
+	"21295": {
+		"dateModified": "2024-02-23T17:42:47Z",
+		"page": "舰队Collection",
+		"title": {
+			"en": "KanColle: The Movie"
+		}
+	},
 	"21296": {
 		"dateModified": "2024-07-11T23:45:34Z",
 		"title": {
@@ -21075,6 +21516,13 @@
 		"dateModified": "2025-01-05T18:37:52Z",
 		"title": {
 			"zh": "高校艦隊"
+		}
+	},
+	"21319": {
+		"dateModified": "2025-01-05T18:52:02Z",
+		"page": "苍之彼方的四重奏",
+		"title": {
+			"en": "Aokana: Four Rhythm Across the Blue"
 		}
 	},
 	"21320": {
@@ -21207,6 +21655,13 @@
 			"zh-hant": "粗點心戰爭"
 		}
 	},
+	"21366": {
+		"dateModified": "2025-01-05T19:13:48Z",
+		"page": "3月的狮子",
+		"title": {
+			"en": "March Comes In Like a Lion"
+		}
+	},
 	"21378": {
 		"dateModified": "2024-10-10T02:02:26Z",
 		"title": {
@@ -21319,6 +21774,13 @@
 			"zh": "這名男子，從事魔法工作。"
 		}
 	},
+	"21439": {
+		"dateModified": "2025-01-05T19:19:25Z",
+		"page": "Ange_Vierge",
+		"title": {
+			"en": "Ange Vierge"
+		}
+	},
 	"21444": {
 		"dateModified": "2024-12-17T19:04:35Z",
 		"title": {
@@ -21330,6 +21792,13 @@
 		"page": "至高指令",
 		"title": {
 			"zh": "至高指令"
+		}
+	},
+	"21450": {
+		"dateModified": "2024-02-23T17:34:58Z",
+		"page": "JOJO的奇妙冒险",
+		"title": {
+			"en": "JoJo's Bizarre Adventure: Diamond Is Unbreakable"
 		}
 	},
 	"21452": {
@@ -21355,6 +21824,13 @@
 		"dateModified": "2025-01-05T19:17:25Z",
 		"title": {
 			"zh": "机动战士GUNDAM Thunderbolt"
+		}
+	},
+	"21459": {
+		"dateModified": "2024-10-06T23:12:33Z",
+		"page": "我的英雄学院",
+		"title": {
+			"en": "My Hero Academia, season 1"
 		}
 	},
 	"21460": {
@@ -21450,6 +21926,13 @@
 			"zh": "戀愛暴君"
 		}
 	},
+	"21518": {
+		"dateModified": "2024-07-09T03:15:46Z",
+		"page": "食戟之灵",
+		"title": {
+			"en": "Food Wars! Shokugeki no Soma, season 2"
+		}
+	},
 	"21519": {
 		"dateModified": "2024-12-23T15:43:52Z",
 		"page": "你的名字",
@@ -21501,6 +21984,13 @@
 			"zh": "Qualidea Code"
 		}
 	},
+	"21558": {
+		"dateModified": "2025-01-05T18:38:51Z",
+		"page": "驱魔少年",
+		"title": {
+			"en": "D.Gray-man Hallow"
+		}
+	},
 	"21560": {
 		"dateModified": "2024-12-30T04:48:06Z",
 		"title": {
@@ -21519,6 +22009,13 @@
 			"zh": "迷家"
 		}
 	},
+	"21568": {
+		"dateModified": "2025-01-05T18:52:10Z",
+		"page": "野良与皇女与流浪猫之心",
+		"title": {
+			"en": "Nora, Princess, and Stray Cat"
+		}
+	},
 	"21577": {
 		"dateModified": "2024-06-27T05:35:41Z",
 		"title": {
@@ -21529,6 +22026,13 @@
 		"dateModified": "2024-11-24T03:53:34Z",
 		"title": {
 			"zh": "DAYS"
+		}
+	},
+	"21585": {
+		"dateModified": "2024-08-13T07:33:48Z",
+		"page": "悠哉日常大王",
+		"title": {
+			"en": "Non Non Biyori Repeat: Hotaru ga Tanoshinda"
 		}
 	},
 	"21595": {
@@ -21549,6 +22053,13 @@
 		"dateModified": "2024-10-11T00:22:44Z",
 		"title": {
 			"zh": "最終騎士"
+		}
+	},
+	"21613": {
+		"dateModified": "2024-09-10T16:18:45Z",
+		"page": "幼女战记",
+		"title": {
+			"en": "Saga of Tanya the Evil, season 1"
 		}
 	},
 	"21631": {
@@ -21870,6 +22381,13 @@
 			"zh": "B-PROJECT"
 		}
 	},
+	"21753": {
+		"dateModified": "2024-07-21T06:18:46Z",
+		"page": "黄金拼图",
+		"title": {
+			"en": "Kin-iro Mosaic: Pretty Days"
+		}
+	},
 	"21755": {
 		"dateModified": "2025-01-05T18:38:47Z",
 		"title": {
@@ -21944,6 +22462,13 @@
 		"page": "齐木楠雄的灾难",
 		"title": {
 			"zh": "齊木楠雄的災難"
+		}
+	},
+	"21813": {
+		"dateModified": "2024-06-01T22:22:28Z",
+		"page": "请问您今天要来点兔子吗",
+		"title": {
+			"en": "Is the Order a Rabbit?? Dear My Sister"
 		}
 	},
 	"21820": {
@@ -22024,6 +22549,13 @@
 			"zh-hant": "UQ HOLDER！悠久持有者！"
 		}
 	},
+	"21856": {
+		"dateModified": "2024-10-06T23:13:07Z",
+		"page": "我的英雄学院",
+		"title": {
+			"en": "My Hero Academia, season 2"
+		}
+	},
 	"21858": {
 		"dateModified": "2024-12-21T12:56:29Z",
 		"title": {
@@ -22084,6 +22616,13 @@
 		"dateModified": "2024-02-23T19:14:18Z",
 		"title": {
 			"zh": "戰國鳥獸戲畫"
+		}
+	},
+	"87435": {
+		"dateModified": "2024-02-23T16:06:12Z",
+		"page": "BanG_Dream!",
+		"title": {
+			"en": "BanG Dream!, season 1"
 		}
 	},
 	"87438": {
@@ -22366,6 +22905,13 @@
 		"dateModified": "2024-04-30T05:28:45Z",
 		"title": {
 			"zh-hant": "刃牙"
+		}
+	},
+	"97889": {
+		"dateModified": "2024-02-23T17:04:21Z",
+		"page": "银魂",
+		"title": {
+			"en": "Gintama."
 		}
 	},
 	"97903": {
@@ -22904,6 +23450,13 @@
 			"zh": "煙囪小鎮的普佩"
 		}
 	},
+	"98779": {
+		"dateModified": "2024-07-08T16:51:28Z",
+		"page": "悠哉日常大王",
+		"title": {
+			"en": "Non Non Biyori Movie: Vacation"
+		}
+	},
 	"98784": {
 		"dateModified": "2024-06-06T22:39:36Z",
 		"title": {
@@ -22998,6 +23551,13 @@
 			"zh": "漫画女孩"
 		}
 	},
+	"99147": {
+		"dateModified": "2024-08-09T15:45:58Z",
+		"page": "进击的巨人",
+		"title": {
+			"en": "Attack on Titan, season 3"
+		}
+	},
 	"99230": {
 		"dateModified": "2024-04-30T11:20:44Z",
 		"title": {
@@ -23006,6 +23566,13 @@
 			"zh-mo": "輕鬆小熊與小薰",
 			"zh-sg": "轻松小熊和小薰",
 			"zh-tw": "拉拉熊與小薰"
+		}
+	},
+	"99255": {
+		"dateModified": "2024-07-09T03:18:15Z",
+		"page": "食戟之灵",
+		"title": {
+			"en": "Food Wars! Shokugeki no Soma, season 3"
 		}
 	},
 	"99263": {
@@ -23095,6 +23662,13 @@
 		"title": {
 			"zh": "擅長捉弄人的高木同學",
 			"zh-tw": "擅長捉弄人的高木同學"
+		}
+	},
+	"99470": {
+		"dateModified": "2025-01-05T17:39:46Z",
+		"page": "灰色：幻影扳机",
+		"title": {
+			"en": "Grisaia: Phantom Trigger the Animation"
 		}
 	},
 	"99483": {
@@ -23336,6 +23910,13 @@
 			"zh-hant": "賢者之孫"
 		}
 	},
+	"100166": {
+		"dateModified": "2024-10-06T23:14:02Z",
+		"page": "我的英雄学院",
+		"title": {
+			"en": "My Hero Academia, season 3"
+		}
+	},
 	"100168": {
 		"dateModified": "2024-04-16T17:01:24Z",
 		"title": {
@@ -23353,6 +23934,13 @@
 		"dateModified": "2025-01-01T21:57:04Z",
 		"title": {
 			"zh": "多田君不戀愛"
+		}
+	},
+	"100185": {
+		"dateModified": "2024-07-10T08:11:10Z",
+		"page": "魔法禁书目录",
+		"title": {
+			"en": "A Certain Magical Index III"
 		}
 	},
 	"100226": {
@@ -23541,6 +24129,13 @@
 			"zh-hant": "後街女孩"
 		}
 	},
+	"100668": {
+		"dateModified": "2024-09-10T15:56:22Z",
+		"page": "平凡职业造就世界最强",
+		"title": {
+			"en": "Arifureta, season 1"
+		}
+	},
 	"100673": {
 		"dateModified": "2025-01-05T18:40:46Z",
 		"title": {
@@ -23635,6 +24230,13 @@
 		"dateModified": "2024-12-23T09:37:34Z",
 		"title": {
 			"zh": "打工哥哥!"
+		}
+	},
+	"100878": {
+		"dateModified": "2025-01-06T01:39:25Z",
+		"page": "幼女战记",
+		"title": {
+			"en": "The Saga of Tanya the Evil: The Movie"
 		}
 	},
 	"100891": {
@@ -23858,6 +24460,13 @@
 		"dateModified": "2025-01-05T08:18:24Z",
 		"title": {
 			"zh": "百鍊霸主與聖約女武神"
+		}
+	},
+	"101291": {
+		"dateModified": "2025-01-05T18:46:47Z",
+		"page": "青春猪头少年系列",
+		"title": {
+			"en": "Seishun Buta Yarō"
 		}
 	},
 	"101292": {
@@ -24138,6 +24747,20 @@
 			"zh-hant": "CONCEPTION 產子救世錄"
 		}
 	},
+	"101633": {
+		"dateModified": "2024-02-23T16:06:13Z",
+		"page": "BanG_Dream!",
+		"title": {
+			"en": "BanG Dream!, season 2"
+		}
+	},
+	"101634": {
+		"dateModified": "2024-02-23T16:06:19Z",
+		"page": "BanG_Dream!",
+		"title": {
+			"en": "BanG Dream!, season 3"
+		}
+	},
 	"101705": {
 		"dateModified": "2024-07-20T05:23:49Z",
 		"title": {
@@ -24279,6 +24902,13 @@
 			"zh": "不受欢迎之家"
 		}
 	},
+	"102883": {
+		"dateModified": "2025-01-03T10:19:37Z",
+		"page": "JOJO的奇妙冒险",
+		"title": {
+			"en": "JoJo's Bizarre Adventure: Golden Wind"
+		}
+	},
 	"102891": {
 		"dateModified": "2024-11-12T09:49:00Z",
 		"title": {
@@ -24393,6 +25023,13 @@
 			"zh": "約束的七夜祭"
 		}
 	},
+	"103871": {
+		"dateModified": "2024-09-10T16:19:45Z",
+		"page": "佐贺偶像是传奇",
+		"title": {
+			"en": "Zombie Land Saga, season 1"
+		}
+	},
 	"103874": {
 		"dateModified": "2025-01-05T19:43:09Z",
 		"title": {
@@ -24493,11 +25130,32 @@
 			"zh": "女子高中生"
 		}
 	},
+	"104157": {
+		"dateModified": "2024-12-14T20:51:39Z",
+		"page": "青春猪头少年系列",
+		"title": {
+			"en": "Rascal Does Not Dream of a Dreaming Girl"
+		}
+	},
 	"104187": {
 		"dateModified": "2024-03-22T07:21:47Z",
 		"page": "兽娘动物园(游戏)",
 		"title": {
 			"zh": "歡迎來到加帕里公園"
+		}
+	},
+	"104198": {
+		"dateModified": "2024-02-23T17:05:39Z",
+		"page": "请问您今天要来点兔子吗",
+		"title": {
+			"en": "Is the Order a Rabbit? Bloom"
+		}
+	},
+	"104199": {
+		"dateModified": "2024-02-23T17:05:42Z",
+		"page": "请问您今天要来点兔子吗",
+		"title": {
+			"en": "Is the Order a Rabbit?? Sing For You"
 		}
 	},
 	"104212": {
@@ -24519,6 +25177,20 @@
 		"dateModified": "2025-01-05T18:42:44Z",
 		"title": {
 			"zh": "荒野的壽飛行隊"
+		}
+	},
+	"104257": {
+		"dateModified": "2024-07-14T16:53:29Z",
+		"page": "鲁邦三世",
+		"title": {
+			"en": "Lupin the 3rd: Is Lupin Still Burning?"
+		}
+	},
+	"104276": {
+		"dateModified": "2024-10-06T23:14:58Z",
+		"page": "我的英雄学院",
+		"title": {
+			"en": "My Hero Academia, season 4"
 		}
 	},
 	"104284": {
@@ -24575,6 +25247,13 @@
 			"zh-tw": "房間露營△"
 		}
 	},
+	"104462": {
+		"dateModified": "2024-07-10T06:45:57Z",
+		"page": "某科学的超电磁炮",
+		"title": {
+			"en": "A Certain Scientific Railgun T"
+		}
+	},
 	"104463": {
 		"dateModified": "2025-01-05T08:56:43Z",
 		"page": "某科学的一方通行",
@@ -24595,6 +25274,13 @@
 		"title": {
 			"zh": "就算明天世界毀滅",
 			"zh-tw": "相對世界。明日終結？"
+		}
+	},
+	"104647": {
+		"dateModified": "2024-02-23T18:47:34Z",
+		"page": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐",
+		"title": {
+			"en": "My Next Life as a Villainess: All Routes Lead to Doom!, season 1"
 		}
 	},
 	"104674": {
@@ -24929,6 +25615,13 @@
 			"zh": "魯邦三世：峰不二子的謊言"
 		}
 	},
+	"107346": {
+		"dateModified": "2025-01-05T18:47:55Z",
+		"page": "碧蓝幻想",
+		"title": {
+			"en": "Granblue Fantasy The Animation Season 2"
+		}
+	},
 	"107372": {
 		"dateModified": "2025-01-05T19:44:49Z",
 		"title": {
@@ -24969,6 +25662,13 @@
 			"zh-hant": "睛天PIG PIG"
 		}
 	},
+	"107624": {
+		"dateModified": "2024-06-07T12:38:41Z",
+		"page": "最终幻想XV",
+		"title": {
+			"en": "Final Fantasy XV: Episode Ardyn - Prologue"
+		}
+	},
 	"107625": {
 		"dateModified": "2024-12-05T12:46:39Z",
 		"title": {
@@ -25005,11 +25705,25 @@
 			"zh": "獵獸神兵"
 		}
 	},
+	"107693": {
+		"dateModified": "2024-11-18T05:43:24Z",
+		"page": "入间同学入魔了",
+		"title": {
+			"en": "Welcome to Demon School! Iruma-kun, season 1"
+		}
+	},
 	"107717": {
 		"dateModified": "2024-02-23T17:55:23Z",
 		"page": "小林家的龙女仆",
 		"title": {
 			"zh": "小林家的龍女僕S"
+		}
+	},
+	"107871": {
+		"dateModified": "2024-06-12T13:54:40Z",
+		"page": "公主连结Re:Dive",
+		"title": {
+			"en": "Princess Connect! Re:Dive, season 1"
 		}
 	},
 	"107905": {
@@ -25059,6 +25773,20 @@
 		"dateModified": "2024-11-12T12:27:12Z",
 		"title": {
 			"zh": "數碼暴龍 Last Evolution 絆"
+		}
+	},
+	"108268": {
+		"dateModified": "2024-02-23T17:23:05Z",
+		"page": "小书痴的下克上",
+		"title": {
+			"en": "Ascendance of a Bookworm, season 1"
+		}
+	},
+	"108307": {
+		"dateModified": "2024-10-08T17:32:55Z",
+		"page": "心理测量者",
+		"title": {
+			"en": "Psycho-Pass 3"
 		}
 	},
 	"108353": {
@@ -25204,6 +25932,13 @@
 			"zh-hant": "爆丸星域爭霸"
 		}
 	},
+	"108941": {
+		"dateModified": "2025-01-05T18:59:10Z",
+		"page": "赛马娘_Pretty_Derby",
+		"title": {
+			"en": "Umayon"
+		}
+	},
 	"108978": {
 		"dateModified": "2024-12-27T02:10:52Z",
 		"page": "人渣反派自救系统",
@@ -25275,6 +26010,13 @@
 			"zh": "戰×戀"
 		}
 	},
+	"109403": {
+		"dateModified": "2024-02-23T18:38:45Z",
+		"page": "悠哉日常大王",
+		"title": {
+			"en": "Non Non Biyori Nonstop"
+		}
+	},
 	"109586": {
 		"dateModified": "2025-01-05T19:31:12Z",
 		"title": {
@@ -25328,6 +26070,13 @@
 			"zh": "漫畫伊索普物語"
 		}
 	},
+	"109963": {
+		"dateModified": "2024-07-09T03:18:51Z",
+		"page": "食戟之灵",
+		"title": {
+			"en": "Food Wars! Shokugeki no Soma, season 4"
+		}
+	},
 	"109964": {
 		"dateModified": "2024-07-20T02:29:50Z",
 		"title": {
@@ -25351,6 +26100,13 @@
 			"zh-tw": "球詠"
 		}
 	},
+	"110178": {
+		"dateModified": "2024-11-22T13:18:01Z",
+		"page": "幼女战记",
+		"title": {
+			"en": "Isekai Quartet 2"
+		}
+	},
 	"110200": {
 		"dateModified": "2024-06-06T04:51:50Z",
 		"title": {
@@ -25369,6 +26125,13 @@
 		"dateModified": "2025-01-05T09:13:47Z",
 		"title": {
 			"zh": "異種族風俗娘評鑑指南"
+		}
+	},
+	"110277": {
+		"dateModified": "2024-08-09T15:46:04Z",
+		"page": "进击的巨人",
+		"title": {
+			"en": "Attack on Titan: The Final Season"
 		}
 	},
 	"110349": {
@@ -25457,6 +26220,13 @@
 			"zh-tw": "前說！"
 		}
 	},
+	"110733": {
+		"dateModified": "2024-09-10T16:20:06Z",
+		"page": "佐贺偶像是传奇",
+		"title": {
+			"en": "Zombie Land Saga Revenge"
+		}
+	},
 	"110786": {
 		"dateModified": "2025-01-05T18:47:44Z",
 		"title": {
@@ -25540,6 +26310,13 @@
 			"zh-tw": "在魔王城說晚安"
 		}
 	},
+	"111500": {
+		"dateModified": "2024-04-10T09:15:22Z",
+		"page": "樱花大战系列",
+		"title": {
+			"en": "Sakura Wars the Animation"
+		}
+	},
 	"111501": {
 		"dateModified": "2025-01-05T19:41:16Z",
 		"title": {
@@ -25586,6 +26363,27 @@
 		"dateModified": "2024-06-16T12:33:24Z",
 		"title": {
 			"zh": "成群結伴！西頓學園"
+		}
+	},
+	"112300": {
+		"dateModified": "2024-04-01T09:29:46Z",
+		"page": "魔法科高中的劣等生",
+		"title": {
+			"en": "The Irregular at Magic High School: Visitor Arc"
+		}
+	},
+	"112301": {
+		"dateModified": "2024-07-11T17:56:25Z",
+		"page": "魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～",
+		"title": {
+			"en": "The Misfit of Demon King Academy, season 1"
+		}
+	},
+	"112323": {
+		"dateModified": "2024-09-10T15:56:59Z",
+		"page": "平凡职业造就世界最强",
+		"title": {
+			"en": "Arifureta, season 2"
 		}
 	},
 	"112325": {
@@ -25658,6 +26456,13 @@
 			"zh-tw": "比方說，這是個出身魔王關附近的少年在新手村生活的故事"
 		}
 	},
+	"112667": {
+		"dateModified": "2024-09-10T16:17:21Z",
+		"page": "这是你与我的最后战场，或是开创世界的圣战",
+		"title": {
+			"en": "Our Last Crusade or the Rise of a New World, season 1"
+		}
+	},
 	"112716": {
 		"dateModified": "2025-01-05T19:11:33Z",
 		"title": {
@@ -25701,6 +26506,13 @@
 			"zh": "from ARGONAVIS"
 		}
 	},
+	"113108": {
+		"dateModified": "2024-04-01T08:54:22Z",
+		"page": "王者天下",
+		"title": {
+			"en": "Kingdom, season 3"
+		}
+	},
 	"113231": {
 		"dateModified": "2025-01-05T08:22:32Z",
 		"title": {
@@ -25728,6 +26540,13 @@
 		"dateModified": "2025-01-05T18:48:53Z",
 		"title": {
 			"zh": "緣結熊本"
+		}
+	},
+	"113415": {
+		"dateModified": "2024-09-24T14:41:25Z",
+		"page": "咒术回战",
+		"title": {
+			"en": "Jujutsu Kaisen, season 1"
 		}
 	},
 	"113417": {
@@ -25779,6 +26598,13 @@
 			"zh": "大雄的新恐龍",
 			"zh-hant": "電影哆啦A夢：大雄的新恐龍",
 			"zh-tw": "電影哆啦A夢：大雄的新恐龍"
+		}
+	},
+	"113693": {
+		"dateModified": "2024-02-23T17:23:26Z",
+		"page": "小书痴的下克上",
+		"title": {
+			"en": "Ascendance of a Bookworm, season 2"
 		}
 	},
 	"113717": {
@@ -25833,6 +26659,13 @@
 			"zh": "Love Live！虹咲學園 學園偶像同好會",
 			"zh-hans": "Love Live! 虹咲学园学园偶像同好会",
 			"zh-tw": "Love Live！虹咲學園 學園偶像同好會"
+		}
+	},
+	"114043": {
+		"dateModified": "2024-07-09T03:19:31Z",
+		"page": "食戟之灵",
+		"title": {
+			"en": "Food Wars! Shokugeki no Soma, season 5"
 		}
 	},
 	"114065": {
@@ -25934,6 +26767,20 @@
 			"zh-tw": "熊熊勇闖異世界"
 		}
 	},
+	"114446": {
+		"dateModified": "2025-01-05T18:53:13Z",
+		"page": "寒蝉鸣泣之时",
+		"title": {
+			"en": "Higurashi: When They Cry – Gou"
+		}
+	},
+	"114535": {
+		"dateModified": "2024-09-10T16:27:45Z",
+		"page": "致不灭的你",
+		"title": {
+			"en": "To Your Eternity, season 1"
+		}
+	},
 	"114564": {
 		"dateModified": "2024-11-23T00:13:54Z",
 		"title": {
@@ -26010,6 +26857,13 @@
 			"zh": "MARS RED 零機關"
 		}
 	},
+	"115238": {
+		"dateModified": "2024-02-23T16:21:43Z",
+		"page": "兽娘动物园3",
+		"title": {
+			"en": "Chokotto Anime Kemono Friends 3"
+		}
+	},
 	"116006": {
 		"dateModified": "2024-11-24T02:33:19Z",
 		"title": {
@@ -26045,12 +26899,26 @@
 			"zh": "女學。"
 		}
 	},
+	"116267": {
+		"dateModified": "2024-09-10T16:06:07Z",
+		"page": "总之就是非常可爱",
+		"title": {
+			"en": "Fly Me to the Moon, season 1"
+		}
+	},
 	"116287": {
 		"dateModified": "2024-11-13T15:54:12Z",
 		"title": {
 			"zh": "裏世界遠足",
 			"zh-hant": "裏世界遠足",
 			"zh-hk": "裏世界遠足"
+		}
+	},
+	"116338": {
+		"dateModified": "2024-11-18T05:43:17Z",
+		"page": "入间同学入魔了",
+		"title": {
+			"en": "Welcome to Demon School! Iruma-kun, season 2"
 		}
 	},
 	"116415": {
@@ -26105,6 +26973,13 @@
 			"zh": "BLEACH 千年血戰篇"
 		}
 	},
+	"116676": {
+		"dateModified": "2024-07-21T06:16:53Z",
+		"page": "黄金拼图",
+		"title": {
+			"en": "Kin-iro Mosaic: Thank You!!"
+		}
+	},
 	"116700": {
 		"dateModified": "2025-01-05T09:19:47Z",
 		"title": {
@@ -26141,6 +27016,13 @@
 		"title": {
 			"zh": "劇場版 異世界四重奏 ～Another World～",
 			"zh-tw": "劇場版 異世界四重奏 ～Another World～"
+		}
+	},
+	"117193": {
+		"dateModified": "2024-10-06T23:15:54Z",
+		"page": "我的英雄学院",
+		"title": {
+			"en": "My Hero Academia, season 5"
 		}
 	},
 	"117196": {
@@ -26273,6 +27155,13 @@
 			"zh": "歐巴桑大隊"
 		}
 	},
+	"120209": {
+		"dateModified": "2024-02-23T18:47:35Z",
+		"page": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐",
+		"title": {
+			"en": "My Next Life as a Villainess: All Routes Lead to Doom! X"
+		}
+	},
 	"120376": {
 		"dateModified": "2024-04-10T09:15:08Z",
 		"page": "美妙世界",
@@ -26332,11 +27221,25 @@
 			"zh": "幸福的三丁目"
 		}
 	},
+	"120892": {
+		"dateModified": "2025-01-05T17:40:10Z",
+		"page": "灰色：幻影扳机",
+		"title": {
+			"en": "Grisaia: Phantom Trigger the Animation Stargazer"
+		}
+	},
 	"121026": {
 		"dateModified": "2024-09-12T02:50:21Z",
 		"page": "光之美少女系列",
 		"title": {
 			"zh": "電影 Healin' Good ♥ 光之美少女 夢想的小鎮心動不已！GoGo！大變身！！"
+		}
+	},
+	"121176": {
+		"dateModified": "2024-02-23T17:23:27Z",
+		"page": "小书痴的下克上",
+		"title": {
+			"en": "Ascendance of a Bookworm, season 3"
 		}
 	},
 	"121681": {
@@ -26412,6 +27315,13 @@
 			"zh-hant": "體操武士",
 			"zh-hk": "體操武士",
 			"zh-tw": "體操武士"
+		}
+	},
+	"122808": {
+		"dateModified": "2024-06-12T13:54:44Z",
+		"page": "公主连结Re:Dive",
+		"title": {
+			"en": "Princess Connect! Re:Dive, season 2"
 		}
 	},
 	"123330": {
@@ -26617,6 +27527,13 @@
 		"dateModified": "2023-01-14T10:15:43Z",
 		"title": {
 			"zh": "猩猩人"
+		}
+	},
+	"126192": {
+		"dateModified": "2024-09-10T15:58:18Z",
+		"page": "女友成双",
+		"title": {
+			"en": "Girlfriend, Girlfriend, season 1"
 		}
 	},
 	"126288": {
@@ -27012,6 +27929,13 @@
 			"zh-tw": "史上最強大魔王轉生為村民A"
 		}
 	},
+	"130588": {
+		"dateModified": "2024-09-10T16:13:34Z",
+		"page": "魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～",
+		"title": {
+			"en": "The Misfit of Demon King Academy II"
+		}
+	},
 	"130592": {
 		"dateModified": "2024-09-10T16:20:32Z",
 		"title": {
@@ -27165,6 +28089,13 @@
 			"zh-hant": "武士彌助"
 		}
 	},
+	"131942": {
+		"dateModified": "2024-02-23T17:35:01Z",
+		"page": "JOJO的奇妙冒险",
+		"title": {
+			"en": "JoJo's Bizarre Adventure: Stone Ocean"
+		}
+	},
 	"132010": {
 		"dateModified": "2025-01-05T19:02:34Z",
 		"title": {
@@ -27226,6 +28157,13 @@
 			"zh": "賈希大人不氣餒！",
 			"zh-hant": "賈希大人不氣餒！",
 			"zh-tw": "賈希大人不氣餒！"
+		}
+	},
+	"132525": {
+		"dateModified": "2025-01-05T19:08:18Z",
+		"page": "BUILD_DIVIDE",
+		"title": {
+			"en": "Build Divide: #00000 (Code Black)"
 		}
 	},
 	"132532": {
@@ -27355,6 +28293,13 @@
 		"title": {
 			"zh": "Tropical-Rouge！光之美少女 雪之公主与奇迹的戒指！",
 			"zh-hans": "Tropical-Rouge！光之美少女 雪之公主与奇迹的戒指！"
+		}
+	},
+	"135865": {
+		"dateModified": "2024-09-10T16:19:31Z",
+		"page": "幼女战记",
+		"title": {
+			"en": "Saga of Tanya the Evil II"
 		}
 	},
 	"136119": {
@@ -27538,6 +28483,13 @@
 			"zh": "成為女主角！～被討厭的女主角和秘密的工作～"
 		}
 	},
+	"138565": {
+		"dateModified": "2024-09-10T16:28:37Z",
+		"page": "致不灭的你",
+		"title": {
+			"en": "To Your Eternity, season 2"
+		}
+	},
 	"138714": {
 		"dateModified": "2024-12-29T17:27:10Z",
 		"title": {
@@ -27561,6 +28513,13 @@
 		"dateModified": "2025-01-05T09:46:52Z",
 		"title": {
 			"zh": "川尻小玉的糜爛生活"
+		}
+	},
+	"139092": {
+		"dateModified": "2024-11-18T05:43:08Z",
+		"page": "入间同学入魔了",
+		"title": {
+			"en": "Welcome to Demon School! Iruma-kun, season 3"
 		}
 	},
 	"139093": {
@@ -27613,6 +28572,13 @@
 			"zh-tw": "英雄教室"
 		}
 	},
+	"139630": {
+		"dateModified": "2024-10-08T17:17:42Z",
+		"page": "我的英雄学院",
+		"title": {
+			"en": "My Hero Academia, season 6"
+		}
+	},
 	"139643": {
 		"dateModified": "2025-01-02T10:42:30Z",
 		"title": {
@@ -27632,6 +28598,13 @@
 			"zh": "Sugar Apple Fairy Tale",
 			"zh-hant": "銀砂糖師與黑妖精～sugar apple fairy tale～",
 			"zh-tw": "Sugar Apple Fairy Tale"
+		}
+	},
+	"139825": {
+		"dateModified": "2024-09-10T16:18:11Z",
+		"page": "这是你与我的最后战场，或是开创世界的圣战",
+		"title": {
+			"en": "Our Last Crusade or the Rise of a New World, season 2"
 		}
 	},
 	"139983": {
@@ -27669,6 +28642,13 @@
 			"zh": "與Hello Kitty在一起"
 		}
 	},
+	"140350": {
+		"dateModified": "2024-04-01T05:22:49Z",
+		"page": "王者天下",
+		"title": {
+			"en": "Kingdom, season 4"
+		}
+	},
 	"140457": {
 		"dateModified": "2025-01-05T19:05:21Z",
 		"title": {
@@ -27695,6 +28675,13 @@
 		"title": {
 			"zh": "白領羽球部",
 			"zh-tw": "白領羽球部"
+		}
+	},
+	"140660": {
+		"dateModified": "2025-01-05T19:16:45Z",
+		"page": "明日方舟",
+		"title": {
+			"en": "Arknights: Prelude to Dawn"
 		}
 	},
 	"140700": {
@@ -27766,6 +28753,13 @@
 		"dateModified": "2025-01-05T09:49:18Z",
 		"title": {
 			"zh": "這個不能播！"
+		}
+	},
+	"141208": {
+		"dateModified": "2024-09-10T16:06:43Z",
+		"page": "总之就是非常可爱",
+		"title": {
+			"en": "Fly Me to the Moon, season 2"
 		}
 	},
 	"141350": {
@@ -27961,6 +28955,13 @@
 			"zh-tw": "Lycoris Recoil 莉可麗絲"
 		}
 	},
+	"143271": {
+		"dateModified": "2024-04-19T18:48:23Z",
+		"page": "魔法科高中的劣等生",
+		"title": {
+			"en": "The Irregular at Magic High School, season 3"
+		}
+	},
 	"143277": {
 		"dateModified": "2024-04-10T21:31:17Z",
 		"title": {
@@ -28059,6 +29060,13 @@
 			"zh": "Extreme Hearts"
 		}
 	},
+	"145064": {
+		"dateModified": "2024-12-16T10:52:05Z",
+		"page": "咒术回战",
+		"title": {
+			"en": "Jujutsu Kaisen, season 2"
+		}
+	},
 	"145140": {
 		"dateModified": "2025-01-05T19:36:02Z",
 		"title": {
@@ -28085,6 +29093,13 @@
 		"title": {
 			"zh": "忍之一時",
 			"zh-hant": "忍之一時"
+		}
+	},
+	"145608": {
+		"dateModified": "2024-02-23T20:02:24Z",
+		"page": "赛马娘_Pretty_Derby",
+		"title": {
+			"en": "Uma Musume Pretty Derby 1st Anniversary Special Animation"
 		}
 	},
 	"145665": {
@@ -28322,6 +29337,13 @@
 			"zh-tw": "賽馬娘Pretty Derby ROAD TO THE TOP"
 		}
 	},
+	"148401": {
+		"dateModified": "2024-02-23T20:02:31Z",
+		"page": "赛马娘_Pretty_Derby",
+		"title": {
+			"en": "Umayuru"
+		}
+	},
 	"148465": {
 		"dateModified": "2025-01-05T19:12:23Z",
 		"title": {
@@ -28378,6 +29400,13 @@
 		"dateModified": "2025-01-05T19:12:52Z",
 		"title": {
 			"zh": "能幹貓今天也憂鬱"
+		}
+	},
+	"149939": {
+		"dateModified": "2025-01-05T18:58:45Z",
+		"page": "乱马1/2",
+		"title": {
+			"en": "Ranma 1⁄2 Nettōhen"
 		}
 	},
 	"150075": {
@@ -28535,6 +29564,13 @@
 			"zh-hant": "她去公爵家的理由"
 		}
 	},
+	"151970": {
+		"dateModified": "2024-11-17T14:02:31Z",
+		"page": "香格里拉·开拓异境_～粪作猎手挑战神作～",
+		"title": {
+			"en": "Shangri-La Frontier, season 1"
+		}
+	},
 	"152072": {
 		"dateModified": "2025-01-05T08:29:27Z",
 		"title": {
@@ -28608,6 +29644,13 @@
 		"title": {
 			"zh": "甜點轉生",
 			"zh-hant": "甜點轉生"
+		}
+	},
+	"153360": {
+		"dateModified": "2023-09-20T17:25:06Z",
+		"page": "转生成自动贩卖机的我今天也在迷宫徘徊",
+		"title": {
+			"en": "Reborn as a Vending Machine, I Now Wander the Dungeon, season 1"
 		}
 	},
 	"153554": {
@@ -28734,6 +29777,20 @@
 			"zh-tw": "機械臂"
 		}
 	},
+	"154692": {
+		"dateModified": "2024-09-10T15:58:54Z",
+		"page": "女友成双",
+		"title": {
+			"en": "Girlfriend, Girlfriend, season 2"
+		}
+	},
+	"154745": {
+		"dateModified": "2024-09-10T16:16:11Z",
+		"page": "租借女友",
+		"title": {
+			"en": "Rent-A-Girlfriend, season 3"
+		}
+	},
 	"154924": {
 		"dateModified": "2024-12-05T16:28:52Z",
 		"title": {
@@ -28781,6 +29838,20 @@
 		"dateModified": "2025-01-05T19:17:06Z",
 		"title": {
 			"zh": "REVENGER"
+		}
+	},
+	"155227": {
+		"dateModified": "2024-04-01T08:23:01Z",
+		"page": "王者天下",
+		"title": {
+			"en": "Kingdom, season 5"
+		}
+	},
+	"155389": {
+		"dateModified": "2024-03-27T11:26:47Z",
+		"page": "SHY",
+		"title": {
+			"en": "Shy, season 1"
 		}
 	},
 	"155418": {
@@ -28917,6 +29988,13 @@
 			"zh": "想當冒險者前往都市的女兒成為S級"
 		}
 	},
+	"156632": {
+		"dateModified": "2024-07-09T13:11:49Z",
+		"page": "赛马娘_Pretty_Derby",
+		"title": {
+			"en": "Uma Musume Pretty Derby, season 3"
+		}
+	},
 	"156841": {
 		"dateModified": "2024-12-10T16:41:44Z",
 		"title": {
@@ -29027,11 +30105,32 @@
 			"zh": "我的推是壞人大小姐。"
 		}
 	},
+	"158709": {
+		"dateModified": "2025-01-06T12:36:30Z",
+		"page": "Unnamed_Memory",
+		"title": {
+			"en": "Unnamed Memory"
+		}
+	},
 	"158871": {
 		"dateModified": "2025-01-05T19:18:49Z",
 		"page": "宝可梦_地平线",
 		"title": {
 			"zh": "寶可夢 地平線"
+		}
+	},
+	"158926": {
+		"dateModified": "2024-11-15T11:02:27Z",
+		"page": "鸭乃桥论的禁忌推理",
+		"title": {
+			"en": "Ron Kamonohashi, season 1"
+		}
+	},
+	"158931": {
+		"dateModified": "2024-12-30T15:16:46Z",
+		"page": "青之驱魔师",
+		"title": {
+			"en": "Blue Exorcist: Shimane Illuminati Saga"
 		}
 	},
 	"159039": {
@@ -29155,6 +30254,20 @@
 			"zh": "某大叔的VRMMO活动记"
 		}
 	},
+	"161474": {
+		"dateModified": "2024-11-02T14:29:54Z",
+		"page": "青春猪头少年系列",
+		"title": {
+			"en": "Rascal Does Not Dream of a Knapsack Kid"
+		}
+	},
+	"161645": {
+		"dateModified": "2024-12-18T21:35:23Z",
+		"page": "药师少女的独语",
+		"title": {
+			"en": "The Apothecary Diaries, season 1"
+		}
+	},
 	"161992": {
 		"dateModified": "2025-01-05T19:21:41Z",
 		"title": {
@@ -29239,6 +30352,13 @@
 			"zh-hant": "金屬口紅Metallic Rouge"
 		}
 	},
+	"163024": {
+		"dateModified": "2024-10-08T17:18:30Z",
+		"page": "足球小将",
+		"title": {
+			"en": "Captain Tsubasa 2018: season 2"
+		}
+	},
 	"163076": {
 		"dateModified": "2025-01-05T19:22:30Z",
 		"title": {
@@ -29265,6 +30385,13 @@
 		"title": {
 			"zh": "前輩是偽娘",
 			"zh-hant": "學姊是男孩"
+		}
+	},
+	"163134": {
+		"dateModified": "2025-01-06T11:43:40Z",
+		"page": "Re:从零开始的异世界生活",
+		"title": {
+			"en": "Re:Zero, season 3"
 		}
 	},
 	"163135": {
@@ -29344,6 +30471,13 @@
 		"dateModified": "2025-01-05T20:30:12Z",
 		"title": {
 			"zh": "柚木家的四兄弟。"
+		}
+	},
+	"164440": {
+		"dateModified": "2024-06-29T14:52:05Z",
+		"page": "喂！蜻蜓",
+		"title": {
+			"en": "Tonbo!, season 1"
 		}
 	},
 	"164702": {
@@ -29473,6 +30607,13 @@
 		"title": {
 			"zh": "異世界自殺突擊隊",
 			"zh-hant": "異世界自殺突擊隊"
+		}
+	},
+	"166715": {
+		"dateModified": "2024-07-09T06:35:29Z",
+		"page": "黑执事",
+		"title": {
+			"en": "Black Butler: Public School Arc"
 		}
 	},
 	"166794": {
@@ -29620,6 +30761,13 @@
 			"zh-hant": "青之壬生浪"
 		}
 	},
+	"169295": {
+		"dateModified": "2025-01-05T19:26:40Z",
+		"page": "BanG_Dream!",
+		"title": {
+			"en": "BanG Dream! Ave Mujica"
+		}
+	},
 	"169315": {
 		"dateModified": "2025-01-05T09:37:13Z",
 		"title": {
@@ -29644,6 +30792,13 @@
 		"dateModified": "2025-01-05T19:32:15Z",
 		"title": {
 			"zh": "渡君的xx即將崩壞"
+		}
+	},
+	"169440": {
+		"dateModified": "2024-02-23T17:33:41Z",
+		"page": "转生成自动贩卖机的我今天也在迷宫徘徊",
+		"title": {
+			"en": "Reborn as a Vending Machine, I Now Wander the Dungeon, season 2"
 		}
 	},
 	"169441": {
@@ -29850,6 +31005,20 @@
 			"zh": "妖怪學校的菜鳥老師"
 		}
 	},
+	"171630": {
+		"dateModified": "2024-12-19T16:38:05Z",
+		"page": "海贼王",
+		"title": {
+			"en": "THE ONE PIECE"
+		}
+	},
+	"171748": {
+		"dateModified": "2024-10-10T04:02:54Z",
+		"page": "SHY",
+		"title": {
+			"en": "Shy 2"
+		}
+	},
 	"172190": {
 		"dateModified": "2025-01-05T10:47:47Z",
 		"title": {
@@ -29945,6 +31114,13 @@
 			"zh": "深夜Punch",
 			"zh-hant": "深夜Punch",
 			"zh-tw": "深夜Punch"
+		}
+	},
+	"174188": {
+		"dateModified": "2025-01-05T19:31:04Z",
+		"page": "住在拔作岛上的贫乳应该如何是好？",
+		"title": {
+			"en": "Nukitashi the Animation"
 		}
 	},
 	"174427": {
@@ -30262,6 +31438,13 @@
 			"zh-tw": "不幸職業【鑑定士】其實是最強的"
 		}
 	},
+	"178550": {
+		"dateModified": "2025-01-06T12:54:08Z",
+		"page": "Unnamed_Memory",
+		"title": {
+			"en": "Unnamed Memory Act.2"
+		}
+	},
 	"178675": {
 		"dateModified": "2025-01-05T09:57:15Z",
 		"title": {
@@ -30426,6 +31609,13 @@
 			"zh-hant": "薰香花朵凜然綻放"
 		}
 	},
+	"181839": {
+		"dateModified": "2024-09-29T13:29:23Z",
+		"page": "小林家的龙女仆",
+		"title": {
+			"en": "Miss Kobayashi's Dragon Maid: A Lonely Dragon Wants to be Loved"
+		}
+	},
 	"182419": {
 		"dateModified": "2025-01-05T10:10:14Z",
 		"title": {
@@ -30564,6 +31754,13 @@
 			"zh": "弱弱老師",
 			"zh-hans": "弱弱老师",
 			"zh-hant": "弱弱老師"
+		}
+	},
+	"185875": {
+		"dateModified": "2025-01-05T19:43:50Z",
+		"page": "魔法少女奈叶系列",
+		"title": {
+			"en": "Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance"
 		}
 	},
 	"185880": {
