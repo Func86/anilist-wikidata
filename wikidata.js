@@ -134,13 +134,6 @@ const data = {}, isAnimeMap = {};
 const queryDispatcher = new SPARQLQueryDispatcher();
 const response = await queryDispatcher.query();
 for (const { id, isAnime, lang, page, title, dateModified } of response.results.bindings) {
-	if (dateModified.value < wikidata[id.value]?.dateModified) {
-		core.warning(`Wikidata out of sync for ${id.value}: ${dateModified.value} < ${wikidata[id.value]?.dateModified}`);
-		console.warn(`Wikidata out of sync for ${id.value}: ${dateModified.value} < ${wikidata[id.value]?.dateModified}`);
-		data[id.value] = wikidata[id.value];
-		continue;
-	}
-
 	const item = data[id.value] ??= { dateModified: dateModified.value };
 	isAnimeMap[id.value] = isAnime.value === 'true';
 	if (page) {
@@ -154,8 +147,14 @@ for (const id in data) {
 	if (Object.keys(data[id].title).length > 1 && data[id].title.en) {
 		delete data[id].title.en;
 	}
-	// Nothing changed other than dateModified
-	if (data[id].dateModified > wikidata[id]?.dateModified && Object.keys(diff(data[id], wikidata[id])).length === 1) {
+
+	if (data[id].dateModified < wikidata[id]?.dateModified) {
+		const differ = JSON.stringify(diff(wikidata[id], data[id]), null, '\t');
+		core.warning(`Wikidata out of sync for ${isAnimeMap[id] ? 'anime' : 'manga'} ${id}: ${differ}`);
+		console.warn(`Wikidata out of sync for ${isAnimeMap[id] ? 'anime' : 'manga'} ${id}: ${differ}`);
+		data[id] = wikidata[id];
+	} else if (data[id].dateModified > wikidata[id]?.dateModified && Object.keys(diff(wikidata[id], data[id])).length === 1) {
+		// Nothing changed other than dateModified
 		data[id] = wikidata[id];
 	}
 }
