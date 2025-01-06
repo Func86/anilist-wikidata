@@ -56,7 +56,7 @@ WHERE {{
     FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && ?enLabel = ?originEnLabel)
     ?origin rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
-    FILTER(STRSTARTS(?lang, "zh") || ?lang = "en")
+    FILTER(STRSTARTS(?lang, "zh"))
   }
 
   OPTIONAL { ?item wdt:P5737 ?page }
@@ -135,7 +135,10 @@ const queryDispatcher = new SPARQLQueryDispatcher();
 const response = await queryDispatcher.query();
 for (const { id, isAnime, lang, page, title, dateModified } of response.results.bindings) {
 	const item = data[id.value] ??= { dateModified: dateModified.value };
-	isAnimeMap[id.value] = isAnime.value === 'true';
+	if (dateModified.value > item.dateModified) {
+		item.dateModified = dateModified.value;
+	}
+	isAnimeMap[id.value] ??= isAnime.value === 'true';
 	if (page) {
 		item.page = page.value;
 	}
