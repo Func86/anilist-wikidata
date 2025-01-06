@@ -21,7 +21,7 @@ WHERE {{
 
     ?item rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
-    FILTER(STRSTARTS(?lang, "zh"))
+    FILTER(STRSTARTS(?lang, "zh") || ?lang = "en")
 
     ?item schema:dateModified ?dateModified.
   } UNION {
@@ -56,7 +56,7 @@ WHERE {{
     FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && ?enLabel = ?originEnLabel)
     ?origin rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
-    FILTER(STRSTARTS(?lang, "zh"))
+    FILTER(STRSTARTS(?lang, "zh") || ?lang = "en")
   }
 
   OPTIONAL { ?item wdt:P5737 ?page }
@@ -89,6 +89,7 @@ WHERE {{
   OPTIONAL { ?item wdt:P8345/wdt:P5737 ?medmixPage }
 
   BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originEntityPage, ?originPage, ?medmixPage, ?seriesMedmixPage) AS ?finalPage)
+  FILTER(STRSTARTS(?lang, "zh") || BOUND(?finalPage))
 } UNION {
   ?item wdt:P8731 ?value.
   BIND(false AS ?isAnime)
@@ -150,6 +151,9 @@ for (const { id, isAnime, lang, page, title, dateModified } of response.results.
 }
 
 for (const id in data) {
+	if (Object.keys(data[id].title).length > 1 && data[id].title.en) {
+		delete data[id].title.en;
+	}
 	// Nothing changed other than dateModified
 	if (data[id].dateModified > wikidata[id]?.dateModified && Object.keys(diff(data[id], wikidata[id])).length === 1) {
 		data[id] = wikidata[id];
