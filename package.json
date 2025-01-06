@@ -17,6 +17,7 @@
     "url": "https://github.com/Func86/anilist-wikidata/issues"
   },
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/core": "^1.11.1",
+    "deep-object-diff": "^1.1.9"
   }
 }
