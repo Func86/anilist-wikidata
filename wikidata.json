@@ -179,6 +179,7 @@
 	},
 	"45": {
 		"dateModified": "2024-04-30T03:34:50Z",
+		"page": "浪客剑心",
 		"title": {
 			"zh": "神劍闖江湖"
 		}
@@ -25399,6 +25400,7 @@
 	},
 	"105333": {
 		"dateModified": "2025-01-04T21:52:59Z",
+		"page": "石纪元",
 		"title": {
 			"zh": "Dr.STONE 新石紀 第一季",
 			"zh-tw": "Dr.STONE 新石紀 第一季"
@@ -25825,7 +25827,8 @@
 		}
 	},
 	"108463": {
-		"dateModified": "2025-01-05T19:33:57Z",
+		"dateModified": "2025-01-06T14:02:18Z",
+		"page": "地缚少年花子君",
 		"title": {
 			"zh": "地縛少年花子君",
 			"zh-hans": "地缚少年花子君",
@@ -26641,6 +26644,7 @@
 	},
 	"113936": {
 		"dateModified": "2025-01-04T21:38:23Z",
+		"page": "石纪元",
 		"title": {
 			"zh": "Dr.STONE 新石紀 第二季",
 			"zh-tw": "Dr.STONE 新石紀 第二季"
@@ -30261,6 +30265,13 @@
 			"en": "Rascal Does Not Dream of a Knapsack Kid"
 		}
 	},
+	"161476": {
+		"dateModified": "2024-12-04T15:27:31Z",
+		"page": "异修罗",
+		"title": {
+			"en": "Ishura, season 1"
+		}
+	},
 	"161645": {
 		"dateModified": "2024-12-18T21:35:23Z",
 		"page": "药师少女的独语",
@@ -30287,6 +30298,13 @@
 			"zh": "女王的手術刀",
 			"zh-hans": "女王的手术刀",
 			"zh-hant": "女王的手術刀"
+		}
+	},
+	"162694": {
+		"dateModified": "2024-11-23T21:33:50Z",
+		"page": "超超超超超喜欢你的100个女朋友",
+		"title": {
+			"en": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You, season 1"
 		}
 	},
 	"162720": {
@@ -30650,6 +30668,7 @@
 	},
 	"167143": {
 		"dateModified": "2025-01-05T19:25:28Z",
+		"page": "虽然是公会柜台小姐，但是因为讨厌加班所以要去单挑BOSS",
 		"title": {
 			"zh": "雖然是公會的櫃檯小姐，但因為不想加班所以打算獨自討伐迷宮頭目",
 			"zh-hans": "虽然是公会的柜台小姐，但因为不想加班所以打算独自讨伐迷宫头目",
@@ -31026,6 +31045,13 @@
 			"zh-hant": "暗殺女僕冥土小姐"
 		}
 	},
+	"172258": {
+		"dateModified": "2025-01-02T15:49:17Z",
+		"page": "超超超超超喜欢你的100个女朋友",
+		"title": {
+			"en": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You, season 2"
+		}
+	},
 	"172355": {
 		"dateModified": "2025-01-01T19:21:59Z",
 		"page": "鸭乃桥论的禁忌推理",
@@ -31043,12 +31069,14 @@
 	},
 	"172439": {
 		"dateModified": "2025-01-05T19:29:58Z",
+		"page": "精灵来日",
 		"title": {
 			"zh": "歡迎來到日本，妖精小姐。"
 		}
 	},
 	"172453": {
 		"dateModified": "2025-01-05T19:29:59Z",
+		"page": "大叔转生恶役大小姐",
 		"title": {
 			"zh": "中年大叔轉生反派千金"
 		}
@@ -31546,6 +31574,7 @@
 	},
 	"180292": {
 		"dateModified": "2025-01-05T19:42:43Z",
+		"page": "中年男的异世界网购生活",
 		"title": {
 			"zh": "中年男的異世界網購生活",
 			"zh-hans": "中年男的异世界网购生活",
