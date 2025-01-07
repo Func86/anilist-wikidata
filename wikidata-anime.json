@@ -13958,14 +13958,6 @@
 			"zh": "英勇無敵號"
 		}
 	},
-	"9539": {
-		"title": {
-			"zh": "卡片戰鬥先導者",
-			"zh-hans": "卡片战斗先导者",
-			"zh-hant": "卡片戰鬥先導者",
-			"zh-hk": "卡片戰鬥先導者"
-		}
-	},
 	"9561": {
 		"title": {
 			"zh": "吐司咪咪"
@@ -26269,7 +26261,7 @@
 	"162694": {
 		"page": "超超超超超喜欢你的100个女朋友",
 		"title": {
-			"en": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You, season 1"
+			"zh": "超超超超超喜歡你的100個女朋友"
 		}
 	},
 	"162720": {
@@ -26927,7 +26919,7 @@
 	"172258": {
 		"page": "超超超超超喜欢你的100个女朋友",
 		"title": {
-			"en": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You, season 2"
+			"zh": "超超超超超喜歡你的100個女朋友 第二季"
 		}
 	},
 	"172355": {
@@ -27275,6 +27267,12 @@
 	"178100": {
 		"title": {
 			"zh": "最弱技能《果實大師》 ～關於能無限食用技能果實（吃了就會死）這件事～"
+		}
+	},
+	"178312": {
+		"title": {
+			"zh": "魔農傳記 FARMAGIA",
+			"zh-tw": "魔農傳記 FARMAGIA"
 		}
 	},
 	"178434": {

@@ -16027,15 +16027,6 @@
 			"zh": "英勇無敵號"
 		}
 	},
-	"9539": {
-		"dateModified": "2025-01-03T11:50:47Z",
-		"title": {
-			"zh": "卡片戰鬥先導者",
-			"zh-hans": "卡片战斗先导者",
-			"zh-hant": "卡片戰鬥先導者",
-			"zh-hk": "卡片戰鬥先導者"
-		}
-	},
 	"9561": {
 		"dateModified": "2025-01-05T18:33:15Z",
 		"title": {
@@ -30337,10 +30328,10 @@
 		}
 	},
 	"162694": {
-		"dateModified": "2024-11-23T21:33:50Z",
+		"dateModified": "2025-01-07T15:02:39Z",
 		"page": "超超超超超喜欢你的100个女朋友",
 		"title": {
-			"en": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You, season 1"
+			"zh": "超超超超超喜歡你的100個女朋友"
 		}
 	},
 	"162720": {
@@ -31103,10 +31094,10 @@
 		}
 	},
 	"172258": {
-		"dateModified": "2025-01-02T15:49:17Z",
+		"dateModified": "2025-01-07T15:01:37Z",
 		"page": "超超超超超喜欢你的100个女朋友",
 		"title": {
-			"en": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You, season 2"
+			"zh": "超超超超超喜歡你的100個女朋友 第二季"
 		}
 	},
 	"172355": {
@@ -31508,6 +31499,13 @@
 		"dateModified": "2025-01-05T19:40:00Z",
 		"title": {
 			"zh": "最弱技能《果實大師》 ～關於能無限食用技能果實（吃了就會死）這件事～"
+		}
+	},
+	"178312": {
+		"dateModified": "2024-12-25T23:22:13Z",
+		"title": {
+			"zh": "魔農傳記 FARMAGIA",
+			"zh-tw": "魔農傳記 FARMAGIA"
 		}
 	},
 	"178434": {
