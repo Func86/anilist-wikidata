@@ -7,6 +7,7 @@ import wikidata from './wikidata.json' assert { type: 'json' };
 const sparqlQuery = `\
 SELECT (MIN(xsd:integer(?value)) AS ?id)
        ?isAnime
+       ?source
        ?lang
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
@@ -24,6 +25,7 @@ WHERE {{
     FILTER(STRSTARTS(?lang, "zh") || ?lang = "en")
 
     ?item schema:dateModified ?dateModified.
+    BIND(0 AS ?source).
   } UNION {
     ?item wdt:P8729 ?value.
 
@@ -57,6 +59,23 @@ WHERE {{
     ?origin rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
     FILTER(STRSTARTS(?lang, "zh"))
+    BIND(1 AS ?source).
+  } UNION {
+    ?item wdt:P8729 ?value.
+
+    OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+    FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+    ?item p:P179 [
+      pq:P1545 "1";
+      ps:P179 ?series;
+    ].
+    ?series rdfs:label ?label.
+    BIND(LANG(?label) AS ?lang).
+    FILTER(STRSTARTS(?lang, "zh")).
+
+    ?series schema:dateModified ?dateModified.
+    BIND(2 AS ?source).
   }
 
   OPTIONAL { ?item wdt:P5737 ?page }
@@ -103,8 +122,8 @@ WHERE {{
 
   ?item schema:dateModified ?dateModified.
 }}
-GROUP BY ?isAnime ?item ?lang
-ORDER BY DESC(?isAnime) ?id ?lang`;
+GROUP BY ?isAnime ?item ?source ?lang
+ORDER BY DESC(?isAnime) ?id ?source ?lang`;
 
 class SPARQLQueryDispatcher {
 	constructor() {
@@ -130,14 +149,22 @@ function normalizeTitle(title) {
 		.trim();
 }
 
-const data = {}, isAnimeMap = {};
+const data = {}, dataSource = {}, isAnimeMap = {};
 const queryDispatcher = new SPARQLQueryDispatcher();
 const response = await queryDispatcher.query();
-for (const { id, isAnime, lang, page, title, dateModified } of response.results.bindings) {
+for (const { id, isAnime, source, lang, page, title, dateModified } of response.results.bindings) {
 	const item = data[id.value] ??= { dateModified: dateModified.value };
-	if (dateModified.value > item.dateModified) {
+	if (dataSource[id.value] === undefined) {
+		dataSource[id.value] = Number(source?.value || 0);
+	} else if (Object.keys(item.title).length === 1 && item.title.en) {
+		dataSource[id.value] = Number(source?.value || 0);
+		// The 'en' entry which we dropped can have a different dateModified value
 		item.dateModified = dateModified.value;
+		delete item.title.en;
+	} else if (dataSource[id.value] !== Number(source?.value || 0)) {
+		continue;
 	}
+
 	isAnimeMap[id.value] ??= isAnime.value === 'true';
 	if (page) {
 		item.page = page.value;
@@ -147,12 +174,16 @@ for (const { id, isAnime, lang, page, title, dateModified } of response.results.
 }
 
 for (const id in data) {
-	if (Object.keys(data[id].title).length > 1 && data[id].title.en) {
-		delete data[id].title.en;
-	}
-
 	if (data[id].dateModified < wikidata[id]?.dateModified) {
-		const differ = JSON.stringify(diff(wikidata[id], data[id]), null, '\t');
+		const removed = diff(data[id], wikidata[id]);
+		Object.keys(removed.title).forEach(key => removed.title[key] === undefined && delete removed.title[key]);
+		const diffLang = Object.keys(removed.title);
+		console.log(!removed.page, diffLang.length, diffLang[0]);
+		if (!removed.page && diffLang.length === 1 && diffLang[0] === 'en') {
+			continue;
+		}
+
+		const differ = JSON.stringify(removed, null, '\t');
 		core.warning(`Wikidata out of sync for ${isAnimeMap[id] ? 'anime' : 'manga'} ${id}: ${differ}`);
 		console.warn(`Wikidata out of sync for ${isAnimeMap[id] ? 'anime' : 'manga'} ${id}: ${differ}`);
 		data[id] = wikidata[id];
