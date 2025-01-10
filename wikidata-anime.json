@@ -391,11 +391,11 @@
 	"88": {
 		"title": {
 			"zh": "機動戰士GUNDAM F91",
-			"zh-cn": "机动战士敢达 F91",
+			"zh-cn": "机动战士高达 F91",
 			"zh-hans": "机动战士GUNDAM F91",
 			"zh-hant": "機動戰士GUNDAM F91",
 			"zh-hk": "機動戰士高達 F91",
-			"zh-sg": "机动战士敢达 F91",
+			"zh-sg": "机动战士高达 F91",
 			"zh-tw": "機動戰士鋼彈 F91"
 		}
 	},
@@ -433,11 +433,11 @@
 	"93": {
 		"title": {
 			"zh": "機動戰士GUNDAM SEED",
-			"zh-cn": "机动战士敢达 SEED",
+			"zh-cn": "机动战士高达 SEED",
 			"zh-hans": "机动战士GUNDAM SEED",
 			"zh-hant": "機動戰士GUNDAM SEED",
 			"zh-hk": "機動戰士高達 SEED",
-			"zh-sg": "机动战士敢达 SEED",
+			"zh-sg": "机动战士高达 SEED",
 			"zh-tw": "機動戰士鋼彈 SEED"
 		}
 	},
@@ -3519,11 +3519,11 @@
 	"864": {
 		"title": {
 			"zh": "機動戰士GUNDAM SEED ASTRAY",
-			"zh-cn": "机动战士敢达 SEED ASTRAY",
+			"zh-cn": "机动战士高达 SEED ASTRAY",
 			"zh-hans": "机动战士GUNDAM SEED ASTRAY",
 			"zh-hant": "機動戰士GUNDAM SEED ASTRAY",
 			"zh-hk": "機動戰士高達 SEED ASTRAY",
-			"zh-sg": "机动战士敢达 SEED ASTRAY",
+			"zh-sg": "机动战士高达 SEED ASTRAY",
 			"zh-tw": "機動戰士鋼彈 SEED ASTRAY"
 		}
 	},
@@ -13970,11 +13970,10 @@
 	"9040": {
 		"title": {
 			"zh": "模型戰士GUNDAM模型製作家 起始G",
-			"zh-cn": "模型战士敢达模型大师 BEGINNING G",
+			"zh-cn": "模型战士高达模型大师 BEGINNING G",
 			"zh-hans": "模型战士GUNDAM模型制作家 起始G",
 			"zh-hant": "模型戰士GUNDAM模型製作家 起始G",
 			"zh-hk": "模型戰士高達模型大師BEGINNING G",
-			"zh-sg": "模型战士敢达模型大师 BEGINNING G",
 			"zh-tw": "模型戰士鋼彈模型製作家 起始G"
 		}
 	},
