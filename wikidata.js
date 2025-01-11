@@ -83,7 +83,12 @@ WHERE {{
   OPTIONAL {
     ?item wdt:P179 ?series
     OPTIONAL { ?series wdt:P5737 ?seriesPage }
-    OPTIONAL { ?series wdt:P144/wdt:P5737 ?seriesOriginPage }
+    OPTIONAL {
+      ?series wdt:P144/p:P5737 ?seriesOriginPageStatement.
+      ?seriesOriginPageStatement ps:P5737 ?seriesOriginPage.
+      OPTIONAL { ?seriesOriginPageStatement pq:P407 ?seriesOriginPageLang }
+      FILTER(!BOUND(?seriesOriginPageLang) || ?seriesOriginPageLang = wd:Q7850)
+    }
     # The link to the media mix page of the series
     OPTIONAL { ?series wdt:P8345/wdt:P5737 ?seriesMedmixPage }
   }
@@ -158,7 +163,7 @@ for (const { id, isAnime, source, lang, page, title, dateModified } of response.
 		dataSource[id.value] = Number(source?.value || 0);
 	} else if (Object.keys(item.title).length === 1 && item.title.en) {
 		dataSource[id.value] = Number(source?.value || 0);
-		// The 'en' entry which we dropped can have a different dateModified value
+		// The 'en' entry we dropped can have a different dateModified value
 		item.dateModified = dateModified.value;
 		delete item.title.en;
 	} else if (dataSource[id.value] !== Number(source?.value || 0)) {
