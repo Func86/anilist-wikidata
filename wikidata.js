@@ -72,6 +72,25 @@ for (const id in data) {
 		// Nothing changed other than dateModified
 		data[id] = wikidata[id];
 	}
+
+	if (data[id].title['zh-cn'] && !data[id].title['zh-hans']) {
+		console.log(`Missing simplified Chinese title for ${isAnimeMap[id] ? 'anime' : 'manga'} ${id}: ${data[id].title['zh-cn']}`);
+	} else if (
+		data[id].title['zh-hans'] && data[id].title['zh-cn'] &&
+		data[id].title['zh-cn'] !== data[id].title['zh-hans'] &&
+		!data[id].title['zh-hans'].includes('GUNDAM')
+	) {
+		// Anti censorship
+		const censorRegex = /神社|后宫/;
+		if (data[id].title['zh-hans'].match(censorRegex) && !data[id].title['zh-cn'].match(censorRegex)) {
+			delete data[id].title['zh-cn'];
+		} else {
+			console.log(
+				`Inconsistent Chinese titles for ${isAnimeMap[id] ? 'anime' : 'manga'} ${id}: ` +
+				`${data[id].title['zh-hans']} ≠ ${data[id].title['zh-cn']}`
+			);
+		}
+	}
 }
 
 fs.writeFileSync('./wikidata.json',
