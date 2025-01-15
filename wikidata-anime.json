@@ -18632,7 +18632,7 @@
 	"21131": {
 		"page": "学战都市Asterisk",
 		"title": {
-			"en": "The Asterisk War: The Academy City on the Water"
+			"en": "The Asterisk War, season 1"
 		}
 	},
 	"21134": {
@@ -19135,6 +19135,12 @@
 		"title": {
 			"zh": "Rewrite",
 			"zh-hant": "Rewrite"
+		}
+	},
+	"21390": {
+		"page": "学战都市Asterisk",
+		"title": {
+			"en": "The Asterisk War, season 2"
 		}
 	},
 	"21399": {
@@ -24593,7 +24599,7 @@
 		"title": {
 			"zh": "夏日時光",
 			"zh-cn": "夏日重现",
-			"zh-my": "夏日时光",
+			"zh-hans": "夏日时光",
 			"zh-tw": "夏日時光"
 		}
 	},
