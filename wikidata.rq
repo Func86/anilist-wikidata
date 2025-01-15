@@ -48,7 +48,7 @@ WHERE {{
     # 3. The English title of the item is the same as the English title of the origin entity
     # We have to use a UNION query because the it would timeout/OOM when querying rdfs:label on variables
     # that are bounded with BIND, even if it's as simple as BIND(?item AS ?itemCopy).
-    FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && ?enLabel = ?originEnLabel)
+    FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && LCASE(?enLabel) = LCASE(?originEnLabel))
     ?origin rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
     FILTER(STRSTARTS(?lang, "zh"))
