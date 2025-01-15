@@ -21435,10 +21435,10 @@
 		}
 	},
 	"21131": {
-		"dateModified": "2024-04-30T04:19:13Z",
+		"dateModified": "2025-01-15T05:07:48Z",
 		"page": "学战都市Asterisk",
 		"title": {
-			"en": "The Asterisk War: The Academy City on the Water"
+			"en": "The Asterisk War, season 1"
 		}
 	},
 	"21134": {
@@ -22030,6 +22030,13 @@
 		"title": {
 			"zh": "Rewrite",
 			"zh-hant": "Rewrite"
+		}
+	},
+	"21390": {
+		"dateModified": "2025-01-15T05:07:58Z",
+		"page": "学战都市Asterisk",
+		"title": {
+			"en": "The Asterisk War, season 2"
 		}
 	},
 	"21399": {
@@ -28399,11 +28406,11 @@
 		}
 	},
 	"129201": {
-		"dateModified": "2025-01-12T08:14:54Z",
+		"dateModified": "2025-01-15T05:10:43Z",
 		"title": {
 			"zh": "夏日時光",
 			"zh-cn": "夏日重现",
-			"zh-my": "夏日时光",
+			"zh-hans": "夏日时光",
 			"zh-tw": "夏日時光"
 		}
 	},
@@ -43279,6 +43286,12 @@
 			"zh": "正義魔法COS少女"
 		}
 	},
+	"81459": {
+		"dateModified": "2025-01-15T05:12:16Z",
+		"title": {
+			"zh": "學戰都市Asterisk"
+		}
+	},
 	"81461": {
 		"dateModified": "2024-11-24T06:52:24Z",
 		"title": {
@@ -48102,13 +48115,13 @@
 		}
 	},
 	"102989": {
-		"dateModified": "2025-01-12T08:09:27Z",
+		"dateModified": "2025-01-15T05:10:14Z",
 		"title": {
 			"zh": "夏日時光",
 			"zh-cn": "夏日重现",
+			"zh-hans": "夏日时光",
 			"zh-hant": "夏日時光",
 			"zh-hk": "夏日時光",
-			"zh-my": "夏日时光",
 			"zh-tw": "夏日時光"
 		}
 	},
