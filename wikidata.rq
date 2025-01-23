@@ -25,7 +25,7 @@ WHERE {{
     OPTIONAL { ?item wdt:P364 ?originalLanguage. }
     FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
 
-    # In this branch of the UNION query, we only want items with P144 (origin) statements, but somehow,
+    # In this branch of the UNION query, we only want items with a P144 (origin) statement, but somehow,
     # keeping these inside an OPTIONAL block can make the query way faster, from >20s to 6-8s
     OPTIONAL {
       ?item wdt:P144 ?origin.
@@ -46,9 +46,10 @@ WHERE {{
     # 1. The title of the item is in English or undefined
     # 2. The title of the origin entity is in Chinese
     # 3. The English title of the item is the same as the English title of the origin entity
-    # We have to use a UNION query because the it would timeout/OOM when querying rdfs:label on variables
-    # that are bounded with BIND, even if it's as simple as BIND(?item AS ?itemCopy).
     FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && LCASE(?enLabel) = LCASE(?originEnLabel))
+
+    # We have to keep these inside the UNION query because it would timeout/OOM when querying rdfs:label
+    # on variables that are bounded with BIND, even if it's as simple as `BIND(?item AS ?itemCopy)`.
     ?origin rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
     FILTER(STRSTARTS(?lang, "zh"))
@@ -59,16 +60,43 @@ WHERE {{
     OPTIONAL { ?item wdt:P364 ?originalLanguage. }
     FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
 
+    # Query the title of the series, if the anime is the first season of it
     ?item p:P179 [
       pq:P1545 "1";
       ps:P179 ?series;
     ].
-    ?series rdfs:label ?label.
-    BIND(LANG(?label) AS ?lang).
-    FILTER(STRSTARTS(?lang, "zh")).
 
-    ?series schema:dateModified ?dateModified.
-    BIND(2 AS ?source).
+    {
+      ?series rdfs:label ?label.
+      BIND(LANG(?label) AS ?lang).
+      FILTER(STRSTARTS(?lang, "zh")).
+
+      ?series schema:dateModified ?dateModified.
+      BIND(2 AS ?source).
+    } UNION {
+      ?series wdt:P144 ?origin.
+
+      # Similar to the branch above, but for the series
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
+        ?series rdfs:label ?autoLabel.
+        ?origin rdfs:label ?originLabel.
+      }
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "en".
+        ?series rdfs:label ?enLabel.
+        ?origin rdfs:label ?originEnLabel.
+      }
+
+      FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && LCASE(?enLabel) = LCASE(?originEnLabel))
+
+      ?origin rdfs:label ?label.
+      BIND(LANG(?label) AS ?lang).
+      FILTER(STRSTARTS(?lang, "zh")).
+
+      ?origin schema:dateModified ?dateModified.
+      BIND(3 AS ?source).
+    }
   }
 
   OPTIONAL { ?item wdt:P5737 ?page }

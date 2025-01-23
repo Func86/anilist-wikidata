@@ -12,14 +12,23 @@ class SPARQLQueryDispatcher {
 	}
 
 	async query() {
-		const fullUrl = this.endpoint + '?query=' + encodeURIComponent(sparqlQuery);
 		const headers = {
 			'Accept': 'application/sparql-results+json',
-			'User-Agent': 'AcgServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)'
+			'Content-Type': 'application/sparql-query',
+			'User-Agent': 'AcgServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)',
 		};
 
-		const response = await fetch(fullUrl, { headers });
-		return await response.json();
+		const response = await fetch(this.endpoint, {
+			method: 'POST',
+			headers,
+			body: sparqlQuery,
+		});
+		try {
+			return await response.clone().json();
+		} catch (error) {
+			console.error(await response.text());
+			throw error;
+		}
 	}
 }
 
@@ -59,7 +68,6 @@ for (const id in data) {
 		const removed = diff(data[id], wikidata[id]);
 		Object.keys(removed.title).forEach(key => removed.title[key] === undefined && delete removed.title[key]);
 		const diffLang = Object.keys(removed.title);
-		console.log(!removed.page, diffLang.length, diffLang[0]);
 		if (!removed.page && diffLang.length === 1 && diffLang[0] === 'en') {
 			continue;
 		}
