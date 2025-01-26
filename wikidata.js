@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import core from '@actions/core';
 import { diff } from 'deep-object-diff';
 
-import wikidata from './wikidata.json' assert { type: 'json' };
+import wikidata from './wikidata.json' with { type: 'json' };
 
 const sparqlQuery = fs.readFileSync('./wikidata.rq', 'utf8');
 
