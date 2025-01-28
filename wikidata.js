@@ -102,20 +102,16 @@ for (const id in data) {
 		}
 	}
 
-	if (!wikidata[id]) {
-		continue;
-	}
-
-	const { _: added, ...variants } = wikidata[id].title;
+	const { _: added, ...variants } = wikidata[id]?.title || {};
 	const filtered = !added ? variants : Object.fromEntries(
 		Object.entries(variants).filter(([lang]) => !added.includes(lang))
 	);
 	const original = buildFullMapFromFallbacks(filtered);
 	const updated = buildFullMapFromFallbacks(data[id].title);
 	const differ = diff(original, updated);
-	if (data[id].page === wikidata[id].page && !Object.keys(differ).length) {
+	if (data[id].page === wikidata[id]?.page && !Object.keys(differ).length) {
 		// Nothing changed other than dateModified
-		if (data[id].dateModified >= wikidata[id].dateModified) {
+		if (data[id].dateModified >= wikidata[id]?.dateModified) {
 			data[id] = wikidata[id];
 		}
 		continue;
