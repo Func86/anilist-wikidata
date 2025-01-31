@@ -146,7 +146,7 @@ fs.writeFileSync('./wikidata.json',
 fs.writeFileSync('./wikidata-anime.json',
 	JSON.stringify(data, (key, value) => {
 		return (
-			'dateModified' ===key ||
+			[ 'dateModified', '_' ].includes(key) ||
 			(key && !isNaN(key) && typeof value === 'object' && !isAnimeMap[key])
 		) ? undefined : value;
 	}, '\t')
