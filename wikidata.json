@@ -23545,10 +23545,14 @@
 		}
 	},
 	"20920": {
-		"dateModified": "2025-01-11T06:51:30Z",
+		"dateModified": "2025-02-03T06:03:27Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
 		"title": {
 			"zh": "在地下城尋求邂逅是否搞錯了什麼",
-			"zh-hans": "在地下城寻求邂逅是否搞错了什么"
+			"zh-hans": "在地下城寻求邂逅是否搞错了什么",
+			"_": [
+				"zh-hans"
+			]
 		}
 	},
 	"20922": {
@@ -25528,6 +25532,13 @@
 			"_": [
 				"zh-hans"
 			]
+		}
+	},
+	"21660": {
+		"dateModified": "2024-02-23T16:46:14Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
+		"title": {
+			"en": "Is It Wrong to Try to Pick Up Girls in a Dungeon?: Is It Wrong to Expect a Hot Spring in a Dungeon?"
 		}
 	},
 	"21661": {
@@ -28665,6 +28676,20 @@
 			]
 		}
 	},
+	"101166": {
+		"dateModified": "2024-11-14T15:50:42Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
+		"title": {
+			"en": "Is It Wrong to Try to Pick Up Girls in a Dungeon?: Arrow of the Orion"
+		}
+	},
+	"101167": {
+		"dateModified": "2024-12-12T18:21:12Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
+		"title": {
+			"en": "Is It Wrong to Try to Pick Up Girls in a Dungeon?, season 2"
+		}
+	},
 	"101168": {
 		"dateModified": "2025-01-05T09:03:32Z",
 		"title": {
@@ -31317,6 +31342,20 @@
 			]
 		}
 	},
+	"112124": {
+		"dateModified": "2024-10-04T19:31:46Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
+		"title": {
+			"en": "Is It Wrong to Try to Pick Up Girls in a Dungeon?, season 3"
+		}
+	},
+	"112125": {
+		"dateModified": "2024-02-23T16:46:06Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
+		"title": {
+			"en": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II OVA"
+		}
+	},
 	"112151": {
 		"dateModified": "2024-12-18T14:18:56Z",
 		"page": "鬼灭之刃",
@@ -33306,6 +33345,13 @@
 				"zh-sg",
 				"zh-mo"
 			]
+		}
+	},
+	"129196": {
+		"dateModified": "2024-08-25T04:25:23Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
+		"title": {
+			"en": "Is It Wrong to Try to Pick Up Girls in a Dungeon?, season 4"
 		}
 	},
 	"129201": {
@@ -37768,6 +37814,7 @@
 	},
 	"170732": {
 		"dateModified": "2025-02-03T05:08:23Z",
+		"page": "在地下城寻求邂逅是否搞错了什么",
 		"title": {
 			"zh": "在地下城尋求邂逅是否搞錯了什麼 第五季",
 			"zh-hans": "在地下城寻求邂逅是否搞错了什么 第五季",
