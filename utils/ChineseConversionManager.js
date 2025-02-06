@@ -1,43 +1,7 @@
-import { langMap, langCodes, variantCodes, langFallback, langFromBcp47 } from './lang-consts.js';
-
-/**
- * @param {string} title
- */
-function normalizeTitle(title) {
-	return title
-		.replace(/[\t\xA0\u1680\u180E\u2000-\u200F\u2028-\u202F\u205F\u2060-\u206E\u3000\u3164\uFEFF]/g, ' ')
-		.replaceAll('・', '·')
-		.replaceAll('〜', '～')
-		.trim();
-}
-
-function getPreferredChineseTitle(chinese, lang) {
-    // In case the language code is in BCP 47 format
-	const mwLang = langFromBcp47(lang) ?? lang;
-	for (const fallback of [ mwLang, ...langFallback[mwLang] ]) {
-		if (chinese[fallback]) {
-			return chinese[fallback];
-		}
-	}
-
-	return null;
-}
-
-function buildFullMapFromFallbacks(chinese) {
-	const fullMap = {};
-	for (const lang of langCodes) {
-		const title = getPreferredChineseTitle(chinese, lang);
-		if (title) {
-			fullMap[lang] = title;
-		}
-	}
-
-	return fullMap;
-}
+import { langMap, variantCodes, langFallback } from './lang-helpers.js';
 
 class ChineseConversionManager {
 	titles = {};
-	fallbackLang = {};
 	variantMap = {};
 
 	/**
@@ -69,14 +33,13 @@ class ChineseConversionManager {
 		}
 
 		this.titles[id] = {};
-		this.fallbackLang[id] = {};
 		lacking.forEach((lang) => {
 			const fallbacks = langFallback[lang].filter((value) => existing.includes(value));
 			if (fallbacks.length === 0) {
 				console.warn({ id, map: existingMap, _: 'The Wikidata entry should be fixed.' });
 			}
-			this.fallbackLang[id][lang] = fallbacks[0] ?? existing[0];
-			this.titles[id][lang] = existingMap[this.fallbackLang[id][lang]];
+			const fallbackLang = fallbacks[0] ?? existing[0];
+			this.titles[id][lang] = existingMap[fallbackLang];
 		});
 	}
 
@@ -85,44 +48,49 @@ class ChineseConversionManager {
 	}
 
 	async convert() {
+		const variantMap = this.variantMap;
 		const convertedMap = await this.provider.convert(this.titles);
-		for (const id in this.variantMap) {
+		for (const id in variantMap) {
 			const added = [], removed = [];
-			for (const lang of Object.keys(convertedMap[id] || {})) {
-				for (const fallback of langFallback[lang]) {
-					if (!this.variantMap[id][fallback]) {
-						continue;
-					}
-					// If the title is not the same as the fallback one, store it
-					if (convertedMap[id][lang] !== this.variantMap[id][fallback]) {
-						this.variantMap[id][lang] = convertedMap[id][lang];
-						added.push(lang);
-					}
-					break;
-				}
-			}
 			for (const lang of variantCodes.toReversed()) {
 				for (const fallback of langFallback[lang]) {
-					if (!this.variantMap[id][fallback]) {
+					if (!variantMap[id][fallback]) {
 						continue;
 					}
 					// If the title is the same as the fallback one, no need to store it
-					if (this.variantMap[id][lang] === this.variantMap[id][fallback]) {
-						delete this.variantMap[id][lang];
+					if (variantMap[id][lang] === variantMap[id][fallback]) {
+						delete variantMap[id][lang];
 						removed.push(lang);
 					}
 					break;
 				}
 			}
+			for (const lang of Object.keys(convertedMap[id] || {})) {
+				for (const fallback of langFallback[lang]) {
+					if (!variantMap[id][fallback]) {
+						continue;
+					}
+					// If the title is not the same as the fallback one, store it
+					if (convertedMap[id][lang] !== variantMap[id][fallback]) {
+						variantMap[id][lang] = convertedMap[id][lang];
+						added.push(lang);
+					}
+					break;
+				}
+			}
 			if (added.length || removed.length) {
-				this.variantMap[id]._ = {
+				variantMap[id]._ = {
 					added: added.length ? added : undefined,
 					removed: removed.length ? removed : undefined,
 				}
 			}
 		}
 
-		return this.variantMap;
+		// Clear the queue
+		this.titles = {};
+		this.variantMap = {};
+
+		return variantMap;
 	}
 }
 
@@ -205,10 +173,4 @@ class ChineseConversionProvider {
 	}
 }
 
-export {
-	ChineseConversionManager,
-	ChineseConversionProvider,
-	normalizeTitle,
-	getPreferredChineseTitle,
-	buildFullMapFromFallbacks,
-}
+export { ChineseConversionManager, ChineseConversionProvider };

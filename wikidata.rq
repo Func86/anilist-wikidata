@@ -1,12 +1,12 @@
 SELECT (MIN(xsd:integer(?value)) AS ?id)
-       ?isAnime
+       ?type
        ?source
        ?lang
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
        (SAMPLE(?dateModified) AS ?dateModified)
 WHERE {{
-  BIND(true AS ?isAnime)
+  BIND('anime' AS ?type)
   {
     ?item wdt:P8729 ?value.
 
@@ -133,8 +133,32 @@ WHERE {{
   BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage, ?medmixPage, ?seriesMedmixPage) AS ?finalPage)
   FILTER(STRSTARTS(?lang, "zh") || BOUND(?finalPage))
 } UNION {
+  BIND('manga' AS ?type).
   ?item wdt:P8731 ?value.
-  BIND(false AS ?isAnime)
+
+  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+  ?item rdfs:label ?label.
+  BIND(LANG(?label) AS ?lang)
+  FILTER(STRSTARTS(?lang, "zh"))
+
+  ?item schema:dateModified ?dateModified.
+} UNION {
+  BIND('staff' AS ?type).
+  ?item wdt:P11227 ?value.
+
+  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+  ?item rdfs:label ?label.
+  BIND(LANG(?label) AS ?lang)
+  FILTER(STRSTARTS(?lang, "zh"))
+
+  ?item schema:dateModified ?dateModified.
+} UNION {
+  BIND('character' AS ?type).
+  ?item wdt:P11736 ?value.
 
   OPTIONAL { ?item wdt:P364 ?originalLanguage. }
   FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
@@ -145,5 +169,5 @@ WHERE {{
 
   ?item schema:dateModified ?dateModified.
 }}
-GROUP BY ?isAnime ?item ?source ?lang
-ORDER BY DESC(?isAnime) ?id ?source ?lang
+GROUP BY ?type ?item ?source ?lang
+ORDER BY ?type ?id ?source ?lang
