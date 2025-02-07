@@ -29,6 +29,7 @@ class SPARQLQueryDispatcher {
 		try {
 			return await response.clone().json();
 		} catch (error) {
+			console.error(`Status: ${response.status}`);
 			console.error(await response.text());
 			throw error;
 		}
