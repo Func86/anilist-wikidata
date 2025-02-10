@@ -41,12 +41,17 @@ const variables = {
 	page: pageOffset + 1,
 };
 
+const authHeaders = JSON.parse(process.env.AUTH_HEADERS);
 const normalizeSpace = str => str?.replace(/\s{2,}/g, ' ').trim();
 const toPadded = (num, pad = 2) => String(num || 0).padStart(pad, '0');
 while (true) {
 	const response = await fetch('https://graphql.anilist.co', {
 		method: 'POST',
-		headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+		headers: {
+			'Content-Type': 'application/json',
+			'Accept': 'application/json',
+			...authHeaders
+		},
 		body: JSON.stringify({ query: graphqlQuery, variables })
 	});
 	if (!response.ok && response.status === 429) {
