@@ -23,7 +23,8 @@ jobs:
       - name: Run script to fetch data
         run: node update-catalog.js
         env:
-          AUTH_HEADERS: ${{ secrets.AUTH_HEADERS }}
+          PROXY_PREFIX: ${{ secrets.PROXY_PREFIX }}
+          PROXY_HEADERS: ${{ secrets.PROXY_HEADERS }}
 
       - name: Commit and push changes if there are any
         run: |
