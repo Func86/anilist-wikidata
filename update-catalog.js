@@ -153,7 +153,7 @@ function genderEntity(gender) {
  */
 function guessEntityType(entry) {
 	const isHuman = entry.bloodType || entry.gender ||
-		Object.values(entry.dateOfBirth).filter(num => !!num) || Object.values(entry.dateOfDeath).filter(num => !!num)
+		Object.values(entry.dateOfBirth).some(num => !!num) || Object.values(entry.dateOfDeath).some(num => !!num)
 		// Bands etc. don't have first/last names, so we can't assume they're human.
 		|| entry.name.first || entry.name.last;
 
