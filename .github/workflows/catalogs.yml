@@ -31,4 +31,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git diff --cached --quiet || git commit -m "Update from Wikidata" && git push
+          git diff --cached --quiet || git commit -m "Update Mix'n'match catalog" && git push
