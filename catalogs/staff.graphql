@@ -1,0 +1,34 @@
+query Staff($page: Int) {
+  Page(page: $page) {
+    pageInfo {
+      currentPage
+      hasNextPage
+      perPage
+    }
+    staff {
+      id
+      name {
+        native
+        full
+        first
+        last
+      }
+      gender
+      bloodType
+      dateOfBirth {
+        year
+        month
+        day
+      }
+      dateOfDeath {
+        day
+        month
+        year
+      }
+      homeTown
+      yearsActive
+      primaryOccupations
+      siteUrl
+    }
+  }
+}
