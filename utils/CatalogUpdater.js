@@ -50,6 +50,10 @@ class CatalogUpdater {
 					continue;
 				}
 				const body = await response.json();
+				if (!body.data?.Page?.[this.dataNameMap[this.dataName] || this.dataName]) {
+					console.error('Invalid response:', body);
+					break;
+				}
 	
 				const data = [];
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
