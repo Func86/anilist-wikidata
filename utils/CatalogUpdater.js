@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import core from '@actions/core';
 
 class CatalogUpdater {
 	dataNameMap = {
@@ -52,6 +53,7 @@ class CatalogUpdater {
 				const body = await response.json();
 				if (!body.data?.Page?.[this.dataNameMap[this.dataName] || this.dataName]) {
 					console.error('Invalid response:', body);
+					core.warning(`Invalid response for ${this.dataName}: ${JSON.stringify(body)}`);
 					break;
 				}
 	
@@ -71,6 +73,7 @@ class CatalogUpdater {
 				}
 			} catch (error) {
 				console.error('Error:', error);
+				core.warning(`Error while fetching ${this.dataName}: ${error.message}`);
 			}
 			break;
 		}
