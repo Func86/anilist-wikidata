@@ -1,0 +1,35 @@
+query Characters($page: Int) {
+  Page(page: $page) {
+    pageInfo {
+      currentPage
+      hasNextPage
+      perPage
+    }
+    characters {
+      id
+      name {
+        full
+        native
+      }
+      dateOfBirth {
+        day
+        month
+        year
+      }
+      bloodType
+      gender
+      siteUrl
+      media(sort: START_DATE) {
+        nodes {
+          format
+          type
+          countryOfOrigin
+          title {
+            english
+            romaji
+          }
+        }
+      }
+    }
+  }
+}
