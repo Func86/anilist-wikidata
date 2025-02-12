@@ -1,5 +1,20 @@
 on:
   workflow_dispatch:
+    inputs:
+      catalog_name:
+        description: Name of the Mix'n'match catalog
+        required: true
+        type: choice
+        options:
+          - staff
+          - manga
+          - anime
+          - characters
+      page_offset:
+        description: Page offset for the catalog
+        required: false
+        type: number
+        default: 0
 
 jobs:
   update_catalog:
@@ -17,11 +32,8 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Remove existing data
-        run: rm anilist-staff.csv
-
       - name: Run script to fetch data
-        run: node update-catalog.js
+        run: node update-catalog.js ${{ github.event.inputs.catalog_name }} ${{ github.event.inputs.page_offset }}
         env:
           PROXY_PREFIX: ${{ secrets.PROXY_PREFIX }}
           PROXY_HEADERS: ${{ secrets.PROXY_HEADERS }}
