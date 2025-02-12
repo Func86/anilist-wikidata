@@ -8,7 +8,11 @@ function entryCallback(entry) {
 	if (entry.media.nodes.length) {
 		const title = entry.media.nodes[0].title;
 		const descTitle = title.english || title.romaji;
-		description.push(`Character in ${descTitle}`);
+		if (descTitle) {
+			description.push(`Character in ${descTitle}`);
+		} else {
+			console.log('Missing title:', entry.media.nodes[0]);
+		}
 	}
 	return [entry.id, entry.name.full, guessEntityType(entry), entry.siteUrl, description.join('. ')];
 }
@@ -19,7 +23,7 @@ function guessEntityType(entry) {
 		return 'Q15632617';
 	}
 	// The list is sorted by start date, and we only need the first entry.
-	// But iterate through all of them in case some fileds are missing.
+	// But iterate through all of them in case some fields are missing.
 	for (const media of entry.media.nodes) {
 		if (media.type === 'ANIME') {
 			if (media.countryOfOrigin === 'JP') {
