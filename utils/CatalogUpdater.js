@@ -33,36 +33,40 @@ class CatalogUpdater {
 		const authHeaders = JSON.parse(process.env.PROXY_HEADERS || '{}');
 
 		while (true) {
-			const response = await fetch(process.env.PROXY_PREFIX + 'https://graphql.anilist.co', {
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json',
-					'Accept': 'application/json',
-					...authHeaders
-				},
-				body: JSON.stringify({ query: this.graphqlQuery, variables })
-			});
-			if (!response.ok && response.status === 429) {
-				const waitFor = response.headers.get('Retry-After') ?? 30;
-				console.log(`Rate limited, waiting ${waitFor} seconds...`);
-				await new Promise(resolve => setTimeout(resolve, waitFor * 1000));
-				continue;
-			}
-			const body = await response.json();
-
-			const data = [];
-			for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
-				data.push(this.callback(entry));
-			}
-
-			// Append the data to the file, so we can resume from where we left off.
-			fs.appendFileSync(filePath, data.map(row => row.join('\t')).join('\n') + '\n');
-
-			if (body.data.Page.pageInfo.hasNextPage) {
-				const nextOffset = body.data.Page.pageInfo.currentPage;
-				console.log(`Continue to page offset ${nextOffset}`);
-				variables.page = nextOffset + 1;
-				continue;
+			try {
+				const response = await fetch(process.env.PROXY_PREFIX + 'https://graphql.anilist.co', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+						'Accept': 'application/json',
+						...authHeaders
+					},
+					body: JSON.stringify({ query: this.graphqlQuery, variables })
+				});
+				if (!response.ok && response.status === 429) {
+					const waitFor = parseInt(response.headers.get('Retry-After'), 10) || 30;
+					console.log(`Rate limited, waiting ${waitFor} seconds...`);
+					await new Promise(resolve => setTimeout(resolve, waitFor * 1000));
+					continue;
+				}
+				const body = await response.json();
+	
+				const data = [];
+				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
+					data.push(this.callback(entry));
+				}
+	
+				// Append the data to the file, so we can resume from where we left off.
+				fs.appendFileSync(filePath, data.map(row => row.join('\t')).join('\n') + '\n');
+	
+				if (body.data.Page.pageInfo.hasNextPage) {
+					const nextOffset = body.data.Page.pageInfo.currentPage;
+					console.log(`Continue to page offset ${nextOffset}`);
+					variables.page = nextOffset + 1;
+					continue;
+				}
+			} catch (error) {
+				console.error('Error:', error);
 			}
 			break;
 		}
