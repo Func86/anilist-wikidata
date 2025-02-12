@@ -1,6 +1,9 @@
 import fs from 'node:fs';
 import core from '@actions/core';
 
+/**
+ * Update the catalog by fetching data from a GraphQL API and writing it to a CSV file.
+ */
 class CatalogUpdater {
 	dataNameMap = {
 		anime: 'media',
@@ -31,7 +34,12 @@ class CatalogUpdater {
 		const variables = {
 			page: this.pageOffset + 1,
 		};
-		const authHeaders = JSON.parse(process.env.PROXY_HEADERS || '{}');
+		const authHeaders = {};
+		try {
+			Object.assign(authHeaders, JSON.parse(process.env.PROXY_HEADERS || '{}'));
+		} catch (error) {
+			console.error('Failed to parse PROXY_HEADERS:', error);
+		}
 
 		while (true) {
 			try {
