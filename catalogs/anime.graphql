@@ -1,0 +1,45 @@
+query Media($page: Int) {
+  Page(page: $page) {
+    pageInfo {
+      currentPage
+      hasNextPage
+      perPage
+    }
+    media(type: ANIME) {
+      countryOfOrigin
+      id
+      title {
+        english
+        native
+        romaji
+      }
+      format
+      relations {
+        edges {
+          relationType
+        }
+      }
+      duration
+      episodes
+      startDate {
+        year
+      }
+      studios(isMain: true) {
+        nodes {
+          name
+        }
+      }
+      staff {
+        edges {
+          role
+          node {
+            name {
+              full
+            }
+          }
+        }
+      }
+      siteUrl
+    }
+  }
+}
