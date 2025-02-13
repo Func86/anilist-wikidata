@@ -1,5 +1,3 @@
-const dataHeaders = ['ID', 'name', 'type', 'P1853', 'P21', 'born', 'died', 'P2031', 'URL', 'description'];
-
 const normalizeSpace = str => str?.replace(/\s{2,}/g, ' ').trim();
 const toPadded = (num, pad = 2) => String(num || 0).padStart(pad, '0');
 
@@ -20,7 +18,18 @@ function entryCallback(entry) {
 		description.push(`From ${normalizeSpace(homeTown)}`);
 	}
 	const descText = description.length ? description.join('. ') + '.' : null;
-	return [id, normalizeSpace(name.full), guessEntityType(entry), bloodTypeEntity(bloodType), genderEntity(gender), birth, death, yearsActive[0], siteUrl, descText];
+	return {
+		ID: id,
+		name: normalizeSpace(name.full),
+		type: guessEntityType(entry),
+		P1853: bloodTypeEntity(bloodType),
+		P21: genderEntity(gender),
+		born: birth,
+		died: death,
+		P2031: yearsActive[0],
+		URL: siteUrl,
+		description: descText,
+	};
 }
 
 /**
@@ -89,4 +98,4 @@ function guessEntityType(entry) {
 	return null;
 }
 
-export { dataHeaders, entryCallback };
+export { entryCallback };

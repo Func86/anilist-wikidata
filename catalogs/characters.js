@@ -1,5 +1,3 @@
-const dataHeaders = ['ID', 'Name', 'type', 'URL', 'description'];
-
 function entryCallback(entry) {
 	const description = [];
 	if (entry.name.native) {
@@ -14,7 +12,13 @@ function entryCallback(entry) {
 			console.log('Missing title:', entry.media.nodes[0]);
 		}
 	}
-	return [entry.id, entry.name.full, guessEntityType(entry), entry.siteUrl, description.join('. ')];
+	return {
+		ID: entry.id,
+		name: entry.name.full,
+		type: guessEntityType(entry),
+		URL: entry.siteUrl,
+		description: description.join('. '),
+	};
 }
 
 function guessEntityType(entry) {
@@ -46,4 +50,4 @@ function guessEntityType(entry) {
 	return null;
 }
 
-export { dataHeaders, entryCallback };
+export { entryCallback };
