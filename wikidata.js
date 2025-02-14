@@ -3,46 +3,21 @@ import core from '@actions/core';
 import { diff } from 'deep-object-diff';
 
 import wikidata from './wikidata.json' with { type: 'json' };
+import { SPARQLQueryDispatcher } from './utils/SPARQLQueryDispatcher.js';
 import { NodeAwaiter } from './utils/awaiters.js';
 import { ChineseConversionManager, ChineseConversionProvider } from './utils/ChineseConversionManager.js';
 import { normalizeTitle, buildFullMapFromFallbacks } from './utils/lang-helpers.js';
-
-const sparqlQuery = fs.readFileSync('./wikidata.rq', 'utf8');
-
-class SPARQLQueryDispatcher {
-	constructor() {
-		this.endpoint = 'https://query.wikidata.org/sparql';
-	}
-
-	async query() {
-		const headers = {
-			'Accept': 'application/sparql-results+json',
-			'Content-Type': 'application/sparql-query',
-			'User-Agent': 'AcgServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)',
-		};
-
-		const response = await fetch(this.endpoint, {
-			method: 'POST',
-			headers,
-			body: sparqlQuery,
-		});
-		try {
-			return await response.clone().json();
-		} catch (error) {
-			console.error(`Status: ${response.status}`);
-			console.error(await response.text());
-			throw error;
-		}
-	}
-}
 
 const data = {
 	media: {},
 	staff: {},
 	character: {},
 }, dataSource = {}, isAnimeMap = {};
+
+const sparqlQuery = fs.readFileSync('./wikidata.rq', 'utf8');
 const queryDispatcher = new SPARQLQueryDispatcher();
-const response = await queryDispatcher.query();
+const response = await queryDispatcher.query(sparqlQuery);
+
 for (const { id, type, source, lang, page, title, dateModified } of response.results.bindings) {
 	const isMedia = [ 'anime', 'manga' ].includes(type.value);
 	const typeKey = isMedia ? 'media' : type.value;
