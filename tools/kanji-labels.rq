@@ -1,0 +1,20 @@
+SELECT ?item ?zhLabel ?jaLabel WHERE {
+  {
+    SELECT DISTINCT ?item WHERE {
+      ?item wdt:<PROPERTY> _:anyValue.
+    }
+  }
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "zh,mul".
+    ?item rdfs:label ?zhLabel.
+  }
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "ja".
+    ?item rdfs:label ?jaLabel.
+  }
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+    ?item rdfs:label ?enLabel.
+  }
+  FILTER(LANG(?zhLabel) = "" && LANG(?jaLabel) = "ja" && LCASE(STR(?enLabel)) != LCASE(STR(?jaLabel)) && REGEX(?jaLabel, "[\u4E00-\u9FFF\u3400-\u4DBF]") && REGEX(?jaLabel, "^[^\u3040-\u309F\u30A0-\u30FF\u3005\u3006 ]+$"))
+}
