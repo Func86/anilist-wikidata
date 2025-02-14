@@ -34,7 +34,7 @@ function entryCallback(entry) {
 		const credits = {};
 		const mainStaff = entry.staff.edges.filter(
 			// Covers: Lettering/Letterer, Translator/Translation, Assistant/Assistance, Editor/Editing
-			staff => !staff.role.match(/(?:Letter|Translat|Touch-up|Assist|Edit|Supervisor)/i)
+			staff => staff.role && !staff.role.match(/(?:Letter|Translat|Touch-up|Assist|Edit|Supervisor)/i)
 		);
 		for (const staff of mainStaff) {
 			const [ , role, qualifier ] = staff.role.match(/^([^(]+?)\s*(?:\((.+)\))?$/);
