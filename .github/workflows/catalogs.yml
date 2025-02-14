@@ -6,9 +6,9 @@ on:
         required: true
         type: choice
         options:
-          - staff
-          - manga
           - anime
+          - manga
+          - staff
           - characters
       page_offset:
         description: Page offset for the catalog
@@ -45,5 +45,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull
           git add .
           git diff --cached --quiet || git commit -m "Update Mix'n'match catalog" && git push
