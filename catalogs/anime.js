@@ -1,3 +1,5 @@
+import { nameList } from './helpers.js';
+
 function entryCallback(entry) {
 	const description = [];
 	if (entry.title.native) {
@@ -9,13 +11,9 @@ function entryCallback(entry) {
 	}
 	credits.push('anime');
 	if (entry.studios.nodes.length) {
-		const studios = entry.studios.nodes.map(studio => studio.name);
-		const last = studios.pop();
-		if (studios.length) {
-			credits.push('by', studios.join(', '), 'and', last);
-		} else {
-			credits.push('by', last);
-		}
+		credits.push('by', nameList(
+			entry.studios.nodes.map(studio => studio.name)
+		));
 	}
 	description.push(credits.join(' '));
 	const director = entry.staff.edges.find(edge => edge.role === 'Director');
@@ -83,8 +81,11 @@ function guessEntityType(entry) {
 			}
 		case 'MUSIC':
 			return 'Q64100970';
+		case null:
+			console.log(`No format for ${entry.id}`);
+			return null;
 		default:
-			console.log(`Unknown format: ${entry.format}`);
+			console.log(`Unknown format: ${entry.format} for ${entry.id}`);
 			return null;
 	}
 }
