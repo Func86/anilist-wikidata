@@ -1,0 +1,34 @@
+query Manga($page: Int) {
+  Page(page: $page) {
+    pageInfo {
+      currentPage
+      hasNextPage
+      perPage
+    }
+    media(type: MANGA) {
+      id
+      title {
+        english
+        native
+        romaji
+      }
+      format
+      countryOfOrigin
+      startDate {
+        year
+      }
+      staff {
+        edges {
+          role
+          node {
+            name {
+              full
+            }
+          }
+        }
+      }
+      siteUrl
+      idMal
+    }
+  }
+}
