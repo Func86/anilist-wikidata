@@ -59,9 +59,10 @@ class CatalogUpdater {
 					core.warning(`Invalid response for ${this.dataName}: ${JSON.stringify(body)}`);
 					break;
 				}
-	
-				const data = [];
+
+				const rawData = {}, data = [];
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
+					rawData[entry.id] = entry;
 					data.push(this.callback(entry));
 				}
 
@@ -69,13 +70,18 @@ class CatalogUpdater {
 				const currentPage = body.data.Page.pageInfo.currentPage;
 				if (currentPage === 1) {
 					fs.writeFileSync(filePath, Object.keys(data[0]).join('\t') + '\n');
+					fs.writeFileSync(`./catalogs/${this.dataName}.json`, JSON.stringify(rawData, undefined, '\t').slice(0, -1).trimEnd());
+				} else {
+					fs.appendFileSync(`./catalogs/${this.dataName}.json`, ',\n' + JSON.stringify(rawData, undefined, '\t').slice(1, -1).trim());
 				}
 				fs.appendFileSync(filePath, data.map(row => Object.values(row).join('\t')).join('\n') + '\n');
-	
+
 				if (body.data.Page.pageInfo.hasNextPage) {
 					console.log(`Continue to page offset ${currentPage}`);
 					variables.page = currentPage + 1;
 					continue;
+				} else {
+					fs.appendFileSync(`./catalogs/${this.dataName}.json`, '\n}');
 				}
 			} catch (error) {
 				console.error('Error:', error);
