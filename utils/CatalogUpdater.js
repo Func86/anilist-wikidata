@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import core from '@actions/core';
 
 /**
- * Update the catalog by fetching data from a GraphQL API and writing it to a CSV file.
+ * Update the catalog by fetching data from a GraphQL API and writing it to a TSV file.
  */
 class CatalogUpdater {
 	dataNameMap = {
@@ -24,7 +24,7 @@ class CatalogUpdater {
 	}
 
 	async update() {
-		const filePath = `anilist-${this.dataName}.csv`;
+		const filePath = `anilist-${this.dataName}.tsv`;
 		const variables = {
 			page: this.pageOffset + 1,
 		};
@@ -72,7 +72,7 @@ class CatalogUpdater {
 					fs.writeFileSync(filePath, Object.keys(data[0]).join('\t') + '\n');
 					fs.writeFileSync(`./catalogs/${this.dataName}.json`, JSON.stringify(rawData, undefined, '\t').slice(0, -1).trimEnd());
 				} else {
-					fs.appendFileSync(`./catalogs/${this.dataName}.json`, ',\n' + JSON.stringify(rawData, undefined, '\t').slice(1, -1).trim());
+					fs.appendFileSync(`./catalogs/${this.dataName}.json`, ',\n' + JSON.stringify(rawData, undefined, '\t').slice(1, -1).trimEnd());
 				}
 				fs.appendFileSync(filePath, data.map(row => Object.values(row).join('\t')).join('\n') + '\n');
 

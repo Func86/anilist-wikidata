@@ -20,7 +20,7 @@ function entryCallback(entry) {
 	const descText = description.length ? description.join('. ') + '.' : null;
 	return {
 		ID: id,
-		name: normalizeSpace(name.full),
+		name: normalizeSpace(name.full || name.native),
 		type: guessEntityType(entry),
 		P1853: bloodTypeEntity(bloodType),
 		P21: genderEntity(gender),
@@ -85,15 +85,39 @@ function genderEntity(gender) {
  * @returns {string|null} - Returns 'Q5' if the entity is human, 'Q215380' if the entity is a band, or null if the entity type cannot be determined.
  */
 function guessEntityType(entry) {
-	const isHuman = entry.bloodType || entry.gender ||
-		Object.values(entry.dateOfBirth).some(num => !!num) || Object.values(entry.dateOfDeath).some(num => !!num)
-		// Bands etc. don't have first/last names, so we can't assume they're human.
-		|| entry.name.first || entry.name.last;
+	const isBand = () => entry.primaryOccupations.some(occupation => occupation.match(/\bBand\s*$/i));
+	const isPseudonym = () => entry.primaryOccupations.some(occupation => occupation.match(/\bPseudonym\b/i));
+	const isChoir = () => entry.primaryOccupations.some(occupation => occupation.match(/\bChoir\b/i));
+	const isOrchestra = () => entry.primaryOccupations.some(occupation => occupation.match(/\bOrchestra\b/i));
+	const isIdolGroup = () => entry.primaryOccupations.some(occupation => occupation.match(/\bIdol\s*Group\b/i));
+	const isGameStudio = () => entry.primaryOccupations.some(occupation => occupation.match(/\bGame\s*Studio\b/i));
+	const isStudio = () => entry.primaryOccupations.some(occupation => occupation.match(/\bStudio\s*$/i));
+	const isHuman = () => entry.bloodType || entry.gender || entry.homeTown ||
+		Object.values(entry.dateOfBirth).some(num => !!num) || Object.values(entry.dateOfDeath).some(num => !!num) ||
+		entry.primaryOccupations.some(occupation => {
+			return occupation.match(/(\bMangaka|[eo]r|ist|ian|ant)\s*$/i) ||
+				// Special cases
+				['Manga', 'story', 'Coloring', 'DJ'].includes(occupation);
+		}) ||
+		// We assume organisations don't have both first and last names.
+		(entry.name.first && entry.name.last);
 
-	if (isHuman) {
-		return 'Q5';
-	} else if (entry.primaryOccupations?.includes('Band')) {
+	if (isBand()) {
 		return 'Q215380';
+	} else if (isPseudonym()) {
+		return 'Q16017119';
+	} else if (isChoir()) {
+		return 'Q131186';
+	} else if (isOrchestra()) {
+		return 'Q42998';
+	} else if (isIdolGroup()) {
+		return 'Q108424578';
+	} else if (isGameStudio()) {
+		return 'Q210167';
+	} else if (isStudio()) {
+		return 'Q4830453';
+	} else if (isHuman()) {
+		return 'Q5';
 	}
 	return null;
 }
