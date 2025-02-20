@@ -7,8 +7,8 @@ const dispatcher = new SPARQLQueryDispatcher();
 const queryTemplate = fs.readFileSync('./kanji-labels.rq', 'utf8');
 
 const properties = {
-	'P11736': 'character',
 	'P11227': 'staff',
+	'P11736': 'character',
 };
 for (const propId in properties) {
 	const sparqlQuery = queryTemplate.replace('<PROPERTY>', propId);
@@ -21,11 +21,11 @@ for (const propId in properties) {
 		data.push([ id, 'Lzh', `"${label}"` ]);
 	}
 
+	const dataFile = `./kanji-labels-${properties[propId]}.tsv`;
 	if (data.length) {
-		fs.writeFileSync(
-			`./kanji-labels-${properties[propId]}.tsv`,
-			data.map((row) => row.join('\t')).join('\n')
-		);
+		fs.writeFileSync(dataFile, data.map((row) => row.join('\t')).join('\n') );
+	} else if (fs.existsSync(dataFile)) {
+		fs.unlinkSync(dataFile);
 	}
 }
 
