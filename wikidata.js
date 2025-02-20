@@ -119,18 +119,16 @@ async function processDataGroup(data, type) {
 		}
 	}
 
-	if (conversionManager.needsConversion()) {
-		const convertedMap = await conversionManager.convert();
-		for (const id in convertedMap) {
-			const { _: differ, ...titles } = convertedMap[id];
-			const added = differ?.added;
-			if (added && added.includes('zh-hans') && added.includes('zh-hant')) {
-				const idType = type === 'media' ? (isAnimeMap[id] ? 'anime' : 'manga') : type;
-				console.warn(`The Wikidata entry for ${idType} ${id} is likely malformed: ${JSON.stringify(convertedMap[id])}`);
-			}
-			data[id].title = titles;
-			data[id].title._ = added;
+	const convertedMap = await conversionManager.getConvertedMap();
+	for (const id in convertedMap) {
+		const { _: differ, ...titles } = convertedMap[id];
+		const added = differ?.added;
+		if (added && added.includes('zh-hans') && added.includes('zh-hant')) {
+			const idType = type === 'media' ? (isAnimeMap[id] ? 'anime' : 'manga') : type;
+			console.warn(`The Wikidata entry for ${idType} ${id} is likely malformed: ${JSON.stringify(convertedMap[id])}`);
 		}
+		data[id].title = titles;
+		data[id].title._ = added;
 	}
 
 	// fs.writeFileSync(`./wikidata-${type}.json`, stringifyPart(data));
