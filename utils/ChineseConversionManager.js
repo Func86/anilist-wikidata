@@ -28,43 +28,50 @@ class ChineseConversionManager {
 		const existing = Object.keys(existingMap);
 		const lacking = variantCodes.filter((value) => !existing.includes(value));
 		this.variantMap[id] = { ...existingMap };
-		if (lacking.length === 0) {
-			return;
+
+		if (lacking.length) {
+			this.titles[id] = {};
+			lacking.forEach((lang) => {
+				const fallbacks = langFallback[lang].filter((value) => existing.includes(value));
+				if (fallbacks.length === 0) {
+					console.warn({ id, map: existingMap, _: 'The Wikidata entry should be fixed.' });
+				}
+				const fallbackLang = fallbacks[0] ?? existing[0];
+				this.titles[id][lang] = existingMap[fallbackLang];
+			});
 		}
 
-		this.titles[id] = {};
-		lacking.forEach((lang) => {
-			const fallbacks = langFallback[lang].filter((value) => existing.includes(value));
-			if (fallbacks.length === 0) {
-				console.warn({ id, map: existingMap, _: 'The Wikidata entry should be fixed.' });
+		// Removes titles that are the same as their fallback
+		const removed = [];
+		for (const lang of variantCodes.toReversed()) {
+			for (const fallback of langFallback[lang]) {
+				if (!this.variantMap[id][fallback]) {
+					continue;
+				}
+				// If the title is the same as the fallback one, no need to store it
+				if (this.variantMap[id][lang] === this.variantMap[id][fallback]) {
+					delete this.variantMap[id][lang];
+					removed.push(lang);
+				}
+				break;
 			}
-			const fallbackLang = fallbacks[0] ?? existing[0];
-			this.titles[id][lang] = existingMap[fallbackLang];
-		});
+		}
+		if (removed.length) {
+			this.variantMap[id]._ = { removed };
+		}
 	}
 
-	needsConversion() {
-		return Object.keys(this.titles).length > 0;
-	}
-
-	async convert() {
+	async getConvertedMap() {
 		const variantMap = this.variantMap;
+		if (Object.keys(this.titles).length === 0) {
+			this.variantMap = {};
+
+			return variantMap;
+		}
+
 		const convertedMap = await this.provider.convert(this.titles);
 		for (const id in variantMap) {
-			const added = [], removed = [];
-			for (const lang of variantCodes.toReversed()) {
-				for (const fallback of langFallback[lang]) {
-					if (!variantMap[id][fallback]) {
-						continue;
-					}
-					// If the title is the same as the fallback one, no need to store it
-					if (variantMap[id][lang] === variantMap[id][fallback]) {
-						delete variantMap[id][lang];
-						removed.push(lang);
-					}
-					break;
-				}
-			}
+			const added = [];
 			for (const lang of Object.keys(convertedMap[id] || {})) {
 				for (const fallback of langFallback[lang]) {
 					if (!variantMap[id][fallback]) {
@@ -78,11 +85,9 @@ class ChineseConversionManager {
 					break;
 				}
 			}
-			if (added.length || removed.length) {
-				variantMap[id]._ = {
-					added: added.length ? added : undefined,
-					removed: removed.length ? removed : undefined,
-				}
+			if (added.length) {
+				variantMap[id]._ ??= {};
+				variantMap[id]._.added = added;
 			}
 		}
 
