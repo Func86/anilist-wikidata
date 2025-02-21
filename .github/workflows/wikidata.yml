@@ -1,3 +1,4 @@
+name: Update from Wikidata
 on:
   workflow_dispatch:
 
