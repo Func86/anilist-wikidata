@@ -1,9 +1,9 @@
-import { nameList } from './helpers.js';
+import { nameList, normalizeSpace } from './helpers.js';
 
 function entryCallback(entry) {
 	const description = [];
 	if (entry.title.native) {
-		description.push(entry.title.native);
+		description.push(normalizeSpace(entry.title.native));
 	}
 	const credits = [];
 	if (entry.startDate.year) {
@@ -18,11 +18,11 @@ function entryCallback(entry) {
 	description.push(credits.join(' '));
 	const director = entry.staff.edges.find(edge => edge.role === 'Director');
 	if (director) {
-		description.push(`Directed by ${director.node.name.full}`);
+		description.push(`Directed by ${normalizeSpace(director.node.name.full)}`);
 	}
 	return {
 		ID: entry.id,
-		name: entry.title.english || entry.title.romaji || entry.title.native,
+		name: normalizeSpace(entry.title.english || entry.title.romaji || entry.title.native),
 		type: guessEntityType(entry),
 		URL: entry.siteUrl,
 		description: description.join('. '),

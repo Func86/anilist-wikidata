@@ -1,4 +1,5 @@
-const normalizeSpace = str => str?.replace(/\s{2,}/g, ' ').trim();
+import { normalizeSpace } from './helpers.js';
+
 const toPadded = (num, pad = 2) => String(num || 0).padStart(pad, '0');
 
 function entryCallback(entry) {
