@@ -1,4 +1,4 @@
-import { nameList } from './helpers.js';
+import { nameList, normalizeSpace } from './helpers.js';
 
 /**
  * Processes an entry and returns a formatted object with its details.
@@ -24,7 +24,7 @@ import { nameList } from './helpers.js';
 function entryCallback(entry) {
 	const description = [];
 	if (entry.title.native) {
-		description.push(entry.title.native);
+		description.push(normalizeSpace(entry.title.native));
 	}
 	const type = guessEntityType(entry);
 	const readableType = getReadableEntityType(type);
@@ -66,7 +66,7 @@ function entryCallback(entry) {
 
 	return {
 		ID: entry.id,
-		name: entry.title.english || entry.title.romaji || entry.title.native,
+		name: normalizeSpace(entry.title.english || entry.title.romaji || entry.title.native),
 		type,
 		URL: entry.siteUrl,
 		P4087: entry.idMal,

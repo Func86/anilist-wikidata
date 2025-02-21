@@ -1,20 +1,22 @@
+import { normalizeSpace } from './helpers.js';
+
 function entryCallback(entry) {
 	const description = [];
 	if (entry.name.native) {
-		description.push(entry.name.native);
+		description.push(normalizeSpace(entry.name.native));
 	}
 	if (entry.media.nodes.length) {
 		const title = entry.media.nodes[0].title;
 		const descTitle = title.english || title.romaji;
 		if (descTitle) {
-			description.push(`Character in ${descTitle}`);
+			description.push(`Character in ${normalizeSpace(descTitle)}`);
 		} else {
 			console.log('Missing title:', entry.media.nodes[0]);
 		}
 	}
 	return {
 		ID: entry.id,
-		name: entry.name.full,
+		name: normalizeSpace(entry.name.full),
 		type: guessEntityType(entry),
 		URL: entry.siteUrl,
 		description: description.join('. '),
