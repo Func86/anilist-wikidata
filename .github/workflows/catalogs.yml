@@ -1,3 +1,4 @@
+name: Update Mix'n'match catalog
 on:
   workflow_dispatch:
     inputs:
@@ -34,7 +35,10 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-  
+
+      - name: Remove the old catalog file
+        run: rm -f anilist-${{ github.event.inputs.catalog_name }}.csv
+
       - name: Run script to fetch data
         run: node update-catalog.js ${{ github.event.inputs.catalog_name }} ${{ github.event.inputs.page_offset }}
         env:
