@@ -4,7 +4,7 @@
  * @returns {string|undefined} The normalized string, or undefined if the input is nullish.
  */
 function normalizeSpace(str) {
-	return str?.replace(/\s{2,}/g, ' ').trim();
+	return str?.replace(/\s+/g, ' ').trim();
 }
 
 /**
