@@ -1,4 +1,5 @@
 name: Update Mix'n'match catalog
+run-name: Update Mix'n'match catalog - ${{ inputs.catalog_name }} from page ${{ inputs.page_offset }}
 on:
   workflow_dispatch:
     inputs:
@@ -44,6 +45,12 @@ jobs:
         env:
           PROXY_PREFIX: ${{ secrets.PROXY_PREFIX }}
           PROXY_HEADERS: ${{ secrets.PROXY_HEADERS }}
+
+      - name: Upload the new catalog artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: anilist-${{ github.event.inputs.catalog_name }}
+          path: catalogs/${{ github.event.inputs.catalog_name }}.json
 
       - name: Commit and push changes if there are any
         run: |
