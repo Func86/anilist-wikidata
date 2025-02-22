@@ -1,3 +1,6 @@
+# Too big to commit
+catalogs/*.json
+
 # Logs
 logs
 *.log

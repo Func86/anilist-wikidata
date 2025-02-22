@@ -24,7 +24,8 @@ class CatalogUpdater {
 	}
 
 	async update() {
-		const filePath = `anilist-${this.dataName}.tsv`;
+		const outputPath = `anilist-${this.dataName}.tsv`;
+		const artifactPath = `./catalogs/${this.dataName}.json`;
 		const variables = {
 			page: this.pageOffset + 1,
 		};
@@ -69,19 +70,19 @@ class CatalogUpdater {
 				// Append the data to the file, so we can resume from where we left off.
 				const currentPage = body.data.Page.pageInfo.currentPage;
 				if (currentPage === 1) {
-					fs.writeFileSync(filePath, Object.keys(data[0]).join('\t') + '\n');
-					fs.writeFileSync(`./catalogs/${this.dataName}.json`, JSON.stringify(rawData, undefined, '\t').slice(0, -1).trimEnd());
+					fs.writeFileSync(outputPath, Object.keys(data[0]).join('\t') + '\n');
+					fs.writeFileSync(artifactPath, JSON.stringify(rawData, undefined, '\t').slice(0, -1).trimEnd());
 				} else {
-					fs.appendFileSync(`./catalogs/${this.dataName}.json`, ',\n' + JSON.stringify(rawData, undefined, '\t').slice(1, -1).trimEnd());
+					fs.appendFileSync(artifactPath, ',\n' + JSON.stringify(rawData, undefined, '\t').slice(1, -1).trimEnd());
 				}
-				fs.appendFileSync(filePath, data.map(row => Object.values(row).join('\t')).join('\n') + '\n');
+				fs.appendFileSync(outputPath, data.map(row => Object.values(row).join('\t')).join('\n') + '\n');
 
 				if (body.data.Page.pageInfo.hasNextPage) {
 					console.log(`Continue to page offset ${currentPage}`);
 					variables.page = currentPage + 1;
 					continue;
 				} else {
-					fs.appendFileSync(`./catalogs/${this.dataName}.json`, '\n}');
+					fs.appendFileSync(artifactPath, '\n}');
 				}
 			} catch (error) {
 				console.error('Error:', error);
