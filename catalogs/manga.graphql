@@ -17,6 +17,8 @@ query Manga($page: Int) {
       startDate {
         year
       }
+      chapters
+      volumes
       staff {
         edges {
           role
