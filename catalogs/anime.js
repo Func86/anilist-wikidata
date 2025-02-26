@@ -25,6 +25,7 @@ function entryCallback(entry) {
 		name: normalizeSpace(entry.title.english || entry.title.romaji || entry.title.native),
 		type: guessEntityType(entry),
 		URL: entry.siteUrl,
+		P4086: entry.idMal,
 		description: description.join('. '),
 	}
 }

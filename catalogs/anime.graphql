@@ -40,6 +40,8 @@ query Media($page: Int) {
         }
       }
       siteUrl
+      idMal
+      updatedAt
     }
   }
 }

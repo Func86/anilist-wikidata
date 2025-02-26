@@ -29,6 +29,7 @@ query Manga($page: Int) {
       }
       siteUrl
       idMal
+      updatedAt
     }
   }
 }
