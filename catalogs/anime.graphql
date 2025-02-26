@@ -6,7 +6,6 @@ query Media($page: Int) {
       perPage
     }
     media(type: ANIME) {
-      countryOfOrigin
       id
       title {
         english
@@ -14,6 +13,7 @@ query Media($page: Int) {
         romaji
       }
       format
+      countryOfOrigin
       relations {
         edges {
           relationType
@@ -24,6 +24,7 @@ query Media($page: Int) {
       startDate {
         year
       }
+      episodes
       studios(isMain: true) {
         nodes {
           name
