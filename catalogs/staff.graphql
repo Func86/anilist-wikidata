@@ -12,6 +12,7 @@ query Staff($page: Int) {
         full
         first
         last
+        alternative
       }
       gender
       bloodType
