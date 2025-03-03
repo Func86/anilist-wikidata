@@ -48,7 +48,7 @@ jobs:
 
       - name: Read the previous Run ID
         id: previous_run_id
-        run: echo "previous_run_id=$( jq ".${{ github.event.inputs.catalog_name }}" .github/workflows/catalog-runs.json )" >> "$GITHUB_OUTPUT"
+        run: echo "previous_run_id=$( jq ".${{ github.event.inputs.catalog_name }}" catalogs/workflow-runs.json )" >> "$GITHUB_OUTPUT"
 
       - name: Download the previous catalog artifact
         if: ${{ github.event.inputs.update_type == 'incremental' }}
@@ -72,7 +72,7 @@ jobs:
           path: catalogs/${{ github.event.inputs.catalog_name }}.json
 
       - name: Update the catalog-runs.json file
-        run: jq ".${{ github.event.inputs.catalog_name }} = ${{ github.run_id }}" .github/workflows/catalog-runs.json > tmp.json && mv tmp.json .github/workflows/catalog-runs.json
+        run: jq ".${{ github.event.inputs.catalog_name }} = ${{ github.run_id }}" catalogs/workflow-runs.json > tmp.json && mv tmp.json catalogs/workflow-runs.json
 
       - name: Commit and push changes if there are any
         run: |

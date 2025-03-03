@@ -86,7 +86,7 @@ class CatalogUpdater {
 					const currentPage = body.data.Page.pageInfo.currentPage;
 					console.log(`Continue to page offset ${currentPage}`);
 					variables.page = currentPage + 1;
-					// continue;
+					continue;
 				}
 			} catch (error) {
 				console.error('Error:', error);
