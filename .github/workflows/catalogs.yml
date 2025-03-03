@@ -72,7 +72,7 @@ jobs:
           path: catalogs/${{ github.event.inputs.catalog_name }}.json
 
       - name: Update the catalog-runs.json file
-        run: jq ".${{ github.event.inputs.catalog_name }} = ${{ github.run_id }}" catalogs/workflow-runs.json > tmp.json && mv tmp.json catalogs/workflow-runs.json
+        run: jq ".${{ github.event.inputs.catalog_name }} = ${{ github.run_id }}" --tab catalogs/workflow-runs.json > tmp.json && mv tmp.json catalogs/workflow-runs.json
 
       - name: Commit and push changes if there are any
         run: |
