@@ -6,12 +6,12 @@ jobs:
   update_wikidata:
     name: Update from Wikidata
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.COMMIT_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
