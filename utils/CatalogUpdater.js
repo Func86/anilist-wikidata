@@ -14,20 +14,20 @@ class CatalogUpdater {
 	 * @param {string} dataName - The name of the data.
 	 * @param {string} graphqlQuery - The GraphQL query string.
 	 * @param {Function} callback - The callback function to handle the response.
-	 * @param {number} [pageOffset=0] - The offset for pagination (default is 0).
 	 */
-	constructor(dataName, graphqlQuery, callback, pageOffset = 0) {
+	constructor(dataName, graphqlQuery, callback) {
 		this.dataName = dataName;
 		this.graphqlQuery = graphqlQuery;
 		this.callback = callback;
-		this.pageOffset = pageOffset;
 	}
 
-	async update() {
-		const outputPath = `anilist-${this.dataName}.tsv`;
-		const artifactPath = `./catalogs/${this.dataName}.json`;
+	/**
+	 * @param {string} updateType - The type of update to perform, `full` or `incremental`
+	 * @param {number} [pageOffset=0] - The page offset to start from (0-indexed)
+	 */
+	async update(updateType, pageOffset = 0) {
 		const variables = {
-			page: this.pageOffset + 1,
+			page: pageOffset + 1,
 		};
 		const proxyPrefix = process.env.PROXY_PREFIX || '';
 		const authHeaders = {};
@@ -35,6 +35,17 @@ class CatalogUpdater {
 			Object.assign(authHeaders, JSON.parse(process.env.PROXY_HEADERS || '{}'));
 		} catch (error) {
 			console.error('Failed to parse PROXY_HEADERS:', error);
+		}
+
+		let rawData = {}, updateUntil = null;
+		if (this.dataNameMap[this.dataName]) {
+			if (updateType === 'incremental') {
+				variables.sort = 'UPDATED_AT_DESC';
+				rawData = JSON.parse(fs.readFileSync(`./catalogs/${this.dataName}.json`, 'utf8'));
+				updateUntil = Object.values(rawData).sort((a, b) => a.updatedAt - b.updatedAt)[0].updatedAt;
+			} else {
+				variables.sort = 'ID';
+			}
 		}
 
 		while (true) {
@@ -61,34 +72,44 @@ class CatalogUpdater {
 					break;
 				}
 
-				const rawData = {}, data = [];
+				let breakLoop = false;
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
+					if (updateUntil && entry.updatedAt < updateUntil) {
+						console.log(`Reached last updated entry at ${new Date(entry.updatedAt).toISOString()}`);
+						break;
+					}
 					rawData[entry.id] = entry;
-					data.push(this.callback(entry));
 				}
-
-				// Append the data to the file, so we can resume from where we left off.
-				const currentPage = body.data.Page.pageInfo.currentPage;
-				if (currentPage === 1) {
-					fs.writeFileSync(outputPath, Object.keys(data[0]).join('\t') + '\n');
-					fs.writeFileSync(artifactPath, JSON.stringify(rawData, undefined, '\t').slice(0, -1).trimEnd());
-				} else {
-					fs.appendFileSync(artifactPath, ',\n' + JSON.stringify(rawData, undefined, '\t').slice(1, -1).trimEnd());
-				}
-				fs.appendFileSync(outputPath, data.map(row => Object.values(row).join('\t')).join('\n') + '\n');
+				if (breakLoop) break;
 
 				if (body.data.Page.pageInfo.hasNextPage) {
+					const currentPage = body.data.Page.pageInfo.currentPage;
 					console.log(`Continue to page offset ${currentPage}`);
 					variables.page = currentPage + 1;
-					continue;
-				} else {
-					fs.appendFileSync(artifactPath, '\n}');
+					// continue;
 				}
 			} catch (error) {
 				console.error('Error:', error);
 				core.warning(`Error while fetching ${this.dataName}: ${error.message}`);
 			}
 			break;
+		}
+		fs.writeFileSync(`./catalogs/${this.dataName}.json`, JSON.stringify(rawData, undefined, '\t'));
+
+		// We absolutely don't want to error out and fail the workflow at this stage
+		try {
+			const data = [];
+			for (const entry of Object.values(rawData).sort((a, b) => a.id - b.id)) {
+				data.push(this.callback(entry));
+			}
+
+			fs.writeFileSync(`anilist-${this.dataName}.tsv`,
+				Object.keys(data[0]).join('\t') + '\n' +
+				data.map(row => Object.values(row).join('\t')).join('\n') + '\n'
+			);
+		} catch (error) {
+			console.error('Error:', error);
+			core.warning(`Error while processing ${this.dataName}: ${error.message}`);
 		}
 	}
 }

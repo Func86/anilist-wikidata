@@ -1,11 +1,11 @@
-query Manga($page: Int) {
+query Manga($page: Int, $sort: [MediaSort]) {
   Page(page: $page) {
     pageInfo {
       currentPage
       hasNextPage
       perPage
     }
-    media(type: MANGA) {
+    media(type: MANGA, sort: $sort) {
       id
       title {
         english
