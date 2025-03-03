@@ -1,5 +1,8 @@
 # Too big to commit
-catalogs/*.json
+catalogs/anime.json
+catalogs/manga.json
+catalogs/staff.json
+catalogs/characters.json
 
 # Logs
 logs
