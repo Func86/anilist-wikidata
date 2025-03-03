@@ -42,13 +42,15 @@ class CatalogUpdater {
 			if (updateType === 'incremental') {
 				variables.sort = 'UPDATED_AT_DESC';
 				rawData = JSON.parse(fs.readFileSync(`./catalogs/${this.dataName}.json`, 'utf8'));
-				updateUntil = Object.values(rawData).sort((a, b) => a.updatedAt - b.updatedAt)[0].updatedAt;
+				updateUntil = Object.values(rawData).sort((a, b) => b.updatedAt - a.updatedAt)[0].updatedAt;
+				console.log(`Last updated entry at ${new Date(updateUntil * 1000).toISOString()}`);
 			} else {
 				variables.sort = 'ID';
 			}
 		}
 
 		while (true) {
+			let lastEntry = null;
 			try {
 				const response = await fetch(proxyPrefix + 'https://graphql.anilist.co', {
 					method: 'POST',
@@ -75,16 +77,19 @@ class CatalogUpdater {
 				let breakLoop = false;
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
 					if (updateUntil && entry.updatedAt < updateUntil) {
-						console.log(`Reached last updated entry at ${new Date(entry.updatedAt).toISOString()}`);
+						console.log(`Reached last updated entry`);
 						break;
 					}
-					rawData[entry.id] = entry;
+					lastEntry = rawData[entry.id] = entry;
 				}
 				if (breakLoop) break;
 
 				if (body.data.Page.pageInfo.hasNextPage) {
 					const currentPage = body.data.Page.pageInfo.currentPage;
-					console.log(`Continue to page offset ${currentPage}`);
+					console.log(
+						`Last entry: ${lastEntry.id}, upddated at ${new Date(lastEntry.updatedAt * 1000).toISOString()},`,
+						`next page offset = ${currentPage}`
+					);
 					variables.page = currentPage + 1;
 					continue;
 				}
