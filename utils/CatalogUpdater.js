@@ -49,8 +49,8 @@ class CatalogUpdater {
 			}
 		}
 
+		let lastEntry = null;
 		while (true) {
-			let lastEntry = null;
 			try {
 				const response = await fetch(proxyPrefix + 'https://graphql.anilist.co', {
 					method: 'POST',
@@ -78,6 +78,7 @@ class CatalogUpdater {
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
 					if (updateUntil && entry.updatedAt < updateUntil) {
 						console.log(`Reached last updated entry`);
+						breakLoop = true;
 						break;
 					}
 					lastEntry = rawData[entry.id] = entry;
