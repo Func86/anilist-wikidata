@@ -1,5 +1,5 @@
 name: Update Mix'n'match catalog
-run-name: Update Mix'n'match catalog - ${{ inputs.catalog_name }} from page ${{ inputs.page_offset }}
+run-name: Update Mix'n'match catalog (${{ inputs.update_type }}) - ${{ inputs.catalog_name }} from page ${{ inputs.page_offset }}
 on:
   workflow_dispatch:
     inputs:
@@ -12,6 +12,14 @@ on:
           - manga
           - staff
           - characters
+      update_type:
+        description: Type of the update
+        required: true
+        type: choice
+        options:
+          - full
+          - incremental
+        default: incremental
       page_offset:
         description: Page offset for the catalog
         required: false
@@ -22,12 +30,13 @@ jobs:
   update_catalog:
     name: Update Mix'n'match catalog
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.COMMIT_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -37,11 +46,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Remove the old catalog file
-        run: rm -f anilist-${{ github.event.inputs.catalog_name }}.csv
+      - name: Read the previous Run ID
+        id: previous_run_id
+        run: echo "previous_run_id=$( jq ".${{ github.event.inputs.catalog_name }}" .github/workflows/catalog-runs.json )" >> "$GITHUB_OUTPUT"
+
+      - name: Download the previous catalog artifact
+        if: ${{ github.event.inputs.update_type == 'incremental' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: anilist-${{ github.event.inputs.catalog_name }}
+          run-id: ${{ steps.previous_run_id.outputs.previous_run_id }}
+          path: catalogs/${{ github.event.inputs.catalog_name }}.json
 
       - name: Run script to fetch data
-        run: node update-catalog.js ${{ github.event.inputs.catalog_name }} ${{ github.event.inputs.page_offset }}
+        run: node update-catalog.js ${{ github.event.inputs.catalog_name }} ${{ github.event.inputs.update_type}} ${{ github.event.inputs.page_offset }}
         env:
           PROXY_PREFIX: ${{ secrets.PROXY_PREFIX }}
           PROXY_HEADERS: ${{ secrets.PROXY_HEADERS }}
@@ -51,6 +69,9 @@ jobs:
         with:
           name: anilist-${{ github.event.inputs.catalog_name }}
           path: catalogs/${{ github.event.inputs.catalog_name }}.json
+
+      - name: Update the catalog-runs.json file
+        run: jq ".${{ github.event.inputs.catalog_name }} = ${{ github.run_id }}" .github/workflows/catalog-runs.json > tmp.json && mv tmp.json .github/workflows/catalog-runs.json
 
       - name: Commit and push changes if there are any
         run: |
