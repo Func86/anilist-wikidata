@@ -57,7 +57,12 @@ class ChineseConversionManager {
 			}
 		}
 		if (removed.length) {
-			this.variantMap[id]._ = { removed };
+			// This serves as a metadata
+			// Not enumerable by default, thus not included for `JSON.stringify`
+			Object.defineProperty(this.variantMap[id], '_', {
+				value: { removed },
+				writable: true,
+			});
 		}
 	}
 
@@ -86,8 +91,14 @@ class ChineseConversionManager {
 				}
 			}
 			if (added.length) {
-				variantMap[id]._ ??= {};
-				variantMap[id]._.added = added;
+				if (variantMap[id]._) {
+					variantMap[id]._.added = added;
+				} else {
+					Object.defineProperty(variantMap[id], '_', {
+						value: { added },
+						writable: true,
+					});
+				}
 			}
 		}
 
