@@ -52,13 +52,13 @@ for (const type in data) {
 }
 
 const mediaPart =
-	stringifyPart(data.media, false, (key) => isAnimeMap[key]).slice(0, -1).trimEnd() +
+	stringifyPart(data.media, true, (key) => isAnimeMap[key]).slice(0, -1).trimEnd() +
 	',\n' +
-	stringifyPart(data.media, false, (key) => !isAnimeMap[key]).slice(1);
+	stringifyPart(data.media, true, (key) => !isAnimeMap[key]).slice(1);
 fs.writeFileSync('./wikidata.json',
-	`{\n"media": ${mediaPart},\n"staff": ${stringifyPart(data.staff, false)},\n"character": ${stringifyPart(data.character, false)}\n}`
+	`{\n"media": ${mediaPart},\n"staff": ${stringifyPart(data.staff, true)},\n"character": ${stringifyPart(data.character, true)}\n}`
 );
-fs.writeFileSync('./wikidata-anime.json', stringifyPart(data.media, true, (key) => isAnimeMap[key]));
+fs.writeFileSync('./wikidata-anime.json', stringifyPart(data.media, false, (key) => isAnimeMap[key]));
 
 async function processDataGroup(data, type) {
 	for (const id in data) {
@@ -98,9 +98,9 @@ async function processDataGroup(data, type) {
 			}
 		}
 
-		const { _: added, ...variants } = wikidata[type][id]?.title || {};
-		const filtered = !added ? variants : Object.fromEntries(
-			Object.entries(variants).filter(([lang]) => !added.includes(lang))
+		const variants = wikidata[type][id]?.title || {};
+		const filtered = Object.fromEntries(
+			Object.entries(variants).filter(([lang]) => lang.startsWith('zh'))
 		);
 		const original = buildFullMapFromFallbacks(filtered);
 		const updated = buildFullMapFromFallbacks(data[id].title);
@@ -121,23 +121,31 @@ async function processDataGroup(data, type) {
 
 	const convertedMap = await conversionManager.getConvertedMap();
 	for (const id in convertedMap) {
-		const { _: differ, ...titles } = convertedMap[id];
-		const added = differ?.added;
+		const added = convertedMap[id]._?.added;
 		if (added && added.includes('zh-hans') && added.includes('zh-hant')) {
 			const idType = type === 'media' ? (isAnimeMap[id] ? 'anime' : 'manga') : type;
 			console.warn(`The Wikidata entry for ${idType} ${id} is likely malformed: ${JSON.stringify(convertedMap[id])}`);
 		}
-		data[id].title = titles;
-		data[id].title._ = added;
+		data[id].title = convertedMap[id];
 	}
 
 	// fs.writeFileSync(`./wikidata-${type}.json`, stringifyPart(data));
 }
 
-function stringifyPart(map, stripMetadata = true, toKeep = (key) => true) {
+function stringifyPart(map, includeMetadata = false, toKeep = (key) => true) {
 	return JSON.stringify(map, (key, value) => {
+		if (includeMetadata && key === 'title' && value._?.added) {
+			return Object.fromEntries(Object.entries(value).map(
+				([lang, title]) => [ value._.added.includes(lang) ? '+' + lang : lang, title ]
+			));
+		} else if (!includeMetadata && key === 'title') {
+			// Unchanged entries from wikidata.json come with metadata and are prefixed
+			return Object.fromEntries(Object.entries(value).map(
+				([lang, title]) => [ lang.startsWith('+') ? lang.slice(1) : lang, title ]
+			));
+		}
 		return (
-			(stripMetadata && [ 'dateModified', '_' ].includes(key)) ||
+			(!includeMetadata && 'dateModified' === key) ||
 			(key && !isNaN(key) && typeof value === 'object' && !toKeep(key))
 		) ? undefined : value;
 	}, '\t');
