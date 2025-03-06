@@ -1,11 +1,11 @@
-query Characters($page: Int) {
+query Characters($page: Int, $sort: [CharacterSort]) {
   Page(page: $page) {
     pageInfo {
       currentPage
       hasNextPage
       perPage
     }
-    characters {
+    characters(sort: $sort) {
       id
       name {
         full

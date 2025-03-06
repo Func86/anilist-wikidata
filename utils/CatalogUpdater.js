@@ -37,16 +37,24 @@ class CatalogUpdater {
 			console.error('Failed to parse PROXY_HEADERS:', error);
 		}
 
-		let rawData = {}, updateUntil = null;
-		if (this.dataNameMap[this.dataName]) {
-			if (updateType === 'incremental') {
+		let rawData = {};
+		const updateUntil = {
+			id: null,
+			updatedAt: null,
+		};
+		if (updateType === 'incremental') {
+			rawData = JSON.parse(fs.readFileSync(`./catalogs/${this.dataName}.json`, 'utf8'));
+			if (this.dataNameMap[this.dataName]) {
 				variables.sort = 'UPDATED_AT_DESC';
-				rawData = JSON.parse(fs.readFileSync(`./catalogs/${this.dataName}.json`, 'utf8'));
-				updateUntil = Object.values(rawData).sort((a, b) => b.updatedAt - a.updatedAt)[0].updatedAt;
-				console.log(`Last updated entry at ${new Date(updateUntil * 1000).toISOString()}`);
+				updateUntil.updatedAt = Object.values(rawData).sort((a, b) => b.updatedAt - a.updatedAt)[0].updatedAt;
+				console.log(`Last updated entry at ${new Date(updateUntil.updatedAt * 1000).toISOString()}`);
 			} else {
-				variables.sort = 'ID';
+				variables.sort = 'ID_DESC';
+				updateUntil.id = Object.keys(rawData).sort((a, b) => b - a)[0];
+				console.log(`Last entry ID = ${updateUntil.id}`);
 			}
+		} else {
+			variables.sort = 'ID';
 		}
 
 		let lastEntry = null;
@@ -76,7 +84,9 @@ class CatalogUpdater {
 
 				let breakLoop = false;
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
-					if (updateUntil && entry.updatedAt < updateUntil) {
+					if ((updateUntil.updatedAt && entry.updatedAt < updateUntil.updatedAt) ||
+						(updateUntil.id && entry.id <= updateUntil.id)
+					) {
 						console.log(`Reached last updated entry`);
 						breakLoop = true;
 						break;
@@ -88,7 +98,8 @@ class CatalogUpdater {
 				if (body.data.Page.pageInfo.hasNextPage) {
 					const currentPage = body.data.Page.pageInfo.currentPage;
 					console.log(
-						`Last entry: ${lastEntry.id}, upddated at ${new Date(lastEntry.updatedAt * 1000).toISOString()},`,
+						`Last entry: ${lastEntry.id},`,
+						lastEntry.updatedAt ? `upddated at ${new Date(lastEntry.updatedAt * 1000).toISOString()},` : '',
 						`next page offset = ${currentPage}`
 					);
 					variables.page = currentPage + 1;
