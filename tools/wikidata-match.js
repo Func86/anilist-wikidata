@@ -3,54 +3,68 @@ import fs from 'node:fs';
 import { SPARQLQueryDispatcher } from '../utils/SPARQLQueryDispatcher.js';
 import { replaceWaseiKanji } from './Wasei-Kanji.js';
 
-import staffCatalog from '../catalogs/staff.json' with { type: 'json' };
+const catalogName = 'staff'; // 'characters'
+const catalogRecords = JSON.parse(fs.readFileSync(`../catalogs/${catalogName}.json`, 'utf8'));
 
 const queryDispatcher = new SPARQLQueryDispatcher();
 
+const entryIdMap = {
+	staff: 'P11227',
+	characters: 'P11736',
+}
 const matchedQuery = `\
-SELECT DISTINCT ?staffId WHERE {
-  ?staff wdt:P11227 ?staffId.
+SELECT DISTINCT ?entryId WHERE {
+  ?entity wdt:${entryIdMap[catalogName]} ?entryId.
 }`;
 const matchedResponse = await queryDispatcher.query(matchedQuery);
 
-const matchedEntity = {};
-for (const { staffId } of matchedResponse.results.bindings) {
-	matchedEntity[staffId.value] = true;
+const matchedEntry = {};
+for (const { entryId } of matchedResponse.results.bindings) {
+	matchedEntry[entryId.value] = true;
 }
 
-const catalogBirthDateMap = {}, catalogBirthDayMap = {};
-for (const staff of Object.values(staffCatalog)) {
-	if (matchedEntity[staff.id]) {
+const catalogBirthMap = {};
+for (const entry of Object.values(catalogRecords)) {
+	if (matchedEntry[entry.id]) {
 		continue;
 	}
-	if (staff.dateOfBirth.month && staff.dateOfBirth.day) {
-		catalogBirthDayMap[staff.dateOfBirth.month] ??= {};
-		catalogBirthDayMap[staff.dateOfBirth.month][staff.dateOfBirth.day] ??= [];
-		catalogBirthDayMap[staff.dateOfBirth.month][staff.dateOfBirth.day].push(staff.id);
-
-		if (staff.dateOfBirth.year) {
-			const timestamp = Date.UTC(staff.dateOfBirth.year, staff.dateOfBirth.month - 1, staff.dateOfBirth.day);
-			catalogBirthDateMap[timestamp] ??= [];
-			catalogBirthDateMap[timestamp].push(staff.id);
-		}
+	if (entry.dateOfBirth.month && entry.dateOfBirth.day) {
+		catalogBirthMap[entry.dateOfBirth.month] ??= {};
+		catalogBirthMap[entry.dateOfBirth.month][entry.dateOfBirth.day] ??= [];
+		catalogBirthMap[entry.dateOfBirth.month][entry.dateOfBirth.day].push({
+			id: entry.id,
+			year: entry.dateOfBirth.year,
+		});
 	}
 }
 
+const instanceOfMap = {
+	staff: 'Q19595382',
+	characters: 'Q89209418',
+};
 const otherIdsQuery = `\
-SELECT DISTINCT ?item WHERE {
+SELECT DISTINCT ?item ?itemLabel WHERE {
   ?item (wdt:P31/(wdt:P279*)) wd:Q63871467;
-        (wdt:P31/(wdt:P279*)) wd:Q19595382.
+        (wdt:P31/(wdt:P279*)) wd:${instanceOfMap[catalogName]}.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }`;
 const otherIdsResponse = await queryDispatcher.query(otherIdsQuery);
 
 const otherIds = [];
-for (const { item } of otherIdsResponse.results.bindings) {
-	otherIds.push(item.value.split('/').pop());
+const otherIdDenyList = [ entryIdMap[catalogName], 'P5905', 'P6327', 'P8419', 'P13236' ];
+for (const { item, itemLabel } of otherIdsResponse.results.bindings) {
+	const otherId = item.value.split('/').pop();
+	if (otherIdDenyList.includes(otherId)) {
+		continue;
+	}
+	otherIds.push(otherId);
+	console.log(`* ${otherId}: ${itemLabel.value}`);
 }
 
-const staffQuery = `\
+const entityQuery = `\
 SELECT
-  ?staff
+  ?entity
   (SAMPLE(?jaLabel) AS ?jaLabel)
   (SAMPLE(?enLabel) AS ?enLabel)
   (SAMPLE(?birthDate) AS ?birthDate)
@@ -58,20 +72,22 @@ SELECT
   (SAMPLE(?precision) AS ?precision)
 WHERE {
   {
-    SELECT DISTINCT ?staff WHERE {
-      { ?staff wdt:${otherIds.join(` []. } UNION
-      { ?staff wdt:`)} []. }
+    SELECT DISTINCT ?entity WHERE {
+      { ?entity wdt:${otherIds.join(` []. } UNION
+      { ?entity wdt:`)} []. }
+
+      FILTER ${catalogName !== 'staff' ? 'NOT' : ''} EXISTS { ?entity wdt:P31 wd:Q5. }
     }
   }
 
   OPTIONAL {
-    ?staff p:P569/psv:P569 [
+    ?entity p:P569/psv:P569 [
       wikibase:timeValue ?birthDate;
       wikibase:timePrecision ?precision;
     ].
   }
-  OPTIONAL { ?staff wdt:P3150 ?birthDay. }
-  OPTIONAL { ?staff wdt:P11227 ?anilistId. }
+  OPTIONAL { ?entity wdt:P3150 ?birthDay. }
+  OPTIONAL { ?entity wdt:${entryIdMap[catalogName]} ?anilistId. }
 
   FILTER((BOUND(?birthDate) || isLiteral(?birthDay)) && !BOUND(?anilistId))
 
@@ -81,76 +97,80 @@ WHERE {
   }
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "ja".
-    ?staff rdfs:label ?jaLabel.
+    ?entity rdfs:label ?jaLabel.
   }
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "en".
-    ?staff rdfs:label ?enLabel.
+    ?entity rdfs:label ?enLabel.
   }
   FILTER(LANG(?jaLabel) = "ja" || LANG(?enLabel) = "en")
 }
-GROUP BY ?staff
+GROUP BY ?entity
 ORDER BY ?precision ?birthDay ?birthDate`;
 
-const response = await queryDispatcher.query(staffQuery);
+const response = await queryDispatcher.query(entityQuery);
 
 const data = [];
-for (const { staff, jaLabel, enLabel, birthDate, birthDay, precision } of response.results.bindings) {
+for (const { entity, jaLabel, enLabel, birthDate, birthDay, precision } of response.results.bindings) {
 	const fullPrecision = precision?.value === '11';
 	const labels = [ jaLabel, enLabel ]
 		.filter(label => label['xml:lang'] && label.value)
 		.map(label => label.value);
 	if (!fullPrecision && !birthDay) {
-		console.log(`No precise birth day for ${staff.value} (${labels[0]})`);
+		console.log(`No precise birth day for ${entity.value} (${labels[0]})`);
 		continue;
 	}
-	const entityId = staff.value.match(/Q\d+$/)[0];
-	const timestamp = Date.parse(fullPrecision ? birthDate.value : `${birthDay.value} GMT`);
-	let matched = false;
-	if (fullPrecision) {
-		for (const staffId of catalogBirthDateMap[timestamp] || []) {
-			const names = staffCatalog[staffId].name;
-			const nameInCatalog = names.native || names.full;
-			for (const label of labels) {
-				if (compareNativeName(nameInCatalog, label)) {
-					console.log(`Matched ${entityId} to ${staffId}: ${nameInCatalog} = ${label}`);
-					data.push([entityId, 'P11227', `"${staffId}"`]);
-					matched = true;
-					break;
-				}
-			}
-			if (matched) break;
-			console.error(`Mismatched names (${staffId} vs ${entityId}): ${nameInCatalog} vs ${labels.join(' / ')}`);
+	const entityId = entity.value.match(/Q\d+$/)[0];
+	const date = new Date(Date.parse(fullPrecision ? birthDate.value : `${birthDay.value} GMT`));
+	const candidates = catalogBirthMap[date.getMonth() + 1]?.[date.getDate()].filter(
+		({ year }) => !year || !fullPrecision || year === date.getFullYear()
+	);
+	for (const { id: entryId, year } of candidates || []) {
+		const names = catalogRecords[entryId].name;
+		const matched = compareNames(names, jaLabel, enLabel, fullPrecision && year);
+		if (matched) {
+			console.log(`Matched ${entityId} to ${entryId}: ${matched.name} = ${matched.label}`);
+			data.push([entityId, entryIdMap[catalogName], `"${entryId}"`]);
+			break;
 		}
-		if (matched) continue;
-	}
-	const date = new Date(timestamp);
-	for (const staffId of catalogBirthDayMap[date.getUTCMonth() + 1]?.[date.getUTCDate()] || []) {
-		const names = staffCatalog[staffId].name;
-		const nameInCatalog = names.native || names.full;
-		for (const label of labels) {
-			if (compareNativeName(nameInCatalog, label)) {
-				console.log(`R2 Matched ${entityId} to ${staffId}: ${nameInCatalog} = ${label}`);
-				data.push([entityId, 'P11227', `"${staffId}"`]);
-				matched = true;
-				break;
-			}
+		if (fullPrecision && year) {
+			console.error(`Mismatched names (${entityId} vs ${entryId}): ${labels.join(' / ')} vs ${names.native || names.full}`);
 		}
-		if (matched) break;
-		// console.error(`R2 Mismatched names (${staffId} vs ${entityId}): ${nameInCatalog} vs ${labels.join(' / ')}`);
 	}
 }
 
 fs.writeFileSync('wikidata-match.tsv', data.map(row => row.join('\t')).join('\n'));
 
+function compareNames(names, jaLabel, enLabel, allowAmbiguity = false) {
+	const toCompare = [
+		[ names.native, jaLabel ],
+		[ names.native, enLabel ],
+		[ names.full, enLabel ],
+		...names.alternative.map(name => [ name, jaLabel ]),
+		...names.alternative.map(name => [ name, enLabel ]),
+	];
+
+	for (const [ nameInCatalog, label ] of toCompare) {
+		if (!label['xml:lang'] || !label.value) {
+			continue;
+		}
+		if (compareNativeName(nameInCatalog, label.value, allowAmbiguity)) {
+			return { name: nameInCatalog, label: label.value };
+		}
+	}
+
+	return null;
+}
+
 /**
  * Compares two native names for equality, ignoring case and whitespace.
  *
- * @param {string} nameA - The first native name to compare.
- * @param {string} nameB - The second native name to compare.
- * @returns {boolean} - Returns true if the names are equal, ignoring case and whitespace; otherwise, false.
+ * @param {string} nameA  The first native name to compare.
+ * @param {string} nameB  The second native name to compare.
+ * @param {boolean} [allowAmbiguity=false]  Whether to allow more ambiguity for the name.
+ * @returns {boolean}  Returns true if the names are equal, ignoring case and whitespace; otherwise, false.
  */
-function compareNativeName(nameA, nameB) {
+function compareNativeName(nameA, nameB, allowAmbiguity = false) {
 	if (!nameA || !nameB) {
 		return false;
 	}
@@ -167,7 +187,8 @@ function compareNativeName(nameA, nameB) {
 	const wordsB = normalizedB.split(' ');
 	// For romaji names, the longer name should contain all words from the shorter name
 	const [ longer, shorter ] = wordsA.length > wordsB.length ? [ wordsA, wordsB ] : [ wordsB, wordsA ];
-	if (longer.length > 1) {
+	// When the date of birth exactly matched, we can allow more ambiguity for the name
+	if ((allowAmbiguity ? longer.length : shorter.length) > 1) {
 		for (const word of shorter) {
 			if (!longer.includes(word)) {
 				return false;
