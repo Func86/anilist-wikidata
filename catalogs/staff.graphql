@@ -1,11 +1,11 @@
-query Staff($page: Int) {
+query Staff($page: Int, $sort: [StaffSort]) {
   Page(page: $page) {
     pageInfo {
       currentPage
       hasNextPage
       perPage
     }
-    staff {
+    staff(sort: $sort) {
       id
       name {
         native
