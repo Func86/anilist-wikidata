@@ -119,13 +119,12 @@ WHERE {{
     OPTIONAL {
       ?origin p:P5737 ?originPageStatement.
       ?originPageStatement ps:P5737 ?originPage.
-      # Using "p:" and then "ps:" instead of "wdt:" would cause the deprecated ones to be included,
-      # so we need to filter them out manually
-      ?originPageStatement wikibase:rank ?originPageRank
+      # The behaviour is the same as using "wdt:"
+      ?originPageStatement rdf:type wikibase:BestRank.
       # Filter out pages in non-Chinese languages
       OPTIONAL { ?originPageStatement pq:P407 ?originPageLang }
     }
-    FILTER(?originPageRank != wikibase:DeprecatedRank && (!BOUND(?originPageLang) || ?originPageLang = wd:Q7850))
+    FILTER(!BOUND(?originPageLang) || ?originPageLang = wd:Q7850)
   }
 
   OPTIONAL { ?item wdt:P8345/wdt:P5737 ?medmixPage }
