@@ -120,13 +120,13 @@ for (const { entity, jaLabel, enLabel, birthDate, birthDay, precision } of respo
 		.filter(label => label['xml:lang'] && label.value)
 		.map(label => label.value);
 	if (!fullPrecision && !birthDay) {
-		console.log(`No precise birth day for ${entity.value} (${labels[0]})`);
+		console.log(`No precise birth day for ${entity.value} (${labels.join(' / ')})`);
 		continue;
 	}
 	const entityId = entity.value.match(/Q\d+$/)[0];
 	const date = new Date(Date.parse(fullPrecision ? birthDate.value : `${birthDay.value} GMT`));
-	const candidates = catalogBirthMap[date.getMonth() + 1]?.[date.getDate()].filter(
-		({ year }) => !year || !fullPrecision || year === date.getFullYear()
+	const candidates = catalogBirthMap[date.getUTCMonth() + 1]?.[date.getUTCDate()].filter(
+		({ year }) => !year || !fullPrecision || year === date.getUTCFullYear()
 	);
 	for (const { id: entryId, year } of candidates || []) {
 		const names = catalogRecords[entryId].name;
