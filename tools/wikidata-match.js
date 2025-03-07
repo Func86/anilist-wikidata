@@ -81,9 +81,12 @@ WHERE {
   }
 
   OPTIONAL {
-    ?entity p:P569/psv:P569 [
-      wikibase:timeValue ?birthDate;
-      wikibase:timePrecision ?precision;
+    ?entity p:P569 [
+      rdf:type wikibase:BestRank;
+      psv:P569 [
+        wikibase:timeValue ?birthDate;
+        wikibase:timePrecision ?precision;
+      ];
     ].
   }
   OPTIONAL { ?entity wdt:P3150 ?birthDay. }
