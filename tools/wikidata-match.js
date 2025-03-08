@@ -137,7 +137,7 @@ for (const { entity, jaLabel, enLabel, birthDate, birthDay, precision } of respo
 			break;
 		}
 		if (fullPrecision && year) {
-			console.error(`Mismatched names (${entityId} vs ${entryId}): ${labels.join(' / ')} vs ${names.native || names.full}`);
+			console.error(`Mismatched names (${entityId} vs ${entryId}): ${labels.join(' / ')} vs ${(names.native || names.full).trim()} (${year})`);
 		}
 	}
 }
@@ -145,12 +145,33 @@ for (const { entity, jaLabel, enLabel, birthDate, birthDay, precision } of respo
 fs.writeFileSync('wikidata-match.tsv', data.map(row => row.join('\t')).join('\n'));
 
 function compareNames(names, jaLabel, enLabel, allowAmbiguity = false) {
+	// U+201A: SINGLE LOW-9 QUOTATION MARK (misused as a comma)
+	const hasComma = names.full.match(/[,‚]/);
+	const native = !names.native ? [] : hasComma ? [ names.native ] : names.native.split(/[,‚]/).map(name => name.trim());
+	const alternative = [];
+	if (names.full.match(/\(.+\)/)) {
+		alternative.push(...names.alternative);
+	} else {
+		names.alternative.forEach(name => {
+			const parts = name.match(/([^()]+?)\s*\((.+)\)$/);
+			if (parts) {
+				alternative.push(parts[1]);
+				if (hasComma) {
+					alternative.push(parts[2]);
+				} else {
+					alternative.push(...parts[2].split(/[,‚]/).map(name => name.trim()));
+				}
+			} else {
+				alternative.push(name);
+			}
+		});
+	}
 	const toCompare = [
-		[ names.native, jaLabel ],
-		[ names.native, enLabel ],
+		...native.map(name => [ name, jaLabel ]),
+		...native.map(name => [ name, enLabel ]),
 		[ names.full, enLabel ],
-		...names.alternative.map(name => [ name, jaLabel ]),
-		...names.alternative.map(name => [ name, enLabel ]),
+		...alternative.map(name => [ name, jaLabel ]),
+		...alternative.map(name => [ name, enLabel ]),
 	];
 
 	for (const [ nameInCatalog, label ] of toCompare) {
