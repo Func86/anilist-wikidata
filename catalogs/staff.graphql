@@ -29,6 +29,7 @@ query Staff($page: Int, $sort: [StaffSort]) {
       homeTown
       yearsActive
       primaryOccupations
+      description
       siteUrl
     }
   }
