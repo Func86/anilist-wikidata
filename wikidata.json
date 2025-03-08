@@ -30064,10 +30064,10 @@
 		}
 	},
 	"154587": {
-		"dateModified": "2025-01-07T17:20:51Z",
+		"dateModified": "2025-03-08T06:35:18Z",
 		"title": {
 			"zh": "葬送的芙莉蓮",
-			"+zh-hans": "葬送的芙莉莲"
+			"zh-hans": "葬送的芙莉莲"
 		}
 	},
 	"154643": {
@@ -31127,10 +31127,10 @@
 		}
 	},
 	"167142": {
-		"dateModified": "2025-01-05T08:30:01Z",
+		"dateModified": "2025-03-08T06:23:57Z",
 		"title": {
 			"zh": "記憶縫線YOUR FORMA",
-			"+zh-hans": "记忆缝线YOUR FORMA"
+			"zh-hans": "记忆缝线YOUR FORMA"
 		}
 	},
 	"167143": {
@@ -32535,10 +32535,10 @@
 		}
 	},
 	"182255": {
-		"dateModified": "2025-01-07T17:20:51Z",
+		"dateModified": "2025-03-08T06:35:18Z",
 		"title": {
 			"zh": "葬送的芙莉蓮",
-			"+zh-hans": "葬送的芙莉莲"
+			"zh-hans": "葬送的芙莉莲"
 		}
 	},
 	"182419": {
@@ -39871,6 +39871,12 @@
 		"dateModified": "2025-01-05T18:57:50Z",
 		"title": {
 			"zh": "公主小妹"
+		}
+	},
+	"45253": {
+		"dateModified": "2025-03-08T06:44:16Z",
+		"title": {
+			"zh": "HEROMAN"
 		}
 	},
 	"45284": {
@@ -53577,10 +53583,17 @@
 		}
 	},
 	"130733": {
-		"dateModified": "2025-01-05T08:30:01Z",
+		"dateModified": "2025-03-08T06:21:06Z",
 		"title": {
 			"zh": "記憶縫線YOUR FORMA",
-			"+zh-hans": "记忆缝线YOUR FORMA"
+			"zh-hans": "记忆缝线YOUR FORMA"
+		}
+	},
+	"130734": {
+		"dateModified": "2025-03-08T06:22:40Z",
+		"title": {
+			"zh": "記憶縫線YOUR FORMA",
+			"zh-hans": "记忆缝线YOUR FORMA"
 		}
 	},
 	"130753": {
