@@ -1,4 +1,5 @@
-import fs from 'node:fs';
+import fs from 'fs';
+import * as chrono from 'chrono-node';
 
 import { SPARQLQueryDispatcher } from '../utils/SPARQLQueryDispatcher.js';
 import { replaceWaseiKanji } from './Wasei-Kanji.js';
@@ -28,12 +29,15 @@ for (const entry of Object.values(catalogRecords)) {
 	if (matchedEntry[entry.id]) {
 		continue;
 	}
-	if (entry.dateOfBirth.month && entry.dateOfBirth.day) {
-		catalogBirthMap[entry.dateOfBirth.month] ??= {};
-		catalogBirthMap[entry.dateOfBirth.month][entry.dateOfBirth.day] ??= [];
-		catalogBirthMap[entry.dateOfBirth.month][entry.dateOfBirth.day].push({
+	const dateOfBirth = Object.values(entry.dateOfBirth).filter(Boolean).length > 0
+		? entry.dateOfBirth
+		: extractDateOfBirthFromDescription(entry) || {};
+	if (dateOfBirth.month && dateOfBirth.day) {
+		catalogBirthMap[dateOfBirth.month] ??= {};
+		catalogBirthMap[dateOfBirth.month][dateOfBirth.day] ??= [];
+		catalogBirthMap[dateOfBirth.month][dateOfBirth.day].push({
 			id: entry.id,
-			year: entry.dateOfBirth.year,
+			year: dateOfBirth.year,
 		});
 	}
 }
@@ -236,4 +240,39 @@ function compareNativeName(nameA, nameB, allowAmbiguity = false) {
 	}
 
 	return false;
+}
+
+function extractDateOfBirthFromDescription(entry) {
+	if (entry.primaryOccupations.includes('Choir') || entry.primaryOccupations.includes('Band') || !entry.description) {
+		return null;
+	}
+	if (entry.description.match(/\b\d{1,4}(?:st|nd|th)?\b/) &&
+		entry.description.match(/(?<!(?:'s|(?:'s Date|Place) of|Gave|(?:announced|since) the|after(?: the)?|st|as her|On his|Jewish) |\/)\bbirth(?!\s*(?:place|Name|day Honours|house|ed by)\b|[.,)]|__: ~)/i) &&
+		!entry.description.match(/is a Japanese idol group|\bbirth was privately held\b/i)
+	) {
+		const rawBirth = entry.description.match(
+			/(?:<b>|(\*\*|__|^)|[ ]{3,}|\) )(_)?(?:Date (?:(?:of|to) )?Birth|Birth(?: ?(?:Date|year|day))?)(?::(?: ?<\/b>|\1)|(?:<\/b>|\1):) *(?:\?\? ?\?\?, |xxxx[-/])?((?:(?![ ]{2,})[^:?<\n]){4,24})(?:, \?{4})?(?<![ ,.])\2(?: *$|[ ]{2,}|[.,]).{0,10}/im
+		);
+		if (rawBirth) {
+			if (rawBirth[3].match(/^\d{4}$/)) {
+				return { year: parseInt(rawBirth[3]) };
+			}
+			if (rawBirth[3].match(/\b\d{3}\b/)) {
+				console.error({ id: entry.id, description: entry.description });
+				return null;
+			}
+			const normalized = rawBirth[3].replace(/\. ?|-/g, '/')
+				.replace(/Feb\w+/i, 'February')
+				.replace(/Mar\w+/i, 'March');
+			const parsed = chrono.parse(normalized);
+			if (parsed.length === 0) {
+				console.error({ id: entry.id, description: entry.description });
+				return null;
+			}
+			return parsed[0].start.knownValues;
+		} else {
+			console.error({ id: entry.id, description: entry.description });
+		}
+	}
+	return null;
 }
