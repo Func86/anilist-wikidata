@@ -23,12 +23,16 @@ query Characters($page: Int, $sort: [CharacterSort]) {
       siteUrl
       media(sort: START_DATE) {
         nodes {
+          id
           format
           type
           countryOfOrigin
           title {
             english
             romaji
+          }
+          startDate {
+            year
           }
         }
       }
