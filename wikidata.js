@@ -8,41 +8,48 @@ import { NodeAwaiter } from './utils/awaiters.js';
 import { ChineseConversionManager, ChineseConversionProvider } from './utils/ChineseConversionManager.js';
 import { normalizeTitle, buildFullMapFromFallbacks } from './utils/lang-helpers.js';
 
+const sparqlQueries = {
+	anime: fs.readFileSync('./wikidata-anime.rq', 'utf8'),
+	others: fs.readFileSync('./wikidata-others.rq', 'utf8'),
+};
+const queryDispatcher = new SPARQLQueryDispatcher();
+
 const data = {
 	media: {},
 	staff: {},
 	character: {},
 }, dataSource = {}, isAnimeMap = {};
 
-const sparqlQuery = fs.readFileSync('./wikidata.rq', 'utf8');
-const queryDispatcher = new SPARQLQueryDispatcher();
-const response = await queryDispatcher.query(sparqlQuery);
+for (const [ name, sparqlQuery ] of Object.entries(sparqlQueries)) {
+	console.log(`Querying data for ${name}...`);
+	const response = await queryDispatcher.query(sparqlQuery);
 
-for (const { id, type, source, lang, page, title, dateModified } of response.results.bindings) {
-	const isMedia = [ 'anime', 'manga' ].includes(type.value);
-	const typeKey = isMedia ? 'media' : type.value;
-	const item = data[typeKey][id.value] ??= { dateModified: dateModified.value };
-	if (isMedia) {
-		isAnimeMap[id.value] ??= type.value === 'anime';
-	}
-	if (type.value === 'anime') {
-		if (dataSource[id.value] === undefined) {
-			dataSource[id.value] = Number(source?.value || 0);
-		} else if (Object.keys(item.title).length === 1 && item.title.en) {
-			dataSource[id.value] = Number(source?.value || 0);
-			// The 'en' entry we dropped can have a different dateModified value
-			item.dateModified = dateModified.value;
-			delete item.title.en;
-		} else if (dataSource[id.value] !== Number(source?.value || 0)) {
-			continue;
+	for (const { id, type, source, lang, page, title, dateModified } of response.results.bindings) {
+		const isMedia = [ 'anime', 'manga' ].includes(type.value);
+		const typeKey = isMedia ? 'media' : type.value;
+		const item = data[typeKey][id.value] ??= { dateModified: dateModified.value };
+		if (isMedia) {
+			isAnimeMap[id.value] ??= type.value === 'anime';
 		}
-	}
+		if (type.value === 'anime') {
+			if (dataSource[id.value] === undefined) {
+				dataSource[id.value] = Number(source?.value || 0);
+			} else if (Object.keys(item.title).length === 1 && item.title.en) {
+				dataSource[id.value] = Number(source?.value || 0);
+				// The 'en' entry we dropped can have a different dateModified value
+				item.dateModified = dateModified.value;
+				delete item.title.en;
+			} else if (dataSource[id.value] !== Number(source?.value || 0)) {
+				continue;
+			}
+		}
 
-	if (page) {
-		item.page = page.value;
+		if (page) {
+			item.page = page.value;
+		}
+		item.title ??= {};
+		item.title[lang.value] = normalizeTitle(title.value);
 	}
-	item.title ??= {};
-	item.title[lang.value] = normalizeTitle(title.value);
 }
 
 const awaiter = new NodeAwaiter();
