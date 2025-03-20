@@ -5,13 +5,14 @@ function entryCallback(entry) {
 	if (entry.name.native) {
 		description.push(normalizeSpace(entry.name.native));
 	}
-	if (entry.media.nodes.length) {
-		const title = entry.media.nodes[0].title;
-		const descTitle = title.english || title.romaji;
+	const nodeWithDate = entry.media.nodes.find(node => node.startDate?.year);
+	const firstNode = nodeWithDate || entry.media.nodes.sort((a, b) => a.id - b.id)[0];
+	if (firstNode) {
+		const descTitle = firstNode.title.english || firstNode.title.romaji;
 		if (descTitle) {
 			description.push(`Character in ${normalizeSpace(descTitle)}`);
 		} else {
-			console.log('Missing title:', entry.media.nodes[0]);
+			console.log('Missing title:', firstNode);
 		}
 	}
 	return {
