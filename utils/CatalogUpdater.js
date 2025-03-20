@@ -57,7 +57,8 @@ class CatalogUpdater {
 			variables.sort = 'ID';
 		}
 
-		let lastEntry = null;
+		let lastEntry = null, retries = 0;
+		const retrySleep = [ 5, 10, 30, 60 ];
 		while (true) {
 			try {
 				const response = await fetch(proxyPrefix + 'https://graphql.anilist.co', {
@@ -69,12 +70,25 @@ class CatalogUpdater {
 					},
 					body: JSON.stringify({ query: this.graphqlQuery, variables })
 				});
-				if (!response.ok && response.status === 429) {
-					const waitFor = parseInt(response.headers.get('Retry-After'), 10) || 30;
-					console.log(`Rate limited, waiting ${waitFor} seconds...`);
-					await new Promise(resolve => setTimeout(resolve, waitFor * 1000));
+
+				if (!response.ok) {
+					if (response.status === 429) {
+						const waitFor = parseInt(response.headers.get('Retry-After'), 10) || 30;
+						console.log(`Rate limited, waiting ${waitFor} seconds...`);
+						await new Promise(resolve => setTimeout(resolve, waitFor * 1000));
+					} else {
+						console.error(`Failed to fetch (HTTP ${response.status}):`, variables);
+						if (retries++ > 3) {
+							core.warning(`Failed to fetch after 3 retries: HTTP ${response.status}`);
+							break;
+						}
+						console.log(`Retrying in ${retrySleep[retries - 1]} seconds...`);
+						await new Promise(resolve => setTimeout(resolve, retrySleep[retries - 1] * 1000));
+					}
 					continue;
 				}
+				retries = 0;
+
 				const body = await response.json();
 				if (!body.data?.Page?.[this.dataNameMap[this.dataName] || this.dataName]) {
 					console.error('Invalid response:', body);
@@ -87,7 +101,7 @@ class CatalogUpdater {
 					if ((updateUntil.updatedAt && entry.updatedAt < updateUntil.updatedAt) ||
 						(updateUntil.id && entry.id <= updateUntil.id)
 					) {
-						console.log(`Reached last updated entry`);
+						console.log('Reached last updated entry');
 						breakLoop = true;
 						break;
 					}
