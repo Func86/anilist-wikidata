@@ -1,0 +1,45 @@
+SELECT (MIN(xsd:integer(?value)) AS ?id)
+       ?type
+       ?lang
+       (SAMPLE(?label) AS ?title)
+       (SAMPLE(?finalPage) AS ?page)
+       (SAMPLE(?dateModified) AS ?dateModified)
+WHERE {{
+  BIND('manga' AS ?type).
+  ?item wdt:P8731 ?value.
+
+  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+  ?item rdfs:label ?label.
+  BIND(LANG(?label) AS ?lang)
+  FILTER(STRSTARTS(?lang, "zh"))
+
+  ?item schema:dateModified ?dateModified.
+} UNION {
+  BIND('staff' AS ?type).
+  ?item wdt:P11227 ?value.
+
+  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+  ?item rdfs:label ?label.
+  BIND(LANG(?label) AS ?lang)
+  FILTER(STRSTARTS(?lang, "zh"))
+
+  ?item schema:dateModified ?dateModified.
+} UNION {
+  BIND('character' AS ?type).
+  ?item wdt:P11736 ?value.
+
+  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
+  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
+
+  ?item rdfs:label ?label.
+  BIND(LANG(?label) AS ?lang)
+  FILTER(STRSTARTS(?lang, "zh"))
+
+  ?item schema:dateModified ?dateModified.
+}}
+GROUP BY ?type ?item ?lang
+ORDER BY ?type ?id ?lang
