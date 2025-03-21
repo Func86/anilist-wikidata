@@ -1,5 +1,6 @@
 import fs from 'fs';
 import * as chrono from 'chrono-node';
+import Papa from 'papaparse';
 
 import { SPARQLQueryDispatcher } from '../utils/SPARQLQueryDispatcher.js';
 import { replaceWaseiKanji } from './Wasei-Kanji.js';
@@ -137,7 +138,7 @@ for (const { entity, jaLabel, enLabel, birthDate, birthDay, precision } of respo
 		const matched = compareNames(names, jaLabel, enLabel, fullPrecision && year);
 		if (matched) {
 			console.log(`Matched ${entityId} to ${entryId}: ${matched.name} = ${matched.label}`);
-			data.push([entityId, entryIdMap[catalogName], `"${entryId}"`]);
+			data.push({ id: entityId, [entryIdMap[catalogName]]: entryId });
 			break;
 		}
 		if (fullPrecision && year) {
@@ -146,7 +147,7 @@ for (const { entity, jaLabel, enLabel, birthDate, birthDay, precision } of respo
 	}
 }
 
-fs.writeFileSync('wikidata-match.tsv', data.map(row => row.join('\t')).join('\n'));
+fs.writeFileSync('wikidata-match.tsv', Papa.unparse(data, { delimiter: '\t' }));
 
 function compareNames(names, jaLabel, enLabel, allowAmbiguity = false) {
 	// U+201A: SINGLE LOW-9 QUOTATION MARK (misused as a comma)

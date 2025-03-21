@@ -1,4 +1,5 @@
-import fs from 'node:fs';
+import fs from 'fs';
+import Papa from 'papaparse';
 
 import { SPARQLQueryDispatcher } from '../utils/SPARQLQueryDispatcher.js';
 import { replaceWaseiKanji } from './Wasei-Kanji.js';
@@ -19,14 +20,14 @@ for (const propId in properties) {
 	for (const { item, jaLabel } of response.results.bindings) {
 		const id = item.value.split('/').pop();
 		const label = replaceWaseiKanji(jaLabel.value);
-		data.push([ id, 'Lzh', `"${label}"` ]);
+		data.push({ id, label });
 	}
 	data.push([]);
 }
 
 const dataFile = `./kanji-labels.tsv`;
 if (data.length - 2 > 0) {
-	fs.writeFileSync(dataFile, data.map((row) => row.join('\t')).join('\n'));
+	fs.writeFileSync(dataFile, Papa.unparse(data, { delimiter: '\t' }));
 } else if (fs.existsSync(dataFile)) {
 	fs.unlinkSync(dataFile);
 }
