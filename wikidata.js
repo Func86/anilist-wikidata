@@ -22,7 +22,9 @@ const data = {
 
 for (const [ name, sparqlQuery ] of Object.entries(sparqlQueries)) {
 	console.log(`Querying data for ${name}...`);
+	const startTime = performance.now();
 	const response = await queryDispatcher.query(sparqlQuery);
+	console.log(`Done in ${Math.round(performance.now() - startTime)} ms`);
 
 	for (const { id, type, source, lang, page, title, dateModified } of response.results.bindings) {
 		const isMedia = [ 'anime', 'manga' ].includes(type.value);
