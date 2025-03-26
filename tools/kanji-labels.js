@@ -27,7 +27,7 @@ for (const propId in properties) {
 
 const dataFile = `./kanji-labels.tsv`;
 if (data.length - 2 > 0) {
-	fs.writeFileSync(dataFile, Papa.unparse(data, { delimiter: '\t' }));
+	fs.writeFileSync(dataFile, Papa.unparse(data, { delimiter: '\t', newline: '\n' }));
 } else if (fs.existsSync(dataFile)) {
 	fs.unlinkSync(dataFile);
 }

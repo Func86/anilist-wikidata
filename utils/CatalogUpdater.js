@@ -135,7 +135,10 @@ class CatalogUpdater {
 				data.push(this.callback(entry));
 			}
 
-			fs.writeFileSync(`anilist-${this.dataName}.tsv`, Papa.unparse(data, { delimiter: '\t' }));
+			fs.writeFileSync(`anilist-${this.dataName}.tsv`, Papa.unparse(data, {
+				delimiter: '\t',
+				newline: '\n',
+			}));
 		} catch (error) {
 			console.error('Error:', error);
 			core.warning(`Error while processing ${this.dataName}: ${error.message}`);

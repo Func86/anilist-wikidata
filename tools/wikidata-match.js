@@ -147,7 +147,7 @@ for (const { entity, jaLabel, enLabel, birthDate, birthDay, precision } of respo
 	}
 }
 
-fs.writeFileSync('wikidata-match.tsv', Papa.unparse(data, { delimiter: '\t' }));
+fs.writeFileSync('wikidata-match.tsv', Papa.unparse(data, { delimiter: '\t', newline: '\n' }));
 
 function compareNames(names, jaLabel, enLabel, allowAmbiguity = false) {
 	// U+201A: SINGLE LOW-9 QUOTATION MARK (misused as a comma)
