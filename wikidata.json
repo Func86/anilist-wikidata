@@ -5218,6 +5218,18 @@
 			"zh-hans": "贫穷姊妹物语"
 		}
 	},
+	"1215": {
+		"dateModified": "2025-03-31T17:24:26Z",
+		"title": {
+			"zh": "机动战士GUNDAM SEED C.E.73 STARGAZER",
+			"zh-cn": "机动战士高达 SEED C.E.73 STARGAZER",
+			"zh-hans": "机动战士GUNDAM SEED C.E.73 STARGAZER",
+			"zh-hant": "機動戰士GUNDAM SEED C.E.73 STARGAZER",
+			"zh-hk": "機動戰士高達 SEED C.E.73 STARGAZER",
+			"zh-sg": "机动战士高达 SEED C.E.73 STARGAZER",
+			"zh-tw": "機動戰士鋼彈 SEED C.E.73 STARGAZER"
+		}
+	},
 	"1216": {
 		"dateModified": "2024-12-29T18:47:42Z",
 		"title": {
@@ -33337,6 +33349,13 @@
 		"title": {
 			"zh": "我是不才惡女～雛宮蝶鼠互換傳～",
 			"+zh-hans": "我是不才恶女～雏宫蝶鼠互换传～"
+		}
+	},
+	"188388": {
+		"dateModified": "2025-03-31T16:57:58Z",
+		"title": {
+			"zh": "數碼寶貝BEATBREAK",
+			"+zh-hans": "数码宝贝BEATBREAK"
 		}
 	},
 	"188487": {
