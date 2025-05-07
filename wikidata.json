@@ -25224,6 +25224,13 @@
 			"+zh-hans": "赛马娘Pretty Derby BNW的誓言"
 		}
 	},
+	"103275": {
+		"dateModified": "2025-05-07T12:32:13Z",
+		"title": {
+			"zh": "Fate/Grand Order -絕對魔獸戰線巴比倫尼亞-",
+			"+zh-hans": "Fate/Grand Order -绝对魔兽战线巴比伦尼亚-"
+		}
+	},
 	"103301": {
 		"dateModified": "2024-06-21T06:16:52Z",
 		"title": {
@@ -112431,6 +112438,14 @@
 		"title": {
 			"zh": "松岡美里",
 			"+zh-hans": "松冈美里"
+		}
+	},
+	"149772": {
+		"dateModified": "2025-05-07T11:52:55Z",
+		"title": {
+			"zh": "岩見美香",
+			"zh-hant": "巖見美香。",
+			"+zh-sg": "岩见美香"
 		}
 	},
 	"149791": {
