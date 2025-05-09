@@ -74,7 +74,7 @@ async function processDataGroup(data, type) {
 		const idType = type === 'media' ? (isAnimeMap[id] ? 'anime' : 'manga') : type;
 		if (data[id].dateModified < wikidata[type][id]?.dateModified) {
 			const removed = diff(data[id], wikidata[type][id]);
-			const removedLang = Object.keys(removed.title).filter(key => removed.title[key]);
+			const removedLang = Object.keys(removed.title || {}).filter(key => removed.title[key]);
 
 			// We only keep the English title if no Chinese ones are present.
 			// In that case the "outdated" new modification date can be from another entity and not relevant.
