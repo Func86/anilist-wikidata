@@ -4824,6 +4824,13 @@
 			"zh-hant": "萊姆色戰奇譚"
 		}
 	},
+	"1098": {
+		"dateModified": "2025-05-13T19:53:24Z",
+		"title": {
+			"zh": "武俠派女高校生",
+			"+zh-hans": "武侠派女高校生"
+		}
+	},
 	"1106": {
 		"dateModified": "2024-09-22T07:57:06Z",
 		"title": {
@@ -23503,7 +23510,8 @@
 		}
 	},
 	"98658": {
-		"dateModified": "2025-01-05T19:07:00Z",
+		"dateModified": "2025-05-13T20:12:01Z",
+		"page": "少女歌剧_Revue_Starlight/电视动画",
 		"title": {
 			"zh": "少女☆歌劇 Revue Starlight",
 			"+zh-hans": "少女☆歌剧 Revue Starlight"
@@ -26914,6 +26922,14 @@
 			"zh": "弩級戰隊HXEROS",
 			"zh-tw": "弩級戰隊 HXEROS",
 			"+zh-hans": "弩级战队HXEROS"
+		}
+	},
+	"113023": {
+		"dateModified": "2025-05-13T20:23:02Z",
+		"page": "少女歌剧_Revue_Starlight_RONDO·RONDO·RONDO",
+		"title": {
+			"zh-cn": "少女☆歌剧 Revue Starlight Rondo Rondo Rondo",
+			"zh-tw": "Shoujo Kageki Revue Starlight: Rondo Rondo Rondo"
 		}
 	},
 	"113051": {
@@ -47077,6 +47093,13 @@
 		"dateModified": "2025-01-05T19:00:12Z",
 		"title": {
 			"zh": "打鬼"
+		}
+	},
+	"87949": {
+		"dateModified": "2025-05-13T19:53:24Z",
+		"title": {
+			"zh": "武俠派女高校生",
+			"+zh-hans": "武侠派女高校生"
 		}
 	},
 	"88141": {
