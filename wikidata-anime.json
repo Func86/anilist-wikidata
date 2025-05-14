@@ -21936,12 +21936,6 @@
 			"en": "Is the Order a Rabbit?? Sing For You"
 		}
 	},
-	"104212": {
-		"title": {
-			"zh": "南無阿彌陀佛!-蓮台 UTENA-",
-			"zh-hans": "南无阿弥陀佛!-莲台 UTENA-"
-		}
-	},
 	"104252": {
 		"title": {
 			"zh": "魔王陛下RETRY！",
@@ -23926,6 +23920,12 @@
 			"zh": "STAND BY ME 哆啦A夢 2",
 			"zh-hk": "STAND BY ME 多啦A夢 2",
 			"zh-hans": "STAND BY ME 哆啦A梦 2"
+		}
+	},
+	"122632": {
+		"title": {
+			"zh": "最響神相撲道！",
+			"zh-hans": "最响神相扑道！"
 		}
 	},
 	"122807": {

@@ -25477,13 +25477,6 @@
 			"en": "Is the Order a Rabbit?? Sing For You"
 		}
 	},
-	"104212": {
-		"dateModified": "2024-09-27T20:43:34Z",
-		"title": {
-			"zh": "南無阿彌陀佛!-蓮台 UTENA-",
-			"+zh-hans": "南无阿弥陀佛!-莲台 UTENA-"
-		}
-	},
 	"104252": {
 		"dateModified": "2024-10-20T06:24:48Z",
 		"title": {
@@ -27792,6 +27785,13 @@
 			"zh": "STAND BY ME 哆啦A夢 2",
 			"zh-hk": "STAND BY ME 多啦A夢 2",
 			"+zh-hans": "STAND BY ME 哆啦A梦 2"
+		}
+	},
+	"122632": {
+		"dateModified": "2025-05-14T05:26:06Z",
+		"title": {
+			"zh": "最響神相撲道！",
+			"+zh-hans": "最响神相扑道！"
 		}
 	},
 	"122807": {
@@ -47937,6 +47937,15 @@
 		"dateModified": "2023-11-29T10:16:10Z",
 		"title": {
 			"zh": "擅入寄居者"
+		}
+	},
+	"95148": {
+		"dateModified": "2025-05-14T05:42:38Z",
+		"title": {
+			"zh": "失落的宇宙",
+			"zh-hans": "宇宙刑警",
+			"zh-hant": "失落的宇宙",
+			"zh-hk": "宇宙特警"
 		}
 	},
 	"95170": {
