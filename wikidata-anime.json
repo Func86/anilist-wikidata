@@ -17131,7 +17131,9 @@
 	},
 	"20634": {
 		"title": {
-			"zh": "搞姬日常"
+			"zh": "搞姬日常",
+			"zh-hant": "搞姬日常",
+			"zh-tw": "偽姬物語"
 		}
 	},
 	"20638": {
@@ -21104,8 +21106,8 @@
 	},
 	"101024": {
 		"title": {
-			"zh": "Radiant 虛空魔境",
-			"zh-hans": "Radiant 虚空魔境"
+			"zh": "虚空魔境",
+			"zh-hant": "虛空魔境"
 		}
 	},
 	"101036": {
@@ -25511,10 +25513,10 @@
 	"143270": {
 		"page": "Lycoris_Recoil",
 		"title": {
-			"zh": "Lycoris Recoil 莉可麗絲",
+			"zh": "莉可麗絲",
 			"zh-hans": "莉可丽丝",
-			"zh-hant": "Lycoris Recoil 莉可麗絲",
-			"zh-hk": "莉可麗絲"
+			"zh-hant": "莉可麗絲",
+			"zh-tw": "Lycoris Recoil 莉可麗絲"
 		}
 	},
 	"143271": {
