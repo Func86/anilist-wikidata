@@ -19878,9 +19878,11 @@
 		}
 	},
 	"20634": {
-		"dateModified": "2024-11-24T03:41:23Z",
+		"dateModified": "2025-05-17T16:18:12Z",
 		"title": {
-			"zh": "搞姬日常"
+			"zh": "搞姬日常",
+			"zh-hant": "搞姬日常",
+			"zh-tw": "偽姬物語"
 		}
 	},
 	"20638": {
@@ -24506,10 +24508,10 @@
 		}
 	},
 	"101024": {
-		"dateModified": "2024-11-21T23:20:31Z",
+		"dateModified": "2025-05-17T16:08:17Z",
 		"title": {
-			"zh": "Radiant 虛空魔境",
-			"+zh-hans": "Radiant 虚空魔境"
+			"zh": "虚空魔境",
+			"+zh-hant": "虛空魔境"
 		}
 	},
 	"101036": {
@@ -29634,13 +29636,13 @@
 		}
 	},
 	"143270": {
-		"dateModified": "2025-05-17T15:46:58Z",
+		"dateModified": "2025-05-17T15:57:17Z",
 		"page": "Lycoris_Recoil",
 		"title": {
-			"zh": "Lycoris Recoil 莉可麗絲",
+			"zh": "莉可麗絲",
 			"zh-hans": "莉可丽丝",
-			"zh-hant": "Lycoris Recoil 莉可麗絲",
-			"zh-hk": "莉可麗絲"
+			"zh-hant": "莉可麗絲",
+			"zh-tw": "Lycoris Recoil 莉可麗絲"
 		}
 	},
 	"143271": {
@@ -43392,9 +43394,11 @@
 		}
 	},
 	"62833": {
-		"dateModified": "2024-11-24T03:41:23Z",
+		"dateModified": "2025-05-17T16:18:12Z",
 		"title": {
-			"zh": "搞姬日常"
+			"zh": "搞姬日常",
+			"zh-hant": "搞姬日常",
+			"zh-tw": "偽姬物語"
 		}
 	},
 	"62913": {
@@ -51314,6 +51318,13 @@
 		"title": {
 			"zh": "从漫画了解！Fate/Grand Order",
 			"+zh-hant": "從漫畫了解！Fate/Grand Order"
+		}
+	},
+	"106929": {
+		"dateModified": "2025-05-17T16:49:03Z",
+		"title": {
+			"zh": "觉醒吧，铲屎官！",
+			"zh-hant": "覺醒吧！貓奴"
 		}
 	},
 	"106944": {
