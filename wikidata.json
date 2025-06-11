@@ -1597,6 +1597,13 @@
 			"zh-hant": "星界的紋章"
 		}
 	},
+	"293": {
+		"dateModified": "2025-01-25T17:39:41Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat"
+		}
+	},
 	"294": {
 		"dateModified": "2024-09-17T05:30:17Z",
 		"title": {
@@ -1959,6 +1966,7 @@
 	},
 	"383": {
 		"dateModified": "2025-01-05T18:26:05Z",
+		"page": "银河天使",
 		"title": {
 			"zh": "銀河天使",
 			"+zh-hans": "银河天使"
@@ -3193,6 +3201,27 @@
 			"zh": "貓眼女槍手#Riding Bean",
 			"zh-hans": "猫眼女枪手",
 			"zh-hant": "貓眼女槍手"
+		}
+	},
+	"652": {
+		"dateModified": "2025-01-21T14:48:31Z",
+		"page": "银河天使",
+		"title": {
+			"en": "Galaxy Angel Z"
+		}
+	},
+	"653": {
+		"dateModified": "2024-10-18T12:33:31Z",
+		"page": "银河天使",
+		"title": {
+			"en": "Galaxy Angel 3"
+		}
+	},
+	"655": {
+		"dateModified": "2024-10-18T12:33:22Z",
+		"page": "银河天使",
+		"title": {
+			"en": "Galaxy Angel 4"
 		}
 	},
 	"656": {
@@ -5342,6 +5371,7 @@
 	},
 	"1224": {
 		"dateModified": "2025-01-05T18:16:06Z",
+		"page": "水瓶战记",
 		"title": {
 			"zh": "水瓶戰記 Sign for Evolution",
 			"zh-hans": "水瓶战记",
@@ -6727,6 +6757,7 @@
 	},
 	"1597": {
 		"dateModified": "2025-01-24T04:39:03Z",
+		"page": "铃铛猫娘",
 		"title": {
 			"zh": "小小鈴鐺貓娘",
 			"+zh-hans": "小小铃铛猫娘"
@@ -6979,6 +7010,13 @@
 			"zh": "BALDR FORCE EXE RESOLUTION"
 		}
 	},
+	"1683": {
+		"dateModified": "2025-01-05T18:20:44Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat Nyo!"
+		}
+	},
 	"1684": {
 		"dateModified": "2025-01-07T16:50:17Z",
 		"title": {
@@ -7189,6 +7227,48 @@
 		"dateModified": "2024-09-18T03:33:19Z",
 		"title": {
 			"zh": "FREEDOM-PROJECT"
+		}
+	},
+	"1752": {
+		"dateModified": "2025-01-04T10:59:16Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: A Trip to the Planet"
+		}
+	},
+	"1754": {
+		"dateModified": "2024-02-23T16:35:03Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Summer Special 2000"
+		}
+	},
+	"1755": {
+		"dateModified": "2024-02-23T16:35:02Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Ohanami Special"
+		}
+	},
+	"1756": {
+		"dateModified": "2024-02-23T16:34:59Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Natsuyasumi Special"
+		}
+	},
+	"1757": {
+		"dateModified": "2024-02-23T16:34:58Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Christmas Special"
+		}
+	},
+	"1758": {
+		"dateModified": "2024-02-23T16:35:03Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Tsuyu Special"
 		}
 	},
 	"1760": {
@@ -15810,7 +15890,8 @@
 		}
 	},
 	"9539": {
-		"dateModified": "2025-05-05T18:16:09Z",
+		"dateModified": "2025-06-11T05:51:55Z",
+		"page": "卡片战斗先导者",
 		"title": {
 			"zh": "卡片戰鬥先導者",
 			"zh-hans": "卡片战斗先导者"
@@ -17488,6 +17569,13 @@
 		"title": {
 			"zh": "來自新世界",
 			"zh-hans": "来自新世界"
+		}
+	},
+	"13145": {
+		"dateModified": "2024-04-25T07:36:25Z",
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard: Asia Circuit"
 		}
 	},
 	"13161": {
@@ -23932,6 +24020,13 @@
 			"+zh-hant": "霸穹 封神演義"
 		}
 	},
+	"99733": {
+		"dateModified": "2024-04-25T07:39:18Z",
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard G: Z"
+		}
+	},
 	"99748": {
 		"dateModified": "2025-04-20T17:12:37Z",
 		"title": {
@@ -28874,6 +28969,13 @@
 			"zh-hant": "冰雪極境"
 		}
 	},
+	"135515": {
+		"dateModified": "2025-01-05T19:15:56Z",
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Reiwa no Di Gi Charat"
+		}
+	},
 	"135778": {
 		"dateModified": "2025-01-05T19:17:51Z",
 		"title": {
@@ -31429,6 +31531,13 @@
 			"zh-hans": "结缘甘神神社"
 		}
 	},
+	"164204": {
+		"dateModified": "2025-01-10T16:16:19Z",
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard Divinez"
+		}
+	},
 	"164212": {
 		"dateModified": "2025-01-05T19:29:50Z",
 		"page": "GIRLS_BAND_CRY",
@@ -31523,6 +31632,13 @@
 		"title": {
 			"zh": "勇氣爆發Bang Bravern",
 			"+zh-hans": "勇气爆发Bang Bravern"
+		}
+	},
+	"165681": {
+		"dateModified": "2025-01-10T16:16:21Z",
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard Divinez Season 2"
 		}
 	},
 	"165790": {
@@ -33166,6 +33282,13 @@
 		"title": {
 			"zh": "九龍大眾浪漫",
 			"zh-hans": "九龙大众浪漫"
+		}
+	},
+	"182920": {
+		"dateModified": "2025-01-10T16:16:48Z",
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard Divinez: Deluxe Arc"
 		}
 	},
 	"183127": {
