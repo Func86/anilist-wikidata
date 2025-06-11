@@ -1381,6 +1381,12 @@
 			"zh-hant": "星界的紋章"
 		}
 	},
+	"293": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat"
+		}
+	},
 	"294": {
 		"title": {
 			"zh": "みさきクロニクル ～ダイバージェンス·イヴ～"
@@ -1691,6 +1697,7 @@
 		}
 	},
 	"383": {
+		"page": "银河天使",
 		"title": {
 			"zh": "銀河天使",
 			"zh-hans": "银河天使"
@@ -2756,6 +2763,24 @@
 			"zh": "貓眼女槍手#Riding Bean",
 			"zh-hans": "猫眼女枪手",
 			"zh-hant": "貓眼女槍手"
+		}
+	},
+	"652": {
+		"page": "银河天使",
+		"title": {
+			"en": "Galaxy Angel Z"
+		}
+	},
+	"653": {
+		"page": "银河天使",
+		"title": {
+			"en": "Galaxy Angel 3"
+		}
+	},
+	"655": {
+		"page": "银河天使",
+		"title": {
+			"en": "Galaxy Angel 4"
 		}
 	},
 	"656": {
@@ -4613,6 +4638,7 @@
 		}
 	},
 	"1224": {
+		"page": "水瓶战记",
 		"title": {
 			"zh": "水瓶戰記 Sign for Evolution",
 			"zh-hans": "水瓶战记",
@@ -5807,6 +5833,7 @@
 		}
 	},
 	"1597": {
+		"page": "铃铛猫娘",
 		"title": {
 			"zh": "小小鈴鐺貓娘",
 			"zh-hans": "小小铃铛猫娘"
@@ -6024,6 +6051,12 @@
 			"zh": "BALDR FORCE EXE RESOLUTION"
 		}
 	},
+	"1683": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat Nyo!"
+		}
+	},
 	"1684": {
 		"title": {
 			"zh": "多芝和可莉的故事"
@@ -6204,6 +6237,42 @@
 	"1747": {
 		"title": {
 			"zh": "FREEDOM-PROJECT"
+		}
+	},
+	"1752": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: A Trip to the Planet"
+		}
+	},
+	"1754": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Summer Special 2000"
+		}
+	},
+	"1755": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Ohanami Special"
+		}
+	},
+	"1756": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Natsuyasumi Special"
+		}
+	},
+	"1757": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Christmas Special"
+		}
+	},
+	"1758": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Di Gi Charat: Tsuyu Special"
 		}
 	},
 	"1760": {
@@ -13630,6 +13699,7 @@
 		}
 	},
 	"9539": {
+		"page": "卡片战斗先导者",
 		"title": {
 			"zh": "卡片戰鬥先導者",
 			"zh-hans": "卡片战斗先导者"
@@ -15077,6 +15147,12 @@
 		"title": {
 			"zh": "來自新世界",
 			"zh-hans": "来自新世界"
+		}
+	},
+	"13145": {
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard: Asia Circuit"
 		}
 	},
 	"13161": {
@@ -20610,6 +20686,12 @@
 			"zh-hant": "霸穹 封神演義"
 		}
 	},
+	"99733": {
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard G: Z"
+		}
+	},
 	"99748": {
 		"title": {
 			"zh": "妖精森林的小不點",
@@ -24855,6 +24937,12 @@
 			"zh-hant": "冰雪極境"
 		}
 	},
+	"135515": {
+		"page": "铃铛猫娘",
+		"title": {
+			"en": "Reiwa no Di Gi Charat"
+		}
+	},
 	"135778": {
 		"title": {
 			"zh": "HIGH CARD 至高之牌"
@@ -27053,6 +27141,12 @@
 			"zh-hans": "结缘甘神神社"
 		}
 	},
+	"164204": {
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard Divinez"
+		}
+	},
 	"164212": {
 		"page": "GIRLS_BAND_CRY",
 		"title": {
@@ -27133,6 +27227,12 @@
 		"title": {
 			"zh": "勇氣爆發Bang Bravern",
 			"zh-hans": "勇气爆发Bang Bravern"
+		}
+	},
+	"165681": {
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard Divinez Season 2"
 		}
 	},
 	"165790": {
@@ -28548,6 +28648,12 @@
 		"title": {
 			"zh": "九龍大眾浪漫",
 			"zh-hans": "九龙大众浪漫"
+		}
+	},
+	"182920": {
+		"page": "卡片战斗先导者",
+		"title": {
+			"en": "Cardfight!! Vanguard Divinez: Deluxe Arc"
 		}
 	},
 	"183127": {
