@@ -17580,8 +17580,8 @@
 	},
 	"20791": {
 		"title": {
-			"zh": "命運守護夜天之杯",
-			"zh-hans": "命运守护夜天之杯"
+			"zh": "命运之夜——天之杯：恶兆之花",
+			"zh-tw": "Fate/stay night [Heaven's Feel] I. 預示之花"
 		}
 	},
 	"20793": {
@@ -19301,6 +19301,18 @@
 	"21717": {
 		"title": {
 			"zh": "Fate/EXTRA Last Encore"
+		}
+	},
+	"21718": {
+		"title": {
+			"zh": "命运之夜——天之杯Ⅱ：迷失之蝶",
+			"zh-tw": "Fate/stay night [Heaven's Feel] II.迷途之蝶"
+		}
+	},
+	"21719": {
+		"title": {
+			"zh": "命运之夜——天之杯Ⅲ：春之歌",
+			"zh-tw": "Fate/stay night [Heaven's Feel] Ⅲ.春櫻之歌"
 		}
 	},
 	"21726": {
