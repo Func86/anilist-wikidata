@@ -23311,10 +23311,10 @@
 		}
 	},
 	"98143": {
-		"dateModified": "2024-12-27T14:29:52Z",
+		"dateModified": "2025-06-22T01:50:31Z",
 		"title": {
-			"zh": "Thunderbolt Fantasy 東離劍遊紀",
-			"+zh-hans": "Thunderbolt Fantasy 东离剑游纪"
+			"zh": "Thunderbolt Fantasy 東離劍遊紀 1",
+			"+zh-hans": "Thunderbolt Fantasy 东离剑游纪 1"
 		}
 	},
 	"98149": {
@@ -23962,6 +23962,13 @@
 		"title": {
 			"zh": "DEVILSLINE 惡魔戰線",
 			"+zh-hans": "DEVILSLINE 恶魔战线"
+		}
+	},
+	"99557": {
+		"dateModified": "2025-06-22T01:47:40Z",
+		"title": {
+			"zh": "Thunderbolt Fantasy 東離劍遊紀 2",
+			"+zh-hans": "Thunderbolt Fantasy 东离剑游纪 2"
 		}
 	},
 	"99569": {
@@ -27775,6 +27782,13 @@
 			"zh-hant": "伊甸星原"
 		}
 	},
+	"119806": {
+		"dateModified": "2025-06-22T01:48:57Z",
+		"title": {
+			"zh": "Thunderbolt Fantasy 東離劍遊紀 3",
+			"+zh-hans": "Thunderbolt Fantasy 东离剑游纪 3"
+		}
+	},
 	"119815": {
 		"dateModified": "2025-01-05T18:54:09Z",
 		"title": {
@@ -29268,6 +29282,13 @@
 		"title": {
 			"zh": "成為女主角！～被討厭的女主角和秘密的工作～",
 			"zh-hans": "成为女主角！～被讨厌的女主角和秘密的工作～"
+		}
+	},
+	"138522": {
+		"dateModified": "2025-06-22T01:49:11Z",
+		"title": {
+			"zh": "Thunderbolt Fantasy 東離劍遊紀 4",
+			"+zh-hans": "Thunderbolt Fantasy 东离剑游纪 4"
 		}
 	},
 	"138565": {
@@ -31968,6 +31989,12 @@
 			"+zh-hans": "轮回7次的恶役千金，在前敌国享受随心所欲的新婚生活"
 		}
 	},
+	"168500": {
+		"dateModified": "2025-06-22T00:59:50Z",
+		"title": {
+			"zh-tw": "魔王陛下，RETRY！R"
+		}
+	},
 	"168537": {
 		"dateModified": "2025-06-22T00:44:05Z",
 		"title": {
@@ -32716,6 +32743,13 @@
 		"title": {
 			"zh": "青之驱魔师 雪之尽头篇",
 			"zh-tw": "青之驅魔師 雪之盡頭篇"
+		}
+	},
+	"176432": {
+		"dateModified": "2025-06-22T01:49:28Z",
+		"title": {
+			"zh": "Thunderbolt Fantasy 東離劍遊紀 最終章",
+			"+zh-hans": "Thunderbolt Fantasy 东离剑游纪 最终章"
 		}
 	},
 	"176496": {
