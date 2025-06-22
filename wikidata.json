@@ -19936,10 +19936,11 @@
 		}
 	},
 	"20615": {
-		"dateModified": "2024-02-23T19:14:13Z",
+		"dateModified": "2025-06-22T03:34:06Z",
+		"page": "选择感染者WIXOSS",
 		"title": {
 			"zh": "选择感染者WIXOSS",
-			"+zh-hant": "選擇感染者WIXOSS"
+			"zh-tw": "戰鬥少女選擇者"
 		}
 	},
 	"20617": {
@@ -20209,6 +20210,13 @@
 		"title": {
 			"zh": "槍與面具",
 			"+zh-hans": "枪与面具"
+		}
+	},
+	"20714": {
+		"dateModified": "2025-06-22T03:50:21Z",
+		"title": {
+			"zh": "选择扩散者WIXOSS",
+			"zh-tw": "戰鬥少女選擇者II"
 		}
 	},
 	"20715": {
@@ -21439,6 +21447,13 @@
 			"+zh-hans": "吸血鬼仆人"
 		}
 	},
+	"21274": {
+		"dateModified": "2025-06-22T03:50:42Z",
+		"page": "选择感染者WIXOSS",
+		"title": {
+			"zh-tw": "劇場版戰鬥少女選擇者"
+		}
+	},
 	"21275": {
 		"dateModified": "2025-01-05T18:37:29Z",
 		"title": {
@@ -22548,10 +22563,11 @@
 		}
 	},
 	"21772": {
-		"dateModified": "2024-02-23T18:07:04Z",
+		"dateModified": "2025-06-22T03:46:08Z",
 		"page": "Lostorage_incited_WIXOSS",
 		"title": {
-			"zh": "Lostorage incited WIXOSS"
+			"zh": "Lostorage incited WIXOSS",
+			"zh-tw": "失憶煽動WIXOSS"
 		}
 	},
 	"21773": {
@@ -31934,10 +31950,9 @@
 		}
 	},
 	"167927": {
-		"dateModified": "2025-04-14T00:42:55Z",
+		"dateModified": "2025-06-22T03:05:57Z",
 		"title": {
-			"zh": "失憶投捕",
-			"zh-hans": "失忆投捕"
+			"zh-tw": "失憶投捕"
 		}
 	},
 	"168013": {
@@ -33541,10 +33556,9 @@
 		}
 	},
 	"184141": {
-		"dateModified": "2025-04-14T00:42:55Z",
+		"dateModified": "2025-06-22T03:06:36Z",
 		"title": {
-			"zh": "失憶投捕",
-			"zh-hans": "失忆投捕"
+			"zh-tw": "失憶投捕 第二季"
 		}
 	},
 	"184279": {
@@ -90140,6 +90154,12 @@
 		"title": {
 			"zh": "渥美佐織",
 			"zh-hans": "渥美佐织"
+		}
+	},
+	"104572": {
+		"dateModified": "2025-06-22T03:26:45Z",
+		"title": {
+			"zh": "佐藤卓哉"
 		}
 	},
 	"104580": {
