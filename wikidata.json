@@ -30032,7 +30032,7 @@
 	},
 	"143150": {
 		"dateModified": "2025-06-28T15:24:42Z",
-		"page": "智代After_～It's_a_Wonderful_Life～",
+		"page": "Rewrite(游戏)",
 		"title": {
 			"zh-tw": "鍵等 第二季"
 		}
@@ -52807,6 +52807,13 @@
 		"title": {
 			"zh": "AI電子基因",
 			"zh-hans": "AI电子基因"
+		}
+	},
+	"109538": {
+		"dateModified": "2025-07-02T16:47:34Z",
+		"title": {
+			"zh": "灰姑娘壁櫥",
+			"+zh-hans": "灰姑娘壁橱"
 		}
 	},
 	"109608": {
