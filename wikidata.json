@@ -19692,6 +19692,12 @@
 			"+zh-hans": "噗哔啵～来自未来～"
 		}
 	},
+	"20526": {
+		"dateModified": "2025-07-03T05:39:40Z",
+		"title": {
+			"zh-tw": "蟲師 特別篇 蝕日之影"
+		}
+	},
 	"20527": {
 		"dateModified": "2025-01-05T18:57:32Z",
 		"title": {
@@ -26570,6 +26576,13 @@
 			"zh": "SAKUGAN"
 		}
 	},
+	"109010": {
+		"dateModified": "2025-06-18T17:48:39Z",
+		"title": {
+			"zh": "偶像★進行曲",
+			"+zh-hans": "偶像★进行曲"
+		}
+	},
 	"109019": {
 		"dateModified": "2025-01-05T19:40:43Z",
 		"title": {
@@ -30039,7 +30052,7 @@
 	},
 	"143150": {
 		"dateModified": "2025-06-28T15:24:42Z",
-		"page": "智代After_～It's_a_Wonderful_Life～",
+		"page": "Little_Busters!",
 		"title": {
 			"zh-tw": "鍵等 第二季"
 		}
