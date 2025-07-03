@@ -24845,8 +24845,8 @@
 	},
 	"131005": {
 		"title": {
-			"zh": "境界戰機",
-			"zh-hans": "境界战机"
+			"zh": "境界戰機 第一部",
+			"zh-hans": "境界战机 第一部"
 		}
 	},
 	"131019": {
@@ -25848,7 +25848,7 @@
 		}
 	},
 	"143150": {
-		"page": "Angel_Beats!",
+		"page": "智代After_～It's_a_Wonderful_Life～",
 		"title": {
 			"zh-tw": "鍵等 第二季"
 		}
@@ -25857,6 +25857,12 @@
 		"page": "Summer_Pockets",
 		"title": {
 			"zh": "Summer Pockets"
+		}
+	},
+	"143203": {
+		"title": {
+			"zh": "境界戰機 第二部",
+			"zh-hans": "境界战机 第二部"
 		}
 	},
 	"143270": {
