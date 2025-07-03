@@ -30032,7 +30032,7 @@
 	},
 	"143150": {
 		"dateModified": "2025-06-28T15:24:42Z",
-		"page": "CLANNAD",
+		"page": "智代After_～It's_a_Wonderful_Life～",
 		"title": {
 			"zh-tw": "鍵等 第二季"
 		}
@@ -39464,6 +39464,13 @@
 		"title": {
 			"zh": "謎狐怪童",
 			"+zh-hans": "谜狐怪童"
+		}
+	},
+	"35682": {
+		"dateModified": "2025-07-03T03:51:36Z",
+		"title": {
+			"zh": "夢使者",
+			"zh-hans": "梦使者"
 		}
 	},
 	"35685": {
