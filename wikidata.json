@@ -27660,9 +27660,10 @@
 		}
 	},
 	"114979": {
-		"dateModified": "2025-01-26T00:22:56Z",
+		"dateModified": "2025-07-07T09:44:39Z",
 		"title": {
-			"zh": "Love Live! Superstar!!"
+			"zh": "Love Live! Superstar!!",
+			"zh-sg": "Love Live! 超级明星!!"
 		}
 	},
 	"115069": {
@@ -33407,10 +33408,11 @@
 		}
 	},
 	"178312": {
-		"dateModified": "2025-03-07T07:47:18Z",
+		"dateModified": "2025-07-07T09:50:29Z",
 		"title": {
 			"zh": "魔農傳記 FARMAGIA",
-			"zh-hans": "魔农传记 FARMAGIA"
+			"zh-hans": "魔农传记 FARMAGIA",
+			"zh-sg": "魔农传记"
 		}
 	},
 	"178433": {
@@ -34654,6 +34656,13 @@
 		"page": "辉夜大小姐想让我告白～天才们的恋爱头脑战～",
 		"title": {
 			"en": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan"
+		}
+	},
+	"195539": {
+		"dateModified": "2025-07-07T09:41:44Z",
+		"page": "赛博朋克2077",
+		"title": {
+			"en": "Cyberpunk: Edgerunners 2"
 		}
 	},
 
@@ -52306,10 +52315,10 @@
 		}
 	},
 	"106145": {
-		"dateModified": "2025-01-05T08:24:51Z",
+		"dateModified": "2025-07-07T09:49:45Z",
 		"title": {
 			"zh": "轉生賢者的異世界生活～取得第二職業，成為世界最強～",
-			"+zh-hans": "转生贤者的异世界生活～取得第二职业，成为世界最强～"
+			"zh-sg": "转生贤者的异世界生活～取得第二职业，成为世界最强～"
 		}
 	},
 	"106166": {
@@ -53687,10 +53696,11 @@
 		}
 	},
 	"112558": {
-		"dateModified": "2025-03-04T12:15:46Z",
+		"dateModified": "2025-07-07T09:48:58Z",
 		"title": {
 			"zh": "中禪寺老師妖怪講義錄 解謎就交給老師。",
-			"zh-hans": "中禅寺老师妖怪讲义录 解谜就交给老师。"
+			"zh-hans": "中禅寺老师妖怪讲义录 解谜就交给老师。",
+			"zh-sg": "中禅寺老师的灵怪讲义实录 解谜就交给老师"
 		}
 	},
 	"112573": {
@@ -56602,10 +56612,10 @@
 		}
 	},
 	"135083": {
-		"dateModified": "2025-01-05T09:41:43Z",
+		"dateModified": "2025-07-07T09:49:12Z",
 		"title": {
 			"zh": "WIND BREAKER—防風少年—",
-			"+zh-hans": "WIND BREAKER—防风少年—"
+			"zh-sg": "WIND BREAKER—防风少年—"
 		}
 	},
 	"135276": {

@@ -23812,7 +23812,8 @@
 	},
 	"114979": {
 		"title": {
-			"zh": "Love Live! Superstar!!"
+			"zh": "Love Live! Superstar!!",
+			"zh-sg": "Love Live! 超级明星!!"
 		}
 	},
 	"115069": {
@@ -28751,7 +28752,8 @@
 	"178312": {
 		"title": {
 			"zh": "魔農傳記 FARMAGIA",
-			"zh-hans": "魔农传记 FARMAGIA"
+			"zh-hans": "魔农传记 FARMAGIA",
+			"zh-sg": "魔农传记"
 		}
 	},
 	"178433": {
@@ -29820,6 +29822,12 @@
 		"page": "辉夜大小姐想让我告白～天才们的恋爱头脑战～",
 		"title": {
 			"en": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan"
+		}
+	},
+	"195539": {
+		"page": "赛博朋克2077",
+		"title": {
+			"en": "Cyberpunk: Edgerunners 2"
 		}
 	}
 }
