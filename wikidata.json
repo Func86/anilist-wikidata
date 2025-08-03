@@ -33624,14 +33624,15 @@
 		}
 	},
 	"178869": {
-		"dateModified": "2025-08-02T23:49:44Z",
+		"dateModified": "2025-08-02T23:52:16Z",
 		"title": {
 			"zh": "克雷瓦提斯-魔兽之王与婴儿与尸之勇者-",
 			"zh-hans": "克雷瓦提斯-魔兽之王与婴儿与尸之勇者-",
 			"zh-hant": "Clevatess -魔獸之王與嬰兒與屍之勇者-",
 			"zh-hk": "Clevatess - 魔獸之王與嬰兒與屍之勇者",
 			"zh-my": "Clevatess-魔兽之王与婴儿与尸之勇者-",
-			"zh-sg": "Clevatess - 魔兽之王与婴儿与尸之勇者"
+			"zh-sg": "Clevatess - 魔兽之王与婴儿与尸之勇者",
+			"zh-tw": "Clevatess - 魔獸之王與嬰兒與屍之勇者"
 		}
 	},
 	"178886": {
@@ -49837,9 +49838,10 @@
 		}
 	},
 	"97700": {
-		"dateModified": "2025-07-08T20:11:29Z",
+		"dateModified": "2025-08-03T00:36:54Z",
 		"title": {
-			"zh": "CITY"
+			"zh": "CITY",
+			"zh-hant": "CITY (漫畫)"
 		}
 	},
 	"97708": {
