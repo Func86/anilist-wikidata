@@ -20942,7 +20942,8 @@
 		}
 	},
 	"20877": {
-		"dateModified": "2025-01-05T18:36:33Z",
+		"dateModified": "2025-09-28T13:37:47Z",
+		"page": "美男高校地球防卫部",
 		"title": {
 			"zh": "美男高校地球防衛部LOVE！",
 			"+zh-hans": "美男高校地球防卫部LOVE！"
@@ -21861,6 +21862,13 @@
 		"title": {
 			"zh": "虹色時光",
 			"+zh-hans": "虹色时光"
+		}
+	},
+	"21293": {
+		"dateModified": "2025-06-28T03:17:25Z",
+		"page": "美男高校地球防卫部",
+		"title": {
+			"en": "Cute High Earth Defense Club LOVE! LOVE!"
 		}
 	},
 	"21294": {
@@ -24253,7 +24261,8 @@
 		}
 	},
 	"99263": {
-		"dateModified": "2024-08-03T15:59:52Z",
+		"dateModified": "2025-09-27T23:22:31Z",
+		"page": "盾之勇者成名录",
 		"title": {
 			"zh": "盾之勇者成名錄",
 			"+zh-hans": "盾之勇者成名录"
@@ -25014,7 +25023,8 @@
 		}
 	},
 	"100922": {
-		"dateModified": "2025-06-23T07:11:33Z",
+		"dateModified": "2025-09-28T13:35:30Z",
+		"page": "碧蓝之海",
 		"title": {
 			"zh": "GRAND BLUE碧藍之海",
 			"+zh-hans": "GRAND BLUE碧蓝之海"
@@ -25125,6 +25135,7 @@
 	},
 	"101046": {
 		"dateModified": "2025-06-30T06:27:16Z",
+		"page": "美男高校地球防卫部",
 		"title": {
 			"zh": "美男高校地球防衛部HAPPY KISS！",
 			"+zh-hans": "美男高校地球防卫部HAPPY KISS！"
@@ -27263,14 +27274,16 @@
 		}
 	},
 	"111321": {
-		"dateModified": "2024-07-09T06:48:55Z",
+		"dateModified": "2025-09-27T23:23:30Z",
+		"page": "盾之勇者成名录",
 		"title": {
 			"zh": "盾之勇者成名錄 Season2",
 			"+zh-hans": "盾之勇者成名录 Season2"
 		}
 	},
 	"111322": {
-		"dateModified": "2024-07-09T06:49:09Z",
+		"dateModified": "2025-09-27T23:24:03Z",
+		"page": "盾之勇者成名录",
 		"title": {
 			"zh": "盾之勇者成名錄 Season3",
 			"+zh-hans": "盾之勇者成名录 Season3"
@@ -29367,6 +29380,7 @@
 	},
 	"132052": {
 		"dateModified": "2025-06-19T15:09:45Z",
+		"page": "杜鹃婚约",
 		"title": {
 			"zh-tw": "杜鵑婚約"
 		}
@@ -31236,7 +31250,8 @@
 		}
 	},
 	"153288": {
-		"dateModified": "2025-01-12T08:06:34Z",
+		"dateModified": "2025-09-14T02:41:36Z",
+		"page": "怪兽8号",
 		"title": {
 			"zh": "怪獸8號",
 			"zh-hans": "怪兽8号"
@@ -31673,7 +31688,8 @@
 		}
 	},
 	"156415": {
-		"dateModified": "2025-07-07T10:21:07Z",
+		"dateModified": "2025-09-25T11:36:04Z",
+		"page": "转生七王子的魔法全解",
 		"title": {
 			"zh": "轉生為第七王子，隨心所欲的魔法學習之路",
 			"zh-sg": "转生为第七王子，随心所欲的魔法学习之路"
@@ -32715,7 +32731,8 @@
 		}
 	},
 	"168537": {
-		"dateModified": "2025-06-22T00:44:05Z",
+		"dateModified": "2025-08-01T19:12:20Z",
+		"page": "稗记舞咏",
 		"title": {
 			"zh-tw": "尋神的旅途"
 		}
@@ -33272,6 +33289,13 @@
 			"+zh-hans": "靠废柴技能【状态异常】成为最强的我将蹂躏一切"
 		}
 	},
+	"173780": {
+		"dateModified": "2025-09-27T23:21:06Z",
+		"page": "盾之勇者成名录",
+		"title": {
+			"en": "The Rising of the Shield Hero, season 4"
+		}
+	},
 	"173884": {
 		"dateModified": "2025-09-27T22:45:56Z",
 		"title": {
@@ -33728,6 +33752,13 @@
 			"zh": "Princession Orchestra"
 		}
 	},
+	"178090": {
+		"dateModified": "2025-06-28T14:33:22Z",
+		"page": "转生七王子的魔法全解",
+		"title": {
+			"en": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability, season 2"
+		}
+	},
 	"178100": {
 		"dateModified": "2025-01-05T19:40:00Z",
 		"title": {
@@ -33818,6 +33849,13 @@
 		"page": "喂！蜻蜓",
 		"title": {
 			"zh": "蜻蛉高球 第二季"
+		}
+	},
+	"178754": {
+		"dateModified": "2025-09-14T02:41:49Z",
+		"page": "怪兽8号",
+		"title": {
+			"en": "Kaiju No. 8, season 2"
 		}
 	},
 	"178788": {
@@ -33949,9 +33987,17 @@
 		}
 	},
 	"179828": {
-		"dateModified": "2025-06-19T15:15:28Z",
+		"dateModified": "2025-09-27T22:34:24Z",
+		"page": "杜鹃婚约",
 		"title": {
 			"zh-tw": "杜鵑婚約 第二季"
+		}
+	},
+	"179838": {
+		"dateModified": "2025-09-06T15:30:38Z",
+		"page": "美男高校地球防卫部",
+		"title": {
+			"en": "Cute High Earth Defense Club Eternal Love!"
 		}
 	},
 	"179852": {
@@ -34017,7 +34063,8 @@
 		}
 	},
 	"179966": {
-		"dateModified": "2025-01-05T08:29:07Z",
+		"dateModified": "2025-09-28T13:30:49Z",
+		"page": "沉默的魔女",
 		"title": {
 			"zh": "Silent Witch 沉默魔女的祕密",
 			"+zh-hans": "Silent Witch 沉默魔女的秘密"
@@ -34112,7 +34159,8 @@
 		}
 	},
 	"180523": {
-		"dateModified": "2025-01-05T19:43:05Z",
+		"dateModified": "2025-09-19T06:59:19Z",
+		"page": "野生的最终BOSS出现了！",
 		"title": {
 			"zh": "野生的大魔王出現了！",
 			"zh-hans": "野生的大魔王出现了！"
@@ -34252,6 +34300,13 @@
 		"title": {
 			"zh": "葬送的芙莉蓮",
 			"zh-hans": "葬送的芙莉莲"
+		}
+	},
+	"182309": {
+		"dateModified": "2025-09-25T05:36:57Z",
+		"page": "碧蓝之海",
+		"title": {
+			"en": "Grand Blue, season 2"
 		}
 	},
 	"182333": {
@@ -34704,7 +34759,8 @@
 		}
 	},
 	"185965": {
-		"dateModified": "2025-04-21T00:28:11Z",
+		"dateModified": "2025-08-01T19:27:57Z",
+		"page": "双人单身露营",
 		"title": {
 			"zh": "雙人單身露營",
 			"zh-hans": "双人单身露营"
@@ -34718,14 +34774,16 @@
 		}
 	},
 	"186003": {
-		"dateModified": "2025-01-05T10:41:11Z",
+		"dateModified": "2025-09-28T13:34:50Z",
+		"page": "费马的料理",
 		"title": {
 			"zh": "費馬的料理",
 			"+zh-hans": "费马的料理"
 		}
 	},
 	"186052": {
-		"dateModified": "2025-05-30T22:41:34Z",
+		"dateModified": "2025-09-06T13:56:23Z",
+		"page": "水属性的魔法师",
 		"title": {
 			"zh": "水屬性的魔法師",
 			"zh-hans": "水属性的魔法师"
@@ -34948,6 +35006,13 @@
 			"zh-hans": "午夜的倾心旋律"
 		}
 	},
+	"188138": {
+		"dateModified": "2025-09-24T04:26:31Z",
+		"page": "美男高校地球防卫部",
+		"title": {
+			"en": "Binan Kōkō Chikyū Bōei-bu Haikara!"
+		}
+	},
 	"188139": {
 		"dateModified": "2025-03-20T14:47:46Z",
 		"title": {
@@ -35109,12 +35174,11 @@
 		}
 	},
 	"195209": {
-		"dateModified": "2025-08-29T04:21:13Z",
+		"dateModified": "2025-09-28T13:17:19Z",
+		"page": "黑化吧！圣女大人",
 		"title": {
-			"zh": "獻上聖女最誠摯的復仇",
-			"zh-hans": "献上圣女最诚挚的复仇",
-			"zh-hant": "獻上聖女最誠摯的復仇",
-			"zh-tw": "黑化吧！聖女大人"
+			"zh": "黑化吧！聖女大人",
+			"+zh-hans": "黑化吧！圣女大人"
 		}
 	},
 	"195515": {
