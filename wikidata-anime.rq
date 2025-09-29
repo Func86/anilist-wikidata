@@ -8,7 +8,10 @@ SELECT (MIN(xsd:integer(?value)) AS ?id)
 WHERE {{
   BIND('anime' AS ?type)
   {
-    ?item wdt:P8729 ?value.
+    ?item p:P8729 ?prop.
+    ?prop rdf:type wikibase:BestRank;
+          ps:P8729 ?value.
+    OPTIONAL { ?prop pq:P1545 ?index. }
 
     OPTIONAL { ?item wdt:P364 ?originalLanguage. }
     FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
@@ -20,7 +23,10 @@ WHERE {{
     ?item schema:dateModified ?dateModified.
     BIND(0 AS ?source).
   } UNION {
-    ?item wdt:P8729 ?value.
+    ?item p:P8729 ?prop.
+    ?prop rdf:type wikibase:BestRank;
+          ps:P8729 ?value.
+    OPTIONAL { ?prop pq:P1545 ?index. }
 
     OPTIONAL { ?item wdt:P364 ?originalLanguage. }
     FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
@@ -55,7 +61,10 @@ WHERE {{
     FILTER(STRSTARTS(?lang, "zh"))
     BIND(1 AS ?source).
   } UNION {
-    ?item wdt:P8729 ?value.
+    ?item p:P8729 ?prop.
+    ?prop rdf:type wikibase:BestRank;
+          ps:P8729 ?value.
+    OPTIONAL { ?prop pq:P1545 ?index. }
 
     OPTIONAL { ?item wdt:P364 ?originalLanguage. }
     FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
@@ -132,5 +141,5 @@ WHERE {{
   BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage, ?medmixPage, ?seriesMedmixPage) AS ?finalPage)
   FILTER(STRSTARTS(?lang, "zh") || BOUND(?finalPage))
 }}
-GROUP BY ?item ?source ?lang
+GROUP BY ?item ?source ?lang ?index
 ORDER BY ?id ?source ?lang
