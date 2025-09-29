@@ -39,7 +39,12 @@ function entryCallback(entry) {
 			staff => staff.role && !staff.role.match(/(?:Letter|Translat|Touch-up|Assist|Edit|Supervisor)/i)
 		);
 		for (const staff of mainStaff) {
-			const [ , role, qualifier ] = staff.role.match(/^([^(]+?)\s*(?:\((.+)\))?$/);
+			const matched = staff.role.trim().match(/^([^(]+?)\s*(?:\((.+)\))?$/);
+			if (!matched) {
+				console.log(`Unexpected value of role: "${staff.role}" for ${entry.id}`);
+				continue;
+			}
+			const [ , role, qualifier ] = matched;
 			credits[role] = credits[role] || [];
 			if (qualifier) {
 				credits[role].push(`${staff.node.name.full} (${qualifier})`);
