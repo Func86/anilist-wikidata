@@ -27,7 +27,7 @@ function entryCallback(entry) {
 		P21: genderEntity(gender) || '',
 		born: birth || '',
 		died: death || '',
-		P2031: yearsActive[0] || '',
+		P2031: String(yearsActive[0] || ''),
 		url: siteUrl,
 		description: descText,
 	};
