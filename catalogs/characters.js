@@ -16,9 +16,9 @@ function entryCallback(entry) {
 		}
 	}
 	return {
-		id: entry.id,
+		id: String(entry.id),
 		name: normalizeSpace(entry.name.full),
-		type: guessEntityType(entry),
+		type: guessEntityType(entry) || '',
 		url: entry.siteUrl,
 		description: description.join('. '),
 	};

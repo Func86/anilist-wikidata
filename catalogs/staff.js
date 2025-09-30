@@ -18,16 +18,16 @@ function entryCallback(entry) {
 	if (homeTown) {
 		description.push(`From ${normalizeSpace(homeTown)}`);
 	}
-	const descText = description.length ? description.join('. ') + '.' : null;
+	const descText = description.length ? description.join('. ') + '.' : '';
 	return {
-		id: id,
+		id: String(id),
 		name: normalizeSpace(name.full || name.native),
-		type: guessEntityType(entry),
-		P1853: bloodTypeEntity(bloodType),
-		P21: genderEntity(gender),
-		born: birth,
-		died: death,
-		P2031: yearsActive[0],
+		type: guessEntityType(entry) || '',
+		P1853: bloodTypeEntity(bloodType) || '',
+		P21: genderEntity(gender) || '',
+		born: birth || '',
+		died: death || '',
+		P2031: yearsActive[0] || '',
 		url: siteUrl,
 		description: descText,
 	};
