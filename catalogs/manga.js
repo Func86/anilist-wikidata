@@ -70,10 +70,10 @@ function entryCallback(entry) {
 	}
 
 	return {
-		ID: entry.id,
+		id: entry.id,
 		name: normalizeSpace(entry.title.english || entry.title.romaji || entry.title.native),
 		type,
-		URL: entry.siteUrl,
+		url: entry.siteUrl,
 		P4087: entry.idMal,
 		description: description.join('. '),
 	};

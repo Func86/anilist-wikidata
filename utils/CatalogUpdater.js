@@ -139,10 +139,107 @@ class CatalogUpdater {
 				delimiter: '\t',
 				newline: '\n',
 			}));
+
+			await this.checkCatalog(data, this.dataName);
 		} catch (error) {
 			console.error('Error:', error);
 			core.warning(`Error while processing ${this.dataName}: ${error.message}`);
 		}
+	}
+
+	async checkCatalog(newCatalogRecords, catalog) {
+		const url = new URL('https://mix-n-match.toolforge.org/api.php');
+		url.search = new URLSearchParams({
+			query: 'download2',
+			catalogs: catalogIdMap[catalog],
+			columns: JSON.stringify({
+				exturl: 1,
+				username: 0,
+				aux: 1,
+				dates: 1,
+				location: 0,
+				multimatch: 0
+			}),
+			hidden: JSON.stringify({
+				any_matched: 0,
+				firmly_matched: 0,
+				user_matched: 0,
+				unmatched: 0,
+				automatched: 0,
+				name_date_matched: 0,
+				aux_matched: 0,
+				no_multiple: 0
+			}),
+			format: 'json',
+		});
+
+		console.log(String(url));
+		const response = await fetch(url);
+		const oldCatalogMap = this.parseOldCatalog(await response.json(), catalog);
+		const newCatalogMap = Object.fromEntries(newCatalogRecords.map(record => [record.id, record]));
+		console.log(`Old catalog has ${Object.keys(oldCatalogMap).length} entries, new catalog has ${Object.keys(newCatalogMap).length} entries`);
+
+		const newlyDeleted = Object.keys(oldCatalogMap).filter(
+			id => !newCatalogMap[id] && oldCatalogMap[id].type !== 'Q21441764'
+		);
+		const addedOrModified = Object.keys(newCatalogMap).filter(
+			id => !oldCatalogMap[id] || Object.keys(updatedDiff(oldCatalogMap[id], newCatalogMap[id])).length !== 0
+		);
+
+		const data = [];
+		for (const id of newlyDeleted) {
+			data.push({
+				id,
+				name: oldCatalogMap[id].name,
+				type: 'Q21441764', // withdrawn identifier value
+				description: '[withdrawn identifier value]',
+			});
+		}
+		for (const id of addedOrModified) {
+			data.push(newCatalogMap[id]);
+		}
+
+		fs.writeFileSync(`anilist-${catalog}-update.tsv`, Papa.unparse(data, {
+			delimiter: '\t',
+			newline: '\n',
+			columns: Object.keys(newCatalogRecords[0]),
+		}));
+	}
+
+	parseOldCatalog(records, catalog) {
+		const data = {};
+		for (const record of records) {
+			if (!record.external_id || isNaN(record.external_id)) {
+				console.error(`Invalid external ID: "${record.external_id}" for ${catalog} entry ${record.entry_id}`);
+				continue;
+			}
+			const entry = {
+				id: record.external_id,
+				name: record.name,
+				type: record.entry_type,
+				url: record.external_url,
+				description: record.description,
+			};
+			if (record.born) {
+				entry.born = record.born;
+			}
+			if (record.died) {
+				entry.died = record.died;
+			}
+			if (record.auxiliary_data) {
+				const aux = record.auxiliary_data.split('|').map(s => s.match(/^\{`(P\d+)`,`(Q?[^`]+)`,`[01]`\}$/));
+				for (const match of aux) {
+					if (match) {
+						entry[match[1]] = match[2];
+					} else {
+						console.error(`Invalid auxiliary data: "${record.auxiliary_data}" for ${catalog} entry ${record.entry_id}`);
+					}
+				}
+			}
+			data[record.external_id] = entry;
+		}
+
+		return data;
 	}
 }
 

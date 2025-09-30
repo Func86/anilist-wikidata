@@ -16,10 +16,10 @@ function entryCallback(entry) {
 		}
 	}
 	return {
-		ID: entry.id,
+		id: entry.id,
 		name: normalizeSpace(entry.name.full),
 		type: guessEntityType(entry),
-		URL: entry.siteUrl,
+		url: entry.siteUrl,
 		description: description.join('. '),
 	};
 }
