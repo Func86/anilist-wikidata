@@ -1,6 +1,7 @@
 import fs from 'fs';
 import Papa from 'papaparse';
 import core from '@actions/core';
+import { updatedDiff } from 'deep-object-diff';
 
 /**
  * Update the catalog by fetching data from a GraphQL API and writing it to a TSV file.
@@ -148,6 +149,12 @@ class CatalogUpdater {
 	}
 
 	async checkCatalog(newCatalogRecords, catalog) {
+		const catalogIdMap = {
+			'anime': '4086',
+			'manga': '5745',
+			'staff': '5714',
+			'characters': '5911',
+		};
 		const url = new URL('https://mix-n-match.toolforge.org/api.php');
 		url.search = new URLSearchParams({
 			query: 'download2',

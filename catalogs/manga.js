@@ -70,11 +70,11 @@ function entryCallback(entry) {
 	}
 
 	return {
-		id: entry.id,
+		id: String(entry.id),
 		name: normalizeSpace(entry.title.english || entry.title.romaji || entry.title.native),
-		type,
+		type: type || '',
 		url: entry.siteUrl,
-		P4087: entry.idMal,
+		P4087: String(entry.idMal || ''),
 		description: description.join('. '),
 	};
 }

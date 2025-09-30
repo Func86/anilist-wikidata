@@ -21,13 +21,13 @@ function entryCallback(entry) {
 		description.push(`Directed by ${normalizeSpace(director.node.name.full)}`);
 	}
 	return {
-		id: entry.id,
+		id: String(entry.id),
 		name: normalizeSpace(entry.title.english || entry.title.romaji || entry.title.native),
-		type: guessEntityType(entry),
+		type: guessEntityType(entry) || '',
 		url: entry.siteUrl,
-		P4086: entry.idMal,
+		P4086: String(entry.idMal || ''),
 		description: description.join('. '),
-	}
+	};
 }
 
 /**
