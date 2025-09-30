@@ -20,7 +20,7 @@ function entryCallback(entry) {
 	}
 	const descText = description.length ? description.join('. ') + '.' : null;
 	return {
-		ID: id,
+		id: id,
 		name: normalizeSpace(name.full || name.native),
 		type: guessEntityType(entry),
 		P1853: bloodTypeEntity(bloodType),
@@ -28,7 +28,7 @@ function entryCallback(entry) {
 		born: birth,
 		died: death,
 		P2031: yearsActive[0],
-		URL: siteUrl,
+		url: siteUrl,
 		description: descText,
 	};
 }

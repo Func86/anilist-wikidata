@@ -21,10 +21,10 @@ function entryCallback(entry) {
 		description.push(`Directed by ${normalizeSpace(director.node.name.full)}`);
 	}
 	return {
-		ID: entry.id,
+		id: entry.id,
 		name: normalizeSpace(entry.title.english || entry.title.romaji || entry.title.native),
 		type: guessEntityType(entry),
-		URL: entry.siteUrl,
+		url: entry.siteUrl,
 		P4086: entry.idMal,
 		description: description.join('. '),
 	}
