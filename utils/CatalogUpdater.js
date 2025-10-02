@@ -111,23 +111,36 @@ class CatalogUpdater {
 				}
 				if (breakLoop) break;
 
-				if (body.data.Page.pageInfo.hasNextPage) {
-					const currentPage = body.data.Page.pageInfo.currentPage;
+				const pageInfo = body.data.Page.pageInfo;
+				if (pageInfo.hasNextPage) {
 					console.log(
 						`Last entry: ${lastEntry.id},`,
 						lastEntry.updatedAt ? `upddated at ${new Date(lastEntry.updatedAt * 1000).toISOString()},` : '',
-						`next page offset = ${currentPage}`
+						`next page offset = ${pageInfo.currentPage}`
 					);
-					variables.page = currentPage + 1;
+					variables.page = pageInfo.currentPage + 1;
 					continue;
+				} else if (!breakLoop) {
+					console.error(`No more pages to fetch: ${JSON.stringify(pageInfo)}`);
+					core.warning('Unexpected end of query results');
 				}
 			} catch (error) {
 				console.error('Error:', error);
 				core.warning(`Error while fetching ${this.dataName}: ${error.message}`);
+				if (retries++ < 3) {
+					console.log(`Retrying in ${retrySleep[retries - 1]} seconds...`);
+					await new Promise(resolve => setTimeout(resolve, retrySleep[retries - 1] * 1000));
+					continue;
+				}
 			}
 			break;
 		}
 		fs.writeFileSync(`./catalogs/${this.dataName}.json`, JSON.stringify(rawData, undefined, '\t'));
+
+		// Didn't finish, don't mess up the catalog
+		if (!breakLoop) {
+			return;
+		}
 
 		// We absolutely don't want to error out and fail the workflow at this stage
 		try {
