@@ -1047,8 +1047,8 @@ id	name	type	url	P4086	description
 1155	Meltylancer: The Animation	Q113687694	https://anilist.co/anime/1155	1155	メルティランサー THE ANIMATION. 1999 anime by GONZO. Directed by Takeshi Mori
 1156	Zaion: I Wish You Were Here	Q63952888	https://anilist.co/anime/1156	1156	i -wish you were here- ～あなたがここにいてほしい～. 2001 anime by GONZO. Directed by Seiji Mizushima
 1157	Final Fantasy: Unlimited	Q63952888	https://anilist.co/anime/1157	1157	ファイナルファンタジー：アンリミテッド. 2001 anime by GONZO
-1158	Geobreeders: (File-X) Get Back The Kitty	Q113687694	https://anilist.co/anime/1158	1158	ジオブリーダーズ File-X ちびねこ奪還. 1998 anime by Chaos Project
-1159	Geobreeders: Breakthrough	Q113687694	https://anilist.co/anime/1159	1159	ジオブリーダーズ２ 魍魎遊撃隊. 2000 anime by Chaos Project. Directed by Shin Misawa
+1158	GEOBREEDERS	Q113687694	https://anilist.co/anime/1158	1158	ジオブリーダーズ File-X ちびねこ奪還. 1998 anime by Chaos Project
+1159	GEOBREEDERS: BREAKTHROUGH	Q113687694	https://anilist.co/anime/1159	1159	"ジオブリーダーズ2 魍魎遊撃隊 File-XX ""乱戦突破"". 2000 anime by Chaos Project. Directed by Shin Misawa"
 1160	Gundress	Q20650540	https://anilist.co/anime/1160	1160	ガンドレス. 1999 anime. Directed by Katsuyoshi Yatabe
 1161	MAZE (TV)	Q100269041	https://anilist.co/anime/1161	1161	MAZE☆爆熱時空 (TV). 1997 anime by J.C.STAFF. Directed by Iku Suzuki
 1162	MAZE	Q113687694	https://anilist.co/anime/1162	1162	MAZE☆爆熱時空. 1996 anime by J.C.STAFF. Directed by Iku Suzuki
@@ -4647,7 +4647,7 @@ id	name	type	url	P4086	description
 6657	Girl's High Specials	Q1107	https://anilist.co/anime/6657	6657	女子高生. 2006 anime by Arms, Studio Kelmadick and Studio Guts
 6658	Unko-san: Tsuiteru Hito ni Shika Mienai Yousei	Q63952888	https://anilist.co/anime/6658	6658	うんこさん ツイてる人にしか見えない妖精. 2009 anime by Kachidoki Studio
 6667	Love to Live By	Q64100970	https://anilist.co/anime/6667	6667	Love to Live By. 2007 anime by Studio 4°C
-6670	Symphony in August	Q20650540	https://anilist.co/anime/6670	6670	8月のシンフォニー ―渋谷 2002～2003. 2009 anime. Directed by Akio Nishizawa
+6670	Symphony in August	Q20650540	https://anilist.co/anime/6670	6670	8月のシンフォニー ―渋谷 2002～2003. 2009 anime by WAO World. Directed by Akio Nishizawa
 6671	Space Three Musketeers	Q202866	https://anilist.co/anime/6671	6671	별나라 삼총사. 1979 anime
 6672	Video Warrior Laserion	Q63952888	https://anilist.co/anime/6672	6672	ビデオ戦士レザリオン. 1984 anime
 6674	Reporter Blues	Q63952888	https://anilist.co/anime/6674	6674	レポーターブルース. 1991 anime by Tokyo Movie Shinsha. Directed by Kenji Kodama
@@ -5548,7 +5548,7 @@ id	name	type	url	P4086	description
 9000	The Princess and the Pilot	Q20650540	https://anilist.co/anime/9000	9000	とある飛空士への追憶. 2011 anime by MADHOUSE. Directed by Jun Shishido
 9002	True Tears: Raigomaru to Jibeta no Monogatari	Q1107	https://anilist.co/anime/9002	9002	雷轟丸とじべたの物語. 2010 anime
 9005	ToHeart2 adnext	Q113687694	https://anilist.co/anime/9005	9005	ToHeart2 adnext. 2010 anime
-9006	Rei ZERO	Q113687694	https://anilist.co/anime/9006	9006	レイZERO. 2010 anime by OZ Inc. and Anime Antenna Iinkai
+9006	Rei ZERO	Q113687694	https://anilist.co/anime/9006	9006	レイZERO. 2010 anime by OZ Inc. and Anime Antenna Iinkai. Directed by Heisaku Wada
 9007	Anpanman: Blacknose and the Magical Song	Q20650540	https://anilist.co/anime/9007	9007	それいけ! アンパンマン ブラックノーズと魔法の歌. 2010 anime
 9008	THE LEWD BOAT	Q113687694	https://anilist.co/anime/9008	9008	寝取られファイター ヤリっちんぐ!. 2010 anime
 9009	Otome Juurin Yuugi: Maiden Infringement Play	Q113687694	https://anilist.co/anime/9009	9009	乙女蹂躙遊戯～Maiden Infringement Play～. 2010 anime. Directed by Hiromi Yokoyama
@@ -5787,7 +5787,7 @@ id	name	type	url	P4086	description
 9613	Big X	Q63952888	https://anilist.co/anime/9613	9613	ビッグX. 1964 anime. Directed by Osamu Dezaki
 9617	K-ON!: The Movie	Q20650540	https://anilist.co/anime/9617	9617	映画けいおん！. 2011 anime by Kyoto Animation. Directed by Naoko Yamada
 9618	Cat Planet Cuties: Come Drop By	Q220898	https://anilist.co/anime/9618	9618	あそびにいくヨ! あそびにおいで. 2011 anime by AIC Plus+
-9624	A Thirty-Year Old's Health and Physical Education	Q63952888	https://anilist.co/anime/9624	9624	30歳の保健体育. 2011 anime. Directed by Mankyuu
+9624	A Thirty-Year Old's Health and Physical Education	Q63952888	https://anilist.co/anime/9624	9624	30歳の保健体育. 2011 anime by Gathering. Directed by Mankyuu
 9627	Kakko Kawaii Sengen!	Q100269041	https://anilist.co/anime/9627	9627	カッコカワイイ宣言！. 2010 anime by Gathering. Directed by Mankyuu
 9629	Cyborg 009: The Reopening	Q1107	https://anilist.co/anime/9629	9629	サイボーグ009 The Reopening. 2010 anime. Directed by Mamoru Oshii
 9630	Mini Sengoku BASARA Two: Tsukiyo no Katakura-kun	Q1107	https://anilist.co/anime/9630	9630	ミニ戦国BASARA弐 月夜の片倉くん. 2010 anime
@@ -8564,7 +8564,7 @@ id	name	type	url	P4086	description
 20850	Tokyo Ghoul √A	Q100269041	https://anilist.co/anime/20850	27899	東京喰種[トーキョーグール]√A. 2015 anime by Studio Pierrot. Directed by Shuuhei Morita
 20851	Locodol: We Tried Giving a Tour of Nagarekawa	Q220898	https://anilist.co/anime/20851	25719	普通の女子校生が【ろこどる】やってみた。流川、案内してみた。. 2014 anime by feel.
 20852	Oni Chichi: Rebuild	Q113687694	https://anilist.co/anime/20852	21097	鬼父 Rebuild. 2013 anime by PoRO
-20853	ALDNOAH.ZERO Season 2	Q100269041	https://anilist.co/anime/20853	27655	アルドノア・ゼロ 2. 2015 anime by A-1 Pictures and TROYCA. Directed by Ei Aoki
+20853	ALDNOAH.ZERO Season 2	Q100269041	https://anilist.co/anime/20853	27655	アルドノア・ゼロ 第2クール. 2015 anime by A-1 Pictures and TROYCA. Directed by Ei Aoki
 20854	Baby Steps 2	Q100269041	https://anilist.co/anime/20854	27663	ベイビーステップ 2. 2015 anime by Studio Pierrot. Directed by Masahiko Murata
 20855	Bottom Biting Bug 3	Q100269041	https://anilist.co/anime/20855	27687	おしりかじり虫 3. 2014 anime by Kinema Citrus
 20856	D-Frag! OVA	Q220898	https://anilist.co/anime/20856	23383	ディーふらぐ! OAD. 2014 anime
@@ -9894,7 +9894,7 @@ id	name	type	url	P4086	description
 98475	Lights of the Clione	Q63952888	https://anilist.co/anime/98475	35114	クリオネの灯り. 2017 anime by drop. Directed by Naoya Ishikawa
 98476	Biblia Koshodou no Jiken Techou	Q20650540	https://anilist.co/anime/98476	34900	ビブリア古書堂の事件手帖. anime
 98477	Frankenstein Family	Q117467246	https://anilist.co/anime/98477	36397	实验品家庭. 2018 anime by Big Firebird Cultural Media
-98478	March comes in like a lion Season 2	Q100269041	https://anilist.co/anime/98478	35180	３月のライオン 2. 2017 anime by Shaft. Directed by Akiyuki Shinbou
+98478	March comes in like a lion Season 2	Q100269041	https://anilist.co/anime/98478	35180	３月のライオン 第2シリーズ. 2017 anime by Shaft. Directed by Akiyuki Shinbou
 98479	Gurazeni: Money Pitch	Q100269041	https://anilist.co/anime/98479	35183	グラゼニ. 2018 anime by Studio DEEN. Directed by Ayumu Watanabe
 98480	Sexual Sacrifice	Q220898	https://anilist.co/anime/98480	35178	堕落令嬢 THE ANIMATION 箱入りお嬢様寝取られ調教記録. 2017 anime by BOOTLEG. Directed by Ken Raika
 98491	In Another World With My Smartphone	Q100269041	https://anilist.co/anime/98491	35203	異世界はスマートフォンとともに。. 2017 anime by Ashi Productions. Directed by Yuuji Yanase
@@ -9936,7 +9936,7 @@ id	name	type	url	P4086	description
 98554	Cardcaptor Sakura: Clear Card Prologue – Sakura and the Two Bears	Q220898	https://anilist.co/anime/98554	35320	カードキャプターさくら クリアカード編 プロローグ さくらとふたつのくま. 2017 anime by MADHOUSE. Directed by Morio Asaka
 98556	THE IDOLM@STER CINDERELLA GIRLS Theater (Web)	Q113671041	https://anilist.co/anime/98556	35346	シンデレラガールズ劇場 火曜シンデレラシアター. 2017 anime by Gathering
 98557	Menhera Ayuri no Yamanai Onedari: Headphone wa Hazusenai	Q113687694	https://anilist.co/anime/98557	35343	メンヘラ歩理のヤまないおねだり ～ヘッドホンは はずせない～. 2017 anime by Collaboration Works petit
-98565	Mr. Osomatsu 2nd season	Q100269041	https://anilist.co/anime/98565	35067	おそ松さん 2. 2017 anime by Studio Pierrot. Directed by Youichi Fujita
+98565	Mr. Osomatsu 2nd season	Q100269041	https://anilist.co/anime/98565	35067	おそ松さん 第2期. 2017 anime by Studio Pierrot. Directed by Youichi Fujita
 98566	Teekyuu 9	Q100269041	https://anilist.co/anime/98566	35370	てーきゅう9. 2017 anime by Millepensee. Directed by Shin Itagaki
 98567	Picotopia	Q1047299	https://anilist.co/anime/98567	21607	ピコトピア. 2013 anime by Mirai Film. Directed by Mirai Mizue
 98568	Wasureboshi	Q1047299	https://anilist.co/anime/98568	21591	忘れ星. 2013 anime
@@ -11758,7 +11758,7 @@ id	name	type	url	P4086	description
 104131	The Bear	Q20650540	https://anilist.co/anime/104131	30397	森のクマさん. 2009 anime. Directed by Taku Furukawa
 104139	R*pe Has Been Legalized!!!	Q113687694	https://anilist.co/anime/104139	38513	レイプ合法化っ!!!. 2018 anime by Selfish
 104147	Joshi Kausei	Q63952888	https://anilist.co/anime/104147	38295	女子かう生. 2019 anime by Seven. Directed by Noriyoshi Sasaki
-104148	"Fairy Princess Minky Momo Song Special ""Hitomi no Seiza"""	Q220898	https://anilist.co/anime/104148	23129	魔法のプリンセス ミンキーモモ 瞳の星座 ミンキーモモSONGスペシャル. 1987 anime by Ashi Productions. Directed by Kunihiko Yuyama
+104148	Mahou no Princess Minky Momo: Hitomi no Seiza - Minky Momo SONG Special	Q220898	https://anilist.co/anime/104148	23129	魔法のプリンセス ミンキーモモ 瞳の星座 ミンキーモモSONGスペシャル. 1987 anime by Ashi Productions. Directed by Kunihiko Yuyama
 104155	Out of My Mind	Q20650540	https://anilist.co/anime/104155	40727	Out of My Mind. 2016 anime. Directed by Tomomi Komazaki
 104156	Kemurikusa	Q113671041	https://anilist.co/anime/104156	37311	ケムリクサ. 2012 anime. Directed by Tatsuki
 104157	Rascal Does Not Dream of a Dreaming Girl	Q20650540	https://anilist.co/anime/104157	38329	青春ブタ野郎はゆめみる少女の夢を見ない. 2019 anime by CloverWorks. Directed by Souichi Masui
@@ -14198,7 +14198,7 @@ id	name	type	url	P4086	description
 120810	Gottsuo-sama	Q64100970	https://anilist.co/anime/120810	40859	ごっつぉさま. 1997 anime
 120815	World End Economica		https://anilist.co/anime/120815		ワールド エンド エコノミカ. anime
 120831	Himitsukessha Taka no Tsume THE MOVIE 4: Kaspersky wo Motsu Otoko	Q220898	https://anilist.co/anime/120831	30753	秘密結社鷹の爪 THE MOVIE4 〜カスペルスキーを持つ男〜. 2010 anime
-120851	Mr. Osomatsu 3rd season	Q100269041	https://anilist.co/anime/120851	42391	おそ松さん 3. 2020 anime by Studio Pierrot. Directed by Youichi Fujita
+120851	Mr. Osomatsu 3rd season	Q100269041	https://anilist.co/anime/120851	42391	おそ松さん 第3期. 2020 anime by Studio Pierrot. Directed by Youichi Fujita
 120859	Burning Kabaddi	Q63952888	https://anilist.co/anime/120859	42395	灼熱カバディ. 2021 anime by TMS Entertainment. Directed by Kazuya Ichikawa
 120871	Mr. Empty	Q64100970	https://anilist.co/anime/120871	30427	Mr. Empty. 2004 anime. Directed by Mazakazu Amahisa
 120872	Kamotori Gonbee	Q20650540	https://anilist.co/anime/120872	33177	かもとりごんべえ. 1961 anime. Directed by Matsue Jinbo
@@ -17770,7 +17770,7 @@ id	name	type	url	P4086	description
 151778	Wo Cong Zhu Tian Wan Jie Guilai	Q1047299	https://anilist.co/anime/151778	52257	我从诸天万界归来. 2021 anime
 151779	Boonie Bears: Back to Earth	Q202866	https://anilist.co/anime/151779	55589	熊出没·重返地球. 2022 anime by Fantawild Animation
 151780	Balala Xiao Moxian: Mofa Xing Yuan Bao	Q117467246	https://anilist.co/anime/151780	56132	巴啦啦小魔仙之魔法星缘堡. 2022 anime by Alpha Animation
-151799	New PANTY & STOCKING with GARTERBELT	Q100269041	https://anilist.co/anime/151799	52293	New PANTY&STOCKING with GARTERBELT. 2025 anime by TRIGGER. Directed by Hiroyuki Imaishi
+151799	New PANTY & STOCKING with GARTERBELT	Q100269041	https://anilist.co/anime/151799	52293	New PANTY & STOCKING with GARTERBELT. 2025 anime by TRIGGER. Directed by Hiroyuki Imaishi
 151801	MASHLE: MAGIC AND MUSCLES	Q100269041	https://anilist.co/anime/151801	52211	マッシュル-MASHLE-. 2023 anime by A-1 Pictures
 151803	TIGER & BUNNY 2 Part 2	Q113671041	https://anilist.co/anime/151803	52291	TIGER & BUNNY 2 パート2. 2022 anime by Bandai Namco Pictures. Directed by Mitsuko Kase
 151806	Tomo-chan Is a Girl!	Q63952888	https://anilist.co/anime/151806	52305	トモちゃんは女の子！. 2023 anime by Lay-duce. Directed by Hitoshi Nanba
@@ -19527,7 +19527,7 @@ id	name	type	url	P4086	description
 174128	Chikomaru	Q1047299	https://anilist.co/anime/174128	57953	ちこまる. 2024 anime by Pie in the sky. Directed by Haruka Suzuki
 174181	Succubus★Connect!	Q220898	https://anilist.co/anime/174181	58122	サキュバス★コネクト！. 2024 anime by Majin petit
 174184	Dearest Blue	Q220898	https://anilist.co/anime/174184	58123	ディアレストブルー. 2024 anime by PoRO petit
-174186	Rennyuu Order: Okawari The Animation	Q220898	https://anilist.co/anime/174186	57936	恋乳オーダー ～おかわり～ The Animation. 2024 anime by Studio 1st
+174186	Busty Love Order: Refill: THE ANIMATION	Q220898	https://anilist.co/anime/174186	57936	恋乳オーダー ～おかわり～ The Animation. 2024 anime by Studio 1st
 174187	Mebuki The Animation	Q113687694	https://anilist.co/anime/174187	57937	雌吹 The Animation. 2024 anime by Studio 1st. Directed by Hideta Oota
 174188	Nukitashi THE ANIMATION	Q63952888	https://anilist.co/anime/174188	57969	ぬきたし THE ANIMATION. 2025 anime by Passione. Directed by Nobuyoshi Nagayama
 174189	Shinsei Kourin Dacryon - Luna: Daseibo Tanjou	Q113687694	https://anilist.co/anime/174189	60044	神聖昂燐ダクリュオン・ルナ ~堕聖母誕生~. 2024 anime by Anime Antenna Iinkai. Directed by Teruaki Murakami
@@ -19935,7 +19935,7 @@ id	name	type	url	P4086	description
 177856	Shounen ga Otona ni Natta Natsu	Q220898	https://anilist.co/anime/177856	59120	少年が大人になった夏. 2024 anime
 177878	Blues in the Closet	Q64100970	https://anilist.co/anime/177878	59000	Blues in the Closet. 2024 anime. Directed by goru
 177879	0-saiji Start Dash Monogatari	Q100269041	https://anilist.co/anime/177879	58985	0歳児スタートダッシュ物語. 2024 anime
-177880	Mr. Osomatsu 4th Season	Q100269041	https://anilist.co/anime/177880	58996	おそ松さん４. 2025 anime by PIERROT FILMS. Directed by Yoshinori Odaka
+177880	Mr. Osomatsu 4th season	Q100269041	https://anilist.co/anime/177880	58996	おそ松さん 第4期. 2025 anime by PIERROT FILMS. Directed by Yoshinori Odaka
 177887	Leviathan	Q113671041	https://anilist.co/anime/177887	59005	リヴァイアサン. 2025 anime by Orange. Directed by Christophe Ferreira
 177922	Theatre of Darkness: Yamishibai 13	Q100269041	https://anilist.co/anime/177922	59010	闇芝居 十三期. 2024 anime by ILCA. Directed by Akira Funada
 177937	SPY x FAMILY Season 3	Q100269041	https://anilist.co/anime/177937	59027	SPY×FAMILY Season 3. 2025 anime by WIT STUDIO and CloverWorks
@@ -20462,7 +20462,7 @@ id	name	type	url	P4086	description
 181440	Aldnoah.Zero: Ame no Danshou - The Penultimate Truth	Q220898	https://anilist.co/anime/181440	59843	アルドノア・ゼロ 雨の断章 -The Penultimate Truth-. 2025 anime
 181443	DARK MOON: THE BLOOD ALTAR Animation with ENHYPEN	Q63952888	https://anilist.co/anime/181443	59853	DARK MOON -黒の月: 月の祭壇-. 2026 anime by TROYCA
 181444	The Fragrant Flower Blooms With Dignity	Q63952888	https://anilist.co/anime/181444	59845	薫る花は凛と咲く. 2025 anime by CloverWorks. Directed by Miyuki Kuroki
-181447	May I Ask for One Final Thing?	Q63952888	https://anilist.co/anime/181447	59846	最後にひとつだけお願いしてもよろしいでしょうか. 2025 anime by LIDENFILMS. Directed by Kazuya Sakamoto
+181447	May I Ask for One Final Thing?	Q113671041	https://anilist.co/anime/181447	59846	最後にひとつだけお願いしてもよろしいでしょうか. 2025 anime by LIDENFILMS. Directed by Kazuya Sakamoto
 181449	Virgin Punk: Clockwork Girl	Q20650540	https://anilist.co/anime/181449	59848	ヴァージン・パンク Clockwork Girl. 2025 anime by Shaft. Directed by Yasuomi Umetsu
 181460	Ai no Kiseki: Doctor Norman Monogatari	Q1107	https://anilist.co/anime/181460	23861	愛の奇跡 ドクターノーマン物語. 1982 anime by Toei Animation. Directed by Masami Annou
 181468	Kumo no Ue wa Itsumo, Hare	Q1047299	https://anilist.co/anime/181468	50845	雲の上はいつも、晴れ. 2021 anime by Shobi University
@@ -20536,7 +20536,7 @@ id	name	type	url	P4086	description
 182317	Boku no Kokoro no Yabai Yatsu Movie	Q20650540	https://anilist.co/anime/182317	59985	僕の心のヤバイやつ 劇場版. 2026 anime by Shin-Ei Animation. Directed by Chen Dali
 182333	Doraemon: Nobita no e Sekai Monogatari	Q20650540	https://anilist.co/anime/182333	59980	映画ドラえもん のび太の絵世界物語. 2025 anime by Shin-Ei Animation. Directed by Yukiyo Teramoto
 182364	DONUT HOLE 2024	Q64100970	https://anilist.co/anime/182364	59996	ドーナツホール 2024. 2024 anime by Production I.G. Directed by Yuki Kamiya
-182386	POKÉTOON (2024)	Q113671041	https://anilist.co/anime/182386	59944	POKÉTOON (2024). 2024 anime by Studio Nanahoshi, Studio Colorido, ZEXCS and Nagomi
+182386	POKÉTOON (2024)	Q113671041	https://anilist.co/anime/182386	59944	POKÉTOON (2024). 2024 anime by Studio Nanahoshi, Studio Colorido, ZEXCS, Nagomi and mimoid
 182417	Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season	Q113671041	https://anilist.co/anime/182417	60012	Re:ゼロから始める休憩時間(ブレイクタイム) 3rd Season. 2024 anime by Studio PuYUKAI
 182419	The Mononoke Lecture Logs of Chuzenji-sensei: He Just Solves All the Mysteries	Q63952888	https://anilist.co/anime/182419	60009	中禅寺先生物怪講義録 先生が謎を解いてしまうから。. 2025 anime by 100studio. Directed by Chihiro Kumano
 182434	5-Oku-nen Button Part 2	Q100269041	https://anilist.co/anime/182434	60029	5億年ボタン Part 2. 2024 anime by STUDIO SOTA. Directed by Souta Sugahara
@@ -20593,7 +20593,7 @@ id	name	type	url	P4086	description
 183275	The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom	Q113671041	https://anilist.co/anime/183275	60157	完璧すぎて可愛げがないと婚約破棄された聖女は隣国に売られる. 2025 anime by TROYCA. Directed by Shuu Watanabe
 183291	Pass the Monster Meat, Milady!	Q63952888	https://anilist.co/anime/183291	60162	悪食令嬢と狂血公爵 ～その魔物、私が美味しくいただきます！～. 2025 anime by Asahi Production
 183383	Love Live! Superstar!! Season 3 NHK E Specials	Q100269041	https://anilist.co/anime/183383	60062	ラブライブ!スーパースター!! 3期 本編特別パート. 2024 anime
-183384	Love Live! Nijigasaki Gakuen School Idol Doukoukai: Kanketsu-hen 2	Q20650540	https://anilist.co/anime/183384	60159	ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章. 2025 anime by Sunrise
+183384	Love Live! Nijigasaki Gakuen School Idol Doukoukai: Kanketsu-hen 2	Q20650540	https://anilist.co/anime/183384	60159	ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章. 2025 anime by Sunrise. Directed by Tomoyuki Kawamura
 183385	This Monster Wants to Eat Me	Q63952888	https://anilist.co/anime/183385	60168	私を喰べたい、ひとでなし. 2025 anime by Studio Lings. Directed by Yuusuke Suzuki
 183386	Escort me! Luknight	Q64100970	https://anilist.co/anime/183386	60175	守護ってルーナイト. 2024 anime
 183387	BRAIN	Q64100970	https://anilist.co/anime/183387		BRAIN. 2024 anime
@@ -20768,7 +20768,7 @@ id	name	type	url	P4086	description
 185542	Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu 2nd Season	Q100269041	https://anilist.co/anime/185542	60522	骸骨騎士様、只今異世界へお出掛け中 第2期. anime
 185543	Nozomanu Fushi no Boukensha 2nd Season	Q1047299	https://anilist.co/anime/185543	60525	望まぬ不死の冒険者 第2期. anime
 185544	Welcome to the Outcast's Restaurant!	Q63952888	https://anilist.co/anime/185544	60523	追放者食堂へようこそ！. 2025 anime by OLM. Directed by Jouji Shimura
-185575	Bukiyou na Senpai.	Q63952888	https://anilist.co/anime/185575	60531	不器用な先輩。. 2025 anime by Studio elle. Directed by Ayumu Kotake
+185575	My Awkward Senpai	Q63952888	https://anilist.co/anime/185575	60531	不器用な先輩。. 2025 anime by Studio elle. Directed by Ayumu Kotake
 185576	START AGAIN	Q64100970	https://anilist.co/anime/185576	59702	START AGAIN. 2024 anime. Directed by Yuichiro Saeki
 185583	19 Days	Q1047299	https://anilist.co/anime/185583	51915	19天. 2019 anime
 185584	Everyday Host	Q63952888	https://anilist.co/anime/185584	60535	えぶりでいホスト. 2025 anime by Fanworks. Directed by Rarecho
@@ -20878,7 +20878,7 @@ id	name	type	url	P4086	description
 185870	How Dare You!? 2nd Season	Q1047299	https://anilist.co/anime/185870	60191	成何体统 第2季. 2025 anime by Shengying Animation
 185871	Kaguya-hime (1972)	Q20650540	https://anilist.co/anime/185871	59925	かぐやひめ. 1972 anime. Directed by Katsuo Takahashi
 185874	BLEACH: Thousand-Year Blood War - The Calamity	Q100269041	https://anilist.co/anime/185874	60636	BLEACH 千年血戦篇-禍進譚-. 2026 anime by PIERROT FILMS. Directed by Hikaru Murata
-185875	Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance	Q63952888	https://anilist.co/anime/185875	60637	魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance. anime by Seven Arcs. Directed by Takayuki Hamana
+185875	Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance	Q100269041	https://anilist.co/anime/185875	60637	魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance. 2026 anime by Seven Arcs. Directed by Takayuki Hamana
 185879	"""Aesop"" no Ohanashi yori: Ushi to Kaeru, Yokubatta Inu"	Q20650540	https://anilist.co/anime/185879	25627	“いそっぷ”のおはなしより 牛とかえる、よくばった犬. 1970 anime. Directed by Katsuo Takahashi
 185880	Blue Exorcist -The Blue Night Saga-	Q100269041	https://anilist.co/anime/185880	59226	青の祓魔師 終夜篇. 2025 anime by Studio VOLN. Directed by Daisuke Yoshida
 185887	Yatterman Specials	Q1107	https://anilist.co/anime/185887	25749	ヤッターマンSpecials. 2008 anime by Tatsunoko Production
@@ -21011,7 +21011,7 @@ id	name	type	url	P4086	description
 187084	Kamone	Q64100970	https://anilist.co/anime/187084		かもね. 2025 anime. Directed by Saho Nanjou
 187087	Honkai: Star Rail - Taking It Easy	Q1047299	https://anilist.co/anime/187087		崩坏：星穹铁道 清闲自在身. 2024 anime by miHoYo Anime
 187121	The Boy and the Witch	Q1047299	https://anilist.co/anime/187121	59901	藍の約束. 2024 anime. Directed by Arato Tsumori
-187166	Ganso! Bandori-chan		https://anilist.co/anime/187166	61107	元祖！バンドリちゃん. 2025 anime. Directed by Kenshirou Morii
+187166	GANSO! BanG Dream Chan	Q113671041	https://anilist.co/anime/187166	61107	元祖！バンドリちゃん. 2025 anime by AtoriE. Directed by Kenshirou Morii
 187214	Tobidasu Ehon 3D	Q20650540	https://anilist.co/anime/187214	24803	とびだす絵本3D. 2010 anime by Kachidoki Studio
 187215	Good Morning!!! Doronjo	Q63952888	https://anilist.co/anime/187215	31699	グッド・モーニング!!!ドロンジョ. 2015 anime by ODDJOB
 187216	Sylvanian Families Mini Gekijou: Omoigakenai Okyakusama	Q220898	https://anilist.co/anime/187216	30961	シルバニアファミリー ミニ劇場～思いがけないお客様～. 2005 anime by Dyna Method
@@ -21123,7 +21123,7 @@ id	name	type	url	P4086	description
 188248	Wo De Shixiong Tai Qiang Le	Q1047299	https://anilist.co/anime/188248	61212	我的师兄太强了. 2025 anime by Soyep
 188367	Honkai: Star Rail - H-Hello, I'm Huohuo.	Q1047299	https://anilist.co/anime/188367		崩坏：星穹铁道 你…你好，我叫藿藿. 2023 anime by miHoYo Anime
 188388	DIGIMON BEATBREAK	Q63952888	https://anilist.co/anime/188388	61269	DIGIMON BEATBREAK. 2025 anime by Toei Animation
-188394	PetitCure: Precure Fairies	Q1047299	https://anilist.co/anime/188394	61272	ぷちきゅあ～Precure Fairies～. 2025 anime by IKIF+. Directed by Yuuko Okamura
+188394	PetitCure: Precure Fairies	Q113671041	https://anilist.co/anime/188394	61272	ぷちきゅあ～Precure Fairies～. 2025 anime by IKIF+. Directed by Yuuko Okamura
 188453	Honkai: Star Rail - Cosmic Ninjutsu Inscriptions — Havoc Exorcism: Lunar Vileslayer Scroll	Q1047299	https://anilist.co/anime/188453	60247	崩坏：星穹铁道 银河忍法帖•乱武驱魔破邪斩月之卷. 2024 anime by miHoYo Anime
 188487	The Banished Court Magician Aims to Become the Strongest	Q63952888	https://anilist.co/anime/188487	61276	味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指. 2025 anime by Gekkou. Directed by Ken Takahashi
 188522	Sumikko Gurashi: Sora no Ookoku to Futari no Ko	Q20650540	https://anilist.co/anime/188522	61278	映画 すみっコぐらし 空の王国とふたりのコ. 2025 anime by Fanworks. Directed by Naomi Iwata
@@ -21189,7 +21189,7 @@ id	name	type	url	P4086	description
 189383	Shimazu Seisakushou Sougyou 150 Shuunenkinen Animation	Q1107	https://anilist.co/anime/189383		島津製作所 創業150周年記念アニメーション. 2025 anime by Studio KAI
 189425	Lunatic Wars	Q64100970	https://anilist.co/anime/189425	61388	ルナティックウォーズ. 2025 anime. Directed by AC-Bu
 189509	Otsucharisma! Bounenkai	Q64100970	https://anilist.co/anime/189509	58347	おつカリスマ！忘年会. 2021 anime. Directed by Smith
-189513	Sousou no Frieren: ●● no Mahou Part 2	Q1047299	https://anilist.co/anime/189513		葬送のフリーレン ～●●の魔法～ 2クール. 2025 anime by TOHO animation STUDIO
+189513	Sousou no Frieren: ●● no Mahou Part 2	Q113671041	https://anilist.co/anime/189513		葬送のフリーレン ～●●の魔法～ 2クール. 2025 anime by TOHO animation STUDIO
 189565	You Can't Be In a Rom-Com with Your Childhood Friends!	Q63952888	https://anilist.co/anime/189565	61359	幼馴染とはラブコメにならない. 2026 anime by Tezuka Productions
 189576	The Star Seekers Hoshi wo Ou Shounen-tachi	Q1107	https://anilist.co/anime/189576		The Star Seekers 星を追う少年たち. 2025 anime by CloverWorks
 189581	7FATES: CHAKHO	Q1107	https://anilist.co/anime/189581		7FATES: CHAKHO. 2025 anime by CloverWorks
@@ -21224,7 +21224,7 @@ id	name	type	url	P4086	description
 190619	hot wind	Q64100970	https://anilist.co/anime/190619		熱風. 2024 anime by R11R Pictures. Directed by Satoya Ichimura
 190668	Entotsu-machi no Poupelle: Yakusoku no Tokei-dai	Q20650540	https://anilist.co/anime/190668	61492	えんとつ町のプペル 〜約束の時計台〜. 2026 anime by Studio 4°C. Directed by Yuusuke Hirota
 190704	Kanan-sama wa Akumade Choroi	Q63952888	https://anilist.co/anime/190704	61501	カナン様はあくまでチョロい. 2026 anime by Studio KAI
-190840	Kingdom 6th Season	Q100269041	https://anilist.co/anime/190840	61517	キングダム 第6シリーズ. 2025 anime by Studio Pierrot and Studio Signpost. Directed by Kenichi Imaizumi
+190840	Kingdom Season 6	Q100269041	https://anilist.co/anime/190840	61517	キングダム 第6シリーズ. 2025 anime by Studio Pierrot and Studio Signpost. Directed by Kenichi Imaizumi
 191013	Sunny	Q20650540	https://anilist.co/anime/191013	61535	Sunny. 2029 anime by dwarf. Directed by Michael Arias
 191025	HIDARI	Q20650540	https://anilist.co/anime/191025	55143	左. anime by dwarf. Directed by Masashi Kawamura
 191059	Charisma Jamboree	Q64100970	https://anilist.co/anime/191059	61671	カリスマジャンボリー. 2024 anime. Directed by Smith
@@ -21364,7 +21364,7 @@ id	name	type	url	P4086	description
 195209	With Vengeance, Sincerely, Your Broken Saintess	Q63952888	https://anilist.co/anime/195209	59961	傷だらけ聖女より報復をこめて. 2025 anime by Imageworks Studio and Imagica Infos. Directed by Chisaki
 195210	A-Rank Party wo Ridatsu Shita Ore wa, Moto Oshiegotachi to Meikyuu Shinbu wo Mezasu. 2nd Season	Q100269041	https://anilist.co/anime/195210	61925	Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。第2期. anime
 195230	Summer Pockets Movie	Q20650540	https://anilist.co/anime/195230	61926	Summer Pockets 劇場編集版. 2025 anime by feel.
-195240	Uma Musume: Cinderella Gray Part 2	Q100269041	https://anilist.co/anime/195240	61930	ウマ娘 シンデレラグレイ 2クール. 2025 anime by CygamesPictures. Directed by Takehiro Miura
+195240	Umamusume: Cinderella Gray 2nd Cour	Q100269041	https://anilist.co/anime/195240	61930	ウマ娘 シンデレラグレイ 2クール. 2025 anime by CygamesPictures. Directed by Takehiro Miura
 195268	Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu. Season 2	Q100269041	https://anilist.co/anime/195268	61931	悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2. 2026 anime by OLM. Directed by Norio Nitta
 195322	My Hero Academia: Vigilantes Season 2	Q100269041	https://anilist.co/anime/195322	61942	ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期. 2026 anime
 195333	Haibara-kun no Tsuyokute Seishun New Game		https://anilist.co/anime/195333	61943	灰原くんの強くて青春ニューゲーム. anime
@@ -21414,8 +21414,8 @@ id	name	type	url	P4086	description
 196029	Kami no Niwatsuki Kusunoki-tei	Q63952888	https://anilist.co/anime/196029	62050	神の庭付き楠木邸. 2026 anime
 196061	The☆Doraemons: Mystery X'mas Daisakusen	Q1107	https://anilist.co/anime/196061	54105	ザ☆ドラえもんズ ミステリーX'マス大作戦. 1996 anime by Shin-Ei Animation. Directed by Hiroshi Nishikiori
 196062	Oyo Neko Bunyan	Q63952888	https://anilist.co/anime/196062	28089	オヨネコぶーにゃん. 1984 anime by Shin-Ei Animation
-196063	Obusu ni Hanataba wo	Q113671041	https://anilist.co/anime/196063	62035	おブスに花束を. 2025 anime by NEWON. Directed by Mirai Minato
-196064	Tsuihou Shiro Madoushi Mini Anime	Q1047299	https://anilist.co/anime/196064	62037	追放白魔導師 ミニアニメ. 2025 anime by INREALITY. Directed by Shouta Wada
+196063	Obusu ni Hanataba wo	Q1047299	https://anilist.co/anime/196063	62035	おブスに花束を. 2025 anime by NEWON. Directed by Mirai Minato
+196064	Tsuihou Shiro Madoushi Mini Anime	Q113671041	https://anilist.co/anime/196064	62037	追放白魔導師 ミニアニメ. 2025 anime by INREALITY. Directed by Shouta Wada
 196115	Golden Kamuy: Sapporo Beer Koujou-hen	Q20650540	https://anilist.co/anime/196115		ゴールデンカムイ 札幌ビール工場編. 2025 anime by Brain's Base
 196116	Nagachichi Nagai-san THE ANIMATION	Q220898	https://anilist.co/anime/196116	62353	ながちち永井さん THE ANIMATION. 2025 anime by Seven. Directed by Kazuhiro Ohara
 196144	Snowball Earth	Q63952888	https://anilist.co/anime/196144	62068	スノウボールアース. 2026 anime by Studio KAI. Directed by Munehisa Sakai
@@ -21506,7 +21506,7 @@ id	name	type	url	P4086	description
 198413	JOCHUM Season 2	Q100269041	https://anilist.co/anime/198413	62231	ジェオチャム シーズン2. 2025 anime by Fanworks. Directed by Hazumu Sakuta
 198511	Seifuku wa Kita mama de	Q220898	https://anilist.co/anime/198511		制服は着たままで. 2025 anime
 198560	Dungeons & Television	Q1047299	https://anilist.co/anime/198560	62238	ダンジョン＆テレビジョン. 2025 anime. Directed by Bonta
-198561	Potion, Wagami wo Tasukeru	Q63952888	https://anilist.co/anime/198561	62144	ポーション、わが身を助ける. 2025 anime by Imagica Infos and Imageworks Studio. Directed by Mikiko Furukawa
+198561	I Saved Myself with a Potion!: Life in Another World	Q63952888	https://anilist.co/anime/198561	62144	ポーション、わが身を助ける. 2025 anime by Imagica Infos and Imageworks Studio. Directed by Mikiko Furukawa
 198654	Eiga Precure Saishinsaku (Provisional Title)	Q20650540	https://anilist.co/anime/198654		映画プリキュア最新作（仮）. 2026 anime
 198663	KAIJU DECODE: Aidara no Yubiwa		https://anilist.co/anime/198663		怪獣デコード アイダラの指輪. anime by Toei Animation
 198690	Magic Candies	Q20650540	https://anilist.co/anime/198690	60805	あめだま. 2024 anime by Dandelion Animation Studio. Directed by Daisuke Nishio
@@ -21564,7 +21564,7 @@ id	name	type	url	P4086	description
 199217	Re:Monster 2nd Season	Q100269041	https://anilist.co/anime/199217	62567	Re:Monster 第2期. anime
 199221	Dr. STONE: SCIENCE FUTURE Part 3	Q100269041	https://anilist.co/anime/199221	62568	Dr.STONE SCIENCE FUTURE 3クール. 2026 anime by TMS Entertainment
 199337	Shin Samurai-den YAIBA 2	Q100269041	https://anilist.co/anime/199337	62580	真•侍伝 #YAIBA 第二期. anime
-199340	Seishun Buta Yarou wa Dear Friend no Yume wo Minai	Q20650540	https://anilist.co/anime/199340	62582	青春ブタ野郎はディアフレンドの夢を見ない. 2026 anime by CloverWorks
+199340	Rascal Does Not Dream of a Dear Friend	Q20650540	https://anilist.co/anime/199340	62582	青春ブタ野郎はディアフレンドの夢を見ない. 2026 anime by CloverWorks
 199342	Hikaru ga Shinda Natsu 2nd Season	Q100269041	https://anilist.co/anime/199342	62584	光が死んだ夏 第二期. anime
 199353	Dawang Raoming 3	Q1047299	https://anilist.co/anime/199353		大王饶命 第三季. anime by Big Firebird Cultural Media
 199354	Fei Ren Zai: Xian Shi Wan Jia	Q202866	https://anilist.co/anime/199354	62260	非人哉：限时玩家. 2025 anime by FENZ
@@ -21581,9 +21581,9 @@ id	name	type	url	P4086	description
 199372	The Girl Who Stole Time	Q202866	https://anilist.co/anime/199372	60877	时间之子. 2025 anime. Directed by Ao Yu
 199373	Zashikiro	Q20650540	https://anilist.co/anime/199373		座敷牢. 2025 anime. Directed by Hiroshi Harada
 199375	BOO	Q20650540	https://anilist.co/anime/199375		BOO. 2033 anime. Directed by Hiroshi Harada
-199404	Blue Lock (Zoku-hen)	Q100269041	https://anilist.co/anime/199404		ブルーロック(続編). anime
+199404	Blue Lock (Zoku-hen)	Q100269041	https://anilist.co/anime/199404	62589	ブルーロック(続編). anime
 199405	Huanggu En Chou Lu: Po Feng Pian	Q1047299	https://anilist.co/anime/199405	62480	荒古恩仇录·破风篇. 2025 anime by Ruo Hong Culture
-199406	Peerless Divine Emperor	Q113671041	https://anilist.co/anime/199406	62472	绝世神皇. 2025 anime by Ruo Hong Culture
+199406	Peerless Divine Emperor	Q1047299	https://anilist.co/anime/199406	62472	绝世神皇. 2025 anime by Ruo Hong Culture
 199408	Buchigire Reijou wa Houfuku wo Chikaimashita.: Madousho no Chikara de Sokoku wo Tataki Tsubushimasu		https://anilist.co/anime/199408		ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～. anime
 199409	Yi Nian Yongheng 4	Q1047299	https://anilist.co/anime/199409		一念永恒 第四季. anime by B.CMAY PICTURES
 199410	Fighter of the Destiny 3D	Q1047299	https://anilist.co/anime/199410	61562	择天记 3D. 2026 anime by Shenman Entertainment
@@ -21609,6 +21609,21 @@ id	name	type	url	P4086	description
 199439	Jian Wang 3: Shen Jianxin de 365 Tian	Q1047299	https://anilist.co/anime/199439	60579	剑网3·沈剑心的365天. 2025 anime
 199446	Saioshi no Gikei Mederu Tame, Nagaikishimasu!		https://anilist.co/anime/199446		最推しの義兄を愛でるため、長生きします！. 2026 anime
 199448	Guimi Zhi Zhu Te Bie Pian: Liewu	Q1047299	https://anilist.co/anime/199448	62276	诡秘之主特别篇 猎物. 2026 anime by B.CMAY PICTURES
+199449	Nan Hong	Q1047299	https://anilist.co/anime/199449	60566	难哄. anime
 199478	Gasonshi!!: Esper Shoujo to Ninja no Abiko Monogatari	Q1047299	https://anilist.co/anime/199478	57882	がそんし！！～エスパー少女と忍者の我孫子物語～. 2023 anime by Super Normal Studio. Directed by Masaya Murai
 199479	Ganbare! Chrome	Q113671041	https://anilist.co/anime/199479	60632	がんばれ！くろーむ. 2024 anime by dwarf, AOI Pro. and Eallin
+199485	Neko Konogoro	Q63952888	https://anilist.co/anime/199485	33398	ネコこのゴロ. 2016 anime by Kachidoki Studio. Directed by Takeshi Onaka
+199486	Neko Konogoro: Tenka Toitsu-hen	Q63952888	https://anilist.co/anime/199486	61914	ネコこのゴロ～天下統一編～. 2025 anime by Kachidoki Studio. Directed by Hiroshi Namiki
+199488	Hoshi X kara no Rakko	Q113671041	https://anilist.co/anime/199488	59640	星Xからのラッコ. 2024 anime by Kachidoki Studio. Directed by Hiroshi Namiki
 199495	Uchi no 3 Shimai Movie	Q20650540	https://anilist.co/anime/199495	39436	えいが うちの3姉妹. 2019 anime by Toei Animation. Directed by Katsuhito Oomiya
+199547	MARRIAGETOXIN	Q63952888	https://anilist.co/anime/199547	62601	マリッジトキシン. 2026 anime by bones film. Directed by Motonobu Hori
+199588	Otaku ni Yasashii Gal wa Inai!?		https://anilist.co/anime/199588	62604	オタクに優しいギャルはいない!?. 2026 anime
+199590	Matsurika Kanriden	Q63952888	https://anilist.co/anime/199590		茉莉花官吏伝. anime
+199592	Ikyou no Tsume Nuri Minarai		https://anilist.co/anime/199592		異郷の爪塗り見習い. anime
+199593	MafiosA	Q64100970	https://anilist.co/anime/199593		マフィオーザ. 2025 anime by Studio KAI. Directed by Shoutarou Kitamura
+199594	Tetsuryou! meet with Tetsudou Musume	Q63952888	https://anilist.co/anime/199594		てつりょー！meet with 鉄道むすめ. 2026 anime by East Fish Studio. Directed by Misuzu Hoshino
+199597	Youchien WARS	Q63952888	https://anilist.co/anime/199597	62613	幼稚園WARS. anime
+199603	Princess Catch! Tiniping	Q125354488	https://anilist.co/anime/199603		프린세스 캐치! 티니핑. 2025 anime by SAMG Animation
+199635	PetitCure: Precure Fairies Season 2	Q1047299	https://anilist.co/anime/199635		ぷちきゅあ～Precure Fairies～ シーズン２. 2025 anime by IKIF+. Directed by Yuuko Okamura
+199636	Lollipop	Q64100970	https://anilist.co/anime/199636		Lollipop. 2025 anime. Directed by YP
+199748	Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita.	Q63952888	https://anilist.co/anime/199748	62617	ここは俺に任せて先に行けと言ってから１０年がたったら伝説になっていた。. 2026 anime by Gekkou. Directed by Hiroyuki Kanbe
