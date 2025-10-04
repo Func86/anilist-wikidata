@@ -59,7 +59,7 @@ class CatalogUpdater {
 			variables.sort = 'ID';
 		}
 
-		let lastEntry = null, retries = 0;
+		let lastEntry = null, retries = 0, breakLoop = false;
 		const retrySleep = [ 5, 10, 30, 60 ];
 		while (true) {
 			try {
@@ -98,7 +98,6 @@ class CatalogUpdater {
 					break;
 				}
 
-				let breakLoop = false;
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
 					if ((updateUntil.updatedAt && entry.updatedAt < updateUntil.updatedAt) ||
 						(updateUntil.id && entry.id <= updateUntil.id)
@@ -120,9 +119,11 @@ class CatalogUpdater {
 					);
 					variables.page = pageInfo.currentPage + 1;
 					continue;
-				} else if (!breakLoop) {
+				} else if (updateType === 'incremental' && !breakLoop) {
 					console.error(`No more pages to fetch: ${JSON.stringify(pageInfo)}`);
 					core.warning('Unexpected end of query results');
+				} else {
+					breakLoop = true;
 				}
 			} catch (error) {
 				console.error('Error:', error);
