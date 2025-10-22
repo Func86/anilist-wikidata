@@ -51,7 +51,7 @@ jobs:
         run: echo "previous_run_id=$( jq ".${{ github.event.inputs.catalog_name }}" catalogs/workflow-runs.json )" >> "$GITHUB_OUTPUT"
 
       - name: Download the previous catalog artifact
-        if: ${{ github.event.inputs.update_type == 'incremental' }}
+        if: ${{ github.event.inputs.update_type == 'incremental' || github.event.inputs.page_offset > 0 }}
         uses: actions/download-artifact@v5
         with:
           name: anilist-${{ github.event.inputs.catalog_name }}
