@@ -44,8 +44,10 @@ class CatalogUpdater {
 			id: null,
 			updatedAt: null,
 		};
-		if (updateType === 'incremental') {
+		if (updateType === 'incremental' || pageOffset > 0) {
 			rawData = JSON.parse(fs.readFileSync(`./catalogs/${this.dataName}.json`, 'utf8'));
+		}
+		if (updateType === 'incremental') {
 			if (this.dataNameMap[this.dataName]) {
 				variables.sort = 'UPDATED_AT_DESC';
 				updateUntil.updatedAt = Object.values(rawData).sort((a, b) => b.updatedAt - a.updatedAt)[0].updatedAt;
@@ -70,7 +72,8 @@ class CatalogUpdater {
 						'Accept': 'application/json',
 						...authHeaders
 					},
-					body: JSON.stringify({ query: this.graphqlQuery, variables })
+					body: JSON.stringify({ query: this.graphqlQuery, variables }),
+					signal: AbortSignal.timeout(30 * 1000), // 30 seconds timeout
 				});
 
 				if (!response.ok) {
@@ -126,8 +129,12 @@ class CatalogUpdater {
 					breakLoop = true;
 				}
 			} catch (error) {
-				console.error('Error:', error);
-				core.warning(`Error while fetching ${this.dataName}: ${error.message}`);
+				if (typeof error === 'object' && error.name === 'AbortError') {
+					console.log('Request timed out');
+				} else {
+					console.error('Error:', error);
+					core.warning(`Error while fetching ${this.dataName}: ${error.message}`);
+				}
 				if (retries++ < 3) {
 					console.log(`Retrying in ${retrySleep[retries - 1]} seconds...`);
 					await new Promise(resolve => setTimeout(resolve, retrySleep[retries - 1] * 1000));
