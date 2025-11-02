@@ -11721,6 +11721,13 @@
 			"zh-hans": "花冠之泪"
 		}
 	},
+	"3602": {
+		"dateModified": "2025-11-02T09:51:58Z",
+		"title": {
+			"zh": "銀河鐵道999 Galaxy Express Eternal Fantasy",
+			"+zh-hans": "银河铁道999 Galaxy Express Eternal Fantasy"
+		}
+	},
 	"3609": {
 		"dateModified": "2025-01-05T18:22:40Z",
 		"title": {
@@ -14726,6 +14733,13 @@
 		"page": "青春CUP",
 		"title": {
 			"zh": "青春CUP"
+		}
+	},
+	"6653": {
+		"dateModified": "2025-11-02T10:03:19Z",
+		"title": {
+			"zh": "银河铁道999：玻璃克莱尔",
+			"+zh-hant": "銀河鐵道999：玻璃克萊爾"
 		}
 	},
 	"6654": {
