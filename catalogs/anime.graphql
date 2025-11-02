@@ -30,7 +30,7 @@ query Anime($page: Int, $sort: [MediaSort]) {
           name
         }
       }
-      staff {
+      staff(sort:[RELEVANCE, ID]) {
         edges {
           role
           node {
