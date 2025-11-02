@@ -19,7 +19,7 @@ query Manga($page: Int, $sort: [MediaSort]) {
       }
       chapters
       volumes
-      staff {
+      staff(sort:[RELEVANCE, ID]) {
         edges {
           role
           node {
