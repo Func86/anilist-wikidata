@@ -129,7 +129,7 @@ class CatalogUpdater {
 					breakLoop = true;
 				}
 			} catch (error) {
-				if (typeof error === 'object' && error.name === 'AbortError') {
+				if (typeof error === 'object' && (error.name === 'AbortError' || error.name === 'TimeoutError')) {
 					console.log('Request timed out');
 				} else {
 					console.error('Error:', error);
