@@ -202,7 +202,17 @@ class CatalogUpdater {
 		});
 
 		console.log(String(url));
-		const response = await fetch(url);
+		const response = await fetch(url, {
+			headers: {
+				'Accept': 'application/json',
+				'User-Agent': 'AcgServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)',
+			},
+		});
+		if (!response.ok) {
+			console.error(`Failed to fetch old catalog data (HTTP ${response.status})`);
+			return;
+		}
+
 		const oldCatalogMap = this.parseOldCatalog(await response.json(), catalog);
 		const newCatalogMap = Object.fromEntries(newCatalogRecords.map(record => [record.id, record]));
 		console.log(`Old catalog has ${Object.keys(oldCatalogMap).length} entries, new catalog has ${Object.keys(newCatalogMap).length} entries`);
