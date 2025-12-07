@@ -20,6 +20,14 @@ on:
           - full
           - incremental
         default: incremental
+      incremental_mode:
+        description: Incremental update mode
+        required: false
+        type: choice
+        options:
+          - id
+          - updated_at
+        default: id
       page_offset:
         description: Page offset for the catalog
         required: false
