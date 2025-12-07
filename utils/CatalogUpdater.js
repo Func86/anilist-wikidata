@@ -25,9 +25,10 @@ class CatalogUpdater {
 
 	/**
 	 * @param {string} updateType - The type of update to perform, `full` or `incremental`
+	 * @param {string} incrementalMode - The mode of incremental update, `id` or `updated_at`
 	 * @param {number} [pageOffset=0] - The page offset to start from (0-indexed)
 	 */
-	async update(updateType, pageOffset = 0) {
+	async update(updateType, incrementalMode = 'id', pageOffset = 0) {
 		const variables = {
 			page: pageOffset + 1,
 		};
@@ -48,7 +49,7 @@ class CatalogUpdater {
 			rawData = JSON.parse(fs.readFileSync(`./catalogs/${this.dataName}.json`, 'utf8'));
 		}
 		if (updateType === 'incremental') {
-			if (this.dataNameMap[this.dataName]) {
+			if (incrementalMode === 'updated_at' && this.dataNameMap[this.dataName]) {
 				variables.sort = 'UPDATED_AT_DESC';
 				updateUntil.updatedAt = Object.values(rawData).sort((a, b) => b.updatedAt - a.updatedAt)[0].updatedAt;
 				console.log(`Last updated entry at ${new Date(updateUntil.updatedAt * 1000).toISOString()}`);
