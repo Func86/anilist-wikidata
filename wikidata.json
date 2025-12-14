@@ -13156,10 +13156,11 @@
 		}
 	},
 	"4654": {
-		"dateModified": "2025-07-20T07:06:35Z",
+		"dateModified": "2025-12-14T06:14:40Z",
 		"page": "魔法禁书目录",
 		"title": {
-			"en": "A Certain Magical Index, season 1"
+			"zh": "魔法禁书目录",
+			"+zh-hant": "魔法禁書目錄"
 		}
 	},
 	"4657": {
@@ -16093,6 +16094,13 @@
 		"title": {
 			"zh": "STAR DRIVER 閃亮的塔科特",
 			"zh-hans": "STAR DRIVER 闪亮的塔科特"
+		}
+	},
+	"8937": {
+		"dateModified": "2025-07-20T07:06:48Z",
+		"page": "魔法禁书目录",
+		"title": {
+			"en": "A Certain Magical Index II"
 		}
 	},
 	"8956": {
@@ -25142,6 +25150,13 @@
 		"title": {
 			"zh": "刀劍神域外傳Gun Gale Online",
 			"+zh-hans": "刀剑神域外传Gun Gale Online"
+		}
+	},
+	"100185": {
+		"dateModified": "2025-10-28T17:17:39Z",
+		"page": "魔法禁书目录",
+		"title": {
+			"en": "A Certain Magical Index III"
 		}
 	},
 	"100226": {
