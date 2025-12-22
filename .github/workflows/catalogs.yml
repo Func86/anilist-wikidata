@@ -44,12 +44,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Set up Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version: 24
 
       - name: Install dependencies
         run: npm ci
@@ -60,7 +60,7 @@ jobs:
 
       - name: Download the previous catalog artifact
         if: ${{ github.event.inputs.update_type == 'incremental' || github.event.inputs.page_offset > 0 }}
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v7
         with:
           name: anilist-${{ github.event.inputs.catalog_name }}
           path: ./catalogs/
@@ -74,7 +74,7 @@ jobs:
           PROXY_HEADERS: ${{ secrets.PROXY_HEADERS }}
 
       - name: Upload the new catalog artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: anilist-${{ github.event.inputs.catalog_name }}
           path: catalogs/${{ github.event.inputs.catalog_name }}.json
