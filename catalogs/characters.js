@@ -17,7 +17,7 @@ function entryCallback(entry) {
 	}
 	return {
 		id: String(entry.id),
-		name: normalizeSpace(entry.name.full),
+		name: normalizeSpace(entry.name.full || entry.name.alternative[0] || '(empty)'),
 		type: guessEntityType(entry) || '',
 		url: entry.siteUrl,
 		description: description.join('. '),
