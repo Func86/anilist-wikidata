@@ -244,7 +244,7 @@ function compareNativeName(nameA, nameB, allowAmbiguity = false) {
 }
 
 function extractDateOfBirthFromDescription(entry) {
-	if (entry.primaryOccupations.includes('Choir') || entry.primaryOccupations.includes('Band') || !entry.description) {
+	if (entry.primaryOccupations?.includes('Choir') || entry.primaryOccupations?.includes('Band') || !entry.description) {
 		return null;
 	}
 	if (entry.description.match(/\b\d{1,4}(?:st|nd|th)?\b/) &&
