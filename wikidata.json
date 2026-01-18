@@ -21188,6 +21188,13 @@
 			"zh": "魔神之骨"
 		}
 	},
+	"20623": {
+		"dateModified": "2026-01-18T19:57:37Z",
+		"title": {
+			"zh": "寄生獸 生命的準則",
+			"+zh-hans": "寄生兽 生命的准则"
+		}
+	},
 	"20624": {
 		"dateModified": "2025-11-25T21:44:55Z",
 		"title": {
@@ -37600,11 +37607,11 @@
 		}
 	},
 	"189275": {
-		"dateModified": "2025-12-22T05:13:25Z",
+		"dateModified": "2026-01-18T20:05:38Z",
 		"page": "金牌得主",
 		"pageId": "520372",
 		"title": {
-			"en": "Medalist, season 2"
+			"zh": "金牌得主 第二季"
 		}
 	},
 	"189323": {
@@ -38337,11 +38344,12 @@
 		}
 	},
 	"203296": {
-		"dateModified": "2026-01-18T18:20:00Z",
+		"dateModified": "2026-01-18T20:03:08Z",
 		"page": "卡片战斗先导者",
 		"pageId": "516130",
 		"title": {
-			"en": "Cardfight!! Vanguard Divinez: Parallactic Clash"
+			"zh": "卡片戰鬥!! 先導者 Divinez 第五季「幻真星戰篇」",
+			"+zh-hans": "卡片战斗!! 先导者 Divinez 第五季「幻真星战篇」"
 		}
 	},
 	"203473": {
