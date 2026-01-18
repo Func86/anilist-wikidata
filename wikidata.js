@@ -26,7 +26,7 @@ for (const [ name, sparqlQuery ] of Object.entries(sparqlQueries)) {
 	const response = await queryDispatcher.query(sparqlQuery);
 	console.log(`Done in ${Math.round(performance.now() - startTime)} ms`);
 
-	for (const { id, type, source, lang, page, title, dateModified } of response.results.bindings) {
+	for (const { id, type, source, lang, page, pageId, title, dateModified } of response.results.bindings) {
 		const isMedia = [ 'anime', 'manga' ].includes(type.value);
 		const typeKey = isMedia ? 'media' : type.value;
 		const item = data[typeKey][id.value] ??= { dateModified: dateModified.value };
@@ -48,6 +48,9 @@ for (const [ name, sparqlQuery ] of Object.entries(sparqlQueries)) {
 
 		if (page) {
 			item.page = page.value;
+		}
+		if (pageId) {
+			item.pageId = pageId.value;
 		}
 		item.title ??= {};
 		item.title[lang.value] = normalizeTitle(title.value);
