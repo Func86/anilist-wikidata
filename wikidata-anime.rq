@@ -4,6 +4,7 @@ SELECT (MIN(xsd:integer(?value)) AS ?id)
        ?lang
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
+       (SAMPLE(?finalPageId) AS ?pageId)
        (SAMPLE(?dateModified) AS ?dateModified)
 WHERE {{
   BIND('anime' AS ?type)
@@ -108,37 +109,60 @@ WHERE {{
     }
   }
 
-  OPTIONAL { ?item wdt:P5737 ?page }
+  OPTIONAL {
+    ?item p:P5737 ?pageStatement.
+    ?pageStatement rdf:type wikibase:BestRank;
+                   ps:P5737 ?page;
+                   pq:P9675 ?pageId.
+  }
 
   OPTIONAL {
     ?item wdt:P179 ?series
-    OPTIONAL { ?series wdt:P5737 ?seriesPage }
+    OPTIONAL {
+      ?series p:P5737 ?seriesPageStatement.
+      ?seriesPageStatement rdf:type wikibase:BestRank;
+                           ps:P5737 ?seriesPage;
+                           pq:P9675 ?seriesPageId.
+    }
     OPTIONAL {
       ?series wdt:P144/p:P5737 ?seriesOriginPageStatement.
-      ?seriesOriginPageStatement ps:P5737 ?seriesOriginPage.
+      ?seriesOriginPageStatement rdf:type wikibase:BestRank;
+                                 ps:P5737 ?seriesOriginPage;
+                                 pq:P9675 ?seriesOriginPageId.
       OPTIONAL { ?seriesOriginPageStatement pq:P407 ?seriesOriginPageLang }
       FILTER(!BOUND(?seriesOriginPageLang) || ?seriesOriginPageLang = wd:Q7850)
     }
     # The link to the media mix page of the series
-    OPTIONAL { ?series wdt:P8345/wdt:P5737 ?seriesMedmixPage }
+    OPTIONAL {
+      ?series wdt:P8345/p:P5737 ?seriesMedmixPageStatement.
+      ?seriesMedmixPageStatement rdf:type wikibase:BestRank;
+                                 ps:P5737 ?seriesMedmixPage;
+                                 pq:P9675 ?seriesMedmixPageId.
+    }
   }
 
   OPTIONAL {
     ?item wdt:P144 ?origin
     OPTIONAL {
       ?origin p:P5737 ?originPageStatement.
-      ?originPageStatement ps:P5737 ?originPage.
-      # The behaviour is the same as using "wdt:"
-      ?originPageStatement rdf:type wikibase:BestRank.
+      ?originPageStatement rdf:type wikibase:BestRank;
+                           ps:P5737 ?originPage;
+                           pq:P9675 ?originPageId.
       # Filter out pages in non-Chinese languages
       OPTIONAL { ?originPageStatement pq:P407 ?originPageLang }
     }
     FILTER(!BOUND(?originPageLang) || ?originPageLang = wd:Q7850)
   }
 
-  OPTIONAL { ?item wdt:P8345/wdt:P5737 ?medmixPage }
+  OPTIONAL {
+    ?item wdt:P8345/p:P5737 ?medmixPageStatement.
+    ?medmixPageStatement rdf:type wikibase:BestRank;
+                         ps:P5737 ?medmixPage;
+                         pq:P9675 ?medmixPageId.
+    }
 
   BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage, ?medmixPage, ?seriesMedmixPage) AS ?finalPage)
+  BIND(COALESCE(?pageId, ?seriesPageId, ?seriesOriginPageId, ?originPageId, ?medmixPageId, ?seriesMedmixPageId) AS ?finalPageId)
   FILTER(STRSTARTS(?lang, "zh") || BOUND(?finalPage))
 }}
 GROUP BY ?item ?source ?lang ?index
