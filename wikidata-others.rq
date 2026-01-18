@@ -2,7 +2,6 @@ SELECT (MIN(xsd:integer(?value)) AS ?id)
        ?type
        ?lang
        (SAMPLE(?label) AS ?title)
-       (SAMPLE(?finalPage) AS ?page)
        (SAMPLE(?dateModified) AS ?dateModified)
 WHERE {{
   BIND('manga' AS ?type).
