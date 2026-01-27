@@ -10,10 +10,14 @@ class SPARQLQueryDispatcher {
 	 * @returns {Promise<Object>} - The JSON response from the endpoint.
 	 */
 	async query(sparqlQuery) {
+		const userAgent = 'AcgServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)';
 		const headers = {
 			'Accept': 'application/sparql-results+json',
+			'Accept-Encoding': 'gzip',
 			'Content-Type': 'application/sparql-query',
-			'User-Agent': 'AcgServiceBot/0.1 (https://github.com/Func86/anilist-wikidata)',
+			'User-Agent': userAgent,
+			// Workaround: https://phabricator.wikimedia.org/T402959#11558060
+			'Api-User-Agent': userAgent,
 		};
 
 		let retries = 0;
