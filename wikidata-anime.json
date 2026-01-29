@@ -19090,6 +19090,13 @@
 			"zh-hans": "在地下城寻求邂逅是否搞错了什么"
 		}
 	},
+	"20921": {
+		"page": "卡片战斗先导者",
+		"pageId": "516130",
+		"title": {
+			"en": "Cardfight!! Vanguard G"
+		}
+	},
 	"20922": {
 		"title": {
 			"zh": "夜晚的小雙俠",
@@ -23265,6 +23272,13 @@
 			"zh-hans": "深夜！天才傻鹏"
 		}
 	},
+	"101594": {
+		"page": "卡片战斗先导者/动画#.E5.8A.A8.E7.94.BB.E7.89.88.EF.BC.88.E7.AC.AC.E4.B8.89.E4.BD.9C.C2.B7V.E7.B3.BB.E5.88.97.EF.BC.89",
+		"pageId": "551455",
+		"title": {
+			"en": "Cardfight!! Vanguard (2018), season 1"
+		}
+	},
 	"101597": {
 		"page": "拾又之国",
 		"pageId": "307708",
@@ -25506,6 +25520,13 @@
 		"pageId": "367194",
 		"title": {
 			"en": "Chokotto Anime Kemono Friends 3"
+		}
+	},
+	"115656": {
+		"page": "卡片战斗先导者/动画#.E5.8A.A8.E7.94.BB.E7.89.88.EF.BC.88.E7.AC.AC.E4.B8.89.E4.BD.9C.C2.B7V.E7.B3.BB.E5.88.97.EF.BC.89",
+		"pageId": "551455",
+		"title": {
+			"en": "Cardfight!! Vanguard Extra Story -IF-"
 		}
 	},
 	"115669": {
@@ -33430,6 +33451,12 @@
 		"title": {
 			"zh": "你与烟花与约定",
 			"zh-hant": "你與煙花與約定"
+		}
+	},
+	"206949": {
+		"title": {
+			"zh": "亂世千金倪亞·利斯頓",
+			"zh-hans": "乱世千金倪亚·利斯顿"
 		}
 	}
 }
