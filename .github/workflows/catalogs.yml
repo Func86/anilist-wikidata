@@ -55,8 +55,18 @@ jobs:
         run: npm ci
 
       - name: Read the previous Run ID
-        id: previous_run_id
-        run: echo "previous_run_id=$( jq ".${{ github.event.inputs.catalog_name }}" catalogs/workflow-runs.json )" >> "$GITHUB_OUTPUT"
+        id: step-read-run-id
+        run: |
+          set -euo pipefail
+
+          run_id="$(
+            jq -r \
+              --arg catalog "${{ github.event.inputs.catalog_name }}" \
+              '.[$catalog].runId' \
+              catalogs/workflow-runs.json
+          )"
+
+          echo "run-id=$run_id" >> "$GITHUB_OUTPUT"
 
       - name: Download the previous catalog artifact
         if: ${{ github.event.inputs.update_type == 'incremental' || github.event.inputs.page_offset > 0 }}
@@ -65,7 +75,7 @@ jobs:
           name: anilist-${{ github.event.inputs.catalog_name }}
           path: ./catalogs/
           github-token: ${{ github.token }}  # `actions: read` granted above
-          run-id: ${{ steps.previous_run_id.outputs.previous_run_id }}
+          run-id: ${{ steps.step-read-run-id.outputs.run-id }}
 
       - name: Run script to fetch data
         run: node update-catalog.js ${{ github.event.inputs.catalog_name }} ${{ github.event.inputs.update_type}} ${{ github.event.inputs.page_offset }}
@@ -75,12 +85,24 @@ jobs:
 
       - name: Upload the new catalog artifact
         uses: actions/upload-artifact@v6
+        id: step-artifact-upload
         with:
           name: anilist-${{ github.event.inputs.catalog_name }}
           path: catalogs/${{ github.event.inputs.catalog_name }}.json
 
-      - name: Update the catalog-runs.json file
-        run: jq ".${{ github.event.inputs.catalog_name }} = ${{ github.run_id }}" --tab catalogs/workflow-runs.json > tmp.json && mv tmp.json catalogs/workflow-runs.json
+      - name: Update the workflow-runs.json file
+        run: |
+          set -euo pipefail
+          tmp="$(mktemp)"
+
+          jq --tab \
+            --arg catalog "${{ github.event.inputs.catalog_name }}" \
+            --argjson runId "${{ github.run_id }}" \
+            --argjson artifactId "${{ steps.step-artifact-upload.outputs.artifact-id }}" \
+            '.[$catalog].runId = $runId | .[$catalog].artifactId = $artifactId' \
+            catalogs/workflow-runs.json > "$tmp"
+
+          mv "$tmp" catalogs/workflow-runs.json
 
       - name: Commit and push changes if there are any
         run: |
