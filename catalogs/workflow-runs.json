@@ -1,6 +1,18 @@
 {
-	"anime": 21560417909,
-	"manga": 21560433248,
-	"staff": 21560458881,
-	"characters": 21542970601
+	"anime": {
+		"runId": 21560417909,
+		"artifactId": 5333142034
+	},
+	"manga": {
+		"runId": 21560433248,
+		"artifactId": 5333146666
+	},
+	"staff": {
+		"runId": 21560458881,
+		"artifactId": 5333153624
+	},
+	"characters": {
+		"runId": 21542970601,
+		"artifactId": 5248657507
+	}
 }
