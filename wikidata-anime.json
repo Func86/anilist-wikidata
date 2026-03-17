@@ -14978,6 +14978,8 @@
 		}
 	},
 	"10087": {
+		"page": "Fate/Zero",
+		"pageId": "37107",
 		"title": {
 			"zh": "Fate/Zero"
 		}
@@ -21356,6 +21358,13 @@
 			"zh-hans": "学园少女突袭者"
 		}
 	},
+	"97815": {
+		"page": "Fate/Grand_Order",
+		"pageId": "120019",
+		"title": {
+			"en": "Fate/Grand Order: First Order"
+		}
+	},
 	"97821": {
 		"title": {
 			"zh": "愛麗絲與藏六",
@@ -23602,6 +23611,8 @@
 		}
 	},
 	"103275": {
+		"page": "Fate/Grand_Order",
+		"pageId": "120019",
 		"title": {
 			"zh": "Fate/Grand Order -絕對魔獸戰線巴比倫尼亞-",
 			"zh-hans": "Fate/Grand Order -绝对魔兽战线巴比伦尼亚-"
@@ -26398,6 +26409,13 @@
 			"zh-tw": "異世界迷宮裡的後宮生活",
 			"zh-hans": "异世界迷宫里的后宫生活",
 			"zh-hk": "異世界迷宮裏的後宮生活"
+		}
+	},
+	"127149": {
+		"page": "Fate/Grand_Order",
+		"pageId": "120019",
+		"title": {
+			"en": "Fate/Grand Carnival"
 		}
 	},
 	"127230": {
