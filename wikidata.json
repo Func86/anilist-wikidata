@@ -17336,7 +17336,9 @@
 		}
 	},
 	"10087": {
-		"dateModified": "2025-05-22T16:45:12Z",
+		"dateModified": "2026-03-17T20:47:01Z",
+		"page": "Fate/Zero",
+		"pageId": "37107",
 		"title": {
 			"zh": "Fate/Zero"
 		}
@@ -24720,6 +24722,14 @@
 			"+zh-hans": "学园少女突袭者"
 		}
 	},
+	"97815": {
+		"dateModified": "2026-01-02T11:03:27Z",
+		"page": "Fate/Grand_Order",
+		"pageId": "120019",
+		"title": {
+			"en": "Fate/Grand Order: First Order"
+		}
+	},
 	"97821": {
 		"dateModified": "2025-03-31T04:39:22Z",
 		"title": {
@@ -27323,7 +27333,9 @@
 		}
 	},
 	"103275": {
-		"dateModified": "2025-07-19T08:43:27Z",
+		"dateModified": "2026-02-21T08:13:03Z",
+		"page": "Fate/Grand_Order",
+		"pageId": "120019",
 		"title": {
 			"zh": "Fate/Grand Order -絕對魔獸戰線巴比倫尼亞-",
 			"+zh-hans": "Fate/Grand Order -绝对魔兽战线巴比伦尼亚-"
@@ -30556,6 +30568,14 @@
 			"zh-tw": "異世界迷宮裡的後宮生活",
 			"+zh-hans": "异世界迷宫里的后宫生活",
 			"+zh-hk": "異世界迷宮裏的後宮生活"
+		}
+	},
+	"127149": {
+		"dateModified": "2026-02-18T07:16:25Z",
+		"page": "Fate/Grand_Order",
+		"pageId": "120019",
+		"title": {
+			"en": "Fate/Grand Carnival"
 		}
 	},
 	"127230": {
