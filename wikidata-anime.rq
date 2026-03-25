@@ -47,13 +47,21 @@ WHERE {{
         ?item rdfs:label ?enLabel.
         ?origin rdfs:label ?originEnLabel.
       }
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "ja".
+        ?item rdfs:label ?jaLabel.
+        ?origin rdfs:label ?originJaLabel.
+      }
     }
 
     # Query the title variants of the origin entity, when all of the following conditions are met:
     # 1. The title of the item is in English or undefined
     # 2. The title of the origin entity is in Chinese
-    # 3. The English title of the item is the same as the English title of the origin entity
-    FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && LCASE(?enLabel) = LCASE(?originEnLabel))
+    # 3. The English or Japanese title of the item is the same as the origin entity
+    FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && (
+      LCASE(?enLabel) = LCASE(?originEnLabel) ||
+      LCASE(?jaLabel) = LCASE(?originJaLabel)
+    ))
 
     # We have to keep these inside the UNION query because it would timeout/OOM when querying rdfs:label
     # on variables that are bounded with BIND, even if it's as simple as `BIND(?item AS ?itemCopy)`.
@@ -97,8 +105,16 @@ WHERE {{
         ?series rdfs:label ?enLabel.
         ?origin rdfs:label ?originEnLabel.
       }
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "ja".
+        ?series rdfs:label ?jaLabel.
+        ?origin rdfs:label ?originJaLabel.
+      }
 
-      FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && LCASE(?enLabel) = LCASE(?originEnLabel))
+      FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && (
+        LCASE(?enLabel) = LCASE(?originEnLabel) ||
+        LCASE(?jaLabel) = LCASE(?originJaLabel)
+      ))
 
       ?origin rdfs:label ?label.
       BIND(LANG(?label) AS ?lang).
