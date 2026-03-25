@@ -219,7 +219,7 @@ class CatalogUpdater {
 		console.log(`Old catalog has ${Object.keys(oldCatalogMap).length} entries, new catalog has ${Object.keys(newCatalogMap).length} entries`);
 
 		const newlyDeleted = Object.keys(oldCatalogMap).filter(
-			id => !newCatalogMap[id] && oldCatalogMap[id].type !== 'Q21441764'
+			id => !newCatalogMap[id]
 		);
 		const addedOrModified = Object.keys(newCatalogMap).filter(
 			id => !oldCatalogMap[id] || Object.keys(updatedDiff(oldCatalogMap[id], newCatalogMap[id])).length !== 0
@@ -250,6 +250,9 @@ class CatalogUpdater {
 		for (const record of records) {
 			if (!record.external_id || isNaN(record.external_id)) {
 				console.error(`Invalid external ID: "${record.external_id}" for ${catalog} entry ${record.entry_id}`);
+				continue;
+			}
+			if (record.entry_type === 'Q21441764') {
 				continue;
 			}
 			const entry = {

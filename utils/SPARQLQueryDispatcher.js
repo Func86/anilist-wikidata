@@ -36,12 +36,12 @@ class SPARQLQueryDispatcher {
 			const isTimeout = response.status === 500 && responseText.includes('java.util.concurrent.TimeoutException');
 			const state = isTimeout ? 'timed out' : 'failed';
 			if (++retries < 3) {
-				console.log(`Query ${state}, retrying in ${retrySleep[retries]} seconds...`);
+				console.log(`Query ${state} with HTTP ${response.status}, retrying in ${retrySleep[retries]} seconds...`);
 				await new Promise(resolve => setTimeout(resolve, retrySleep[retries] * 1000));
 				continue;
 			} else {
-				console.error(`Query ${state} after 3 retries:`, response.status, responseText);
-				throw new Error(`Query ${state} after 3 retries: ${response.status}`);
+				console.error(`Query ${state} after 3 retries: HTTP ${response.status}`, responseText);
+				throw new Error(`Query ${state} after 3 retries: HTTP ${response.status}`);
 			}
 		}
 	}
