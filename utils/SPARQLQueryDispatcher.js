@@ -21,27 +21,37 @@ class SPARQLQueryDispatcher {
 		};
 
 		let retries = 0;
-		const retrySleep = [ , 10, 30, 60 ];
+		const retrySleep = [ , 30, 60, 120 ];
 		while (retries < 3) {
-			const response = await fetch(this.endpoint, {
-				method: 'POST',
-				headers,
-				body: sparqlQuery,
-			});
-			if (response.ok) {
-				return await response.json();
-			}
+			try {
+				const response = await fetch(this.endpoint, {
+					method: 'POST',
+					headers,
+					body: sparqlQuery,
+				});
+				if (response.ok) {
+					return await response.json();
+				}
 
-			const responseText = await response.text();
-			const isTimeout = response.status === 500 && responseText.includes('java.util.concurrent.TimeoutException');
-			const state = isTimeout ? 'timed out' : 'failed';
-			if (++retries < 3) {
-				console.log(`Query ${state} with HTTP ${response.status}, retrying in ${retrySleep[retries]} seconds...`);
-				await new Promise(resolve => setTimeout(resolve, retrySleep[retries] * 1000));
-				continue;
-			} else {
-				console.error(`Query ${state} after 3 retries: HTTP ${response.status}`, responseText);
-				throw new Error(`Query ${state} after 3 retries: HTTP ${response.status}`);
+				const responseText = await response.text();
+				const isTimeout = response.status === 500 && responseText.includes('java.util.concurrent.TimeoutException');
+				const state = isTimeout ? 'timed out' : 'failed';
+				if (++retries < 3) {
+					console.log(`Query ${state} with HTTP ${response.status}, retrying in ${retrySleep[retries]} seconds...`);
+					await new Promise(resolve => setTimeout(resolve, retrySleep[retries] * 1000));
+					continue;
+				} else {
+					console.error(`Query ${state} after 3 retries: HTTP ${response.status}`, responseText);
+					throw new Error(`Query ${state} after 3 retries: HTTP ${response.status}`);
+				}
+			} catch (error) {
+				if (error.name === 'TypeError' && error.message === 'terminated' && ++retries < 3) {
+					console.log(`Query terminated upstream, retrying in ${retrySleep[retries]} seconds...`);
+					await new Promise(resolve => setTimeout(resolve, retrySleep[retries] * 1000));
+					continue;
+				} else {
+					throw error;
+				}
 			}
 		}
 	}
