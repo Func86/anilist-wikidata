@@ -20,6 +20,7 @@
     "@actions/core": "^2.0.3",
     "chrono-node": "^2.7.8",
     "deep-object-diff": "^1.1.9",
+    "entities": "^8.0.0",
     "papaparse": "^5.5.2"
   }
 }

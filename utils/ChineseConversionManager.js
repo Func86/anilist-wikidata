@@ -110,6 +110,8 @@ class ChineseConversionManager {
 	}
 }
 
+import { decodeHTML } from 'entities';
+
 /**
  * Conversion Provider implementation with MediaWiki API
  */
@@ -121,19 +123,19 @@ class ChineseConversionProvider {
 
 	async convertBatch(titles) {
 		const body = {
-			"action": "parse",
-			"format": "json",
-			"uselang": "zh",
-			"text": JSON.stringify(titles),
-			"prop": "text",
-			"wrapoutputclass": "",
-			"disablelimitreport": 1,
-			"disableeditsection": 1,
-			"contentmodel": "wikitext",
-			"templatesandboxtitle": "Module:Nowiki",
-			"templatesandboxtext": "return { nowiki = function(frame) return mw.text.nowiki(frame.args[1]) end }",
-			"templatesandboxcontentmodel": "Scribunto",
-			"formatversion": 2,
+			action: 'parse',
+			format: 'json',
+			uselang: 'zh',
+			text: JSON.stringify(titles),
+			prop: 'text',
+			wrapoutputclass: '',
+			disablelimitreport: 1,
+			disableeditsection: 1,
+			contentmodel: 'wikitext',
+			templatesandboxtitle: 'Module:Nowiki',
+			templatesandboxtext: 'return { nowiki = function(frame) return mw.text.nowiki(frame.args[1]) end }',
+			templatesandboxcontentmodel: 'Scribunto',
+			formatversion: 2,
 		};
 		const response = await fetch(this.apiEndpoint, {
 			method: 'POST',
@@ -145,11 +147,16 @@ class ChineseConversionProvider {
 		});
 		try {
 			const respBody = await response.clone().json();
-			return JSON.parse(respBody.parse.text.match(/^<p>(\{.+\})\s*<\/p>[\s\S]*$/)[1].replaceAll('&amp;', '&'));
+			const decoded = decodeHTML(respBody.parse.text.match(/^<p>(\{.+\})\s*<\/p>[\s\S]*$/)[1]);
+			return JSON.parse(decoded);
 		} catch (error) {
 			console.log(response.status);
 			console.error(await response.text());
 			throw error;
+		} finally {
+			if (!response.bodyUsed) {
+				response.body.cancel();
+			}
 		}
 	}
 
