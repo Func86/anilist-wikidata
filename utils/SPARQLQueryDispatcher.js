@@ -45,8 +45,17 @@ class SPARQLQueryDispatcher {
 					throw new Error(`Query ${state} after 3 retries: HTTP ${response.status}`);
 				}
 			} catch (error) {
-				if (error.name === 'TypeError' && error.message === 'terminated' && ++retries < 3) {
-					console.log(`Query terminated upstream, retrying in ${retrySleep[retries]} seconds...`);
+				let shouldRetry = false;
+				if (error.name === 'TypeError' && error.message === 'terminated') {
+					console.log('Query terminated upstream');
+					shouldRetry = true;
+				} else if (error.name === 'SyntaxError') {
+					console.log('Incomplete response:', error);
+					shouldRetry = true;
+				}
+
+				if (shouldRetry && ++retries < 3) {
+					console.log(`Retrying in ${retrySleep[retries]} seconds...`);
 					await new Promise(resolve => setTimeout(resolve, retrySleep[retries] * 1000));
 					continue;
 				} else {
