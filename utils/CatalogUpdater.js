@@ -200,6 +200,9 @@ class CatalogUpdater {
 				no_multiple: 0
 			}),
 			format: 'json',
+			// This is the maximum limit (default is 100000), pagination is not needed
+			// in the foreseeable future, unless the maximum is changed.
+			limit: 1000000,
 		});
 
 		console.log(String(url));
