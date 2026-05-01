@@ -90,15 +90,24 @@ async function processDataGroup(data, type) {
 			}
 		}
 
-		if (!data[id].title['zh'] && !data[id].title['en'] && (!data[id].title['zh-hans'] || !data[id].title['zh-hant'])) {
+		if (
+			!data[id].title['zh'] && !data[id].title['en'] &&
+			(!data[id].title['zh-hans'] || !data[id].title['zh-hant'])
+		) {
 			console.warn(`Missing untransliterated Chinese title for ${idType} ${id}: ${JSON.stringify(data[id].title)}`);
+
+			if (new Set(Object.values(data[id].title)).size === 1) {
+				data[id].title['zh'] = Object.values(data[id].title)[0];
+			}
 		}
 
 		if (data[id].title['zh-cn'] && !data[id].title['zh-hans']) {
 			console.log(`Missing simplified Chinese title for ${idType} ${id}: ${data[id].title['zh-cn']}`);
-		} else if (data[id].title['zh-hans'] && data[id].title['zh-cn'] &&
+		} else if (
+			data[id].title['zh-hans'] && data[id].title['zh-cn'] &&
 			data[id].title['zh-cn'] !== data[id].title['zh-hans'] &&
-			!data[id].title['zh-hans'].includes('GUNDAM')) {
+			!data[id].title['zh-hans'].includes('GUNDAM')
+		) {
 			// Anti censorship
 			const censorRegex = /神社|后宫/;
 			if (data[id].title['zh-hans'].match(censorRegex) && !data[id].title['zh-cn'].match(censorRegex)) {
