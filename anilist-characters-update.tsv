@@ -6,412 +6,625 @@ id	name	type	url	description
 389807	Lily Flamebell	Q80447738	https://anilist.co/character/389807	"リリィ・フラムベル. Character in Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni ""Kyouka Point"" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?"
 389808	Martina Zilla	Q3658341	https://anilist.co/character/389808	"マルチナ・ジーラ. Character in Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni ""Kyouka Point"" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?"
 389809	Margaret Els	Q3658341	https://anilist.co/character/389809	"マーガレット・エルス. Character in Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni ""Kyouka Point"" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?"
-396461	Nanako Mita	Q80447738	https://anilist.co/character/396461	実田菜々子. Character in Iya na Kao sare nagara Opantsu Misete Moraitai Returns
-396462	Kokoro Kisaragi	Q80447738	https://anilist.co/character/396462	如月こころ. Character in Iya na Kao sare nagara Opantsu Misete Moraitai Returns
-396463	Mei Sakura	Q80447738	https://anilist.co/character/396463	佐倉芽衣. Character in Iya na Kao sare nagara Opantsu Misete Moraitai Returns
-396464	Nene Arisu	Q80447738	https://anilist.co/character/396464	有栖寧々. Character in Iya na Kao sare nagara Opantsu Misete Moraitai Returns
-396465	Saki Kurose	Q80447738	https://anilist.co/character/396465	黒瀬紗季. Character in Iya na Kao sare nagara Opantsu Misete Moraitai Returns
-396466	Valmina Nox	Q80447738	https://anilist.co/character/396466	ヴァルミナ・ディア・ノクス. Character in Iya na Kao sare nagara Opantsu Misete Moraitai Returns
-396468	Saku Saigawa	Q87576284	https://anilist.co/character/396468	犀川朔久. Character in Gaishou no Shigoto ni Koi wa Fukumaremasu ka
-396469	Nagisa Honda	Q87576284	https://anilist.co/character/396469	本田渚. Character in Gaishou no Shigoto ni Koi wa Fukumaremasu ka
-396471	Shuu Takamiya	Q87576284	https://anilist.co/character/396471	高宮秋. Character in Antiheroic Darling
-396472	Chikage Shimada	Q87576284	https://anilist.co/character/396472	嶋田千景. Character in Antiheroic Darling
-396473	Kaede Tsuwabuki	Q87576284	https://anilist.co/character/396473	石蕗楓. Character in Mada Suterarenaide Iru
-396474	Riku Misono	Q87576284	https://anilist.co/character/396474	三園陸. Character in Mada Suterarenaide Iru
-396478	Levi-Ruin	Q87576284	https://anilist.co/character/396478	レヴィ＝ルイン. Character in Rosen Blood
-396479	Stella	Q87576284	https://anilist.co/character/396479	ステラ. Character in Rosen Blood
-396480	Friedrich	Q87576284	https://anilist.co/character/396480	フィードリヒ. Character in Rosen Blood
-396481	Yoel-Helger	Q87576284	https://anilist.co/character/396481	ヨエルヘルガ. Character in Rosen Blood
-396482	Gilbert	Q87576284	https://anilist.co/character/396482	ギルバート. Character in Rosen Blood
-396489	Nanshen Bing Liu Cheng	Q15711870	https://anilist.co/character/396489	男生丙刘畅. Character in Fei Ren Zai
-396490	Nü Tongxue Jia Xiaobao	Q15711870	https://anilist.co/character/396490	女同学甲小宝. Character in Fei Ren Zai
-396491	Nügao Zhong Sheng	Q15711870	https://anilist.co/character/396491	女高中生. Character in Fei Ren Zai
-396492	Nügao Zhong Sheng	Q15711870	https://anilist.co/character/396492	女高中生. Character in Fei Ren Zai
-396493	Nügao Zhong Sheng	Q15711870	https://anilist.co/character/396493	女高中生. Character in Fei Ren Zai
-396494	Rolonia Manchester	Q3658341	https://anilist.co/character/396494	ロロニア・マンチェスター. Character in Rokka: Braves of the Six Flowers
-396496	Kodou Iwamoto	Q87576284	https://anilist.co/character/396496	岩元胡堂. Character in Iwamoto-senpai no Suisen
-396497	Kai Haramachi	Q87576284	https://anilist.co/character/396497	原町海. Character in Iwamoto-senpai no Suisen
-396498	Souichirou Amaha	Q87576284	https://anilist.co/character/396498	天羽総一郎. Character in Iwamoto-senpai no Suisen
-396500	Ema Otsu	Q80447738	https://anilist.co/character/396500	大津江万. Character in Sayonara Lara
-396501	Yoshihiro Otsu	Q80447738	https://anilist.co/character/396501	大津祥弥. Character in Sayonara Lara
-396502	Rowan	Q80447738	https://anilist.co/character/396502	ローワン. Character in Sayonara Lara
-396503	Makoto Otsu	Q80447738	https://anilist.co/character/396503	大津誠. Character in Sayonara Lara
-396504	Melissa	Q80447738	https://anilist.co/character/396504	メリッサ. Character in Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha
-396505	Misaki	Q80447738	https://anilist.co/character/396505	ミサキ. Character in Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha
-396506	Madoka	Q80447738	https://anilist.co/character/396506	マドカ. Character in Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha
-396508	Mizuka Tsurumaki	Q80447738	https://anilist.co/character/396508	鶴巻瑞佳. Character in GROW UP SHOW -Sunflower Circus-
-396509	Ouka Kawasumi	Q80447738	https://anilist.co/character/396509	川澄桜翔. Character in GROW UP SHOW -Sunflower Circus-
-396510	Imari Agano	Q80447738	https://anilist.co/character/396510	吾野伊万里. Character in GROW UP SHOW -Sunflower Circus-
-396511	Isuzu Ikazuchi	Q80447738	https://anilist.co/character/396511	五十土五十鈴. Character in GROW UP SHOW -Sunflower Circus-
-396512	Aoi Yura	Q80447738	https://anilist.co/character/396512	由良葵. Character in GROW UP SHOW -Sunflower Circus-
-396513	Akane Yura	Q80447738	https://anilist.co/character/396513	由良茜. Character in GROW UP SHOW -Sunflower Circus-
-396514	Shizuku Sakawa	Q80447738	https://anilist.co/character/396514	酒匂雫. Character in GROW UP SHOW -Sunflower Circus-
-396515	Svetlana	Q80447738	https://anilist.co/character/396515	スヴェトラーナ. Character in GROW UP SHOW -Sunflower Circus-
-396516	Maria	Q80447738	https://anilist.co/character/396516	麻利亜. Character in GROW UP SHOW -Sunflower Circus-
-396517	Rin Mamiya	Q80447738	https://anilist.co/character/396517	間宮凛. Character in GROW UP SHOW -Sunflower Circus-
-396521	Akage	Q87576284	https://anilist.co/character/396521	アカゲ. Character in Matagi Retsuden
-396522	Tatsugorou	Q87576284	https://anilist.co/character/396522	辰五郎. Character in Matagi Retsuden
-396523	Sarumaru	Q87576284	https://anilist.co/character/396523	猿丸. Character in Matagi Retsuden
-396524	Yoshizou	Q87576284	https://anilist.co/character/396524	由蔵. Character in Matagi Retsuden
-396525	Yuri	Q87576284	https://anilist.co/character/396525	百合. Character in Matagi Retsuden
-396529	Setsuya Minami	Q80447738	https://anilist.co/character/396529	南節也. Character in Classroom of the Elite 4th Season: Second Year, First Semester
-396530	Kyougo Komiya	Q80447738	https://anilist.co/character/396530	小宮叶吾. Character in Classroom of the Elite 4th Season: Second Year, First Semester
-396531	Aoi Mizuhara	Q87576284	https://anilist.co/character/396531	水原アオイ. Character in Aoi-kun no Waidan ga Tamaranai!!
-396532	Mebuku Tsubaki	Q87576284	https://anilist.co/character/396532	椿芽吹. Character in Aoi-kun no Waidan ga Tamaranai!!
-396533	Kouichi Shiomi	Q87576284	https://anilist.co/character/396533	塩見紅壱. Character in Aoi-kun no Waidan ga Tamaranai!!
-396534	Chugou	Q1114461	https://anilist.co/character/396534	刍狗. Character in You Shou Yan
-396535	Jinsha	Q1114461	https://anilist.co/character/396535	金沙. Character in You Shou Yan
-396550	Hitomi Shima	Q87576284	https://anilist.co/character/396550	島仁海. Character in Wasureta Haru wa Kimi Tonari
-396551	Tooru Kuresawa	Q87576284	https://anilist.co/character/396551	暮沢徹. Character in Wasureta Haru wa Kimi Tonari
-396553	Yu-Ra	Q1114461	https://anilist.co/character/396553	유라. Character in Chwihyang Folder.ZIP
-396554	Ho-Jun	Q1114461	https://anilist.co/character/396554	호준. Character in Chwihyang Folder.ZIP
-396555	Seon-Yeong	Q1114461	https://anilist.co/character/396555	선영. Character in Chwihyang Folder.ZIP
-396556	Kazuma	Q87576284	https://anilist.co/character/396556	数馬. Character in Haunted Peak
-396557	Taiki Ebihara	Q87576284	https://anilist.co/character/396557	葡萄原大騎. Character in Haunted Peak
-396558	Mayu	Q87576284	https://anilist.co/character/396558	茉柚. Character in Haunted Peak
-396559	Dylan	Q87576284	https://anilist.co/character/396559	ディラン. Character in The Hero’s Bereaved Family
-396560	Sakaguchi Ikki	Q87576284	https://anilist.co/character/396560	坂口一記. Character in Enigmatica
-396561	Josef Sinclair	Q87576284	https://anilist.co/character/396561	ヨゼフ・シンクレア. Character in Enigmatica
-396567	Haru no Satoosa	Q80447738	https://anilist.co/character/396567	春の里長. Character in Agents of the Four Seasons: Dance of Spring
-396568	Haru Shokuin	Q80447738	https://anilist.co/character/396568	春職員. Character in Agents of the Four Seasons: Dance of Spring
-396569	Zoku	Q80447738	https://anilist.co/character/396569	賊. Character in Agents of the Four Seasons: Dance of Spring
-396570	Radio Announcer	Q80447738	https://anilist.co/character/396570	ラジオアナウンサー. Character in Agents of the Four Seasons: Dance of Spring
-396597	Rika Osawa	Q80447738	https://anilist.co/character/396597	大沢理加. Character in Captain Tsubasa: Ayaushi! Zen Nihon Jr.
-396598	Takeshi Furuoya	Q80447738	https://anilist.co/character/396598	古尾谷猛. Character in Captain Tsubasa: Ayaushi! Zen Nihon Jr.
-396599	Steve	Q80447738	https://anilist.co/character/396599	スティーブ. Character in Captain Tsubasa: Ayaushi! Zen Nihon Jr.
-396600	Richard	Q80447738	https://anilist.co/character/396600	リチャード. Character in Captain Tsubasa: Ayaushi! Zen Nihon Jr.
-396601	Hefner	Q80447738	https://anilist.co/character/396601	ヘフナー. Character in Captain Tsubasa: Ayaushi! Zen Nihon Jr.
-396602	Outmeyer	Q80447738	https://anilist.co/character/396602	Character in Captain Tsubasa: Ayaushi! Zen Nihon Jr.
-396603	Announcer	Q80447738	https://anilist.co/character/396603	アナウンサー. Character in Captain Tsubasa: Ayaushi! Zen Nihon Jr.
-396609	Ai	Q80447738	https://anilist.co/character/396609	愛. Character in Daemons of the Shadow Realm
-396610	Makoto	Q80447738	https://anilist.co/character/396610	誠. Character in Daemons of the Shadow Realm
-396611	Aoi	Q80447738	https://anilist.co/character/396611	アオイ. Character in Daemons of the Shadow Realm
-396612	Stalker	Q80447738	https://anilist.co/character/396612	ストーカー. Character in Daemons of the Shadow Realm
-396613	OL	Q80447738	https://anilist.co/character/396613	OL. Character in Daemons of the Shadow Realm
-396614	Kinjo no Hito	Q80447738	https://anilist.co/character/396614	近所の人. Character in Daemons of the Shadow Realm
-396615	Inu no Kainushi no Otoko	Q80447738	https://anilist.co/character/396615	犬の飼い主の男. Character in Daemons of the Shadow Realm
-396617	Inu no Kainushi no Onna	Q80447738	https://anilist.co/character/396617	犬の飼い主の女. Character in Daemons of the Shadow Realm
-396621	Ame-chan Chichi	Q80447738	https://anilist.co/character/396621	あめちゃん父. Character in NEEDY GIRL OVERDOSE
-396622	Ame-chan Haha	Q80447738	https://anilist.co/character/396622	あめちゃん母. Character in NEEDY GIRL OVERDOSE
-396623	Ame-chan Sobo	Q80447738	https://anilist.co/character/396623	あめちゃん祖母. Character in NEEDY GIRL OVERDOSE
-396624	Otaku	Q80447738	https://anilist.co/character/396624	オタク. Character in NEEDY GIRL OVERDOSE
-396625	Mob	Q80447738	https://anilist.co/character/396625	モブ. Character in NEEDY GIRL OVERDOSE
-396626	Mob	Q80447738	https://anilist.co/character/396626	モブ. Character in NEEDY GIRL OVERDOSE
-396627	Mob	Q80447738	https://anilist.co/character/396627	モブ. Character in NEEDY GIRL OVERDOSE
-396628	Mob	Q80447738	https://anilist.co/character/396628	モブ. Character in NEEDY GIRL OVERDOSE
-396629	Mob	Q80447738	https://anilist.co/character/396629	モブ. Character in NEEDY GIRL OVERDOSE
-396630	Mob	Q80447738	https://anilist.co/character/396630	モブ. Character in NEEDY GIRL OVERDOSE
-396667	Jianniang Hu	Q15711870	https://anilist.co/character/396667	胡浅娘. Character in Tang Zhi Zhi Yi
-396668	Hama Jing	Q15711870	https://anilist.co/character/396668	蛤蟆精. Character in Tang Zhi Zhi Yi
-396669	Liuniang Hu	Q15711870	https://anilist.co/character/396669	胡六娘. Character in Tang Zhi Zhi Yi
-396670	Kaosheng	Q15711870	https://anilist.co/character/396670	考生. Character in Tang Zhi Zhi Yi
-396671	Kaoguan	Q15711870	https://anilist.co/character/396671	考官. Character in Tang Zhi Zhi Yi
-396673	Zhu Liu	Q15711870	https://anilist.co/character/396673	流珠. Character in Tang Zhi Zhi Yi
-396675	Huamao	Q15711870	https://anilist.co/character/396675	花猫. Character in Tang Zhi Zhi Yi
-396676	Tian Jizi Daoshi	Q15711870	https://anilist.co/character/396676	天机子道士. Character in Tang Zhi Zhi Yi
-396684	Sam-Tak Lee	Q1114461	https://anilist.co/character/396684	이삼탁. Character in Nongbu Lee Sam-Tak
-396689	Doukyuusei	Q80447738	https://anilist.co/character/396689	同級生. Character in Go For It, Nakamura-kun!!
-396690	Doukyuusei	Q80447738	https://anilist.co/character/396690	同級生. Character in Go For It, Nakamura-kun!!
-396691	Doukyuusei	Q80447738	https://anilist.co/character/396691	同級生. Character in Go For It, Nakamura-kun!!
-396692	Nakamura Haha	Q80447738	https://anilist.co/character/396692	中村母. Character in Go For It, Nakamura-kun!!
-396693	Doukyuusei	Q80447738	https://anilist.co/character/396693	同級生. Character in Go For It, Nakamura-kun!!
-396694	Doukyuusei	Q80447738	https://anilist.co/character/396694	同級生. Character in Go For It, Nakamura-kun!!
-396695	Doukyuusei	Q80447738	https://anilist.co/character/396695	同級生. Character in Go For It, Nakamura-kun!!
-396696	Kateika Kyoushi	Q80447738	https://anilist.co/character/396696	家庭科教師. Character in Go For It, Nakamura-kun!!
-396697	Kana Nakamura	Q80447738	https://anilist.co/character/396697	中村カナ. Character in Go For It, Nakamura-kun!!
-396698	Kouchou	Q80447738	https://anilist.co/character/396698	校長. Character in Go For It, Nakamura-kun!!
-396699	Doukyuusei	Q80447738	https://anilist.co/character/396699	同級生. Character in Go For It, Nakamura-kun!!
-396700	Doukyuusei	Q80447738	https://anilist.co/character/396700	同級生. Character in Go For It, Nakamura-kun!!
-396701	Doukyuusei	Q80447738	https://anilist.co/character/396701	同級生. Character in Go For It, Nakamura-kun!!
-396702	Doukyuusei	Q80447738	https://anilist.co/character/396702	同級生. Character in Go For It, Nakamura-kun!!
-396703	Daiou	Q80447738	https://anilist.co/character/396703	大王. Character in Go For It, Nakamura-kun!!
-396704	Doukyuusei	Q80447738	https://anilist.co/character/396704	同級生. Character in Go For It, Nakamura-kun!!
-396705	Goki-chan	Q80447738	https://anilist.co/character/396705	ゴキちゃん. Character in Go For It, Nakamura-kun!!
-396706	Josei Kyoushi	Q80447738	https://anilist.co/character/396706	女性教師. Character in Go For It, Nakamura-kun!!
-396707	Bijutsu Kyoushi	Q80447738	https://anilist.co/character/396707	美術教師. Character in Go For It, Nakamura-kun!!
-396708	Doukyuusei	Q80447738	https://anilist.co/character/396708	同級生. Character in Go For It, Nakamura-kun!!
-396709	Mohican Ao	Q80447738	https://anilist.co/character/396709	モヒカン青. Character in Go For It, Nakamura-kun!!
-396710	Mohican Midori	Q80447738	https://anilist.co/character/396710	モヒカン緑. Character in Go For It, Nakamura-kun!!
-396711	Mohican Aka	Q80447738	https://anilist.co/character/396711	モヒカン赤. Character in Go For It, Nakamura-kun!!
-396712	Asuka Tenma	Q80447738	https://anilist.co/character/396712	天馬アスカ. Character in DIGIMON BEATBREAK
-396719	Kangoshi	Q80447738	https://anilist.co/character/396719	看護師. Character in Odekake Kozame Season 2
-396720	Hachi	Q80447738	https://anilist.co/character/396720	ハチ. Character in Odekake Kozame Season 2
-396721	Isha	Q80447738	https://anilist.co/character/396721	医者. Character in Odekake Kozame Season 2
-396723	Tae-Yeong An	Q1114461	https://anilist.co/character/396723	안태영. Character in Curveball and Splitter
-396727	Goudai Miura	Q87576284	https://anilist.co/character/396727	水卜豪大. Character in Ano ne, Amu ne
-396728	Ayumu Toono	Q87576284	https://anilist.co/character/396728	遠野あゆむ. Character in Ano ne, Amu ne
-396730	Mochipoyo-chan	Q80447738	https://anilist.co/character/396730	もちぽよちゃん. Character in Holo no Graffiti
-396733	Kyousuke Kagami	Q87576284	https://anilist.co/character/396733	加賀美京介. Character in Door no Mukou ni wa Romance
-396734	Minato Sakitani	Q87576284	https://anilist.co/character/396734	崎谷南斗. Character in Door no Mukou ni wa Romance
-396736	Yuusuke Koga	Q87576284	https://anilist.co/character/396736	古閑祐介. Character in UPPERNIGHT DIGEST
-396737	Akito Mino	Q87576284	https://anilist.co/character/396737	三野晶人. Character in UPPERNIGHT DIGEST
-396741	Shiryo Nagamine	Q80447738	https://anilist.co/character/396741	長嶺士遼. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396742	Gou Sugou	Q80447738	https://anilist.co/character/396742	菅生強. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396744	Masaki Kyouga	Q80447738	https://anilist.co/character/396744	京河正樹. Character in Dandelion
-396745	Genjirou Shiraishi	Q80447738	https://anilist.co/character/396745	白石元次郎. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396746	Sumioka Takeya	Q80447738	https://anilist.co/character/396746	隅岡筍也. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396747	Emi Hanada	Q80447738	https://anilist.co/character/396747	花田瑛美. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396749	Yuugaku Nakamoto	Q80447738	https://anilist.co/character/396749	中本悠楽. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396750	Touryuumon Shigansha	Q80447738	https://anilist.co/character/396750	登竜門志願者. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396751	Touryuumon Shigansha	Q80447738	https://anilist.co/character/396751	登竜門志願者. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396752	Touryuumon Shigansha	Q80447738	https://anilist.co/character/396752	登竜門志願者. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396753	Touryuumon Shigansha	Q80447738	https://anilist.co/character/396753	登竜門志願者. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396754	Heike Josei	Q80447738	https://anilist.co/character/396754	平家女性. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-396762	Xing Kan	Q1114461	https://anilist.co/character/396762	坎行. Character in Kan Li Gua
-396763	Cao Li	Q1114461	https://anilist.co/character/396763	离草. Character in Kan Li Gua
-396764	San Kan	Q1114461	https://anilist.co/character/396764	坎伞. Character in Kan Li Gua
-396765	Dianzhang	Q1114461	https://anilist.co/character/396765	店长. Character in Kan Li Gua
-396776	Tsubasa	Q80447738	https://anilist.co/character/396776	つばさ. Character in Wareware wa Uchuujin
-396777	Kyoutarou	Q80447738	https://anilist.co/character/396777	暁太郎. Character in Wareware wa Uchuujin
-396778	Deathmatch no Kankyaku	Q80447738	https://anilist.co/character/396778	デスマッチの観客. Character in Mistress Kanan is Devilishly Easy
-396779	Deathmatch no Kankyaku	Q80447738	https://anilist.co/character/396779	デスマッチの観客. Character in Mistress Kanan is Devilishly Easy
-396780	Deathmatch no Kankyaku	Q80447738	https://anilist.co/character/396780	デスマッチの観客. Character in Mistress Kanan is Devilishly Easy
-396781	Deathmatch no Kankyaku	Q80447738	https://anilist.co/character/396781	デスマッチの観客. Character in Mistress Kanan is Devilishly Easy
-396782	Deathmatch no Kankyaku	Q80447738	https://anilist.co/character/396782	デスマッチの観客. Character in Mistress Kanan is Devilishly Easy
-396783	Deathmatch no Kankyaku	Q80447738	https://anilist.co/character/396783	デスマッチの観客. Character in Mistress Kanan is Devilishly Easy
-396788	Peppa Pig	Q15711870	https://anilist.co/character/396788	佩奇. Character in Peppa Pig's Perfect Holiday
-396796	Non Tongxue Bing	Q15711870	https://anilist.co/character/396796	男同学丙. Character in Fei Ren Zai
-396797	Jingcha	Q15711870	https://anilist.co/character/396797	警察. Character in Fei Ren Zai
-396802	Remon Eigouji	Q3658341	https://anilist.co/character/396802	永劫寺玲門. Character in Casebook of Kurumi Tokisaki, Magic Detective
-396803	Aya	Q3658341	https://anilist.co/character/396803	アヤ. Character in Casebook of Kurumi Tokisaki, Magic Detective
-396804	Yuan	Q87576284	https://anilist.co/character/396804	ユアン. Character in Nanameki-kun wa Onzoushi no Kyuukon kara Nogaretai
-396805	Ichirou Nanameki	Q87576284	https://anilist.co/character/396805	斜木一郎. Character in Nanameki-kun wa Onzoushi no Kyuukon kara Nogaretai
-396807	Mizuki Ishiro	Q87576284	https://anilist.co/character/396807	居城瑞樹. Character in Suki tte Iccha Yada
-396808	Aoi Touda	Q87576284	https://anilist.co/character/396808	燈田蒼依. Character in Suki tte Iccha Yada
-396810	Subaru Takatsuki	Q87576284	https://anilist.co/character/396810	高槻昴流. Character in Koi Ai Awai
-396811	Kei Hatano	Q87576284	https://anilist.co/character/396811	羽田野景. Character in Koi Ai Awai
-396813	Satoru Miyama	Q87576284	https://anilist.co/character/396813	深山聡. Character in Hatsukoi wa Seitokai-shitsu de
-396814	Ryouichi Endou	Q87576284	https://anilist.co/character/396814	遠藤亮一. Character in Hatsukoi wa Seitokai-shitsu de
-396820	Mahoutsukai	Q80447738	https://anilist.co/character/396820	魔法使い. Character in Witch Hat Atelier
-396821	Mahoutsukai	Q80447738	https://anilist.co/character/396821	魔法使い. Character in Witch Hat Atelier
-396822	Mahoutsukai	Q80447738	https://anilist.co/character/396822	魔法使い. Character in Witch Hat Atelier
-396823	Mahoutsukai	Q80447738	https://anilist.co/character/396823	魔法使い. Character in Witch Hat Atelier
-396824	Mahoutsukai	Q80447738	https://anilist.co/character/396824	魔法使い. Character in Witch Hat Atelier
-396826	Dragon	Q80447738	https://anilist.co/character/396826	ドラゴン. Character in Witch Hat Atelier
-396842	George Pig	Q15711870	https://anilist.co/character/396842	Character in Peppa Pig's Perfect Holiday
-396843	Mummy Pig	Q15711870	https://anilist.co/character/396843	Character in Peppa Pig's Perfect Holiday
-396844	Daddy Pig	Q15711870	https://anilist.co/character/396844	猪爸爸. Character in Peppa Pig's Perfect Holiday
-396845	Ju-In	Q1114461	https://anilist.co/character/396845	주인. Character in Plug In Hagetseumnida!
-396846	Yuuma Kurose	Q87576284	https://anilist.co/character/396846	黒瀬結真. Character in Ghoul Work, Kurose
-396847	Kaito Kiriyama	Q87576284	https://anilist.co/character/396847	桐山叶糸. Character in Ghoul Work, Kurose
-396861	Seo-U Eun	Q1114461	https://anilist.co/character/396861	은서우. Character in X Myeongjungbeop
-396862	Ha-Neul Yeon	Q1114461	https://anilist.co/character/396862	연하늘. Character in X Myeongjungbeop
-396865	Reiji Kusakabe	Q87576284	https://anilist.co/character/396865	日下部怜司. Character in Gokudou Love wa Ichinichi ni Shite Narazu
-396866	Nagi Sakakibara	Q87576284	https://anilist.co/character/396866	榊原凪. Character in Gokudou Love wa Ichinichi ni Shite Narazu
-396875	Dafa	Q15711870	https://anilist.co/character/396875	大发. Character in Fabulous Beasts 5
-396876	Yamata-No-Orochi	Q15711870	https://anilist.co/character/396876	八岐大蛇. Character in Fabulous Beasts 5
-396877	San Touquan	Q15711870	https://anilist.co/character/396877	三头犬. Character in Fabulous Beasts 5
-396878	Daoyou	Q15711870	https://anilist.co/character/396878	导游. Character in Fabulous Beasts 5
-396879	Xiao Wangba	Q15711870	https://anilist.co/character/396879	小王霸. Character in Fabulous Beasts 5
-396880	Emo Beili	Q15711870	https://anilist.co/character/396880	恶魔贝利. Character in Fabulous Beasts 5
-396881	Zhuchiren	Q15711870	https://anilist.co/character/396881	主持人. Character in Fabulous Beasts 5
-396882	Dapeng	Q15711870	https://anilist.co/character/396882	大鹏. Character in Fabulous Beasts 5
-396883	Jingli Ya	Q15711870	https://anilist.co/character/396883	经纪鸦. Character in Fabulous Beasts 5
-396884	Jingli Ge	Q15711870	https://anilist.co/character/396884	经纪鸽. Character in Fabulous Beasts 5
-396885	Bibi Mu	Q15711870	https://anilist.co/character/396885	比比母. Character in Fabulous Beasts 5
-396886	Christina	Q15711870	https://anilist.co/character/396886	克里斯提那. Character in Fabulous Beasts 5
-396888	Xiezhi	Q15711870	https://anilist.co/character/396888	獬豸. Character in Fabulous Beasts 5
-396889	Yingzhao	Q15711870	https://anilist.co/character/396889	英招. Character in Fabulous Beasts 5
-396906	Gonta Tsubakisaka	Q87576284	https://anilist.co/character/396906	椿坂権太. Character in Confessions of a Shy Baker
-396907	Toshimitsu Yamamura	Q87576284	https://anilist.co/character/396907	山村俊光. Character in Confessions of a Shy Baker
-396908	Kozue	Q87576284	https://anilist.co/character/396908	こずえ. Character in Confessions of a Shy Baker
-396909	Pororin	Q87576284	https://anilist.co/character/396909	ポロリン. Character in Confessions of a Shy Baker
-396910	Shingo	Q87576284	https://anilist.co/character/396910	しんご. Character in Confessions of a Shy Baker
-397014	Onee-san	Q80447738	https://anilist.co/character/397014	お姉さん. Character in Odekake Kozame: Tokai no Otomodachi
-397015	Onee-san	Q80447738	https://anilist.co/character/397015	お姉さん. Character in Odekake Kozame: Tokai no Otomodachi
-397016	Onii-san	Q80447738	https://anilist.co/character/397016	お兄さん. Character in Odekake Kozame: Tokai no Otomodachi
-397017	Keisatsu	Q80447738	https://anilist.co/character/397017	警察. Character in Odekake Kozame: Tokai no Otomodachi
-397018	Hakuchou	Q80447738	https://anilist.co/character/397018	白鳥. Character in Odekake Kozame Kurashiki-shi Collab Movie
-397023	Itsuki Haine	Q87576284	https://anilist.co/character/397023	灰根樹. Character in The Trembling Right Hand
-397024	Tsumugi Yamamoto	Q87576284	https://anilist.co/character/397024	山本紬. Character in The Trembling Right Hand
-397025	Yuka Shirahama	Q87576284	https://anilist.co/character/397025	白浜由香. Character in The Trembling Right Hand
-397026	Makoto Hachimura	Q87576284	https://anilist.co/character/397026	八村真. Character in The Trembling Right Hand
-397027	Kazuya Yoshida	Q87576284	https://anilist.co/character/397027	吉田和也. Character in The Trembling Right Hand
-397028	Tsukasa Niijima	Q87576284	https://anilist.co/character/397028	新島司. Character in The Trembling Right Hand
-397029	Rina Sakura	Q87576284	https://anilist.co/character/397029	佐倉梨奈. Character in The Trembling Right Hand
-397030	Jeremo	Q3658341	https://anilist.co/character/397030	ジェレーモ. Character in Kuma Kuma Kuma Bear
-397031	Jiyu	Q80447738	https://anilist.co/character/397031	ジユ. Character in GNOSIA
-397033	Do-Hyeon U	Q1114461	https://anilist.co/character/397033	우도현. Character in Musojonjae
-397034	Jeong-U Han	Q1114461	https://anilist.co/character/397034	한정우. Character in Musojonjae
-397035	Han-Gyeol Lee	Q1114461	https://anilist.co/character/397035	이한결. Character in Musojonjae
-397038	TV CM	Q80447738	https://anilist.co/character/397038	テレビCM. Character in Go For It, Nakamura-kun!!
-397039	Doukyuusei	Q80447738	https://anilist.co/character/397039	同級生. Character in Go For It, Nakamura-kun!!
-397040	TV CM	Q80447738	https://anilist.co/character/397040	テレビCM. Character in Go For It, Nakamura-kun!!
-397041	Yamagiwa-sensei	Q80447738	https://anilist.co/character/397041	山際先生. Character in Go For It, Nakamura-kun!!
-397042	Narita-sensei	Q80447738	https://anilist.co/character/397042	成田先生. Character in Go For It, Nakamura-kun!!
-397044	Ren Kawamae	Q87576284	https://anilist.co/character/397044	川前蓮. Character in Koi no Furi Shite Kimi wo Yobu
-397045	Yui Iitoyo	Q87576284	https://anilist.co/character/397045	飯豊唯. Character in Koi no Furi Shite Kimi wo Yobu
-397046	Tomoki Nakahara	Q87576284	https://anilist.co/character/397046	中原智基. Character in Sparkle Encore
-397047	Sui Aihara	Q87576284	https://anilist.co/character/397047	藍原彗. Character in Sparkle Encore
-397048	Renoir	Q87576284	https://anilist.co/character/397048	ルノアール. Character in Blue Lock
-397049	Rodan	Q87576284	https://anilist.co/character/397049	ロダン. Character in Blue Lock
-397050	Stella Quinwitch	Q87576284	https://anilist.co/character/397050	ステラ・クインウィッチ. Character in Your Meteor, Hidden in Flowers
-397051	Ye-Seul	Q1114461	https://anilist.co/character/397051	예슬. Character in Plug In Hagetseumnida!
-397058	Kateikyoushi	Q80447738	https://anilist.co/character/397058	家庭教師. Character in Dr. STONE SCIENCE FUTURE Cour 3
-397059	Kateikyoushi	Q80447738	https://anilist.co/character/397059	家庭教師. Character in Dr. STONE SCIENCE FUTURE Cour 3
-397060	Nanami Zaibatsu Toushu	Q80447738	https://anilist.co/character/397060	七海財閥当主. Character in Dr. STONE SCIENCE FUTURE Cour 3
-397062	Towa Kuga	Q80447738	https://anilist.co/character/397062	久我十和. Character in Kidou Keisatsu Patlabor EZY
-397063	Kippei Atori	Q80447738	https://anilist.co/character/397063	天鳥桔平. Character in Kidou Keisatsu Patlabor EZY
-397064	Saki Hirata	Q80447738	https://anilist.co/character/397064	平田紗季. Character in Kidou Keisatsu Patlabor EZY
-397065	Akihiko Hazama	Q80447738	https://anilist.co/character/397065	間昭彦. Character in Kidou Keisatsu Patlabor EZY
-397066	Yuuta Yanai	Q80447738	https://anilist.co/character/397066	柳井雄太. Character in Kidou Keisatsu Patlabor EZY
-397067	Hachikuma Yuzuki	Q80447738	https://anilist.co/character/397067	柚木八久万. Character in Kidou Keisatsu Patlabor EZY
-397069	Kimika Saeki	Q80447738	https://anilist.co/character/397069	佐伯貴美香. Character in Kidou Keisatsu Patlabor EZY
-397072	Fram	Q87576284	https://anilist.co/character/397072	フラン. Character in Fire Emblem Heroes: A Day in the Life
-397073	Eitr	Q87576284	https://anilist.co/character/397073	アイト. Character in Fire Emblem Heroes: A Day in the Life
-397074	Holyn	Q87576284	https://anilist.co/character/397074	ホリン. Character in Fire Emblem Heroes: A Day in the Life
-397075	Yunaka	Q87576284	https://anilist.co/character/397075	ユナカ. Character in Fire Emblem Heroes: A Day in the Life
-397076	Meliae	Q87576284	https://anilist.co/character/397076	メリアエ. Character in Fire Emblem Heroes: A Day in the Life
-397079	Ji-O Mun	Q87576284	https://anilist.co/character/397079	문지오. Character in Kkalttagu
-397080	Geon-U Do	Q87576284	https://anilist.co/character/397080	도건우. Character in Kkalttagu
-397089	Yuuran Gyoku	Q87576284	https://anilist.co/character/397089	玉優蘭. Character in Koukyuu Kisaki no Kanrinin
-397090	Meiki Shi	Q87576284	https://anilist.co/character/397090	史明貴. Character in Koukyuu Kisaki no Kanrinin
-397091	Rinshun Sou	Q87576284	https://anilist.co/character/397091	綜鈴春. Character in Koukyuu Kisaki no Kanrinin
-397092	Shishou You	Q87576284	https://anilist.co/character/397092	姚紫薔. Character in Koukyuu Kisaki no Kanrinin
-397093	Kougetsu Haku	Q87576284	https://anilist.co/character/397093	珀皓月. Character in Koukyuu Kisaki no Kanrinin
-397094	Baikou Ri	Q87576284	https://anilist.co/character/397094	李梅香. Character in Koukyuu Kisaki no Kanrinin
-397095	Jouka Kaku	Q87576284	https://anilist.co/character/397095	郭静華. Character in Koukyuu Kisaki no Kanrinin
-397096	Ryou Ryuu	Q87576284	https://anilist.co/character/397096	劉亮. Character in Koukyuu Kisaki no Kanrinin
-397098	Issei Hiiragi	Q87576284	https://anilist.co/character/397098	柊一聖. Character in Tiny Friction
-397099	Yuzu Hongou	Q87576284	https://anilist.co/character/397099	本郷夕珠. Character in Tiny Friction
-397119	Cheon-Hui Cheon	Q1114461	https://anilist.co/character/397119	천천희. Character in Ajik Jemok Eopseum
-397120	Jun-Hwi Gu	Q1114461	https://anilist.co/character/397120	구준휘. Character in Ajik Jemok Eopseum
-397122	Lip	Q87576284	https://anilist.co/character/397122	リップ. Character in Mushoku Tensei: Jobless Reincarnation ~Eris Sharpens Her Fangs~
-397123	Onii-chan	Q87576284	https://anilist.co/character/397123	お兄ちゃん. Character in Mushoku Tensei: Jobless Reincarnation ~Eris Sharpens Her Fangs~
-397135	Osamu Takahashi	Q80447738	https://anilist.co/character/397135	高橋修. Character in Classroom of the Elite 4th Season: Second Year, First Semester
-397137	Takaho Takase	Q87576284	https://anilist.co/character/397137	高瀬高穂. Character in Sotsugyou Album no Kanojotachi
-397138	Manaka Muranaka	Q87576284	https://anilist.co/character/397138	村中愛中. Character in Sotsugyou Album no Kanojotachi
-397139	Wakana Osanai	Q87576284	https://anilist.co/character/397139	幼内幼奈. Character in Sotsugyou Album no Kanojotachi
-397156	Ga-Eun	Q1114461	https://anilist.co/character/397156	가은. Character in Plug In Hagetseumnida!
-397167	Yuki	Q87576284	https://anilist.co/character/397167	ユキ. Character in Chimidoro Yakata
-397168	Akira	Q87576284	https://anilist.co/character/397168	アキラ. Character in Chimidoro Yakata
-397169	Dokuro	Q87576284	https://anilist.co/character/397169	土黒. Character in Chimidoro Yakata
-397170	Dokuro no Nyoubou	Q87576284	https://anilist.co/character/397170	土黒の女房. Character in Chimidoro Yakata
-397171	Otou-san	Q87576284	https://anilist.co/character/397171	おとうさん. Character in Chimidoro Yakata
-397172	Okaa-san	Q87576284	https://anilist.co/character/397172	おかあさん. Character in Chimidoro Yakata
-397175	Mama	Q15711870	https://anilist.co/character/397175	妈妈. Character in Fei Ren Zai
-397176	Baba	Q15711870	https://anilist.co/character/397176	爸爸. Character in Fei Ren Zai
-397177	Xiao Nühai	Q15711870	https://anilist.co/character/397177	小女孩. Character in Fei Ren Zai
-397178	Jiaolian	Q15711870	https://anilist.co/character/397178	教练. Character in Fei Ren Zai
-397179	Nian Shou	Q15711870	https://anilist.co/character/397179	年兽. Character in Fei Ren Zai
-397181	Laoshi	Q15711870	https://anilist.co/character/397181	老师. Character in Fei Ren Zai
-397182	Tomodachi	Q80447738	https://anilist.co/character/397182	友達. Character in NEEDY GIRL OVERDOSE
-397183	Seito	Q80447738	https://anilist.co/character/397183	生徒. Character in NEEDY GIRL OVERDOSE
-397184	Seito	Q80447738	https://anilist.co/character/397184	生徒. Character in NEEDY GIRL OVERDOSE
-397186	P-chan	Q80447738	https://anilist.co/character/397186	ピちゃん. Character in NEEDY GIRL OVERDOSE
-397193	Shinshi	Q80447738	https://anilist.co/character/397193	紳士. Character in Odekake Kozame Season 2
-397194	Pochi	Q80447738	https://anilist.co/character/397194	ポチ. Character in Odekake Kozame Season 2
-397195	Gonzo Kagemori	Q80447738	https://anilist.co/character/397195	影森ゴンゾウ. Character in Daemons of the Shadow Realm
-397196	Haruo Kurotani	Q80447738	https://anilist.co/character/397196	黒谷ハルオ. Character in Daemons of the Shadow Realm
-397197	Akio Kurotani	Q80447738	https://anilist.co/character/397197	黒谷アキオ. Character in Daemons of the Shadow Realm
-397198	Kotetsu	Q80447738	https://anilist.co/character/397198	虎鉄. Character in Daemons of the Shadow Realm
-397199	Jirou	Q80447738	https://anilist.co/character/397199	二狼. Character in Daemons of the Shadow Realm
-397200	Usa-chan	Q80447738	https://anilist.co/character/397200	うさちゃん. Character in Daemons of the Shadow Realm
-397201	Kame-chan	Q80447738	https://anilist.co/character/397201	カメちゃん. Character in Daemons of the Shadow Realm
-397209	Inu	Q80447738	https://anilist.co/character/397209	犬. Character in Mistress Kanan is Devilishly Easy
-397227	Eun-U Yun	Q1114461	https://anilist.co/character/397227	윤은우. Character in To You in the Swamp
-397228	Jae-Ho Kang	Q1114461	https://anilist.co/character/397228	강재호. Character in To You in the Swamp
-397229	Seung-Han Baek	Q1114461	https://anilist.co/character/397229	백승한. Character in To You in the Swamp
-397230	Eun-Jun Yun	Q1114461	https://anilist.co/character/397230	윤은준. Character in To You in the Swamp
-397257	Narihisa Machiyama	Q80447738	https://anilist.co/character/397257	町山成久. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397258	Haruichi Azami	Q80447738	https://anilist.co/character/397258	芥生葉瑠壱. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397259	Hikabi Asahima	Q80447738	https://anilist.co/character/397259	旭間日火日. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397260	Riririn Satou	Q80447738	https://anilist.co/character/397260	佐藤凛璃林. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397261	Asahima no Tsukibito	Q80447738	https://anilist.co/character/397261	旭間の付き人. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397262	Kanjiho	Q80447738	https://anilist.co/character/397262	監事補. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397263	Musume	Q80447738	https://anilist.co/character/397263	娘. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397264	Akachan	Q80447738	https://anilist.co/character/397264	赤ちゃん. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397265	Koufuku Hantaiha Taiin	Q80447738	https://anilist.co/character/397265	降伏反対派隊員. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397266	Koufuku Hantaiha Taiin	Q80447738	https://anilist.co/character/397266	降伏反対派隊員. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397267	Koufuku Hantaiha Taiin	Q80447738	https://anilist.co/character/397267	降伏反対派隊員. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
-397269	Shirasu Kashiwaya	Q80447738	https://anilist.co/character/397269	柏家白州. Character in Akane-banashi
-397270	Mamoru Mikuriya	Q80447738	https://anilist.co/character/397270	御来屋守. Character in Akane-banashi
-397271	Hiiragi	Q80447738	https://anilist.co/character/397271	柊. Character in Akane-banashi
-397272	Studio Three Sekitei	Q80447738	https://anilist.co/character/397272	スタジオスリー席亭. Character in Akane-banashi
-397273	Gaigokujin Kyaku	Q80447738	https://anilist.co/character/397273	外国人客. Character in Akane-banashi
-397274	Dansei Kyaku	Q80447738	https://anilist.co/character/397274	男性客. Character in Akane-banashi
-397275	Izakaya no Kyaku	Q80447738	https://anilist.co/character/397275	居酒屋の客. Character in Akane-banashi
-397277	Tainaka	Q80447738	https://anilist.co/character/397277	田井中. Character in Akane-banashi
-397278	Roujin	Q80447738	https://anilist.co/character/397278	老人. Character in Akane-banashi
-397279	Roujin	Q80447738	https://anilist.co/character/397279	老人. Character in Akane-banashi
-397280	Roujin	Q80447738	https://anilist.co/character/397280	老人. Character in Akane-banashi
-397281	Roujin	Q80447738	https://anilist.co/character/397281	老人. Character in Akane-banashi
-397282	Roujin	Q80447738	https://anilist.co/character/397282	老人. Character in Akane-banashi
-397283	Roujin	Q80447738	https://anilist.co/character/397283	老人. Character in Akane-banashi
-397284	Roujin	Q80447738	https://anilist.co/character/397284	老人. Character in Akane-banashi
-397290	Roujo	Q80447738	https://anilist.co/character/397290	老女. Character in Akane-banashi
-397292	Shungetsu Kayou	Q80447738	https://anilist.co/character/397292	花葉春月. Character in Agents of the Four Seasons: Dance of Spring
-397293	Kodomo	Q80447738	https://anilist.co/character/397293	子ども. Character in Agents of the Four Seasons: Dance of Spring
-397294	Kodomo	Q80447738	https://anilist.co/character/397294	子ども. Character in Agents of the Four Seasons: Dance of Spring
-397295	Kodomo	Q80447738	https://anilist.co/character/397295	子ども. Character in Agents of the Four Seasons: Dance of Spring
-397296	Sewayaku	Q80447738	https://anilist.co/character/397296	世話役. Character in Agents of the Four Seasons: Dance of Spring
-397297	Sato no Kanbu	Q80447738	https://anilist.co/character/397297	里の幹部. Character in Agents of the Four Seasons: Dance of Spring
-397298	Shiyounin	Q80447738	https://anilist.co/character/397298	使用人. Character in Agents of the Four Seasons: Dance of Spring
-397299	Shuuya Ichino	Q80447738	https://anilist.co/character/397299	市野柊也. Character in Kujima: Why Sing, When You Can Warble?
-397300	Eiji Sonoda	Q80447738	https://anilist.co/character/397300	園田栄二. Character in Kujima: Why Sing, When You Can Warble?
-397302	Meifu no Ou	Q80447738	https://anilist.co/character/397302	冥府の王. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397304	Jane Dawes	Q87576284	https://anilist.co/character/397304	ジエーン・ドーズ. Character in Ginga Tokkyuu Milky☆Subway
-397306	Hayuru Momoi	Q87576284	https://anilist.co/character/397306	桃井映. Character in Love Song ga Owaru made
-397307	Asahi Yatsunagi	Q87576284	https://anilist.co/character/397307	八柳旭. Character in Love Song ga Owaru made
-397309	Ju-Ho An	Q1114461	https://anilist.co/character/397309	안주호. Character in Ireumpyoreul Butyeo
-397310	Jae-Hui Yun	Q1114461	https://anilist.co/character/397310	윤재희. Character in Ireumpyoreul Butyeo
-397311	Ji-An Yun	Q1114461	https://anilist.co/character/397311	윤지안. Character in Ireumpyoreul Butyeo
-397313	Mayumi Tonomura	Q87576284	https://anilist.co/character/397313	外邑真由美. Character in The Meddlesome Ghost's Love Coaching
-397314	Ryouya Makikawa	Q87576284	https://anilist.co/character/397314	慎川涼也. Character in The Meddlesome Ghost's Love Coaching
-397315	Takashi Okuyama	Q87576284	https://anilist.co/character/397315	奥山高志. Character in The Meddlesome Ghost's Love Coaching
-397316	Hakuto Asatsuki	Q87576284	https://anilist.co/character/397316	朝月白斗. Character in The Moon, the Eyes, and the Shrine Maiden of the Lake
-397317	Togata Hijiri	Q87576284	https://anilist.co/character/397317	トガタ・ヒジリ. Character in The Legend of Kongo: Special Paranormal Division
-397318	Tooru Kongou	Q87576284	https://anilist.co/character/397318	金剛トオル. Character in The Legend of Kongo: Special Paranormal Division
-397319	Yumite	Q80447738	https://anilist.co/character/397319	ユミテ. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397320	Hoxie	Q80447738	https://anilist.co/character/397320	ホクシー. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397321	Shakunetsu no Kaichou	Q80447738	https://anilist.co/character/397321	灼熱の会長. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397322	Hajimari no Kaichou	Q80447738	https://anilist.co/character/397322	始まりの会長. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397323	Inuiwayama no Kaichou	Q80447738	https://anilist.co/character/397323	犬岩山の会長. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397324	Hunter A	Q80447738	https://anilist.co/character/397324	ハンターA. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397326	Hunter B	Q80447738	https://anilist.co/character/397326	ハンターB. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397328	Hunter C	Q80447738	https://anilist.co/character/397328	ハンターC. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397330	Shimelai	Q80447738	https://anilist.co/character/397330	シメライ. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397331	Mei no Hahaoya	Q80447738	https://anilist.co/character/397331	メイの母親. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397332	Hunter Kyoukai Shokuin	Q80447738	https://anilist.co/character/397332	ハンター協会職員. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397333	Juunin	Q80447738	https://anilist.co/character/397333	住人. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397335	Wanijinma	Q80447738	https://anilist.co/character/397335	鰐人魔. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397336	Kurofuku	Q80447738	https://anilist.co/character/397336	黒服. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397337	Hunter	Q80447738	https://anilist.co/character/397337	ハンター. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397338	Shireikan	Q80447738	https://anilist.co/character/397338	司令官. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397340	Sagyouin A	Q80447738	https://anilist.co/character/397340	作業員A. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397341	Sagyouin B	Q80447738	https://anilist.co/character/397341	作業員B. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397342	Midori Ma A	Q80447738	https://anilist.co/character/397342	緑魔A. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397343	Midori Ma B	Q80447738	https://anilist.co/character/397343	緑魔B. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397344	Meiro no Kaichou	Q80447738	https://anilist.co/character/397344	迷路の会長. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397345	Kuroyata	Q80447738	https://anilist.co/character/397345	黒八咫. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397346	Botan	Q80447738	https://anilist.co/character/397346	ボタン. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397347	Juumin A	Q80447738	https://anilist.co/character/397347	住民A. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397348	Juumin B	Q80447738	https://anilist.co/character/397348	住民B. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397350	Manzai-shi A	Q80447738	https://anilist.co/character/397350	漫才師A. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397351	Manzai-shi B	Q80447738	https://anilist.co/character/397351	漫才師B. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397352	Yami No Shinrin Kaichou	Q80447738	https://anilist.co/character/397352	闇の森林会長. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397353	Kayolings	Q80447738	https://anilist.co/character/397353	カヨーリングス. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397354	Josei Shokuin	Q80447738	https://anilist.co/character/397354	女性職員. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397355	Fia	Q80447738	https://anilist.co/character/397355	フィア. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397357	Tashtay	Q80447738	https://anilist.co/character/397357	タシテ. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397358	Madougu-ya no Tenin	Q80447738	https://anilist.co/character/397358	魔道具屋の店員. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397359	Tagiru Bakuen no Dan Buka A	Q80447738	https://anilist.co/character/397359	滾る爆炎の団部下A. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397360	Tagiru Bakuen no Dan Buka B	Q80447738	https://anilist.co/character/397360	滾る爆炎の団部下B. Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397361	Soutsui Oni (Otoko)	Q80447738	https://anilist.co/character/397361	双対鬼(男). Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397362	Soutsui Oni (Onna)	Q80447738	https://anilist.co/character/397362	双対鬼(女). Character in Reborn as a Vending Machine, I Now Wander the Dungeon Season 2
-397363	Akito	Q87576284	https://anilist.co/character/397363	明人. Character in REMEMBER ME
-397364	Hisaki	Q87576284	https://anilist.co/character/397364	寿樹. Character in REMEMBER ME
-397366	Roufujin	Q80447738	https://anilist.co/character/397366	老婦人. Character in Kujima: Why Sing, When You Can Warble?
-397367	Mitsuki-san	Q80447738	https://anilist.co/character/397367	三ツ木さん. Character in Kujima: Why Sing, When You Can Warble?
-397368	Shufu	Q80447738	https://anilist.co/character/397368	主婦. Character in Kujima: Why Sing, When You Can Warble?
-397369	Maxim	Q80447738	https://anilist.co/character/397369	マクシム. Character in Kujima: Why Sing, When You Can Warble?
-397372	Tulou A	Q15711870	https://anilist.co/character/397372	土喽A. Character in Fabulous Beasts 5
-397373	Tulou B	Q15711870	https://anilist.co/character/397373	土喽B. Character in Fabulous Beasts 5
-397376	Gungnir	Q80447738	https://anilist.co/character/397376	グングニル. Character in Ibitte Konai Gibo to Gishi
-397380	Se-Yeon	Q1114461	https://anilist.co/character/397380	세연. Character in Plug In Hagetseumnida!
-397388	Dhruv	Q80447738	https://anilist.co/character/397388	ドゥルーヴ. Character in Orb: On the Movements of the Earth
-397393	Norito Yoneazawa	Q87576284	https://anilist.co/character/397393	米沢のりと. Character in Hochiya-san wa Amariaru
-397394	Kirei Hochiya	Q87576284	https://anilist.co/character/397394	保知矢きれい. Character in Hochiya-san wa Amariaru
-397395	Honda	Q87576284	https://anilist.co/character/397395	本田. Character in Nanjou-san wa Boku ni Dakaretai
-397396	Eri Nanjou	Q87576284	https://anilist.co/character/397396	南條愛梨. Character in Nanjou-san wa Boku ni Dakaretai
-397397	Kiyomi	Q87576284	https://anilist.co/character/397397	清己. Character in Nanjou-san wa Boku ni Dakaretai
+397398	Keisuke Endou	Q87576284	https://anilist.co/character/397398	遠藤圭輔. Character in Off Stage Love Side
+397399	Tomoya Nakazaki	Q87576284	https://anilist.co/character/397399	中崎智也. Character in Off Stage Love Side
+397400	Mamoru Ototsuji	Q87576284	https://anilist.co/character/397400	音辻守. Character in Kimi ni Atta Sandome ni
+397401	Gunji Dougome	Q87576284	https://anilist.co/character/397401	堂込郡司. Character in Neverending Flow
+397402	Haruyuki Misato	Q87576284	https://anilist.co/character/397402	美郷春之. Character in Kimi ni Atta Sandome ni
+397403	Chihaya Ujou	Q87576284	https://anilist.co/character/397403	宇条千隼. Character in Neverending Flow
+397405	Taiga Fujiwara	Q87576284	https://anilist.co/character/397405	藤原大雅. Character in Kimi no Kokoro ni Sawaritai
+397406	Tsukasa Aoyama	Q87576284	https://anilist.co/character/397406	青山つかさ. Character in Kimi no Kokoro ni Sawaritai
+397412	Niwami	Q87576284	https://anilist.co/character/397412	ニワミ. Character in Houkago wa Sensei no Iinari
+397413	Shizuka Mimizuka	Q80447738	https://anilist.co/character/397413	耳塚シヅカ. Character in Ushiro no Shoumen Kamui-san
+397414	Kamui	Q80447738	https://anilist.co/character/397414	カムイ. Character in Ushiro no Shoumen Kamui-san
+397415	Oichi	Q80447738	https://anilist.co/character/397415	お市. Character in Ushiro no Shoumen Kamui-san
+397416	Kyouko	Q80447738	https://anilist.co/character/397416	キョーコ. Character in Ushiro no Shoumen Kamui-san
+397417	Inagawa	Q80447738	https://anilist.co/character/397417	イナガワ. Character in Ushiro no Shoumen Kamui-san
+397418	Takumi Terano	Q87576284	https://anilist.co/character/397418	寺野匠海. Character in Terano-kun & Kumazaki-kun
+397419	Shuuya Kumazaki	Q87576284	https://anilist.co/character/397419	熊崎柊弥. Character in Terano-kun & Kumazaki-kun
+397420	Kotarou Tsujimoto	Q87576284	https://anilist.co/character/397420	辻本小太郎. Character in The Awkward Steps of Love
+397421	Aoi Yoshino	Q87576284	https://anilist.co/character/397421	吉野蒼生. Character in The Awkward Steps of Love
+397429	Louise Scarlet	Q1114461	https://anilist.co/character/397429	露易絲·斯卡雷特. Character in Monü Lulu de Fannao
+397431	Xingchen Zhou	Q1114461	https://anilist.co/character/397431	周星辰. Character in When the Stars Realign
+397432	Feiran Lin	Q1114461	https://anilist.co/character/397432	林斐然. Character in When the Stars Realign
+397434	Miyabi Shimizu	Q87576284	https://anilist.co/character/397434	清水雅. Character in Hikameku Kimi to Kiss wo Shite
+397435	Mizuki Ooki	Q87576284	https://anilist.co/character/397435	大木瑞輝. Character in Hikameku Kimi to Kiss wo Shite
+397436	Meguri Tamahashi	Q87576284	https://anilist.co/character/397436	玉端巡. Character in Megu-chan to Inu Gokko
+397437	Minato Manaka	Q87576284	https://anilist.co/character/397437	真中湊. Character in Megu-chan to Inu Gokko
+397439	Ayako Hiiragi	Q80447738	https://anilist.co/character/397439	柊木綾子. Character in Walkure Romanze
+397460	Do-Eon Ha	Q1114461	https://anilist.co/character/397460	하도언. Character in A Perfect Relationship
+397461	Sae-Byeok An	Q1114461	https://anilist.co/character/397461	안새벽. Character in A Perfect Relationship
+397462	Hyeon-U Lee	Q1114461	https://anilist.co/character/397462	이현우. Character in Sink For Me
+397463	Seon Jeong	Q1114461	https://anilist.co/character/397463	정선. Character in Sink For Me
+397468	Jin-Yeong Choi	Q1114461	https://anilist.co/character/397468	최진영. Character in Bulcheonggaekgwa Chumeul
+397469	Hae-Ro Ji	Q1114461	https://anilist.co/character/397469	지해로. Character in Bulcheonggaekgwa Chumeul
+397470	Jae-Yi Han	Q1114461	https://anilist.co/character/397470	한재이. Character in Bulcheonggaekgwa Chumeul
+397485	Icchan	Q80447738	https://anilist.co/character/397485	いっちゃん. Character in Go For It, Nakamura-kun!!
+397486	Doukyuusei	Q80447738	https://anilist.co/character/397486	同級生. Character in Go For It, Nakamura-kun!!
+397488	Hina Hayami	Q87576284	https://anilist.co/character/397488	早見日菜. Character in Baka ni Kokuhaku
+397489	Ayumu Otsuki	Q87576284	https://anilist.co/character/397489	大槻歩. Character in Baka ni Kokuhaku
+397492	Concept Cafe Employee A	Q80447738	https://anilist.co/character/397492	コンカフェ店員A. Character in I Want You To Show Me Your Panties With a Disgusted Face Returns
+397494	Yuzuki Akai	Q87576284	https://anilist.co/character/397494	赤井柚希. Character in A Prince of a Friend
+397495	Shizu Rurikawa	Q87576284	https://anilist.co/character/397495	瑠璃川紫津. Character in A Prince of a Friend
+397533	Kazuma Himejima	Q87576284	https://anilist.co/character/397533	姫嶋和馬. Character in Bound
+397534	Masaki Kagurazaka	Q87576284	https://anilist.co/character/397534	神楽坂雅己. Character in Bound
+397556	Eros	Q1114461	https://anilist.co/character/397556	에로스. Character in Sarangeun Dari Tteun Bam Chajaonda
+397557	Psyche	Q1114461	https://anilist.co/character/397557	프시케. Character in Sarangeun Dari Tteun Bam Chajaonda
+397560	Ekiin	Q80447738	https://anilist.co/character/397560	駅員. Character in Laid-Back Camp Season 3
+397561	Rie Chita	Q80447738	https://anilist.co/character/397561	知多りえ. Character in Laid-Back Camp Season 3
+397562	Haruka Yashiro	Q80447738	https://anilist.co/character/397562	八代はるか. Character in Laid-Back Camp Season 3
+397563	Shashou	Q80447738	https://anilist.co/character/397563	車掌. Character in Laid-Back Camp Season 3
+397565	Macchio	Q80447738	https://anilist.co/character/397565	マッキオ. Character in Always a Catch!
+397566	Goffredo	Q80447738	https://anilist.co/character/397566	ゴッフレード. Character in Always a Catch!
+397590	In-Gong Ju	Q1114461	https://anilist.co/character/397590	주인공. Character in A.
+397591	A	Q1114461	https://anilist.co/character/397591	Character in A.
+397599	Jong-U Sin	Q1114461	https://anilist.co/character/397599	신종우. Character in Yanghosil Chimdae Jaengtaljeon
+397600	Jin-Tae Jang	Q1114461	https://anilist.co/character/397600	장진태. Character in Yanghosil Chimdae Jaengtaljeon
+397601	Gu-Yeong Jin	Q1114461	https://anilist.co/character/397601	진구영. Character in Yanghosil Chimdae Jaengtaljeon
+397602	Su-Yeon Lee	Q1114461	https://anilist.co/character/397602	이수연. Character in Yanghosil Chimdae Jaengtaljeon
+397603	Byeong-Seon Son	Q1114461	https://anilist.co/character/397603	손병선. Character in Yanghosil Chimdae Jaengtaljeon
+397604	Jae-Ha Cha	Q1114461	https://anilist.co/character/397604	차재하. Character in Joahaneun Gangaji Isseo?
+397605	Seo-Gyeong Kang	Q1114461	https://anilist.co/character/397605	강서경. Character in Joahaneun Gangaji Isseo?
+397621	Tenchou	Q80447738	https://anilist.co/character/397621	店長. Character in Botan Kamiina Fully Blossoms When Drunk
+397622	Tenin	Q80447738	https://anilist.co/character/397622	店員. Character in Botan Kamiina Fully Blossoms When Drunk
+397626	Jin Fujisaki	Q87576284	https://anilist.co/character/397626	藤崎仁. Character in Usotsuki na Kiss de Kyou mo Bye Bye
+397627	Asahi Sano	Q87576284	https://anilist.co/character/397627	佐野朝陽. Character in Usotsuki na Kiss de Kyou mo Bye Bye
+397635	Inyou	Q80447738	https://anilist.co/character/397635	陰陽. Character in Daemons of the Shadow Realm
+397636	Otoko A	Q80447738	https://anilist.co/character/397636	男A. Character in Daemons of the Shadow Realm
+397639	Otoko B	Q80447738	https://anilist.co/character/397639	男B. Character in Daemons of the Shadow Realm
+397640	Otoko C	Q80447738	https://anilist.co/character/397640	男C. Character in Daemons of the Shadow Realm
+397643	Otoko D	Q80447738	https://anilist.co/character/397643	男D. Character in Daemons of the Shadow Realm
+397644	Onna	Q80447738	https://anilist.co/character/397644	女. Character in Daemons of the Shadow Realm
+397645	Keibiin	Q80447738	https://anilist.co/character/397645	警備員. Character in Daemons of the Shadow Realm
+397648	Kounaihousou	Q80447738	https://anilist.co/character/397648	校内放送. Character in Mistress Kanan is Devilishly Easy
+397649	Jijii	Q80447738	https://anilist.co/character/397649	ジジイ. Character in Mistress Kanan is Devilishly Easy
+397650	Riizento	Q80447738	https://anilist.co/character/397650	リーゼント. Character in Mistress Kanan is Devilishly Easy
+397651	Mohikan	Q80447738	https://anilist.co/character/397651	モヒカン. Character in Mistress Kanan is Devilishly Easy
+397653	Shoujo	Q80447738	https://anilist.co/character/397653	少女. Character in NEEDY GIRL OVERDOSE
+397654	Kyaku	Q80447738	https://anilist.co/character/397654	客. Character in NEEDY GIRL OVERDOSE
+397655	Kyaku	Q80447738	https://anilist.co/character/397655	客. Character in NEEDY GIRL OVERDOSE
+397656	Kyaku	Q80447738	https://anilist.co/character/397656	客. Character in NEEDY GIRL OVERDOSE
+397657	Kyaku	Q80447738	https://anilist.co/character/397657	客. Character in NEEDY GIRL OVERDOSE
+397658	Tenin	Q80447738	https://anilist.co/character/397658	店員. Character in NEEDY GIRL OVERDOSE
+397659	Risa Kadokura	Q80447738	https://anilist.co/character/397659	門倉里紗. Character in Akane-banashi
+397660	Yuka Osanai	Q80447738	https://anilist.co/character/397660	小山内由佳. Character in Akane-banashi
+397662	Yeong-Jun Gil	Q1114461	https://anilist.co/character/397662	길영준. Character in Racy Retro: Under Your Wet Shirt
+397663	Seong-Ho Do	Q1114461	https://anilist.co/character/397663	도성호. Character in Racy Retro: Under Your Wet Shirt
+397664	Peiko Nikaidou	Q87576284	https://anilist.co/character/397664	二階堂平子. Character in Honoo no Toukyuujyo Dodge Danko
+397665	Na-Muk Choi	Q1114461	https://anilist.co/character/397665	최남욱. Character in That’s Not Mine!
+397666	Misuzu Henderson	Q80447738	https://anilist.co/character/397666	観鈴・ヘンダーソン. Character in Agents of the Four Seasons: Dance of Spring
+397667	Shiyounin	Q80447738	https://anilist.co/character/397667	使用人. Character in Agents of the Four Seasons: Dance of Spring
+397668	Tsubito	Q80447738	https://anilist.co/character/397668	付人. Character in Grappler Baki: The Ultimate Fighter
+397669	Goei	Q80447738	https://anilist.co/character/397669	護衛. Character in Grappler Baki: The Ultimate Fighter
+397670	Butouka	Q80447738	https://anilist.co/character/397670	武闘家. Character in Grappler Baki: The Ultimate Fighter
+397678	Kinta Moriyama	Q80447738	https://anilist.co/character/397678	守山金汰. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+397679	Shinzou Haranishi	Q80447738	https://anilist.co/character/397679	原西伸造. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+397680	Monei	Q80447738	https://anilist.co/character/397680	門衛. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+397681	Monei	Q80447738	https://anilist.co/character/397681	門衛. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+397682	Zokuin	Q80447738	https://anilist.co/character/397682	属員. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+397683	Zokuin	Q80447738	https://anilist.co/character/397683	属員. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+397684	Spica	Q87576284	https://anilist.co/character/397684	スピカ. Character in Honkiki no Spica
+397687	Vlad Sansei	Q80447738	https://anilist.co/character/397687	ヴラド三世. Character in Petals of Reincarnation
+397688	Kang-Hyeon Cha	Q1114461	https://anilist.co/character/397688	차강현. Character in 1-inching Hyeollyuksijeom
+397689	Do-Gyeong Baek	Q1114461	https://anilist.co/character/397689	백도경. Character in 1-inching Hyeollyuksijeom
+397690	Ga-Yeong Cha	Q1114461	https://anilist.co/character/397690	차가영. Character in 1-inching Hyeollyuksijeom
+397696	Souju Kuhouin	Q80447738	https://anilist.co/character/397696	九鳳院蒼樹. Character in Kurenai
+397697	Sofu	Q80447738	https://anilist.co/character/397697	祖父. Character in Kurenai
+397698	Tomoaki	Q80447738	https://anilist.co/character/397698	友明. Character in Kurenai
+397699	Akio	Q80447738	https://anilist.co/character/397699	秋生. Character in Kurenai
+397700	Otoko 1	Q80447738	https://anilist.co/character/397700	男1. Character in Kurenai
+397701	Otoko 2	Q80447738	https://anilist.co/character/397701	男2. Character in Kurenai
+397702	Jochuutou	Q80447738	https://anilist.co/character/397702	女中頭. Character in Kurenai
+397703	Jochuu 1	Q80447738	https://anilist.co/character/397703	女中1. Character in Kurenai
+397704	Jochuu 2	Q80447738	https://anilist.co/character/397704	女中2. Character in Kurenai
+397705	Yokoku Narration	Q80447738	https://anilist.co/character/397705	予告ナレーション. Character in Kurenai
+397706	Sentou no Bandai	Q80447738	https://anilist.co/character/397706	銭湯の番台. Character in Kurenai
+397707	Tenchou	Q80447738	https://anilist.co/character/397707	店長. Character in Kurenai
+397708	Baito	Q80447738	https://anilist.co/character/397708	バイト. Character in Kurenai
+397709	Otoko A	Q80447738	https://anilist.co/character/397709	男A. Character in Kurenai
+397710	Otoko B	Q80447738	https://anilist.co/character/397710	男B. Character in Kurenai
+397711	Otoko C	Q80447738	https://anilist.co/character/397711	男C. Character in Kurenai
+397712	Rouba	Q80447738	https://anilist.co/character/397712	老婆. Character in Kurenai
+397713	Senshu	Q80447738	https://anilist.co/character/397713	選手. Character in Kurenai
+397714	Yasuko	Q80447738	https://anilist.co/character/397714	ヤスコ. Character in Kurenai
+397715	Seito A	Q80447738	https://anilist.co/character/397715	生徒A. Character in Kurenai
+397716	Seito B	Q80447738	https://anilist.co/character/397716	生徒B. Character in Kurenai
+397717	Seito C	Q80447738	https://anilist.co/character/397717	生徒C. Character in Kurenai
+397718	Gakusei A	Q80447738	https://anilist.co/character/397718	学生A. Character in Kurenai
+397719	Gakusei B	Q80447738	https://anilist.co/character/397719	学生B. Character in Kurenai
+397721	Gakusei C	Q80447738	https://anilist.co/character/397721	学生C. Character in Kurenai
+397722	Tadashi Kunou	Q80447738	https://anilist.co/character/397722	久能正. Character in Kurenai
+397723	Otoko 1	Q80447738	https://anilist.co/character/397723	男1. Character in Kurenai
+397724	Otoko 2	Q80447738	https://anilist.co/character/397724	男2. Character in Kurenai
+397725	Otoko 3	Q80447738	https://anilist.co/character/397725	男3. Character in Kurenai
+397726	Yuukaihan	Q80447738	https://anilist.co/character/397726	誘拐犯. Character in Kurenai
+397727	Benika no Buka	Q80447738	https://anilist.co/character/397727	紅香の部下. Character in Kurenai
+397728	Housen Houzuki	Q80447738	https://anilist.co/character/397728	崩月法泉. Character in Kurenai
+397730	Chizuru Kuzuki	Q80447738	https://anilist.co/character/397730	崩月散鶴. Character in Kurenai
+397732	Satoshi Miki	Q80447738	https://anilist.co/character/397732	三木里志. Character in Kurenai
+397733	Joukyaku 1	Q80447738	https://anilist.co/character/397733	乗客1. Character in Kurenai
+397734	Joukyaku 2	Q80447738	https://anilist.co/character/397734	乗客2. Character in Kurenai
+397736	Benika no Buka	Q80447738	https://anilist.co/character/397736	紅香の部下. Character in Kurenai
+397737	Iinkai no Otoko 1	Q80447738	https://anilist.co/character/397737	委員会の男1. Character in Kurenai
+397738	Iinkai no Otoko 2	Q80447738	https://anilist.co/character/397738	委員会の男2. Character in Kurenai
+397739	Iinkai no Otoko 3	Q80447738	https://anilist.co/character/397739	委員会の男3. Character in Kurenai
+397740	Kuhouin no Otoko 1	Q80447738	https://anilist.co/character/397740	九鳳院の男1. Character in Kurenai
+397741	Kuhouin no Otoko 2	Q80447738	https://anilist.co/character/397741	九鳳院の男2. Character in Kurenai
+397742	Kuhouin no Otoko 2	Q80447738	https://anilist.co/character/397742	九鳳院の男2. Character in Kurenai
+397743	Kuhouin no Otoko 3	Q80447738	https://anilist.co/character/397743	九鳳院の男3. Character in Kurenai
+397744	Kuhouin no Otoko	Q80447738	https://anilist.co/character/397744	九鳳院の男. Character in Kurenai
+397745	Kouchou	Q80447738	https://anilist.co/character/397745	校長. Character in KILL BLUE
+397746	Tannin	Q80447738	https://anilist.co/character/397746	担任. Character in KILL BLUE
+397747	Reika Takada	Q80447738	https://anilist.co/character/397747	高田玲花. Character in KILL BLUE
+397748	Rio Yokoyama	Q80447738	https://anilist.co/character/397748	横山莉緒. Character in KILL BLUE
+397749	Souta Kurosawa	Q80447738	https://anilist.co/character/397749	黒沢颯太. Character in KILL BLUE
+397750	Tomomi Baba	Q80447738	https://anilist.co/character/397750	馬場友美. Character in KILL BLUE
+397751	Boss	Q80447738	https://anilist.co/character/397751	ボス. Character in KILL BLUE
+397752	Panda Mask	Q80447738	https://anilist.co/character/397752	パンダマスク. Character in KILL BLUE
+397753	Saki Sudou	Q80447738	https://anilist.co/character/397753	須藤咲希. Character in KILL BLUE
+397754	Shin Katou	Q80447738	https://anilist.co/character/397754	加藤新. Character in KILL BLUE
+397755	Haruto Yoshikawa	Q80447738	https://anilist.co/character/397755	吉川陽人. Character in KILL BLUE
+397756	Taichi Hashiba	Q80447738	https://anilist.co/character/397756	羽柴太一. Character in KILL BLUE
+397757	Yuuma Chida	Q80447738	https://anilist.co/character/397757	千田悠真. Character in KILL BLUE
+397758	Kari Kiyohara	Q80447738	https://anilist.co/character/397758	清原歌梨. Character in KILL BLUE
+397759	Kumiin	Q80447738	https://anilist.co/character/397759	組員. Character in KILL BLUE
+397760	Genba Leader	Q80447738	https://anilist.co/character/397760	現場リーダー. Character in KILL BLUE
+397761	Midori Mamiya	Q80447738	https://anilist.co/character/397761	間宮みどり. Character in KILL BLUE
+397762	Anzu Nonoyama	Q80447738	https://anilist.co/character/397762	野々山杏. Character in KILL BLUE
+397763	Kumiin	Q80447738	https://anilist.co/character/397763	組員. Character in KILL BLUE
+397764	Hiroto Masusaka	Q80447738	https://anilist.co/character/397764	松阪大翔. Character in KILL BLUE
+397771	Amaterasu	Q80447738	https://anilist.co/character/397771	アマテラス. Character in Kusunoki's Garden of Gods
+397772	Arone	Q80447738	https://anilist.co/character/397772	アローネ. Character in Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita.
+397773	Ario	Q80447738	https://anilist.co/character/397773	アリオ. Character in Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita.
+397774	Ginny	Q80447738	https://anilist.co/character/397774	ジニー. Character in Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita.
+397775	Wilson	Q80447738	https://anilist.co/character/397775	ウィルソン. Character in Mysterious Thief Saint Tail
+397780	Antonius	Q80447738	https://anilist.co/character/397780	アントニウス. Character in Cleopatra
+397781	Apollodoria	Q80447738	https://anilist.co/character/397781	アポロドリア. Character in Cleopatra
+397782	Caesar	Q80447738	https://anilist.co/character/397782	シーザー. Character in Cleopatra
+397783	Calpurnia	Q80447738	https://anilist.co/character/397783	カルパーニア. Character in Cleopatra
+397788	Hikaru Sasaya	Q87576284	https://anilist.co/character/397788	笹々谷光琉. Character in Koisuru nara Yubisaki made
+397789	Shouma Kunitake	Q87576284	https://anilist.co/character/397789	国竹象真. Character in Koisuru nara Yubisaki made
+397798	Keito Amagasaki	Q87576284	https://anilist.co/character/397798	甘ヶ崎恵都. Character in Shino-kun no Koubutsu wa Senpai desu
+397799	Kaname Shino	Q87576284	https://anilist.co/character/397799	四野要. Character in Shino-kun no Koubutsu wa Senpai desu
+397800	Kazuya Saitou	Q87576284	https://anilist.co/character/397800	斎藤和也. Character in Elite-kun wa Ai ga Hoshii!
+397801	Ryouta Aizawa	Q87576284	https://anilist.co/character/397801	相澤涼太. Character in Elite-kun wa Ai ga Hoshii!
+397802	Mashiro Hiiragi	Q87576284	https://anilist.co/character/397802	柊真白. Character in Mashiro-kun wa Tora Senyou
+397803	Taiga Kuge	Q87576284	https://anilist.co/character/397803	久我虎優. Character in Mashiro-kun wa Tora Senyou
+397815	Thalia Gürta	Q1114461	https://anilist.co/character/397815	탈리아 로엠 귀르타. Character in Ichyeojin Deulpan
+397816	Varkas Sherkhan	Q1114461	https://anilist.co/character/397816	바르카스 라에드고 시어칸. Character in Ichyeojin Deulpan
+397825	Yeo-An Choen	Q1114461	https://anilist.co/character/397825	천여안. Character in Bomui Ireum
+397826	So-Seol Seol	Q1114461	https://anilist.co/character/397826	설소설. Character in Bomui Ireum
+397827	Seo-Hwa Chae	Q1114461	https://anilist.co/character/397827	채서화. Character in Seo-Hwa-ga Naerin Dal
+397828	Su-Wol Mok	Q1114461	https://anilist.co/character/397828	목수월. Character in Seo-Hwa-ga Naerin Dal
+397829	Yeong-To Heuk	Q1114461	https://anilist.co/character/397829	흑영토. Character in Seo-Hwa-ga Naerin Dal
+397830	Geum-Hyeong San	Q1114461	https://anilist.co/character/397830	산금형. Character in Seo-Hwa-ga Naerin Dal
+397831	Ji-Il Won	Q1114461	https://anilist.co/character/397831	원지일. Character in Seo-Hwa-ga Naerin Dal
+397832	Jae-Han Eun	Q1114461	https://anilist.co/character/397832	은재한. Character in DELETE
+397833	Jae-Hyeon Eun	Q1114461	https://anilist.co/character/397833	은재현. Character in DELETE
+397834	Eui-Jun Kang	Q1114461	https://anilist.co/character/397834	강의준. Character in DELETE
+397836	Taiiku Kyoushi	Q80447738	https://anilist.co/character/397836	体育教師. Character in KILL BLUE
+397837	Koharu Sasaki	Q80447738	https://anilist.co/character/397837	佐々木心春. Character in KILL BLUE
+397838	Tajima	Q80447738	https://anilist.co/character/397838	田島. Character in KILL BLUE
+397839	Otoko	Q80447738	https://anilist.co/character/397839	男. Character in KILL BLUE
+397840	Hina Inoue	Q80447738	https://anilist.co/character/397840	井上陽菜. Character in KILL BLUE
+397841	Tatsunosuke Wada	Q80447738	https://anilist.co/character/397841	和田龍之介. Character in KILL BLUE
+397842	Otoko	Q80447738	https://anilist.co/character/397842	男. Character in KILL BLUE
+397843	Mao Tamura	Q80447738	https://anilist.co/character/397843	田村真央. Character in KILL BLUE
+397844	Otoko	Q80447738	https://anilist.co/character/397844	男. Character in KILL BLUE
+397845	Oji Tenshu	Q80447738	https://anilist.co/character/397845	叔父店主. Character in KILL BLUE
+397847	Hayate Takatoo	Q87576284	https://anilist.co/character/397847	高遠颯. Character in Wan to Naitara Kiss Shite Nadete
+397848	Aoi Yashiki	Q87576284	https://anilist.co/character/397848	谷敷碧. Character in Wan to Naitara Kiss Shite Nadete
+397849	MIOU	Q80447738	https://anilist.co/character/397849	Character in Tojima Wants to Be a Kamen Rider
+397850	Kankyaku	Q80447738	https://anilist.co/character/397850	観客. Character in Tojima Wants to Be a Kamen Rider
+397851	Referee	Q80447738	https://anilist.co/character/397851	レフェリー. Character in Tojima Wants to Be a Kamen Rider
+397852	MIOU no Tsure	Q80447738	https://anilist.co/character/397852	MIOUの連れ. Character in Tojima Wants to Be a Kamen Rider
+397853	MIOU no Fan	Q80447738	https://anilist.co/character/397853	MIOUのファン. Character in Tojima Wants to Be a Kamen Rider
+397854	Hibi Onna	Q80447738	https://anilist.co/character/397854	ヘビ女. Character in Tojima Wants to Be a Kamen Rider
+397855	Dai Shuryou	Q80447738	https://anilist.co/character/397855	大首領. Character in Tojima Wants to Be a Kamen Rider
+397865	Shijin	Q80447738	https://anilist.co/character/397865	詩人. Character in Kujira wo Yumemu
+397866	Shoujo	Q80447738	https://anilist.co/character/397866	少女. Character in Kujira wo Yumemu
+397869	Xinwen Bobao	Q15711870	https://anilist.co/character/397869	新闻播报. Character in Fei Ren Zai
+397870	Tongxue	Q15711870	https://anilist.co/character/397870	同学. Character in Fei Ren Zai
+397871	Yisheng	Q15711870	https://anilist.co/character/397871	医生. Character in Fei Ren Zai
+397872	Youqian de Long B	Q15711870	https://anilist.co/character/397872	有钱的龙B. Character in Fei Ren Zai
+397873	Youqian de Long A	Q15711870	https://anilist.co/character/397873	有钱的龙A. Character in Fei Ren Zai
+397874	Yoru Shikano	Q15632617	https://anilist.co/character/397874	鹿野夜. Character in Jibun shika Shiranai Kareshi no Ichimen
+397875	Hijiri Kanemori	Q15632617	https://anilist.co/character/397875	鐘森聖. Character in Jibun shika Shiranai Kareshi no Ichimen
+397921	Anchisukiru 1	Q80447738	https://anilist.co/character/397921	警備員1. Character in Tojima Wants to Be a Kamen Rider
+397922	Anchisukiru 2	Q80447738	https://anilist.co/character/397922	警備員2. Character in Tojima Wants to Be a Kamen Rider
+397923	Shocker Sentouin	Q80447738	https://anilist.co/character/397923	ショッカー戦闘員. Character in Tojima Wants to Be a Kamen Rider
+397937	Nobuko Mori	Q87576284	https://anilist.co/character/397937	森展子. Character in Umibe no Cain
+397938	Sano	Q87576284	https://anilist.co/character/397938	佐野. Character in Umibe no Cain
+397961	Takeru Hidaka	Q87576284	https://anilist.co/character/397961	日髙タケル. Character in Kanojo no Tomodachi
+397962	Kaori Koga	Q87576284	https://anilist.co/character/397962	古河カオリ. Character in Kanojo no Tomodachi
+397963	Tomoko Yoshioka	Q87576284	https://anilist.co/character/397963	吉岡トモコ. Character in Kanojo no Tomodachi
+397964	Kintarou Sugano	Q87576284	https://anilist.co/character/397964	菅野董太郎. Character in SWIM
+397965	Naoki	Q87576284	https://anilist.co/character/397965	直樹. Character in SWIM
+397967	Occult Buin	Q80447738	https://anilist.co/character/397967	オカルト部員. Character in Go For It, Nakamura-kun!!
+397968	Occult Buin	Q80447738	https://anilist.co/character/397968	オカルト部員. Character in Go For It, Nakamura-kun!!
+397969	Occult Buin	Q80447738	https://anilist.co/character/397969	オカルト部員. Character in Go For It, Nakamura-kun!!
+397971	Sanyan Ge	Q15711870	https://anilist.co/character/397971	三眼哥. Character in Fei Ren Zai
+397974	Sheldon	Q1114461	https://anilist.co/character/397974	쉘던. Character in My Dearest Misery
+397975	Do-Hyeok Park	Q1114461	https://anilist.co/character/397975	박도혁. Character in My Dearest Misery
+397976	Won-Il	Q1114461	https://anilist.co/character/397976	원일. Character in My Dearest Misery
+397977	Momo Ariake	Q87576284	https://anilist.co/character/397977	有明モモ. Character in Gal to Couture: Ariake Momo wa Fuku wo Tsukutte Yuushou suru Koto ni shita
+397978	Ren Ujyou	Q87576284	https://anilist.co/character/397978	宇條蓮. Character in Gal to Couture: Ariake Momo wa Fuku wo Tsukutte Yuushou suru Koto ni shita
+397984	Teodorico	Q80447738	https://anilist.co/character/397984	テオドリーコ. Character in Always a Catch!
+397985	Mama	Q80447738	https://anilist.co/character/397985	ママ. Character in Nandaka Velonica
+397986	Obaa-san	Q80447738	https://anilist.co/character/397986	おばあさん. Character in Nandaka Velonica
+397987	Sensei	Q80447738	https://anilist.co/character/397987	先生. Character in Nandaka Velonica
+397988	Papa	Q80447738	https://anilist.co/character/397988	パパ. Character in Nandaka Velonica
+397989	Hoheto-tei no Oyaji	Q80447738	https://anilist.co/character/397989	ほへと亭のおやじ. Character in Nandaka Velonica
+397990	Kenmin	Q80447738	https://anilist.co/character/397990	ケンミン. Character in Nandaka Velonica
+397991	Reporter	Q80447738	https://anilist.co/character/397991	レポーター. Character in Nandaka Velonica
+397992	Shikaicha	Q80447738	https://anilist.co/character/397992	司会者. Character in Nandaka Velonica
+397993	Konpei no Mama	Q80447738	https://anilist.co/character/397993	こんぺいのママ. Character in Nandaka Velonica
+397994	Musuko	Q80447738	https://anilist.co/character/397994	息子. Character in Nandaka Velonica
+397995	Musuko no Haha	Q80447738	https://anilist.co/character/397995	息子の母. Character in Nandaka Velonica
+397996	Pockle	Q80447738	https://anilist.co/character/397996	ポックル. Character in Nandaka Velonica
+397997	Keiko no Mama	Q80447738	https://anilist.co/character/397997	ケイコのママ. Character in Nandaka Velonica
+398005	Mireille Katarina	Q80447738	https://anilist.co/character/398005	ミレイ・カタリア. Character in Buchigire Reijou wa Houfuku wo Chikaimashita.: Madousho no Chikara de Sokoku wo Tataki Tsubushimasu
+398006	Lunoa Carlton	Q80447738	https://anilist.co/character/398006	ルノア・カールトン. Character in Buchigire Reijou wa Houfuku wo Chikaimashita.: Madousho no Chikara de Sokoku wo Tataki Tsubushimasu
+398007	Misha Tail	Q80447738	https://anilist.co/character/398007	ミーシャ・テイル. Character in Buchigire Reijou wa Houfuku wo Chikaimashita.: Madousho no Chikara de Sokoku wo Tataki Tsubushimasu
+398008	Arisa Fujimiya	Q80447738	https://anilist.co/character/398008	藤宮亜里沙. Character in Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai
+398009	Flamberge	Q80447738	https://anilist.co/character/398009	フランベルジュ. Character in Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai
+398015	Camilla Francis	Q1114461	https://anilist.co/character/398015	카밀라 프란시스. Character in What if I Married My Enemy?
+398016	Astor Blanche	Q1114461	https://anilist.co/character/398016	아스터 블란체. Character in What if I Married My Enemy?
+398019	Luciel	Q1114461	https://anilist.co/character/398019	루시엘. Character in OOTD: A Paladin's Devilish Pleasure
+398020	Risia	Q1114461	https://anilist.co/character/398020	리시아라. Character in OOTD: A Paladin's Devilish Pleasure
+398023	A-Jin	Q1114461	https://anilist.co/character/398023	아진. Character in OOTD: E.T.A.
+398024	Hyeon	Q1114461	https://anilist.co/character/398024	현. Character in OOTD: E.T.A.
+398025	Yukihisa	Q87576284	https://anilist.co/character/398025	ユキヒサ. Character in After Period
+398026	Iori Kurono	Q87576284	https://anilist.co/character/398026	黒乃伊織. Character in After Period
+398027	Haruka Toudou	Q80447738	https://anilist.co/character/398027	東道晴香. Character in Vertex Force
+398030	Eiji Kazama	Q87576284	https://anilist.co/character/398030	風間英二. Character in Kawaiku Naite ne, Onodera-san
+398031	Yuuta Onodera	Q87576284	https://anilist.co/character/398031	小野寺裕太. Character in Kawaiku Naite ne, Onodera-san
+398034	Shochou	Q80447738	https://anilist.co/character/398034	署長. Character in Lupin the 3rd: The Secret of Twilight Gemini
+398035	Chourou	Q80447738	https://anilist.co/character/398035	長老. Character in Lupin the 3rd: The Secret of Twilight Gemini
+398036	Rouba	Q80447738	https://anilist.co/character/398036	老婆. Character in Lupin the 3rd: The Secret of Twilight Gemini
+398037	Shisai	Q80447738	https://anilist.co/character/398037	司祭. Character in Lupin the 3rd: The Secret of Twilight Gemini
+398038	Tenshu	Q80447738	https://anilist.co/character/398038	店主. Character in Lupin the 3rd: The Secret of Twilight Gemini
+398039	Shashou	Q80447738	https://anilist.co/character/398039	車掌. Character in Lupin the 3rd: The Secret of Twilight Gemini
+398040	Onna	Q80447738	https://anilist.co/character/398040	女. Character in Lupin the 3rd: The Secret of Twilight Gemini
+398053	Haruki Yachi	Q87576284	https://anilist.co/character/398053	野地春樹. Character in Kimochi Warui to Ittekure
+398054	Ayato Takanashi	Q87576284	https://anilist.co/character/398054	小鳥遊綾人. Character in Kimochi Warui to Ittekure
+398057	Najimi Hanagata	Q87576284	https://anilist.co/character/398057	花形七二三. Character in KissBang
+398058	Mitsuru Isari	Q87576284	https://anilist.co/character/398058	猪去深敦. Character in KissBang
+398075	Ji-Tae Han	Q1114461	https://anilist.co/character/398075	한지태. Character in Beoreuseomneun Nomdeul
+398076	Hyeon-Seum U	Q1114461	https://anilist.co/character/398076	우현슴. Character in Beoreuseomneun Nomdeul
+398077	Ga-Mu Ju	Q1114461	https://anilist.co/character/398077	주감우. Character in Beoreuseomneun Nomdeul
+398078	Do-Ha Ha	Q1114461	https://anilist.co/character/398078	하도하. Character in Heart Trigger Off
+398079	Jae-Yeong Yun	Q1114461	https://anilist.co/character/398079	윤재영. Character in Heart Trigger Off
+398082	Min-Gyeol Yeon	Q1114461	https://anilist.co/character/398082	연민결. Character in Yeonmineun Sajeorira
+398083	Jae-Yeong Kang	Q1114461	https://anilist.co/character/398083	강재영. Character in Yeonmineun Sajeorira
+398084	Ian Drakov	Q1114461	https://anilist.co/character/398084	이안 드라코프. Character in Jeonhaksaengeun Meokgo Sipeo
+398085	Chae-Min Jeong	Q1114461	https://anilist.co/character/398085	정채민. Character in Jeonhaksaengeun Meokgo Sipeo
+398086	Chan Kang	Q1114461	https://anilist.co/character/398086	강찬. Character in After buzzer beater
+398087	Jeong-Min Mun	Q1114461	https://anilist.co/character/398087	문정민. Character in After buzzer beater
+398090	Ryoutarou Shiba	Q80447738	https://anilist.co/character/398090	司葉遼太郎. Character in Nozomi Witches
+398091	Nozomi Egawa	Q80447738	https://anilist.co/character/398091	江川望. Character in Nozomi Witches
+398092	Eddie Tadokoro	Q80447738	https://anilist.co/character/398092	エディ. Character in Nozomi Witches
+398093	Shougo Nanjou	Q80447738	https://anilist.co/character/398093	南条章吾. Character in Nozomi Witches
+398094	Morino	Q80447738	https://anilist.co/character/398094	森野. Character in Nozomi Witches
+398095	Jouji Hongou	Q80447738	https://anilist.co/character/398095	本郷. Character in Nozomi Witches
+398096	Jackal	Q80447738	https://anilist.co/character/398096	ジャッカル. Character in Nozomi Witches
+398097	Shunsuke Sawamura	Q80447738	https://anilist.co/character/398097	沢村. Character in Nozomi Witches
+398098	Itsuri	Q80447738	https://anilist.co/character/398098	五利. Character in Nozomi Witches
+398099	Ryoutarou no Haha	Q80447738	https://anilist.co/character/398099	遼太郎の母. Character in Nozomi Witches
+398100	Announcer	Q80447738	https://anilist.co/character/398100	アナウンサー. Character in Nozomi Witches
+398101	Kousaku Sakakoshi	Q80447738	https://anilist.co/character/398101	坂越. Character in Nozomi Witches
+398102	Suzuki	Q80447738	https://anilist.co/character/398102	鈴木. Character in Nozomi Witches
+398104	Furyou	Q80447738	https://anilist.co/character/398104	不良. Character in Nozomi Witches
+398105	Kitagawa	Q80447738	https://anilist.co/character/398105	北川. Character in Nozomi Witches
+398106	Yamazaki	Q80447738	https://anilist.co/character/398106	山崎. Character in Nozomi Witches
+398107	Yamazaki Kaichou	Q80447738	https://anilist.co/character/398107	山崎会長. Character in Nozomi Witches
+398108	Watanabe Kaichou	Q80447738	https://anilist.co/character/398108	渡辺会長. Character in Nozomi Witches
+398109	Kisha	Q80447738	https://anilist.co/character/398109	記者. Character in Nozomi Witches
+398110	Ring Announcer	Q80447738	https://anilist.co/character/398110	リングアナ. Character in Nozomi Witches
+398111	Miyamoto	Q80447738	https://anilist.co/character/398111	宮本. Character in Nozomi Witches
+398112	Cameraman	Q80447738	https://anilist.co/character/398112	カメラマン. Character in Nozomi Witches
+398113	Kouji Oota	Q80447738	https://anilist.co/character/398113	太田. Character in Nozomi Witches
+398114	Yuugo Fukuyama	Q80447738	https://anilist.co/character/398114	優吾. Character in Nozomi Witches
+398115	Kuniaki Tougo	Q80447738	https://anilist.co/character/398115	東吾. Character in Nozomi Witches
+398116	Ooba	Q80447738	https://anilist.co/character/398116	大庭. Character in Nozomi Witches
+398117	Referee	Q80447738	https://anilist.co/character/398117	レフリー. Character in Nozomi Witches
+398118	Boxing-buin	Q80447738	https://anilist.co/character/398118	ボクシング部員. Character in Nozomi Witches
+398119	Ryuuji Ishii	Q80447738	https://anilist.co/character/398119	石井. Character in Nozomi Witches
+398120	Joseito	Q80447738	https://anilist.co/character/398120	女生徒. Character in Nozomi Witches
+398122	Gakusei	Q80447738	https://anilist.co/character/398122	学生. Character in Nozomi Witches
+398124	Yakyuu-buin	Q80447738	https://anilist.co/character/398124	野球部員. Character in Nozomi Witches
+398125	Hisho	Q80447738	https://anilist.co/character/398125	秘書. Character in Nozomi Witches
+398126	Fan	Q80447738	https://anilist.co/character/398126	ファン. Character in Nozomi Witches
+398128	Engeki-buin	Q80447738	https://anilist.co/character/398128	演劇部員. Character in Nozomi Witches
+398130	Kichou	Q80447738	https://anilist.co/character/398130	議長. Character in Nozomi Witches
+398131	Shain A	Q80447738	https://anilist.co/character/398131	社員Ａ. Character in Nozomi Witches
+398132	Youko Kitagawa	Q80447738	https://anilist.co/character/398132	北川洋子. Character in Nozomi Witches
+398133	Hitomi Yamazaki	Q80447738	https://anilist.co/character/398133	山崎瞳. Character in Nozomi Witches
+398134	Jack	Q80447738	https://anilist.co/character/398134	ジャック. Character in Nozomi Witches
+398135	Buin B	Q80447738	https://anilist.co/character/398135	部員B. Character in Nozomi Witches
+398140	Amon	Q87576284	https://anilist.co/character/398140	アモン. Character in Ginga Densetsu Weed: Orion
+398143	Reiji Hidaka	Q87576284	https://anilist.co/character/398143	日高レイジ. Character in Choumon no Tabi
+398144	Shin Hidaka	Q87576284	https://anilist.co/character/398144	日高シン. Character in Choumon no Tabi
+398145	Zach	Q87576284	https://anilist.co/character/398145	ザック. Character in Choumon no Tabi
+398146	Muramasa	Q87576284	https://anilist.co/character/398146	ムラマサ. Character in Choumon no Tabi
+398169	Will	Q80447738	https://anilist.co/character/398169	ウイル. Character in Chikyuu Monogatari Telepath 2500
+398170	Chief	Q80447738	https://anilist.co/character/398170	チーフ. Character in Chikyuu Monogatari Telepath 2500
+398171	Zaji	Q80447738	https://anilist.co/character/398171	ザジ. Character in Chikyuu Monogatari Telepath 2500
+398172	Astrias	Q80447738	https://anilist.co/character/398172	アストリアス. Character in Chikyuu Monogatari Telepath 2500
+398173	Zircon	Q80447738	https://anilist.co/character/398173	ジルコン. Character in Chikyuu Monogatari Telepath 2500
+398174	Shu	Q80447738	https://anilist.co/character/398174	主. Character in Chikyuu Monogatari Telepath 2500
+398175	Elida	Q80447738	https://anilist.co/character/398175	エリダ. Character in Chikyuu Monogatari Telepath 2500
+398176	Pipi	Q80447738	https://anilist.co/character/398176	ピピ. Character in Chikyuu Monogatari Telepath 2500
+398177	Ron	Q80447738	https://anilist.co/character/398177	ロン. Character in Chikyuu Monogatari Telepath 2500
+398178	Rukai	Q80447738	https://anilist.co/character/398178	ルカイ. Character in Chikyuu Monogatari Telepath 2500
+398179	Roberto	Q80447738	https://anilist.co/character/398179	ロベルト. Character in Chikyuu Monogatari Telepath 2500
+398180	Bartender	Q80447738	https://anilist.co/character/398180	バーテン. Character in Chikyuu Monogatari Telepath 2500
+398181	Mama	Q80447738	https://anilist.co/character/398181	ママ. Character in Chikyuu Monogatari Telepath 2500
+398182	Butch	Q80447738	https://anilist.co/character/398182	ブッチ. Character in Chikyuu Monogatari Telepath 2500
+398183	Sotsugyousei	Q80447738	https://anilist.co/character/398183	卒業生. Character in Chikyuu Monogatari Telepath 2500
+398184	Sotsugyousei	Q80447738	https://anilist.co/character/398184	卒業生. Character in Chikyuu Monogatari Telepath 2500
+398185	Shounen	Q80447738	https://anilist.co/character/398185	少年. Character in Chikyuu Monogatari Telepath 2500
+398186	Machi no Onna	Q80447738	https://anilist.co/character/398186	街の女. Character in Chikyuu Monogatari Telepath 2500
+398188	Flora	Q80447738	https://anilist.co/character/398188	フローラ. Character in Chikyuu Monogatari Telepath 2500
+398191	Tianjiao Chu	Q15711870	https://anilist.co/character/398191	楚天驕. Character in Dragon Raja II -The Mourner's Eyes-
+398199	Riersha Arachne	Q1114461	https://anilist.co/character/398199	리에르샤 아라크레네. Character in Saved by the Powerless Little Lady
+398200	Fernor Arachne	Q1114461	https://anilist.co/character/398200	페르노어 아라크레네. Character in Saved by the Powerless Little Lady
+398201	Ricador Arachne	Q1114461	https://anilist.co/character/398201	리카도르 아라크레네. Character in Saved by the Powerless Little Lady
+398202	Archmond Arachne	Q1114461	https://anilist.co/character/398202	아크먼드 아라크레네. Character in Saved by the Powerless Little Lady
+398212	Makoto Tachikawa	Q80447738	https://anilist.co/character/398212	立川マコト. Character in Daemons of the Shadow Realm
+398213	Kenichi Hamura	Q80447738	https://anilist.co/character/398213	羽村ケンイチ. Character in Daemons of the Shadow Realm
+398214	Akishima	Q80447738	https://anilist.co/character/398214	昭島. Character in Daemons of the Shadow Realm
+398215	Akai-san	Q80447738	https://anilist.co/character/398215	赤井さん. Character in Daemons of the Shadow Realm
+398216	Midori-san	Q80447738	https://anilist.co/character/398216	みどりさん. Character in Daemons of the Shadow Realm
+398217	Tankaku	Q80447738	https://anilist.co/character/398217	単角. Character in Daemons of the Shadow Realm
+398218	Soukaku	Q80447738	https://anilist.co/character/398218	双角. Character in Daemons of the Shadow Realm
+398219	Gozu	Q80447738	https://anilist.co/character/398219	牛頭. Character in Daemons of the Shadow Realm
+398220	Mezu	Q80447738	https://anilist.co/character/398220	馬頭. Character in Daemons of the Shadow Realm
+398221	Okina	Q80447738	https://anilist.co/character/398221	翁. Character in Daemons of the Shadow Realm
+398222	Ouna	Q80447738	https://anilist.co/character/398222	媼. Character in Daemons of the Shadow Realm
+398223	Shikaku A	Q80447738	https://anilist.co/character/398223	刺客A. Character in Daemons of the Shadow Realm
+398224	Shikaku B	Q80447738	https://anilist.co/character/398224	刺客B. Character in Daemons of the Shadow Realm
+398226	Shikaku C	Q80447738	https://anilist.co/character/398226	刺客C. Character in Daemons of the Shadow Realm
+398227	Shikaku D	Q80447738	https://anilist.co/character/398227	刺客D. Character in Daemons of the Shadow Realm
+398228	Shiyounin (Otoko)	Q80447738	https://anilist.co/character/398228	使用人(男). Character in Daemons of the Shadow Realm
+398229	Shiyounin (Onna)	Q80447738	https://anilist.co/character/398229	使用人(女). Character in Daemons of the Shadow Realm
+398268	Michica no Haha	Q80447738	https://anilist.co/character/398268	美血華の母. Character in NEEDY GIRL OVERDOSE
+398269	Seito	Q80447738	https://anilist.co/character/398269	生徒. Character in NEEDY GIRL OVERDOSE
+398270	Seito	Q80447738	https://anilist.co/character/398270	生徒. Character in NEEDY GIRL OVERDOSE
+398271	Seito	Q80447738	https://anilist.co/character/398271	生徒. Character in NEEDY GIRL OVERDOSE
+398272	Seito	Q80447738	https://anilist.co/character/398272	生徒. Character in NEEDY GIRL OVERDOSE
+398273	Seito	Q80447738	https://anilist.co/character/398273	生徒. Character in NEEDY GIRL OVERDOSE
+398274	Seito	Q80447738	https://anilist.co/character/398274	生徒. Character in NEEDY GIRL OVERDOSE
+398277	Reiko Nagatsuki	Q80447738	https://anilist.co/character/398277	長月礼子. Character in Agents of the Four Seasons: Dance of Spring
+398278	Mikami	Q80447738	https://anilist.co/character/398278	美上. Character in Agents of the Four Seasons: Dance of Spring
+398279	Toudou	Q80447738	https://anilist.co/character/398279	藤堂. Character in Agents of the Four Seasons: Dance of Spring
+398280	Shimotsuki	Q80447738	https://anilist.co/character/398280	霜月. Character in Agents of the Four Seasons: Dance of Spring
+398281	Aki Shokuin	Q80447738	https://anilist.co/character/398281	秋職員. Character in Agents of the Four Seasons: Dance of Spring
+398282	Aki no Sato no Juuyaku	Q80447738	https://anilist.co/character/398282	秋の里の重役. Character in Agents of the Four Seasons: Dance of Spring
+398283	Zoku	Q80447738	https://anilist.co/character/398283	賊. Character in Agents of the Four Seasons: Dance of Spring
+398285	Densha no Joukyaku	Q80447738	https://anilist.co/character/398285	電車の乗客. Character in Mistress Kanan is Devilishly Easy
+398286	Densha no Joukyaku	Q80447738	https://anilist.co/character/398286	電車の乗客. Character in Mistress Kanan is Devilishly Easy
+398287	Densha no Joukyaku	Q80447738	https://anilist.co/character/398287	電車の乗客. Character in Mistress Kanan is Devilishly Easy
+398289	Koyomi Yaguruma	Q87576284	https://anilist.co/character/398289	矢車暦. Character in Uchi kara Nan Kilometer?
+398290	Ayumi Yaguruma	Q87576284	https://anilist.co/character/398290	矢車歩. Character in Uchi kara Nan Kilometer?
+398291	Mayo Hoshi	Q87576284	https://anilist.co/character/398291	星真予. Character in Uchi kara Nan Kilometer?
+398292	Souseki Natsume	Q3658341	https://anilist.co/character/398292	夏目漱石. Character in Natsume Souseki Fantasia
+398293	Neko Madanai	Q3658341	https://anilist.co/character/398293	蒔田内禰子. Character in Natsume Souseki Fantasia
+398294	Hideyo Noguchi	Q3658341	https://anilist.co/character/398294	野口英世. Character in Natsume Souseki Fantasia
+398297	Hayato	Q87576284	https://anilist.co/character/398297	ハヤト. Character in Ginga Densetsu Weed: Orion
+398298	Grim	Q87576284	https://anilist.co/character/398298	グリム. Character in Ginga Densetsu Weed: Orion
+398299	Kakeru	Q87576284	https://anilist.co/character/398299	カケル. Character in Ginga Densetsu Weed: Orion
+398303	Tae-O Han	Q1114461	https://anilist.co/character/398303	한태오. Character in Love is a Sport: Unintentional Lift
+398304	Liam	Q1114461	https://anilist.co/character/398304	리암. Character in Love is a Sport: Unintentional Lift
+398305	Ra-Yeon Son	Q1114461	https://anilist.co/character/398305	손라연. Character in Love is a Sport: Hit Balance
+398306	Yuf Gnabry	Q1114461	https://anilist.co/character/398306	유프 그나브리. Character in Love is a Sport: Hit Balance
+398307	Barnaby Schnelldorfer	Q1114461	https://anilist.co/character/398307	바르나비 슈넬도르퍼. Character in Love is a Sport: Hit Balance
+398308	Selma Gnabry	Q1114461	https://anilist.co/character/398308	셀마 그나브리. Character in Love is a Sport: Hit Balance
+398309	Na-Ri Yun	Q1114461	https://anilist.co/character/398309	윤나리. Character in Love is a Sport: Proposal Scandal
+398310	Claude Rivière	Q1114461	https://anilist.co/character/398310	프랑스 수영 국가대표. Character in Love is a Sport: Proposal Scandal
+398311	Ju-Yeong Yu	Q1114461	https://anilist.co/character/398311	유주영. Character in Love is a Sport: Our Golden Promise
+398312	Do-Yun Nam	Q1114461	https://anilist.co/character/398312	남도윤. Character in Love is a Sport: Our Golden Promise
+398317	Sora Amano	Q87576284	https://anilist.co/character/398317	天野空. Character in The Ramparts of Ice
+398319	Yoshinaga Satou	Q80447738	https://anilist.co/character/398319	佐藤義長. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398320	Hina Hiraizumi	Q80447738	https://anilist.co/character/398320	平泉緋那. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398321	Junichi Tamaki	Q80447738	https://anilist.co/character/398321	玉置准ー. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398322	Yubari Muchari	Q80447738	https://anilist.co/character/398322	夕張武茶利. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398323	Hatta Basashi	Q80447738	https://anilist.co/character/398323	八田刃佐志. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398324	Ichou	Q80447738	https://anilist.co/character/398324	医長. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398325	Seiihei	Q80447738	https://anilist.co/character/398325	聖夷兵. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398326	Seiihei	Q80447738	https://anilist.co/character/398326	聖夷兵. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398327	Seiihei	Q80447738	https://anilist.co/character/398327	聖夷兵. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398328	Wahei	Q80447738	https://anilist.co/character/398328	和兵. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398329	Wahei	Q80447738	https://anilist.co/character/398329	和兵. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398330	Wahei	Q80447738	https://anilist.co/character/398330	和兵. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398331	Minami Crush	Q80447738	https://anilist.co/character/398331	みなみ・くらっしゅ. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398332	Ran Tribute	Q80447738	https://anilist.co/character/398332	らん・とりびゅーと. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398334	Fumie Dopeness	Q80447738	https://anilist.co/character/398334	ふみえ・どーぷねす. Character in NIPPON SANGOKU: The Three Nations of the Crimson Sun
+398341	Sae-Ram Jeong	Q1114461	https://anilist.co/character/398341	정새람. Character in Love is a Sport: Outfield Base Running
+398342	Ji-Ho Lee	Q1114461	https://anilist.co/character/398342	이지호. Character in Love is a Sport: Outfield Base Running
+398346	Il-Hwan Choi	Q1114461	https://anilist.co/character/398346	최일환. Character in Moving
+398348	Pochi 2~28-gou	Q80447738	https://anilist.co/character/398348	ポチ2~28号. Character in Photon: The Idiot Adventures
+398349	Ma Mamie	Q80447738	https://anilist.co/character/398349	マ・マミー. Character in Photon: The Idiot Adventures
+398350	Aun no Ane	Q80447738	https://anilist.co/character/398350	アウンの姉. Character in Photon: The Idiot Adventures
+398351	Koro-chan	Q80447738	https://anilist.co/character/398351	コロちゃん. Character in Photon: The Idiot Adventures
+398352	Miko	Q80447738	https://anilist.co/character/398352	巫女. Character in Photon: The Idiot Adventures
+398353	Sonchou	Q80447738	https://anilist.co/character/398353	村長. Character in Photon: The Idiot Adventures
+398354	Senchou	Q80447738	https://anilist.co/character/398354	船長. Character in Photon: The Idiot Adventures
+398355	Soujuushi	Q80447738	https://anilist.co/character/398355	操縦士. Character in Photon: The Idiot Adventures
+398356	Usaki Suna	Q80447738	https://anilist.co/character/398356	砂うさき. Character in Photon: The Idiot Adventures
+398357	Laman	Q80447738	https://anilist.co/character/398357	ラマーン. Character in Photon: The Idiot Adventures
+398358	Laman no Tsuma	Q80447738	https://anilist.co/character/398358	ラマーンの妻. Character in Photon: The Idiot Adventures
+398359	Shounin	Q80447738	https://anilist.co/character/398359	商人. Character in Photon: The Idiot Adventures
+398360	Totora	Q80447738	https://anilist.co/character/398360	トトラ. Character in Photon: The Idiot Adventures
+398361	Bulan	Q80447738	https://anilist.co/character/398361	ブラン. Character in Photon: The Idiot Adventures
+398362	Mise no Chichi	Q80447738	https://anilist.co/character/398362	店の父. Character in Photon: The Idiot Adventures
+398363	Mise no Obachan	Q80447738	https://anilist.co/character/398363	店のおばちゃん. Character in Photon: The Idiot Adventures
+398364	Mousoujou no Onna A	Q80447738	https://anilist.co/character/398364	妄想上の女A. Character in Photon: The Idiot Adventures
+398365	Mousoujou no Onna B	Q80447738	https://anilist.co/character/398365	妄想上の女B. Character in Photon: The Idiot Adventures
+398366	Mousoujou no Onna C	Q80447738	https://anilist.co/character/398366	妄想上の女C. Character in Photon: The Idiot Adventures
+398368	Sunazoku A	Q80447738	https://anilist.co/character/398368	砂賊A. Character in Photon: The Idiot Adventures
+398369	Sunazoku B	Q80447738	https://anilist.co/character/398369	砂賊B. Character in Photon: The Idiot Adventures
+398370	Sunazoku C	Q80447738	https://anilist.co/character/398370	砂賊C. Character in Photon: The Idiot Adventures
+398371	Majin Aqua	Q80447738	https://anilist.co/character/398371	マジーン・アクア. Character in Photon: The Idiot Adventures
+398372	James Brown	Q80447738	https://anilist.co/character/398372	ジェームス・ブラウン. Character in Photon: The Idiot Adventures
+398373	Operator	Q80447738	https://anilist.co/character/398373	オペレーター. Character in Photon: The Idiot Adventures
+398374	Operator	Q80447738	https://anilist.co/character/398374	オペレーター. Character in Photon: The Idiot Adventures
+398375	Ginga Koutei	Q80447738	https://anilist.co/character/398375	銀河皇帝. Character in Photon: The Idiot Adventures
+398376	Josei	Q80447738	https://anilist.co/character/398376	女性. Character in Odekake Kozame Season 2
+398377	Onnanoko	Q80447738	https://anilist.co/character/398377	女の子. Character in Odekake Kozame Season 2
+398378	Karasu	Q80447738	https://anilist.co/character/398378	カラス. Character in Odekake Kozame Season 2
+398379	Dansei A	Q80447738	https://anilist.co/character/398379	男性A. Character in Odekake Kozame Season 2
+398380	Danshi B	Q80447738	https://anilist.co/character/398380	男性B. Character in Odekake Kozame Season 2
+398397	Gyosha	Q80447738	https://anilist.co/character/398397	御者. Character in Witch Hat Atelier
+398398	Joukyaku	Q80447738	https://anilist.co/character/398398	乗客. Character in Witch Hat Atelier
+398399	Joukyaku	Q80447738	https://anilist.co/character/398399	乗客. Character in Witch Hat Atelier
+398400	Joukyaku	Q80447738	https://anilist.co/character/398400	乗客. Character in Witch Hat Atelier
+398401	Dohoutsukai	Q80447738	https://anilist.co/character/398401	度法使い. Character in Witch Hat Atelier
+398402	Dohoutsukai	Q80447738	https://anilist.co/character/398402	度法使い. Character in Witch Hat Atelier
+398403	Dohoutsukai	Q80447738	https://anilist.co/character/398403	度法使い. Character in Witch Hat Atelier
+398404	Dohoutsukai	Q80447738	https://anilist.co/character/398404	度法使い. Character in Witch Hat Atelier
+398405	Dohoutsukai	Q80447738	https://anilist.co/character/398405	度法使い. Character in Witch Hat Atelier
+398406	Dohoutsukai	Q80447738	https://anilist.co/character/398406	度法使い. Character in Witch Hat Atelier
+398407	Dohoutsukai	Q80447738	https://anilist.co/character/398407	度法使い. Character in Witch Hat Atelier
+398423	Soushi Minashiro	Q80447738	https://anilist.co/character/398423	皆城総士. Character in Fafner Exodus 2
+398424	Sagara no Joukan	Q80447738	https://anilist.co/character/398424	相良の上官. Character in Dragon Century
+398426	Chika Honda	Q87576284	https://anilist.co/character/398426	本多ちか. Character in Chika Wants to Know More
+398427	Yuuki Hamada	Q87576284	https://anilist.co/character/398427	浜田ゆうき. Character in Chika Wants to Know More
+398428	Chibi	Q87576284	https://anilist.co/character/398428	チビ. Character in Chika Wants to Know More
+398429	Hotaru	Q87576284	https://anilist.co/character/398429	ほたる. Character in Half-Shadow of an Empty Shell
+398430	Shiori	Q87576284	https://anilist.co/character/398430	栞. Character in Half-Shadow of an Empty Shell
+398431	Yuuichirou	Q87576284	https://anilist.co/character/398431	優一郎. Character in Give Me Back My Manga
+398432	Take	Q87576284	https://anilist.co/character/398432	タケ. Character in Give Me Back My Manga
+398440	Natsuki Kujou	Q87576284	https://anilist.co/character/398440	九条夏樹. Character in Stepping on Roses
+398441	Keiko Kinoshita	Q87576284	https://anilist.co/character/398441	木下桂子. Character in Stepping on Roses
+398442	Miu Ijuuin	Q87576284	https://anilist.co/character/398442	伊集院美卯. Character in Stepping on Roses
+398456	Sa-Rang Yu	Q1114461	https://anilist.co/character/398456	유사랑. Character in I Dare You
+398457	Hye-Ji Im	Q1114461	https://anilist.co/character/398457	임혜지. Character in Escape Room
+398461	Diego Lacona	Q1114461	https://anilist.co/character/398461	디에고 라코나. Character in The Greatest Estate Developer
+398462	Kyle	Q1114461	https://anilist.co/character/398462	카엘. Character in The Greatest Estate Developer
+398463	Victor	Q1114461	https://anilist.co/character/398463	빅토르. Character in The Greatest Estate Developer
+398464	Valelardi Blanc	Q1114461	https://anilist.co/character/398464	발레라디 블랑크. Character in The Greatest Estate Developer
+398465	Kougar	Q1114461	https://anilist.co/character/398465	쿠거. Character in The Greatest Estate Developer
+398467	Greg	Q1114461	https://anilist.co/character/398467	그렉. Character in The Greatest Estate Developer
+398469	Lloyd Frontera	Q1114461	https://anilist.co/character/398469	로이드 프론테라. Character in The Greatest Estate Developer
+398471	Selma	Q87576284	https://anilist.co/character/398471	セルマ. Character in Tsui no Hanayome
+398472	Mother	Q87576284	https://anilist.co/character/398472	マザー. Character in Tsui no Hanayome
+398473	Tiri	Q87576284	https://anilist.co/character/398473	ティリ. Character in Tsui no Hanayome
+398474	Tsukina	Q87576284	https://anilist.co/character/398474	月菜. Character in Wolf’s Daughter: A Werewolf’s Tale
+398475	Kirito	Q87576284	https://anilist.co/character/398475	霧斗. Character in Wolf’s Daughter: A Werewolf’s Tale
+398476	Hayate	Q87576284	https://anilist.co/character/398476	颯. Character in Wolf’s Daughter: A Werewolf’s Tale
+398478	Hakuai	Q87576284	https://anilist.co/character/398478	博愛. Character in Marronnier Oukoku no Shichinin no Kishi
+398479	Atsugariya	Q87576284	https://anilist.co/character/398479	暑がりや. Character in Marronnier Oukoku no Shichinin no Kishi
+398480	Eleonora	Q87576284	https://anilist.co/character/398480	エレオノーラ. Character in Marronnier Oukoku no Shichinin no Kishi
+398481	Samugariya	Q87576284	https://anilist.co/character/398481	寒がりや. Character in Marronnier Oukoku no Shichinin no Kishi
+398482	Harapeko	Q87576284	https://anilist.co/character/398482	ハラペコ. Character in Marronnier Oukoku no Shichinin no Kishi
+398483	Kedamonotsukai	Q87576284	https://anilist.co/character/398483	獣使い. Character in Marronnier Oukoku no Shichinin no Kishi
+398484	Tsurugijiman	Q87576284	https://anilist.co/character/398484	剣自慢. Character in Marronnier Oukoku no Shichinin no Kishi
+398485	Baribara	Q87576284	https://anilist.co/character/398485	バリバラ. Character in Marronnier Oukoku no Shichinin no Kishi
+398486	Hime-sama	Q87576284	https://anilist.co/character/398486	姫様. Character in Marronnier Oukoku no Shichinin no Kishi
+398487	Nemukunai	Q87576284	https://anilist.co/character/398487	眠くない. Character in Marronnier Oukoku no Shichinin no Kishi
+398488	Takao Ousugi	Q87576284	https://anilist.co/character/398488	大杉考雄. Character in Fushigi Yûgi: Genbu Kaiden
+398489	Neiran	Q87576284	https://anilist.co/character/398489	ネイラン. Character in Fushigi Yuugi: Byakko Ibun
+398490	Kasaru	Q87576284	https://anilist.co/character/398490	カサル. Character in Fushigi Yûgi: Byakko Senki
+398491	Yazu	Q87576284	https://anilist.co/character/398491	ヤヅ. Character in Yowabi no Mahou
+398492	Suzuki	Q87576284	https://anilist.co/character/398492	スズキ. Character in Yowabi no Mahou
+398493	Arthur Quinton	Q87576284	https://anilist.co/character/398493	アーサー・クエントン. Character in Poe no Ichizoku: Himitsu no Hanazono
+398494	Barry	Q87576284	https://anilist.co/character/398494	バリー. Character in Poe no Ichizoku: Ao no Pandora
+398495	Falca	Q87576284	https://anilist.co/character/398495	ファルカ. Character in Poe no Ichizoku: Unicorn
+398496	Blanca	Q87576284	https://anilist.co/character/398496	ブランカ. Character in Poe no Ichizoku: Ao no Pandora
+398508	Yuuko Akane	Q80447738	https://anilist.co/character/398508	朱音優子. Character in Eren the Southpaw
+398509	Shun Rukawa	Q80447738	https://anilist.co/character/398509	流川俊. Character in Eren the Southpaw
+398510	Ifuu Sakuma	Q80447738	https://anilist.co/character/398510	佐久間威風. Character in Eren the Southpaw
+398511	Serika Hondo	Q80447738	https://anilist.co/character/398511	本堂芹香. Character in Haibara's Teenage New Game+
+398512	Takuma	Q87576284	https://anilist.co/character/398512	拓磨. Character in Sessa Takuma!
+398513	Yuuka Asakura	Q80447738	https://anilist.co/character/398513	朝倉ユウカ. Character in Kage no Jitsuryokusha ni Naritakute!: Zankyou-hen
+398514	Kei Takanashi	Q15632617	https://anilist.co/character/398514	小鳥遊ケイ. Character in Nikoniko Nikki
+398515	Miko Kobako	Q87576284	https://anilist.co/character/398515	小箱美子. Character in Nikoniko Nikki
+398516	Niko Kobako	Q15632617	https://anilist.co/character/398516	小箱仁子. Character in Nikoniko Nikki
+398517	Shurako	Q80447738	https://anilist.co/character/398517	シュラ子. Character in Let's Go Kaikigumi
+398518	Noroi no Ningyou	Q80447738	https://anilist.co/character/398518	呪いの人形. Character in Let's Go Kaikigumi
+398519	Doppelganger	Q80447738	https://anilist.co/character/398519	ドッペルゲンガー. Character in Let's Go Kaikigumi
+398520	Suzu Harashima	Q80447738	https://anilist.co/character/398520	原島すず. Character in Sparks of Tomorrow
+398521	Izou Masubuchi	Q80447738	https://anilist.co/character/398521	鱒淵伊蔵. Character in Sparks of Tomorrow
+398522	Kate Ookura	Q80447738	https://anilist.co/character/398522	大倉ケイト. Character in Sparks of Tomorrow
+398523	Yajirou Yagura	Q80447738	https://anilist.co/character/398523	矢倉弥治郎. Character in Sparks of Tomorrow
+398525	Iria	Q80447738	https://anilist.co/character/398525	イリア. Character in Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku
+398526	Fraser	Q80447738	https://anilist.co/character/398526	フレイザー. Character in Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku
+398527	Zeno	Q80447738	https://anilist.co/character/398527	ゼノ. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398528	Vald Norgins	Q80447738	https://anilist.co/character/398528	バルド・ノーキンス. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398529	Courtgain Mardan	Q80447738	https://anilist.co/character/398529	クールガン・デレス・マーダン. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398530	Kuro	Q80447738	https://anilist.co/character/398530	クロ. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398531	Charles Laonel	Q80447738	https://anilist.co/character/398531	チャールズ・ラオネル. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398532	Cynthia Linnerith	Q80447738	https://anilist.co/character/398532	シンシア・ソーネリス. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398533	Anne Kogares	Q80447738	https://anilist.co/character/398533	アンネ・コガーレス. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398534	Pii	Q80447738	https://anilist.co/character/398534	ビー. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398535	Douglas Noches	Q80447738	https://anilist.co/character/398535	ダグラス･イビル･ノーチェス. Character in An Observation Log of My Fiancée Who Calls Herself a Villainess
+398536	Serafina Parnilla	Q80447738	https://anilist.co/character/398536	"セラフィーナ・パルニラ. Character in ""Kimi wo Aisuru Ki wa nai"" to Itta Jiki Koushaku-sama ga Naze ka Dekiai Shitekimasu"
+398537	Yarmo Parnilla	Q80447738	https://anilist.co/character/398537	"ヤルモ・パルニラ. Character in ""Kimi wo Aisuru Ki wa nai"" to Itta Jiki Koushaku-sama ga Naze ka Dekiai Shitekimasu"
+398538	Eric Lakes Adora	Q80447738	https://anilist.co/character/398538	エリク・レークス・アードラー. Character in Saikyou Degarashi Ouji no Anyaku Teii Arasoi: Munou wo Enjiru SS Rank Ouji wa Koui Keishou-sen wo Kage kara Shihai suru
+398539	Gordon Lakes Adora	Q80447738	https://anilist.co/character/398539	ゴードン・レークス・アードラー. Character in Saikyou Degarashi Ouji no Anyaku Teii Arasoi: Munou wo Enjiru SS Rank Ouji wa Koui Keishou-sen wo Kage kara Shihai suru
+398540	Zandra Lakes Adora	Q80447738	https://anilist.co/character/398540	ザンドラ・レークス・アードラー. Character in Saikyou Degarashi Ouji no Anyaku Teii Arasoi: Munou wo Enjiru SS Rank Ouji wa Koui Keishou-sen wo Kage kara Shihai suru
+398541	Johannes Lakes Adora	Q80447738	https://anilist.co/character/398541	ヨハネス・レークス・アードラー. Character in Saikyou Degarashi Ouji no Anyaku Teii Arasoi: Munou wo Enjiru SS Rank Ouji wa Koui Keishou-sen wo Kage kara Shihai suru
+398542	Zannanza Hattušili	Q80447738	https://anilist.co/character/398542	ザナンザ・ハットゥシリ. Character in Sora wa Akai Kawa no Hotori
+398543	Mattiwaza	Q80447738	https://anilist.co/character/398543	マッティワザ. Character in Sora wa Akai Kawa no Hotori
+398544	Urhi	Q80447738	https://anilist.co/character/398544	ウルヒ. Character in Sora wa Akai Kawa no Hotori
+398545	Ruka Someya	Q80447738	https://anilist.co/character/398545	染谷留香. Character in Onaji Zemi no Someya-san ga Sexy Joyuu Datta Hanashi.
+398546	Ryousuke Kamiya	Q80447738	https://anilist.co/character/398546	神谷良介. Character in Onaji Zemi no Someya-san ga Sexy Joyuu Datta Hanashi.
+398559	Doukyuusei	Q80447738	https://anilist.co/character/398559	同級生. Character in Go For It, Nakamura-kun!!
+398560	Kyoushi	Q80447738	https://anilist.co/character/398560	教師. Character in Go For It, Nakamura-kun!!
+398561	Kousei Matsumura	Q80447738	https://anilist.co/character/398561	松村高青. Character in Go For It, Nakamura-kun!!
+398562	Todoroki	Q80447738	https://anilist.co/character/398562	轟. Character in Go For It, Nakamura-kun!!
+398563	Cannavaro	Q1114461	https://anilist.co/character/398563	칸나바로. Character in The Greatest Estate Developer
+398564	Siluria Namaran	Q1114461	https://anilist.co/character/398564	실루리아 나마란. Character in The Greatest Estate Developer
+398565	Namaran Baekjak	Q1114461	https://anilist.co/character/398565	나마란 백작. Character in The Greatest Estate Developer
+398566	Ventura Baekjak	Q1114461	https://anilist.co/character/398566	벤투라 백작. Character in The Greatest Estate Developer
+398567	Targa	Q1114461	https://anilist.co/character/398567	타르가. Character in The Greatest Estate Developer
+398568	Nort Jajak	Q1114461	https://anilist.co/character/398568	노르트 자작. Character in The Greatest Estate Developer
+398569	Termes	Q1114461	https://anilist.co/character/398569	테르메스. Character in The Greatest Estate Developer
+398570	Similda	Q1114461	https://anilist.co/character/398570	시밀다. Character in The Greatest Estate Developer
+398571	Giolexius	Q1114461	https://anilist.co/character/398571	지오렉시우스. Character in The Greatest Estate Developer
+398572	Yongyong	Q1114461	https://anilist.co/character/398572	용용. Character in The Greatest Estate Developer
+398575	Mikado Gomon	Q87576284	https://anilist.co/character/398575	御門みかど. Character in Loveless
+398576	Shieko Kaidou	Q87576284	https://anilist.co/character/398576	海堂志絵子. Character in Loveless
+398577	Tokino Fujiwara	Q87576284	https://anilist.co/character/398577	藤原時野. Character in Loveless
+398578	Shikiko Kaidou	Q87576284	https://anilist.co/character/398578	海堂志貴子. Character in Loveless
+398579	Keiji Shigemori	Q87576284	https://anilist.co/character/398579	重森ケイジ. Character in Loveless
+398580	Chouko Sugou	Q87576284	https://anilist.co/character/398580	須合蝶子. Character in Loveless
+398581	Sanae Sagan	Q87576284	https://anilist.co/character/398581	目早苗. Character in Loveless
+398582	Hatsuko Shigemori	Q87576284	https://anilist.co/character/398582	重森初子. Character in Loveless
+398583	Gannicus	Q87576284	https://anilist.co/character/398583	ガニカス. Character in Thraex
+398584	Spartacus	Q87576284	https://anilist.co/character/398584	スパルタカス. Character in Thraex
+398585	Naoto Takada	Q87576284	https://anilist.co/character/398585	高田直斗. Character in Learning to Love My Cat-like Classmate
+398586	Kiyomiya	Q87576284	https://anilist.co/character/398586	きよみや. Character in Learning to Love My Cat-like Classmate
+398588	Gouda	Q87576284	https://anilist.co/character/398588	剛田. Character in Learning to Love My Cat-like Classmate
+398589	Eri Kawasaki	Q87576284	https://anilist.co/character/398589	河咲絵里. Character in Learning to Love My Cat-like Classmate
+398590	Noah Melkve	Q1114461	https://anilist.co/character/398590	诺亚梅尔克维. Character in Shut up, Evil Dragon, I Don't Want to Raise A Child with You Anymore
+398591	Isha Melkve	Q1114461	https://anilist.co/character/398591	伊莎梅尔克维. Character in Shut up, Evil Dragon, I Don't Want to Raise A Child with You Anymore
+398592	Leon Casmode	Q1114461	https://anilist.co/character/398592	莱昂卡莫德. Character in Shut up, Evil Dragon, I Don't Want to Raise A Child with You Anymore
+398593	Muen Melkve	Q1114461	https://anilist.co/character/398593	穆恩梅尔克维. Character in Shut up, Evil Dragon, I Don't Want to Raise A Child with You Anymore
+398595	Mazuko Kurone	Q87576284	https://anilist.co/character/398595	黒根真魚子. Character in Cat-Life Balance
+398596	Mamoru Kitaoji	Q87576284	https://anilist.co/character/398596	北大路衛. Character in Cat-Life Balance
+398598	Artanis V	Q1114461	https://anilist.co/character/398598	아르타니스 5세. Character in The Greatest Estate Developer
+398599	Shumacher	Q1114461	https://anilist.co/character/398599	슈마할. Character in The Greatest Estate Developer
+398600	Cheronin	Q1114461	https://anilist.co/character/398600	체로닌. Character in The Greatest Estate Developer
+398601	Raphael	Q1114461	https://anilist.co/character/398601	라파엘. Character in The Greatest Estate Developer
+398602	Gabriel	Q1114461	https://anilist.co/character/398602	가브리엘. Character in The Greatest Estate Developer
+398603	Lila	Q1114461	https://anilist.co/character/398603	이아이. Character in The Greatest Estate Developer
+398607	Kamishima no Joushi	Q80447738	https://anilist.co/character/398607	神嶋の上司. Character in Bartender
+398608	Bartender A	Q80447738	https://anilist.co/character/398608	バーテンダーA. Character in Bartender
+398609	Bartender B	Q80447738	https://anilist.co/character/398609	バーテンダーB. Character in Bartender
+398611	Da Song	Q15711870	https://anilist.co/character/398611	大松. Character in The Legend of Hei 2
+398612	Fu Dui	Q15711870	https://anilist.co/character/398612	副队. Character in The Legend of Hei 2
+398613	Luo	Q15711870	https://anilist.co/character/398613	洛. Character in The Legend of Hei 2
+398614	Xinyi Zheng	Q15711870	https://anilist.co/character/398614	郑信毅. Character in The Legend of Hei 2
+398615	Guilian	Q15711870	https://anilist.co/character/398615	鬼镰. Character in The Legend of Hei 2
+398616	Koutarou Takanashi	Q87576284	https://anilist.co/character/398616	高梨晃太郎. Character in Nikoniko Nikki
+398617	Yuuki Morimura	Q87576284	https://anilist.co/character/398617	森村勇樹. Character in Nikoniko Nikki
+398618	Yurie Hanabusa	Q87576284	https://anilist.co/character/398618	花房ゆり絵. Character in Nikoniko Nikki
+398619	Sayuki Utagawa	Q87576284	https://anilist.co/character/398619	宇多川細雪. Character in Nikoniko Nikki
+398620	Kanako Ujiie	Q15632617	https://anilist.co/character/398620	氏家花名子. Character in Nikoniko Nikki
+398621	Harutoki Sasou	Q87576284	https://anilist.co/character/398621	佐壮治世. Character in Nikoniko Nikki
+398625	Kumi Shinoda	Q87576284	https://anilist.co/character/398625	篠田久美. Character in Under the Soil
+398626	Teranishi	Q87576284	https://anilist.co/character/398626	寺西. Character in Under the Soil
+398627	Ritsuko Takayama	Q87576284	https://anilist.co/character/398627	高山律子. Character in Under the Soil
+398628	Midori	Q87576284	https://anilist.co/character/398628	ミドリ. Character in Under the Soil
