@@ -83,7 +83,7 @@ class CatalogUpdater {
 						console.log(`Rate limited, waiting ${waitFor} seconds...`);
 						await new Promise(resolve => setTimeout(resolve, waitFor * 1000));
 					} else {
-						console.error(`Failed to fetch (HTTP ${response.status}):`, variables);
+						console.error(`Failed to fetch (HTTP ${response.status}):`, variables, await response.text());
 						if (retries++ > 3) {
 							core.warning(`Failed to fetch after 3 retries: HTTP ${response.status}`);
 							break;
