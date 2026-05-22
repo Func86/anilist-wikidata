@@ -782,10 +782,11 @@
 		}
 	},
 	"136": {
-		"dateModified": "2025-07-20T13:02:45Z",
+		"dateModified": "2026-05-20T12:59:15Z",
 		"title": {
-			"zh": "HUNTER×HUNTER (1999年動畫)",
-			"+zh-hans": "HUNTER×HUNTER (1999年动画)"
+			"zh": "HUNTER×HUNTER",
+			"zh-hans": "Hunter × Hunter",
+			"zh-hant": "Hunter × Hunter"
 		}
 	},
 	"141": {
