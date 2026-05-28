@@ -147,7 +147,7 @@ class CatalogUpdater {
 					continue;
 				} else if (lastEntry && lastEntry.id <= maxKnownId) {
 					const lastEntryId = lastEntry.id;
-					variables.idIn = idBucket(knownIds.findIndex(id => id > lastEntryId), true);
+					variables.idIn = idBucket(knownIds.find(id => id > lastEntryId) ?? lastEntryId, true);
 					continue;
 				} else if (updateType === 'incremental' && !breakLoop) {
 					console.error(`No more pages to fetch: ${JSON.stringify({ pageInfo, variables })}`);
