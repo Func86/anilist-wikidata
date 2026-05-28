@@ -84,7 +84,7 @@ class CatalogUpdater {
 		const maxKnownId = knownIds[knownIds.length - 1];
 
 		let lastEntry: { id: number, updatedAt?: number, [key: string]: unknown } | null = null;
-		let retries = 0, breakLoop = false;
+		let retries = 0;
 		const retrySleep = [ 5, 10, 30, 60 ];
 		while (true) {
 			try {
@@ -125,14 +125,8 @@ class CatalogUpdater {
 				}
 
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
-					if (updateUntilId && entry.id <= updateUntilId) {
-						console.log('Reached last updated entry');
-						breakLoop = true;
-						break;
-					}
 					lastEntry = rawData[entry.id] = entry;
 				}
-				if (breakLoop) break;
 
 				const pageInfo = body.data.Page.pageInfo;
 				if (pageInfo.hasNextPage && lastEntry) {
@@ -147,13 +141,8 @@ class CatalogUpdater {
 					continue;
 				} else if (lastEntry && lastEntry.id <= maxKnownId) {
 					const lastEntryId = lastEntry.id;
-					variables.idIn = idBucket(knownIds.find(id => id > lastEntryId) ?? lastEntryId, true);
+					variables.idIn = idBucket(knownIds.find(id => id > lastEntryId) ?? lastEntryId + 1, true);
 					continue;
-				} else if (updateType === 'incremental' && !breakLoop) {
-					console.error(`No more pages to fetch: ${JSON.stringify({ pageInfo, variables })}`);
-					core.warning('Unexpected end of query results');
-				} else {
-					breakLoop = true;
 				}
 			} catch (error) {
 				if (error instanceof Error && (error.name === 'AbortError' || error.name === 'TimeoutError')) {
@@ -172,11 +161,6 @@ class CatalogUpdater {
 			break;
 		}
 		fs.writeFileSync(`./catalogs/${this.dataName}.json`, JSON.stringify(rawData, undefined, '\t'));
-
-		// Didn't finish, don't mess up the catalog
-		if (!breakLoop) {
-			return;
-		}
 
 		// We absolutely don't want to error out and fail the workflow at this stage
 		try {
