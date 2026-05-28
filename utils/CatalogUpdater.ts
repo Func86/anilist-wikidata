@@ -83,7 +83,7 @@ class CatalogUpdater {
 		}
 		const maxKnownId = knownIds[knownIds.length - 1];
 
-		let lastEntry: { id: number, updatedAt: number, [key: string]: unknown } | null = null;
+		let lastEntry: { id: number, updatedAt?: number, [key: string]: unknown } | null = null;
 		let retries = 0, breakLoop = false;
 		const retrySleep = [ 5, 10, 30, 60 ];
 		while (true) {
@@ -136,10 +136,13 @@ class CatalogUpdater {
 
 				const pageInfo = body.data.Page.pageInfo;
 				if (pageInfo.hasNextPage && lastEntry) {
-					console.log(
-						`Last entry: ${lastEntry.id},`,
-						lastEntry.updatedAt ? `upddated at ${new Date(lastEntry.updatedAt * 1000).toISOString()},` : ''
-					);
+					const logs = [
+						`Last entry: ${lastEntry.id}`,
+					];
+					if (lastEntry.updatedAt) {
+						logs.push(`updated at ${new Date(lastEntry.updatedAt * 1000).toISOString()}`);
+					}
+					console.log(logs.join(', '));
 					variables.idIn = idBucket(lastEntry.id);
 					continue;
 				} else if (lastEntry && lastEntry.id <= maxKnownId) {
