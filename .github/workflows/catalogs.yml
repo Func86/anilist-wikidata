@@ -20,16 +20,8 @@ on:
           - full
           - incremental
         default: incremental
-      incremental_mode:
-        description: Incremental update mode
-        required: false
-        type: choice
-        options:
-          - id
-          - updated_at
-        default: id
-      page_offset:
-        description: Page offset for the catalog
+      id_offset:
+        description: ID offset for the catalog
         required: false
         type: number
         default: 0
@@ -69,7 +61,7 @@ jobs:
           echo "run-id=$run_id" >> "$GITHUB_OUTPUT"
 
       - name: Download the previous catalog artifact
-        if: ${{ github.event.inputs.update_type == 'incremental' || github.event.inputs.page_offset > 0 }}
+        if: ${{ github.event.inputs.update_type == 'incremental' || github.event.inputs.id_offset > 0 }}
         uses: actions/download-artifact@v7
         with:
           name: anilist-${{ github.event.inputs.catalog_name }}
@@ -78,11 +70,10 @@ jobs:
           run-id: ${{ steps.step-read-run-id.outputs.run-id }}
 
       - name: Run script to fetch data
-        run: node update-catalog.js
+        run: node update-catalog.ts
           "${{ github.event.inputs.catalog_name }}"
           "${{ github.event.inputs.update_type }}"
-          "${{ github.event.inputs.incremental_mode }}"
-          "${{ github.event.inputs.page_offset }}"
+          "${{ github.event.inputs.id_offset }}"
         env:
           PROXY_PREFIX: ${{ secrets.PROXY_PREFIX }}
           PROXY_HEADERS: ${{ secrets.PROXY_HEADERS }}

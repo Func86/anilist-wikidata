@@ -1,11 +1,9 @@
-query Anime($page: Int, $sort: [MediaSort]) {
-  Page(page: $page) {
+query Anime($perPage: Int, $idIn: [Int]) {
+  Page(perPage: $perPage) {
     pageInfo {
-      currentPage
       hasNextPage
-      perPage
     }
-    media(type: ANIME, sort: $sort) {
+    media(type: ANIME, sort: ID, id_in: $idIn) {
       id
       title {
         english

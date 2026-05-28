@@ -1,6 +1,6 @@
 import fs from 'fs';
 import Papa from 'papaparse';
-import core from '@actions/core';
+import * as core from '@actions/core';
 import { updatedDiff } from 'deep-object-diff';
 
 /**
@@ -12,12 +12,20 @@ class CatalogUpdater {
 		manga: 'media',
 	};
 
+	dataName: keyof typeof CatalogUpdater.prototype.dataNameMap;
+	graphqlQuery: string;
+	callback: Function;
+
 	/**
 	 * @param {string} dataName - The name of the data.
 	 * @param {string} graphqlQuery - The GraphQL query string.
 	 * @param {Function} callback - The callback function to handle the response.
 	 */
-	constructor(dataName, graphqlQuery, callback) {
+	constructor(
+		dataName: keyof typeof CatalogUpdater.prototype.dataNameMap,
+		graphqlQuery: string,
+		callback: Function
+	) {
 		this.dataName = dataName;
 		this.graphqlQuery = graphqlQuery;
 		this.callback = callback;
@@ -25,13 +33,16 @@ class CatalogUpdater {
 
 	/**
 	 * @param {string} updateType - The type of update to perform, `full` or `incremental`
-	 * @param {string} incrementalMode - The mode of incremental update, `id` or `updated_at`
-	 * @param {number} [pageOffset=0] - The page offset to start from (0-indexed)
+	 * @param {number} [idOffset=0] - The ID offset to start from
 	 */
-	async update(updateType, incrementalMode = 'id', pageOffset = 0) {
-		const variables = {
-			page: pageOffset + 1,
+	async update(updateType: string, idOffset: number = 0) {
+		const variables: { perPage: number; idIn?: number[] } = {
+			perPage: 50,
 		};
+		const idBucket = (idOffset: number, inclusive: boolean = false) => {
+			return Array.from({ length: 50 * 4 }, (_, i) => idOffset + i + (inclusive ? 0 : 1));
+		};
+
 		const proxyPrefix = process.env.PROXY_PREFIX || '';
 		const authHeaders = {};
 		try {
@@ -40,29 +51,40 @@ class CatalogUpdater {
 			console.error('Failed to parse PROXY_HEADERS:', error);
 		}
 
-		let rawData = {};
-		const updateUntil = {
-			id: null,
-			updatedAt: null,
-		};
-		if (updateType === 'incremental' || pageOffset > 0) {
+		const prevResult = Papa.parse<Record<string, string>>(
+			fs.readFileSync(`anilist-${this.dataName}.tsv`, 'utf8'),
+			{
+				header: true,
+				delimiter: '\t',
+			}
+		).data;
+		const knownIds = prevResult.map(record => Number(record.id));
+		const knownIdsSet = new Set(knownIds);
+
+		let rawData: Record<string, { id: number, [key: string]: unknown }> = {};
+		let updateUntilId: number | null = null;
+		if (updateType === 'incremental' || idOffset > 0) {
 			rawData = JSON.parse(fs.readFileSync(`./catalogs/${this.dataName}.json`, 'utf8'));
 		}
 		if (updateType === 'incremental') {
-			if (incrementalMode === 'updated_at' && this.dataNameMap[this.dataName]) {
-				variables.sort = 'UPDATED_AT_DESC';
-				updateUntil.updatedAt = Object.values(rawData).sort((a, b) => b.updatedAt - a.updatedAt)[0].updatedAt;
-				console.log(`Last updated entry at ${new Date(updateUntil.updatedAt * 1000).toISOString()}`);
-			} else {
-				variables.sort = 'ID_DESC';
-				updateUntil.id = Object.keys(rawData).sort((a, b) => b - a)[0];
-				console.log(`Last entry ID = ${updateUntil.id}`);
-			}
-		} else {
-			variables.sort = 'ID';
-		}
+			const progressIds = Object.keys(rawData).map(Number).sort((a, b) => a - b);
+			const newIds = progressIds.filter(id => !knownIdsSet.has(id));
+			newIds.forEach(id => {
+				knownIds.push(id);
+				knownIdsSet.add(id);
+			});
+			knownIds.sort((a, b) => a - b);
 
-		let lastEntry = null, retries = 0, breakLoop = false;
+			updateUntilId = progressIds[progressIds.length - 1];
+			variables.idIn = idBucket(updateUntilId);
+			console.log(`Last entry ID = ${updateUntilId}`);
+		} else {
+			variables.idIn = idBucket(idOffset > 0 ? idOffset : knownIds[0], true);
+		}
+		const maxKnownId = knownIds[knownIds.length - 1];
+
+		let lastEntry: { id: number, updatedAt: number, [key: string]: unknown } | null = null;
+		let retries = 0, breakLoop = false;
 		const retrySleep = [ 5, 10, 30, 60 ];
 		while (true) {
 			try {
@@ -79,7 +101,7 @@ class CatalogUpdater {
 
 				if (!response.ok) {
 					if (response.status === 429) {
-						const waitFor = parseInt(response.headers.get('Retry-After'), 10) || 30;
+						const waitFor = parseInt(response.headers.get('Retry-After') ?? '30', 10);
 						console.log(`Rate limited, waiting ${waitFor} seconds...`);
 						await new Promise(resolve => setTimeout(resolve, waitFor * 1000));
 					} else {
@@ -103,9 +125,7 @@ class CatalogUpdater {
 				}
 
 				for (const entry of body.data.Page[this.dataNameMap[this.dataName] || this.dataName]) {
-					if ((updateUntil.updatedAt && entry.updatedAt < updateUntil.updatedAt) ||
-						(updateUntil.id && entry.id <= updateUntil.id)
-					) {
+					if (updateUntilId && entry.id <= updateUntilId) {
 						console.log('Reached last updated entry');
 						breakLoop = true;
 						break;
@@ -115,26 +135,30 @@ class CatalogUpdater {
 				if (breakLoop) break;
 
 				const pageInfo = body.data.Page.pageInfo;
-				if (pageInfo.hasNextPage) {
+				if (pageInfo.hasNextPage && lastEntry) {
 					console.log(
 						`Last entry: ${lastEntry.id},`,
-						lastEntry.updatedAt ? `upddated at ${new Date(lastEntry.updatedAt * 1000).toISOString()},` : '',
-						`next page offset = ${pageInfo.currentPage}`
+						lastEntry.updatedAt ? `upddated at ${new Date(lastEntry.updatedAt * 1000).toISOString()},` : ''
 					);
-					variables.page = pageInfo.currentPage + 1;
+					variables.idIn = idBucket(lastEntry.id);
+					continue;
+				} else if (lastEntry && lastEntry.id <= maxKnownId) {
+					const lastEntryId = lastEntry.id;
+					variables.idIn = idBucket(knownIds.findIndex(id => id > lastEntryId), true);
 					continue;
 				} else if (updateType === 'incremental' && !breakLoop) {
-					console.error(`No more pages to fetch: ${JSON.stringify(pageInfo)}`);
+					console.error(`No more pages to fetch: ${JSON.stringify({ pageInfo, variables })}`);
 					core.warning('Unexpected end of query results');
 				} else {
 					breakLoop = true;
 				}
 			} catch (error) {
-				if (typeof error === 'object' && (error.name === 'AbortError' || error.name === 'TimeoutError')) {
+				if (error instanceof Error && (error.name === 'AbortError' || error.name === 'TimeoutError')) {
 					console.log('Request timed out');
 				} else {
 					console.error('Error:', error);
-					core.warning(`Error while fetching ${this.dataName}: ${error.message}`);
+					const message = error instanceof Error ? error.message : 'Unknown error';
+					core.warning(`Error while fetching ${this.dataName}: ${message}`);
 				}
 				if (retries++ < 3) {
 					console.log(`Retrying in ${retrySleep[retries - 1]} seconds...`);
@@ -166,11 +190,12 @@ class CatalogUpdater {
 			await this.checkCatalog(data, this.dataName);
 		} catch (error) {
 			console.error('Error:', error);
-			core.warning(`Error while processing ${this.dataName}: ${error.message}`);
+			const message = error instanceof Error ? error.message : 'Unknown error';
+			core.warning(`Error while processing ${this.dataName}: ${message}`);
 		}
 	}
 
-	async checkCatalog(newCatalogRecords, catalog) {
+	async checkCatalog(newCatalogRecords: Record<string, string>[], catalog: 'anime' | 'manga' | 'staff' | 'characters') {
 		const catalogIdMap = {
 			'anime': '4086',
 			'manga': '5745',
@@ -202,8 +227,8 @@ class CatalogUpdater {
 			format: 'json',
 			// This is the maximum limit (default is 100000), pagination is not needed
 			// in the foreseeable future, unless the maximum is changed.
-			limit: 1000000,
-		});
+			limit: '1000000',
+		}).toString();
 
 		console.log(String(url));
 		const response = await fetch(url, {
@@ -228,7 +253,7 @@ class CatalogUpdater {
 			id => !oldCatalogMap[id] || Object.keys(updatedDiff(oldCatalogMap[id], newCatalogMap[id])).length !== 0
 		);
 
-		const data = [];
+		const data: Record<string, string>[] = [];
 		for (const id of newlyDeleted) {
 			data.push({
 				id,
@@ -248,17 +273,17 @@ class CatalogUpdater {
 		}));
 	}
 
-	parseOldCatalog(records, catalog) {
-		const data = {};
+	parseOldCatalog(records: Record<string, string>[], catalog: string) {
+		const data: Record<string, Record<string, string>> = {};
 		for (const record of records) {
-			if (!record.external_id || isNaN(record.external_id)) {
+			if (!record.external_id || isNaN(parseInt(record.external_id))) {
 				console.error(`Invalid external ID: "${record.external_id}" for ${catalog} entry ${record.entry_id}`);
 				continue;
 			}
 			if (record.entry_type === 'Q21441764') {
 				continue;
 			}
-			const entry = {
+			const entry: Record<string, string> = {
 				id: record.external_id,
 				name: record.name,
 				type: record.entry_type,
