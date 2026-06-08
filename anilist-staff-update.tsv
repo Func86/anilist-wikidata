@@ -1,1244 +1,521 @@
 id	name	type	P1853	P21	born	died	P2031	url	description
-104081	Keiichi Naniwa	Q21441764							[withdrawn identifier value]
-187093	Hondai Takahiro	Q21441764							[withdrawn identifier value]
-188852	Kamome Shirahama	Q21441764							[withdrawn identifier value]
-255180	Chizunaru	Q21441764							[withdrawn identifier value]
-290668	Saint Nine	Q21441764							[withdrawn identifier value]
-315424	Eda Nishi	Q21441764							[withdrawn identifier value]
-317501	Jotaro Naito	Q21441764							[withdrawn identifier value]
-358383	Haengdu	Q21441764							[withdrawn identifier value]
-361778	Valerio Manenti	Q21441764							[withdrawn identifier value]
-366568	Anjuurou Yoshioka	Q21441764							[withdrawn identifier value]
-370067	Piero Moschioni	Q21441764							[withdrawn identifier value]
-382001	Chuishuo Kong	Q21441764							[withdrawn identifier value]
-392853	nekoge	Q21441764							[withdrawn identifier value]
-95354	Hiromi Tsuru	Q5	Q19831451	Q6581072	1960-03-29	2017-11-16	1978	https://anilist.co/staff/95354	鶴ひろみ. Voice Actor. From Yokohama, Kanagawa Prefecture, Japan.
-95499	Kozue Yoshizumi	Q5	Q19831453	Q6581072	1979-09-07			https://anilist.co/staff/95499	吉住梢. Voice Actor. From Tokyo, Japan.
-95738	Kazunari Tanaka	Q5	Q19831453	Q6581097	1967-04-08	2016-10-10		https://anilist.co/staff/95738	田中一成. Voice Actor. From Osaka, Japan.
-95852	Takayuki Yamaguchi	Q5		Q6581097				https://anilist.co/staff/95852	山口隆行. Voice Actor. From Chiba Prefecture, Japan.
-96647	Kim Mai Guest	Q5		Q6581072	1969-08-05		1991	https://anilist.co/staff/96647	Voice Actor. From Indianapolis, Indiana, United States.
 96948	PEACH‐PIT	Q5					1996	https://anilist.co/staff/96948	Mangaka.
-97013	Ryuu Yuuhi	Q5						https://anilist.co/staff/97013	悠妃りゅう. Mangaka. From Kanagawa Prefecture, Japan.
-97183	Setsuri Tsuzuki	Q5	Q19831455					https://anilist.co/staff/97183	都筑せつり. Mangaka.
-97234	Ken Homerun	Q5	Q19831455	Q6581072			2004	https://anilist.co/staff/97234	ホームラン・拳. Mangaka.
-97245	Kaname Itsuki	Q5	Q19831451	Q6581072				https://anilist.co/staff/97245	樹要. Mangaka. From Gunma Prefecture, Japan.
-97268	Shouko Takaku	Q5	Q19831451	Q6581072				https://anilist.co/staff/97268	高久尚子. Mangaka. From Niigata Prefecture, Japan.
-97555	Mitsuba Takanashi	Q5	Q19831453	Q6581072				https://anilist.co/staff/97555	みつば 高梨. Mangaka. From Shimane Prefecture, Japan.
-97668	Youko Matsushita	Q5	Q19831455		1973-06-23			https://anilist.co/staff/97668	松下容子. Mangaka.
-97672	Yukie Nasu	Q5	Q19831453		1965-01-04			https://anilist.co/staff/97672	那州雪絵. Mangaka, Animator.
-97814	So-Hee Park	Q5		Q6581072				https://anilist.co/staff/97814	박소희. Mangaka. From Gimhae, South Korea.
-97861	Keiko Yamada	Q5						https://anilist.co/staff/97861	圭子山田. Mangaka.
-97970	naked ape	Q5						https://anilist.co/staff/97970	naked ape. Mangaka.
 98185	Mutsumi Sasaki	Q5		Q6581072			2001	https://anilist.co/staff/98185	佐々木睦美. Designer, Animator.
-98220	Masami Morio	Q5	Q19831451	Q6581072				https://anilist.co/staff/98220	森生まさみ. From Ehime Prefecture, Japan.
-98288	Kouji Suzuki	Q5		Q6581097	1957-05-13	2026-05-08	1990	https://anilist.co/staff/98288	鈴木光司. Writer. From Hamamatsu, Shizuoka Prefecture, Japan.
-98337	Kae Maruya	Q5	Q19831453	Q6581072				https://anilist.co/staff/98337	円屋榎英. Mangaka. From Kyuushuu, Japan.
-98432	Akeru Nomoto	Q5						https://anilist.co/staff/98432	のもとあける. Mangaka.
-98562	Reiji Suzumaru	Q5					1999	https://anilist.co/staff/98562	鈴丸れいじ. Mangaka.
-98576	Miyuki Etoo	Q5	Q19831453	Q6581072				https://anilist.co/staff/98576	永遠幸. Mangaka. From Hiroshima, Japan.
-98648	Makoto Mori	Q5						https://anilist.co/staff/98648	杜真琴. Mangaka.
-98740	Otoh Saki	Q5	Q19831455	Q6581072	1976-12-16			https://anilist.co/staff/98740	咲木音穂. Writer.
-98941	Shizue Takanashi	Q5		Q6581072	1955-08-31		1974	https://anilist.co/staff/98941	たかなししずえ. Mangaka. From Kamagawa, Chiba, Japan.
-99219	Shin Kawamaru	Q5	Q19831451	Q6581072				https://anilist.co/staff/99219	河丸慎. Mangaka.
-99380	Oaa	Q5						https://anilist.co/staff/99380	おあー. Mangaka.
-99446	Fumika Okano	Q5					1983	https://anilist.co/staff/99446	史佳 岡野. Mangaka. From Fukuoka.
-99783	Yuki Shiraishi	Q5		Q6581072			2006	https://anilist.co/staff/99783	白石ユキ. Mangaka. From Ehime Prefecture, Japan.
-100078	Yanagi Yuki	Q5	Q19831453					https://anilist.co/staff/100078	ゆきやなぎ. Mangaka.
-100153	Rito Kousaka	Q5	Q19831453	Q6581072				https://anilist.co/staff/100153	高坂りと. Mangaka, Illustrator. From Toukaichihou, Japan.
-100161	Yuuji Takada	Q5		Q6581097				https://anilist.co/staff/100161	高田裕司. Voice Actor. From Kanagawa Prefecture, Japan.
-100701	mikimaki	Q5	Q19831453	Q6581072	1982-03-15			https://anilist.co/staff/100701	ミキマキ. Mangaka. From Saitama Prefecture, Japan.
-100714	Samata Techno	Q5		Q6581072				https://anilist.co/staff/100714	テクノサマタ. Mangaka. From Hokkaido, Japan.
-100715	Akiko Morishima	Q5						https://anilist.co/staff/100715	森島明子. Mangaka.
-100962	Funta	Q215380						https://anilist.co/staff/100962	ファンタ. Band.
-101029	Crystal na Yousuke	Q5	Q19831451	Q6581097	1980-03-31		2005	https://anilist.co/staff/101029	クリスタルな洋介. Mangaka. From Yuri (Currently Yurihonjo), Akita Prefecture, Japan.
-101059	Chiaki Ishikawa	Q5	Q19831455	Q6581072	1969-03-29		1993	https://anilist.co/staff/101059	石川智晶. Vocalist, Lyricist, Composer. From Tokyo, Japan.
-101213	Soumei Uchida	Q5		Q6581097	1954-02-18	2023		https://anilist.co/staff/101213	内田聡明. Voice Actor. From Shizuoka Prefecture, Japan.
-101497	Matt Greenfield	Q5		Q6581097	1961-01-12		1992	https://anilist.co/staff/101497	Producer. From Sacramento, California, USA.
-101522	Haru Akiyama	Q5		Q6581072	1978-01			https://anilist.co/staff/101522	秋山はる. Mangaka. From Chiba Prefecture, Japan.
-101892	Vivian Hsu	Q5	Q19831453	Q6581072	1975-03-19			https://anilist.co/staff/101892	ビビアン・スー. Voice Actor, Vocalist. From Taichung, Taiwan.
-101992	Siira Gou	Q5	Q19831453					https://anilist.co/staff/101992	しいら 剛. Writer. From Tokyo, Japan.
-102072	Kazuasa Sumita	Q5		Q6581097	1976-06-28			https://anilist.co/staff/102072	隅田かずあさ. Illustrator, Mangaka. From Maebashi, Gunma, Japan.
-102131	Yoshinori Kobayashi	Q5		Q6581097	1953-08-31		1976	https://anilist.co/staff/102131	小林よしのり. Mangaka.
-102185	Jun Aoki	Q5		Q6581097	1981			https://anilist.co/staff/102185	青木純. From Okinawa, Japan.
-102426	Aice5	Q215380					2005	https://anilist.co/staff/102426	Band.
-102523	Miki Hattori	Q5						https://anilist.co/staff/102523	服部美紀. Mangaka.
-102597	Tsukiji Nao	Q5	Q19831453	Q6581072			2007	https://anilist.co/staff/102597	尚月地. Mangaka, Illustrator.
-102954	Yuka Shioyama	Q5	Q19831453	Q6581072				https://anilist.co/staff/102954	塩山由佳. Voice Actor. From Hyogo Prefecture, Japan.
-103025	Kei Kanai	Q5	Q19831453	Q6581072				https://anilist.co/staff/103025	金井桂. Mangaka. From Tokyo, Japan.
-103291	Yuu Urata	Q5	Q19831453	Q6581097			2000	https://anilist.co/staff/103291	浦田優. Voice Actor. From Osaka Prefecture, Japan.
-103321	Natsumi Konjou	Q5		Q6581072				https://anilist.co/staff/103321	紺條夏生. Mangaka.
-103479	Yoshihiro Kanno	Q5			1953			https://anilist.co/staff/103479	菅野由弘. Composer. From Tokyo, Japan.
-103481	Yasuko Hatori	Q5			1945-04-23			https://anilist.co/staff/103481	羽鳥靖子. Voice Actor.
 103529	w-inds.	Q215380					2001	https://anilist.co/staff/103529	w-inds.. Band.
-103777	Yuka Ohno	Q5		Q6581072			1986	https://anilist.co/staff/103777	大野由佳. Voice Actor. From Tokyo, Japan.
-103976	Kata Nemes Takách	Q5		Q6581072	1980		1991	https://anilist.co/staff/103976	Voice Actor. From Budapest, Hungary.
-104096	Katsura Kojima	Q5						https://anilist.co/staff/104096	児島かつら. Mangaka.
-104097	Gustav Mahler	Q5			1860-07-07	1911-05-18		https://anilist.co/staff/104097	Composer.
 104168	RZA	Q5		Q6581097				https://anilist.co/staff/104168	
-104180	Robert Schumann	Q5		Q6581097	1810-06-08	1856-09-29		https://anilist.co/staff/104180	Robert Schumann. Composer. From Zwickau, Kingdom of Saxony.
-104274	Rie Kourogi	Q5						https://anilist.co/staff/104274	興梠利恵.
-104618	Richard Wagner	Q5		Q6581097	1813-05-22	1883-02-13		https://anilist.co/staff/104618	Composer. From Leipzig, Confederation of the Rhine.
-104987	Takayuki Sasada	Q5	Q19831453	Q6581097	1979-08-07			https://anilist.co/staff/104987	笹田貴之. Voice Actor. From Osaka, Japan.
-105048	GONTITI	Q215380						https://anilist.co/staff/105048	ゴンチチ. Band.
-105329	Arito Kijou	Q5						https://anilist.co/staff/105329	绮条有都. Mangaka.
-105561	LiSA	Q5	Q19831454	Q6581072	1987-06-24		2005	https://anilist.co/staff/105561	LiSA. Musician. From Seki, Gifu Prefecture, Japan.
-105689	Madoka Miyake	Q5						https://anilist.co/staff/105689	円 ミヤケ. Mangaka.
 105919	Hiro Touge	Q5		Q6581097				https://anilist.co/staff/105919	峠比呂. Mangaka. From Tokorozaka, Saita Prefecture, Japan.
-105948	Ayaka Izumi	Q5						https://anilist.co/staff/105948	和泉あやか. Voice Actor.
 105956	Sowelu							https://anilist.co/staff/105956	
-106204	Midori no Ruupe	Q5		Q6581097				https://anilist.co/staff/106204	緑のルーペ. Mangaka, Illustrator. From Fukuoka.
-106304	Kazusa Aranami	Q5	Q19831453	Q6581072	1988-04-18			https://anilist.co/staff/106304	荒浪和沙. Voice Actor. From Chiba, Japan.
-106779	Georg Friedrich Handel	Q5		Q6581097	1685-03-05	1759-04-14		https://anilist.co/staff/106779	Georg Friedrich Händel. Composer. From Halle, Brandenburg–Prussia, Holy Roman Empire.
-106793	NOKKO	Q5						https://anilist.co/staff/106793	Voice Actor, Vocalist.
-107022	Sawaki Otonaka	Q5		Q6581072				https://anilist.co/staff/107022	音中さわき. Mangaka, Illustrator.
-107236	GARNET CROW	Q215380					1999	https://anilist.co/staff/107236	GARNET CROW. Band.
-107363	Komada Hajime	Q5	Q19831455	Q6581097	1964-03-06		1990	https://anilist.co/staff/107363	駒田一. Voice Actor. From Nagoya City, Aichi Prefecture, Japan.
-107379	TM NETWORK	Q215380						https://anilist.co/staff/107379	TM NETWORK. Band.
-108625	Conan Doyle	Q5		Q6581097	1859-05-22	1930-07-07		https://anilist.co/staff/108625	Writer.
-109639	Reika Kisumi	Q5	Q19831451	Q6581072	1990-10-14		2012	https://anilist.co/staff/109639	木須実怜花. Vocalist. From Hokkaido Prefecture, Japan.
-109801	Neko Kanda	Q5	Q19831451	Q6581072				https://anilist.co/staff/109801	神田猫. Mangaka. From Saitama Prefecture, Japan.
-110443	Shungiku Uchida	Q5		Q6581072	1959-08-07			https://anilist.co/staff/110443	内田春菊. Mangaka.
-111677	Akira Shikibu	Q5						https://anilist.co/staff/111677	式部玲. Mangaka.
-111785	Unicorn	Q215380			1986			https://anilist.co/staff/111785	ユニコーン. Band. From Hiroshima Prefecture, Japan.
-112077	Homura Yuuki	Q5						https://anilist.co/staff/112077	焔 結城. Mangaka.
-112649	Ushio Shima	Q5						https://anilist.co/staff/112649	志夫 島宇. Voice Actor. From Nara, Japan.
-112973	Ofuu Yamadori	Q5						https://anilist.co/staff/112973	山鳥おふう. Mangaka.
-114367	Ryu Kaname	Q5						https://anilist.co/staff/114367	要龍. Mangaka.
-115272	Kyouko Aiba	Q5	Q19831455	Q6581072	1989-11-04			https://anilist.co/staff/115272	相葉キョウコ. Mangaka. From Kyoto, Japan.
-115274	Tomomi Mizuma	Q5		Q6581072	1990-06-26			https://anilist.co/staff/115274	水間友美. Voice Actor. From Ibaraki Prefecture, Japan.
-115284	Shou Nekomata	Q5						https://anilist.co/staff/115284	しょう 猫又. Mangaka.
-115552	YOSHIKI	Q5	Q19831454	Q6581097	1965-11-20		2012	https://anilist.co/staff/115552	ヨシキ. Musician, Lyricist, Composer. From Tateyama, Chiba, Japan.
-115647	Benedetta Degli Innocenti	Q5		Q6581072	1989-01-14			https://anilist.co/staff/115647	Voice Actor. From Prato, Italy.
-116481	Erik Scott Kimerer	Q5		Q6581097	1988-07-19		2010	https://anilist.co/staff/116481	Voice Actor. From Edmonds, Washington, United States.
-116685	Noriko Nakagoshi	Q5	Q19831451	Q6581072				https://anilist.co/staff/116685	典子 中越. Voice Actor. From Saga, Japan.
-116945	Rinko Akuta	Q5						https://anilist.co/staff/116945	琳子 あくた. Mangaka.
-116957	John Marshall	Q5						https://anilist.co/staff/116957	Musician.
-117021	Shinji Tsuchida	Q5						https://anilist.co/staff/117021	土田伸二. Musician.
-117649	Mimi Akio	Q5						https://anilist.co/staff/117649	暁生ミミ. Mangaka.
-117881	Yeon-A Park	Q5						https://anilist.co/staff/117881	박연아. Writer.
-117883	Hui Eun	Q5						https://anilist.co/staff/117883	은희. Mangaka.
 118633	Okushou	Q5						https://anilist.co/staff/118633	オクショウ. Writer.
 118724	CHRIS	Q5						https://anilist.co/staff/118724	
-118740	Shaata	Q5						https://anilist.co/staff/118740	しゃあた. Mangaka.
-119578	Yui Harada	Q5						https://anilist.co/staff/119578	原田唯衣. Mangaka.
-119644	Yoon-Chang Lee	Q5		Q6581097				https://anilist.co/staff/119644	이윤창. Mangaka.
-119811	Ayumi Takeo	Q5		Q6581072			2011	https://anilist.co/staff/119811	竹尾歩美. Voice Actor. From Mie Prefecture, Japan.
-120202	Hirohisa Sato	Q5						https://anilist.co/staff/120202	佐藤洋寿. Mangaka, Producer.
-120845	Haruta	Q5						https://anilist.co/staff/120845	春田. Mangaka, Illustrator.
-122335	Natsumi Inoue	Q5		Q6581072	1990-03-25			https://anilist.co/staff/122335	井上菜摘. Mangaka. From Kanagawa Prefecture, Japan.
-123111	Inumiso	Q5		Q6581072	1993-11-25			https://anilist.co/staff/123111	イヌミソ. Mangaka. From Tottori, Japan.
-123411	Yasukiyo Kotobuki	Q5						https://anilist.co/staff/123411	寿安清. Writer.
-124217	Saki Kayano	Q5						https://anilist.co/staff/124217	佐木かやの. Mangaka.
-124376	Torino Rakuda	Q5	Q19831453	Q6581072				https://anilist.co/staff/124376	楽田トリノ. Mangaka.
-124491	Tomo Hanama	Q5						https://anilist.co/staff/124491	花間燈. Writer. From Aomori prefecture, Japan.
-124494	Itaru Isshiki	Q5						https://anilist.co/staff/124494	一色いたる. Mangaka.
-124496	Hishino	Q5						https://anilist.co/staff/124496	ヒシノ. Mangaka.
-124588	Hae-Jin	Q5						https://anilist.co/staff/124588	해진. Mangaka.
-125721	neco	Q5						https://anilist.co/staff/125721	Mangaka, Illustrator. From Shizuoka Prefecture, Japan.
-126660	Momoyo Koyama	Q5		Q6581072	1995-11-30			https://anilist.co/staff/126660	小山百代. Voice Actor. From Hokkaido Prefecture, Japan.
-127310	Borocom	Q5						https://anilist.co/staff/127310	보로콤. Artist.
-127612	Hashiru Ushi	Q5						https://anilist.co/staff/127612	ウシハシル. Mangaka.
-127616	Ine Arinaga	Q5						https://anilist.co/staff/127616	有永イネ. Mangaka.
-127741	Madeleine Morris	Q5		Q6581072	1992-03-29			https://anilist.co/staff/127741	Voice Actor. From Texas, USA.
-128913	Masumi Suzuki	Q5						https://anilist.co/staff/128913	鈴木真澄. Mangaka.
-128950	Motoki Kaneko	Q5						https://anilist.co/staff/128950	かねこもとき. Mangaka.
-128961	Rihito Mitsuki	Q5						https://anilist.co/staff/128961	三月リヒト. Illustrator.
-129076	Ryouta Kawahara	Q5		Q6581097				https://anilist.co/staff/129076	河原龍太. Director. From Kitakyuu, Fukuoka Prefecture, Japan.
-129205	Kana Motomiya	Q5		Q6581072				https://anilist.co/staff/129205	本宮佳奈. Voice Actor.
-129460	Satsuki Tsukasa	Q5		Q6581072				https://anilist.co/staff/129460	彩月つかさ. Mangaka, Illustrator.
-129663	Jon Allen	Q5						https://anilist.co/staff/129663	Voice Actor.
-129699	Sayo Shirosaki	Q5						https://anilist.co/staff/129699	白崎小夜. Illustrator.
-129902	Koume Fujichika	Q5		Q6581072				https://anilist.co/staff/129902	藤近小梅. Mangaka.
-130302	Nekoge	Q5						https://anilist.co/staff/130302	猫月. Mangaka.
-130303	Song-Ha	Q5						https://anilist.co/staff/130303	송하. Mangaka, Writer.
-130704	Mochiko Mochida	Q5						https://anilist.co/staff/130704	もちだもちこ. Writer.
-130835	Hachi Mitsuno	Q5						https://anilist.co/staff/130835	みつのはち. Mangaka.
-131172	Miyuki Matsushita	Q5		Q6581072	1969-12-24			https://anilist.co/staff/131172	松下美由紀. Voice Actor. From Saitama, Japan.
-132652	Ayumi Yamada	Q5		Q6581072			2007	https://anilist.co/staff/132652	山田歩. Animator, Designer. From Nagoya, Aichi Prefecture, Japan.
-132942	Naoto Takanashi	Q5						https://anilist.co/staff/132942	嵩梨ナオト. Mangaka.
-133951	2hakkk	Q5						https://anilist.co/staff/133951	이학. Mangaka.
-134100	Naji Yanagita	Q5		Q6581097				https://anilist.co/staff/134100	NAJI柳田. Illustrator.
-135433	Mikari Asou	Q5						https://anilist.co/staff/135433	麻生ミカリ. Writer.
-135502	Kokoro Takemoto	Q5		Q6581097			2011	https://anilist.co/staff/135502	武本心. Animator.
-135819	Rachel Faircloth	Q5		Q6581072	1992-07-15			https://anilist.co/staff/135819	Voice Actor. From Dallas, TX.
-135996	Kai Ikarashi	Q5		Q6581097	1991-01-17		2013	https://anilist.co/staff/135996	五十嵐海. Animator, Director, Storyboard Artist.
-137137	Tatsuhiko Yamagami	Q5		Q6581097	1947-12-13			https://anilist.co/staff/137137	山上たつひこ. Mangaka. From Tokushima Prefecture, Japan.
-137693	Akari Yoruda	Q5						https://anilist.co/staff/137693	夜田あかり. Mangaka.
-137900	Shinobu Takahashi	Q5						https://anilist.co/staff/137900	高橋忍. Background Artist.
-138094	Takahiro Hasui	Q5		Q6581097	1990		2012	https://anilist.co/staff/138094	蓮井隆弘. Director, Storyboard Artist. From Ibaraki Prefecture, Japan.
-138961	Hyeon-A Cho	Q5						https://anilist.co/staff/138961	조현아. Mangaka.
-138969	Nanase	Q5						https://anilist.co/staff/138969	七濑. Mangaka.
-139033	HongJa	Q5						https://anilist.co/staff/139033	홍자. Mangaka.
-140309	Nana Ootori	Q5						https://anilist.co/staff/140309	鳳ナナ. Writer.
-141159	Arata Ichi	Q5						https://anilist.co/staff/141159	壱あらた. Mangaka.
 141184	Chihiro Hayashi	Q5		Q6581072				https://anilist.co/staff/141184	林千博. Animator.
-141255	Ei Ohitsuji	Q5		Q6581072				https://anilist.co/staff/141255	尾羊英. Mangaka, Illustrator.
-142289	Tsunaki Yoshikawa	Q5						https://anilist.co/staff/142289	吉川綱樹. Producer.
-142477	Jennifer Losi	Q5						https://anilist.co/staff/142477	Voice Actor.
-142478	Phillip Reich	Q5						https://anilist.co/staff/142478	Voice Actor.
-142795	Hae Yun	Q5						https://anilist.co/staff/142795	해연. Mangaka.
-143080	Hal Akane	Q5						https://anilist.co/staff/143080	赤根晴. Mangaka.
-143485	Machi Suzuri	Q5						https://anilist.co/staff/143485	すずり街. Mangaka.
-143498	Taro Fukuoka	Q5						https://anilist.co/staff/143498	福岡太朗. Mangaka.
-143831	Rebecca Honig	Q5						https://anilist.co/staff/143831	Voice Actor.
-144251	Robert Woodhead	Q5		Q6581097				https://anilist.co/staff/144251	Producer.
-144778	Matsue Fukuyama	Q5						https://anilist.co/staff/144778	福山松江. Writer.
-144892	Hiroyuki Kouzu	Q5						https://anilist.co/staff/144892	神津裕之.
-144935	Orina Ikenaka	Q5						https://anilist.co/staff/144935	池中織奈. Writer.
-145483	Hyo Mi	Q5						https://anilist.co/staff/145483	효미. Mangaka.
-145600	Hako Suzuki	Q5						https://anilist.co/staff/145600	鈴木はこ. Mangaka.
-145741	Maruo Kyouzuka	Q5						https://anilist.co/staff/145741	経塚丸雄. Scriptwriter, Writer.
 146274	DIALOGUE+						2019	https://anilist.co/staff/146274	
-146286	Kuru Hinata	Q5						https://anilist.co/staff/146286	くるひなた. Writer.
-146573	Haruka Gotou	Q5		Q6581072	1986-11-09			https://anilist.co/staff/146573	後藤晴香. Composite Artist. From Yokohama, Kanagawa Prefecture, Japan.
-148093	Ryousuke Morita	Q5						https://anilist.co/staff/148093	森田了介. Animator.
-148195	Takafumi Shiokawa	Q5		Q6581097				https://anilist.co/staff/148195	塩川貴史. Animator.
-148687	Samantha Herek	Q5		Q6581072				https://anilist.co/staff/148687	Voice Actor, Producer.
-149491	Hirona Takahashi	Q5						https://anilist.co/staff/149491	高橋拡那. Mangaka, Illustrator, Writer.
-149639	Kouichi Banshou	Q5						https://anilist.co/staff/149639	番匠公一. Producer.
-149898	Fumi Iwasaki	Q5						https://anilist.co/staff/149898	いわさきふみ. Mangaka.
-149977	Shiki Kazutoki	Q5						https://anilist.co/staff/149977	和時シキ. Mangaka.
-149986	ABOUT17							https://anilist.co/staff/149986	ABOUT17.
-150336	Morning Musume.	Q215380					1997	https://anilist.co/staff/150336	モーニング娘。. Band.
-150861	Ryo Yokochi	Q5		Q6581097	1982-11-07			https://anilist.co/staff/150861	横地亮. Musician.
-151115	Kanae Suwa	Q5						https://anilist.co/staff/151115	諏訪可奈恵. Animator.
-151123	Anco	Q5						https://anilist.co/staff/151123	안코. Writer.
-151390	George Gershwin	Q5		Q6581097	1898-09-26	1937-07-11	1916	https://anilist.co/staff/151390	Composer. From New York City, New York, United States.
-151944	eba	Q5		Q6581097	1987-06-20		2010	https://anilist.co/staff/151944	eba. Musician, Composer.
-152672	Jiro Alba	Q5		Q6581072				https://anilist.co/staff/152672	じろあるば. Illustrator, Mangaka.
-152772	Shou Oomachi	Q5						https://anilist.co/staff/152772	大町生. Animator.
-153373	Franz Schubert	Q5		Q6581097	1797-01-31	1828-11-19		https://anilist.co/staff/153373	Composer. From Vienna, Archduchy of Austria.
-153377	Edward Elgar	Q5		Q6581097	1857-06-02	1934-02-23		https://anilist.co/staff/153377	Composer.
-153517	Seyun	Q5			1997-12-18			https://anilist.co/staff/153517	세윤. Mangaka, Writer.
-153700	Mamu Sakano	Q5						https://anilist.co/staff/153700	坂野真夢. Writer.
-153891	Daisuki Neruno	Q5						https://anilist.co/staff/153891	ネルノダイスキ. Mangaka.
-153939	Naohiro Ogata	Q5		Q6581097				https://anilist.co/staff/153939	小形尚弘. Producer.
-154114	Moyo Yokoyama	Q5						https://anilist.co/staff/154114	横山もよ. Mangaka, Illustrator.
-154513	Hiroaki Serizawa	Q5			1948-01-03			https://anilist.co/staff/154513	芹澤廣明. Composer. From Kohoku, Yokohama City, Kanagawa Prefecture, Japan.
-154896	Yukari Sakai	Q5						https://anilist.co/staff/154896	酒井ゆかり. Mangaka.
-155173	Saho Fujisawa	Q5						https://anilist.co/staff/155173	ふじさわさほ. Writer.
-155177	Ria Kanon	Q5						https://anilist.co/staff/155177	花音莉亜. Writer.
-155189	Chiruko Furuya	Q5						https://anilist.co/staff/155189	ふるやちるこ. Mangaka.
-155252	Yumi Enosawa	Q5		Q6581072				https://anilist.co/staff/155252	江野沢柚美. Animator.
-155457	Omi Kohara	Q5		Q6581072	1988-09-10			https://anilist.co/staff/155457	胡原おみ. Mangaka. From Jumonji (Currently Yokote), Akita Prefecture, Japan.
-155489	Gaetano Varcasia	Q5		Q6581097	1959-09-06	2014-11-10		https://anilist.co/staff/155489	Voice Actor. From Rome, Italy.
-156185	Makoto Nishibe	Q5						https://anilist.co/staff/156185	西辺誠. Producer.
-157205	Aya Izumi	Q5		Q6581072				https://anilist.co/staff/157205	和泉あや. Writer. From Kanagawa Prefecture, Japan.
-157545	Ryou Umemoto	Q5						https://anilist.co/staff/157545	梅本亮.
-157791	Chinatsu Ueno	Q5						https://anilist.co/staff/157791	上野千夏. Animator.
-157910	Kouta Sugiyama	Q5						https://anilist.co/staff/157910	杉山孝太. Producer.
-159016	Li-Na Lim	Q5						https://anilist.co/staff/159016	임리나. Mangaka, Artist.
-159233	Masaru Kitamura	Q5						https://anilist.co/staff/159233	北村将. Director, Storyboard Artist.
-159436	Kometsubu	Q5						https://anilist.co/staff/159436	こめつぶ. Mangaka.
-159666	Sakihana Nabeya	Q5		Q6581072				https://anilist.co/staff/159666	鍋谷咲花. Mangaka, Artist.
-160006	Shou Tanaka	Q5						https://anilist.co/staff/160006	田中奨. Production Manager.
-160147	Mikumi Yuuchi	Q5						https://anilist.co/staff/160147	ゆうち巳くみ. Mangaka.
-160690	OKACHEKE	Q5						https://anilist.co/staff/160690	おかちぇけ. Designer.
-161835	sanorin	Q5						https://anilist.co/staff/161835	サノリン. Mangaka.
-162029	Yurie Funato	Q5		Q6581072	1994-09-18			https://anilist.co/staff/162029	船戸ゆり絵. Voice Actor. From Saitama Prefecture, Japan.
-163176	CHAGE and ASKA	Q215380		Q6581097			1978	https://anilist.co/staff/163176	チャゲ・アンド・アスカ. Band, Composer. From Fukuoka.
-163796	Taesan	Q5						https://anilist.co/staff/163796	태산. Artist.
-163859	Isuzu Uemura	Q5		Q6581072				https://anilist.co/staff/163859	上村五十鈴. Mangaka.
-164279	Touru Asaki	Q5						https://anilist.co/staff/164279	明咲トウル. Illustrator.
-164683	Mugi Sawai	Q5						https://anilist.co/staff/164683	佐和井ムギ. Mangaka.
-164704	Yoshimi Suzuki	Q5						https://anilist.co/staff/164704	鈴木淑仁. Producer.
-164862	Kotomi Ootsuka	Q5	Q19831454	Q6581072	1989-12-16			https://anilist.co/staff/164862	大塚琴美. Voice Actor. From Ibaraki Prefecture, Japan.
-165239	Katsufumi Yachi	Q5	Q19831451		1986-10-07			https://anilist.co/staff/165239	谷地克文. From Iwate Prefecture, Japan.
-165637	Wakaba Kawai	Q5		Q6581097	1960-08-06			https://anilist.co/staff/165637	河合わかば. Musician.
-167085	Via	Q5						https://anilist.co/staff/167085	비아. Artist, Mangaka.
-167673	Sylvie Jacob	Q5		Q6581072	1978-08-25		1984	https://anilist.co/staff/167673	Voice Actor.
-168434	Sorajirou	Q5						https://anilist.co/staff/168434	空次郎. Mangaka.
-168840	Kusunoki Hitoshi	Q5						https://anilist.co/staff/168840	仁楠. Mangaka.
-169324	Nao Wakasa	Q5						https://anilist.co/staff/169324	若桜なお. Writer.
-169380	Jun Senou	Q5						https://anilist.co/staff/169380	瀬能じゅん. Mangaka.
-169958	Kazumi Nakatsu	Q5		Q6581072				https://anilist.co/staff/169958	中津和美. Animator.
-170339	Angram	Q5						https://anilist.co/staff/170339	안그람. Mangaka.
-170403	Zhijun Tang	Q5						https://anilist.co/staff/170403	
-171887	Sachiko Kouno	Q5		Q6581072				https://anilist.co/staff/171887	河野さち子. Animator.
 171904	DUSTCELL							https://anilist.co/staff/171904	
-172098	Heuksalgu	Q5		Q6581072				https://anilist.co/staff/172098	흑살구. Mangaka.
-172647	Yuusuke Tannawa	Q5		Q6581097	1982		2008	https://anilist.co/staff/172647	淡輪雄介. CG Artist, Producer, Composite Artist. From Hyogo Prefecture, Japan.
-172949	Daisuke Nishioka	Q5		Q6581097			1994	https://anilist.co/staff/172949	西岡大輔. Production Manager.
-174427	Haruhiko Higami	Q5		Q6581097				https://anilist.co/staff/174427	樋上晴彦. Composite Artist. From Saitama Prefecture, Japan.
-175603	Kaori Shibahara	Q5						https://anilist.co/staff/175603	芝原歌織. Writer.
-175798	Nodoka Yoda	Q5						https://anilist.co/staff/175798	依田温が. Artist.
-175803	ANnA Kurofude	Q5						https://anilist.co/staff/175803	黒筆ANｎA. Mangaka.
-177183	Gaku Senda	Q5						https://anilist.co/staff/177183	千田岳. Composite Artist.
 180760	naka							https://anilist.co/staff/180760	
-181334	Mao Kirisaka	Q5						https://anilist.co/staff/181334	桐坂真生. Mangaka.
-181787	Hirokazu Asakura	Q5						https://anilist.co/staff/181787	朝倉弘一. Musician.
-182140	PANGIN	Q5						https://anilist.co/staff/182140	팡인. Writer, Mangaka.
-182537	Yuichiro Saeki	Q5		Q6581097				https://anilist.co/staff/182537	佐伯雄一郎. Animator. From Ottawa, Canada.
-183981	Keiya Mikawa	Q5						https://anilist.co/staff/183981	三川ケイヤ. Mangaka.
-184795	Arashi Hino	Q5						https://anilist.co/staff/184795	日野アラシ. Mangaka.
-184809	Benedetta Laurà	Q5		Q6581072				https://anilist.co/staff/184809	Voice Actor.
-185071	Yoni Yoni	Q5						https://anilist.co/staff/185071	요니요니. Mangaka.
-185644	Ichigou Sugawara	Q5		Q6581097	1960		1981	https://anilist.co/staff/185644	菅原一剛. Composite Artist. From Sapporo, Hokkaido Prefecture, Japan.
-185856	Akiko Matsuda	Q5						https://anilist.co/staff/185856	松田章子. Voice Actor.
-187326	Saendo	Q5						https://anilist.co/staff/187326	샌도. Mangaka, Writer, Artist.
-187449	Reizen Shisui	Q5						https://anilist.co/staff/187449	紫彗冷泉. Mangaka.
-187484	2L	Q5						https://anilist.co/staff/187484	2L. Mangaka.
-187565	Su-Hyeon Lee	Q5						https://anilist.co/staff/187565	이수현. Mangaka.
-188087	Mitsuru Sugiura	Q5						https://anilist.co/staff/188087	杉浦充. Composite Artist, Painter.
-188162	Yukiharu Marutomi	Q5						https://anilist.co/staff/188162	丸宝行晴. Production Manager.
-188227	Shun Narita	Q5						https://anilist.co/staff/188227	成田旬. Composer.
-188919	Piyohiko Karasuma	Q5						https://anilist.co/staff/188919	烏丸ピヨひこ. Mangaka.
-190491	Hiroshi Otoki	Q5						https://anilist.co/staff/190491	音木ひろし. Mangaka.
-190800	Somsak Mahamongkol	Q5						https://anilist.co/staff/190800	สมศักดิ์ มหามงคล. Animator.
-190812	Masahiro Tateno	Q5			1989-07-11			https://anilist.co/staff/190812	舘野昌洋. Musician, Composer.
-191795	Ryou Konishi	Q5						https://anilist.co/staff/191795	小西亮. Animator.
-191969	Yoshino Somei	Q5						https://anilist.co/staff/191969	染井由乃. Writer.
-192303	Aki Takatsu	Q5						https://anilist.co/staff/192303	高津あき. Mangaka.
-193188	Ryou Haseki	Q5						https://anilist.co/staff/193188	馳樹良. Animator.
-193208	Ben Balmaceda	Q5		Q6581097	1993-01-14			https://anilist.co/staff/193208	Voice Actor.
-193918	ZIG	Q5						https://anilist.co/staff/193918	Writer.
-194131	Yuki Kazami	Q5						https://anilist.co/staff/194131	かざみ幸. Mangaka.
-195018	Hiroshi Wagatsuma	Q5		Q6581097	1941	2017-06-01	1962	https://anilist.co/staff/195018	我妻宏. Animator, Designer.
-195252	ken	Q5		Q6581097	1968-11-28		1992	https://anilist.co/staff/195252	ケン. Musician. From Maibara, Shiga, Japan.
-195293	Kentarou Morishita	Q5						https://anilist.co/staff/195293	森下健太郎. Producer.
-195430	Yuuji Miyata	Q5		Q6581097				https://anilist.co/staff/195430	宮田悠司. Composite Artist, Editor, Producer.
-195644	Masaaki Hiraga	Q5		Q6581097	1956		1980	https://anilist.co/staff/195644	平賀正明. Composite Artist. From Takasaki, Gunma Prefecture, Japan.
-196354	Omame Tsukino	Q5						https://anilist.co/staff/196354	つきのおまめ. Mangaka, Illustrator.
-196431	Hui-Da No	Q5						https://anilist.co/staff/196431	노희다. Writer.
-196441	Kenta Yamada	Q5		Q6581097			2015	https://anilist.co/staff/196441	山田健太. Producer, Production Manager.
-196523	m/g	Q5						https://anilist.co/staff/196523	m/g. Illustrator.
-197102	Taku Kanehisa	Q5						https://anilist.co/staff/197102	兼久卓. Composite Artist.
-197441	Satoshi Iyoki	Q5						https://anilist.co/staff/197441	伊與木聡. Animator.
-198441	Geum-Yeong Na	Q5						https://anilist.co/staff/198441	나금영. Background Artist.
-198448	Takahiro Hondai	Q5						https://anilist.co/staff/198448	本䑓貴宏.
 198813	Mai Shen	Q5						https://anilist.co/staff/198813	
-198962	Bong-Su	Q5		Q6581097				https://anilist.co/staff/198962	봉수. Mangaka.
-199681	Nobuhei Hirano	Q5		Q6581097				https://anilist.co/staff/199681	平野延平. Audio Engineer.
-199835	You Zhi Jiao Zi	Q5		Q6581072				https://anilist.co/staff/199835	有只饺子. Illustrator.
-200368	Keisuke Satou	Q5		Q6581097	1995-10-05		2018	https://anilist.co/staff/200368	佐藤慧介. Producer, Production Manager, Scriptwriter.
 200788	Haru Endou	Q5						https://anilist.co/staff/200788	遠藤晴. Animator.
-201012	Mayumi Miki	Q5			1988-08-09			https://anilist.co/staff/201012	三木真由美. Producer.
-201740	Kagekinoko	Q5						https://anilist.co/staff/201740	影茸. Writer.
-202525	SEIKIMA-II	Q215380					1982	https://anilist.co/staff/202525	聖飢魔II. Band.
-202585	Teunteun	Q5						https://anilist.co/staff/202585	튼튼. Mangaka.
-203004	Seobi	Q5						https://anilist.co/staff/203004	섭이. Mangaka.
-203386	Chlor Hazuki	Q5						https://anilist.co/staff/203386	葉月クロル. Writer.
-204600	Mukky	Q5						https://anilist.co/staff/204600	沐七mukky. Mangaka.
-204653	Bingo	Q5						https://anilist.co/staff/204653	빙고. Mangaka.
-204688	Yuu Takahata	Q5						https://anilist.co/staff/204688	髙畑悠. Mangaka.
-206058	Miki Hirasawa	Q5						https://anilist.co/staff/206058	平澤美希.
-206954	Keiko	Q5						https://anilist.co/staff/206954	慧子. Illustrator.
-207606	Aki Yagami	Q5						https://anilist.co/staff/207606	八神あき. Mangaka.
-207741	Amalillia	Q5						https://anilist.co/staff/207741	아마릴리아. Writer.
-207873	Winslow	Q5						https://anilist.co/staff/207873	Mangaka.
-208214	Yuukoo							https://anilist.co/staff/208214	ゆーこー.
-208925	Kotaro Yamada	Q5						https://anilist.co/staff/208925	山田小太郎. Mangaka.
-209656	Ichizou Seo	Q5		Q6581097	1947-09-30			https://anilist.co/staff/209656	瀬尾一三. Musician.
-210756	Matseoltang	Q5						https://anilist.co/staff/210756	맛설탕. Mangaka.
-211432	Natsume Yamazaki	Q5						https://anilist.co/staff/211432	山崎夏軌. Mangaka.
-211799	Masato Gotou	Q5					2001	https://anilist.co/staff/211799	後藤真人. CG Artist, Composite Artist.
-212475	JP Karliak	Q5						https://anilist.co/staff/212475	Voice Actor.
-212869	Toshiyuki Okabayashi	Q5		Q6581097				https://anilist.co/staff/212869	岡林俊之. Animator.
-213861	Makio Endo	Q5						https://anilist.co/staff/213861	遠藤巻緒. Mangaka.
-215941	Sogumi	Q5						https://anilist.co/staff/215941	소구미. Mangaka.
-216539	Keita Yoshinobu	Q5		Q6581097	1990		2016	https://anilist.co/staff/216539	吉信慶太. Producer, Production Manager.
-217309	Misao Toki	Q5						https://anilist.co/staff/217309	節トキ. Writer.
-217376	Anine Kruse	Q5		Q6581072	1977-11-01		1992	https://anilist.co/staff/217376	Voice Actor. From Lørenskog, Norway.
-217746	Ayumu Tsujimura	Q5		Q6581097			2013	https://anilist.co/staff/217746	辻村歩. Animator, Designer.
-217861	Kaho Sai	Q5		Q6581072				https://anilist.co/staff/217861	蔡香穂. Producer.
-218083	Claire Launay	Q5		Q6581072	1994-05-27		2019	https://anilist.co/staff/218083	Animator.
-218924	Benedikte Kruse	Q5		Q6581072	1979-12-20			https://anilist.co/staff/218924	Voice Actor.
-219252	Jannike Kruse Jåtog	Q5		Q6581072	1975-06-16			https://anilist.co/staff/219252	Voice Actor. From Oslo, Norway.
-219757	Mako Fujioka	Q5		Q6581072				https://anilist.co/staff/219757	藤岡真子. Painter.
-219771	Yachiho Shiba	Q5						https://anilist.co/staff/219771	柴八千穂.
-219847	Masahiro Takashima	Q5		Q6581097	1965-10-29			https://anilist.co/staff/219847	高嶋政宏. From Tokyo, Japan.
-220566	Mona Grenne	Q5			1976-10-09			https://anilist.co/staff/220566	Voice Actor.
-220568	Anette Lauenborg Waaler	Q5		Q6581072	1985-06-14			https://anilist.co/staff/220568	Voice Actor. From Oslo, Norway.
-220573	Tiril Heide-Steen	Q5		Q6581072	1989-07-16			https://anilist.co/staff/220573	Voice Actor.
-220868	Akinori Nakakohara	Q5		Q6581097				https://anilist.co/staff/220868	中小原明典. Composite Artist.
-220964	Berry	Q5						https://anilist.co/staff/220964	베리. Artist, Mangaka.
-221490	Tsutomu Adachi	Q5			1947-08-01	2008-06-18		https://anilist.co/staff/221490	あだち勉. Mangaka.
 221646	Shizuya Shibata	Q5						https://anilist.co/staff/221646	柴田靜也. Producer.
-223398	Kazuko Ina	Q5						https://anilist.co/staff/223398	伊奈佳住子. Painter.
-226881	Jyogesayuu	Q5						https://anilist.co/staff/226881	上下左右. Writer.
-226882	Shii Umeno	Q5						https://anilist.co/staff/226882	梅之シイ. Mangaka, Illustrator.
 227067	Kiyoko Naish	Q5		Q6581072				https://anilist.co/staff/227067	
-228770	U-Hui	Q5						https://anilist.co/staff/228770	우희. Mangaka.
-230143	Bu-Gyeong Kim	Q5						https://anilist.co/staff/230143	김부경. Animator.
 233407	Manuela Leon	Q5						https://anilist.co/staff/233407	
-233575	Kasumi Ubukata	Q5						https://anilist.co/staff/233575	生方かすみ. Composite Artist.
-234418	Yuuka Yamato	Q5						https://anilist.co/staff/234418	山登有花. Director.
 234665	Zhongguo Guojia Jiaoxiang Yuetuan	Q215380					1956	https://anilist.co/staff/234665	中国国家交响乐. Band.
-236213	TVCHANY	Q5						https://anilist.co/staff/236213	TVCHANY. Animator.
-236292	Tomoko Eritate	Q5						https://anilist.co/staff/236292	襟立智子.
-236617	Akihisa Ogawa	Q5						https://anilist.co/staff/236617	小川照永.
 237009	Vocal Shop	Q215380					1960	https://anilist.co/staff/237009	ボーカル・ショップ. Band.
-237157	Shiroiro Mashiro	Q5						https://anilist.co/staff/237157	真白しろいろ. Mangaka.
-237906	José Parisi Jr	Q5		Q6581097	1953-08-21	2018-08-27	1961	https://anilist.co/staff/237906	Voice Actor. From São Paulo, Brazil.
-238122	Sang-Myeong Im	Q5						https://anilist.co/staff/238122	임상명. CG Artist.
-238233	Da-Seul Lee	Q5						https://anilist.co/staff/238233	이다슬. Painter.
-238237	Ju-Hui Lee	Q5						https://anilist.co/staff/238237	이주희. Painter.
-238243	Jae-Hyeon Lee	Q5						https://anilist.co/staff/238243	이재현. Painter.
-238245	554	Q5						https://anilist.co/staff/238245	Painter.
-238381	Norio Kozuka	Q5						https://anilist.co/staff/238381	小塚憲夫. Production Manager.
-239341	Hiromi Mezaki	Q5						https://anilist.co/staff/239341	目崎裕美. Producer.
-240257	Camilla Villani	Q5		Q6581072	2008-06-08			https://anilist.co/staff/240257	Voice Actor. From Milan.
 240536	Shigeki Ishikawa	Q5						https://anilist.co/staff/240536	石川茂樹. Producer.
-240686	Chae-Yeong Seo	Q5						https://anilist.co/staff/240686	서채영. Animator.
-241929	Jeonghyeong	Q5						https://anilist.co/staff/241929	정형. Mangaka.
-242167	Jiaozi Yu Jiu	Q5						https://anilist.co/staff/242167	饺子与酒. Painter.
-242822	Tooru Koko	Q5						https://anilist.co/staff/242822	こことおる. Mangaka.
-244113	Jiafei Ni	Q5		Q6581097				https://anilist.co/staff/244113	倪佳菲. Director, Storyboard Artist.
-245301	Rin Kusumi	Q5		Q6581072	1999-06-17			https://anilist.co/staff/245301	久住琳. Voice Actor. From Gunma Prefecture, Japan.
-246697	Regallily	Q215380					2014	https://anilist.co/staff/246697	リーガルリリー. Band.
-248160	Justin Rojas	Q5		Q6581097	1984-06-23			https://anilist.co/staff/248160	Justin Gales Rojas. Producer. From Dallas, Texas, USA.
-248620	Yun-Hui Choi	Q5						https://anilist.co/staff/248620	최윤희. Animator.
-249493	Hae-Rin	Q5						https://anilist.co/staff/249493	해린. Writer, Mangaka.
-250865	Bao Pham	Q5						https://anilist.co/staff/250865	Background Artist.
-250868	Tu Dang	Q5						https://anilist.co/staff/250868	Background Artist.
-251200	Yuusaku Kitano	Q5						https://anilist.co/staff/251200	北野勇作.
-251962	Yeong-Seon Kim	Q5						https://anilist.co/staff/251962	김영선. Animator.
-252056	Isamu Tanaka	Q5						https://anilist.co/staff/252056	田中勇. Producer.
-252842	Yuu Sugita	Q5		Q6581072				https://anilist.co/staff/252842	杉田悠. Animator.
-253019	Haruna Hiiragi	Q5						https://anilist.co/staff/253019	柊陽菜. Animator.
-254136	Ruka Urumiya	Q5						https://anilist.co/staff/254136	潤宮るか. Illustrator, Mangaka.
-254410	Yeong-Nam Go	Q5						https://anilist.co/staff/254410	고영남. Animator.
-254927	Nobuhiro Sakata	Q5		Q6581097	1947-10-11	2024-07-22		https://anilist.co/staff/254927	坂田信弘. Writer.
-256314	Ruki Hanamiya	Q5		Q6581072	1999-09-12			https://anilist.co/staff/256314	華宮ルキ. Writer. From Hyogo Prefecture, Japan.
-256459	(´･∀･`)Saa?	Q5						https://anilist.co/staff/256459	(´･∀･`)ｻｧ?. Translator.
-257285	Gabriela Stampacchio	Q5		Q6581072	1993-07-23			https://anilist.co/staff/257285	Voice Actor, Translator. From São Paulo, Brazil.
-259467	Haruo Saitou	Q5						https://anilist.co/staff/259467	さいとうはるお. Mangaka.
-260460	Natsuko Toda	Q5		Q6581072	1936-07-03			https://anilist.co/staff/260460	戸田奈津子. Translator. From Tokyo, Japan.
-262387	Sundu	Q5						https://anilist.co/staff/262387	순두. Mangaka.
-263464	Toshifumi Nakabayashi	Q5		Q6581097	1985-06-03			https://anilist.co/staff/263464	中林俊史. Voice Actor. From Niigata Prefecture, Japan.
-264412	Friedrich Georg Beckhaus	Q5		Q6581097	1927-12-11	2026-02-05		https://anilist.co/staff/264412	Voice Actor. From Berlin, Germany.
-264942	Francesco Fabbri	Q5		Q6581097	1986			https://anilist.co/staff/264942	Voice Actor. From Perugia, Umbria, Italy.
-265131	Aila Svedberg	Q5		Q6581072	1946-11-13			https://anilist.co/staff/265131	Voice Actor. From Helsinki, Finland.
-265958	Jindol	Q5		Q6581097				https://anilist.co/staff/265958	진돌. Writer, Artist.
-265959	Hidi	Q5		Q6581072				https://anilist.co/staff/265959	히디. Artist, Writer.
 267180	Eiji Imanari	Q5		Q6581097				https://anilist.co/staff/267180	今成英司. Producer.
-267216	DIOS	Q215380					2021	https://anilist.co/staff/267216	DIOS. Band. From Tokyo, Japan.
-270427	Jeongwon	Q5						https://anilist.co/staff/270427	정원. Mangaka, Writer.
-270830	Hye-Jin Hwang	Q5		Q6581072				https://anilist.co/staff/270830	황혜진. Mangaka.
-273501	BAKUFU-SLUMP	Q215380					1981	https://anilist.co/staff/273501	爆風スランプ. Band. From Tokyo, Japan.
 273903	sweet velvet	Q215380					1998	https://anilist.co/staff/273903	Band.
 274200	CHARCOAL FILTER	Q215380					1995	https://anilist.co/staff/274200	Band.
-274487	He Wang	Q5						https://anilist.co/staff/274487	王赫. Animator.
 274744	Kyo Haneda	Q5						https://anilist.co/staff/274744	
-276801	MARUCOMICS	Q5						https://anilist.co/staff/276801	마루코믹스. Artist, Writer.
-277289	Even Stormoen	Q5		Q6581097	1955-05-10			https://anilist.co/staff/277289	Voice Actor. From Bergen, Norway.
-277364	Eiji Abe	Q5		Q6581097				https://anilist.co/staff/277364	阿部英次. Production Manager.
-280645	Shuzuku	Q5			2001			https://anilist.co/staff/280645	しゅずく. Animator.
-281488	Diego Mancino	Q5		Q6581097			1990	https://anilist.co/staff/281488	Musician.
 282347	Hypergryph						2017	https://anilist.co/staff/282347	鹰角网络.
 283820	Shosuke Akamatsu	Q5						https://anilist.co/staff/283820	
-283881	Kiane Chula King	Q5		Q6581072	1994-09-20			https://anilist.co/staff/283881	Voice Actor.
-284232	Niju	Q5						https://anilist.co/staff/284232	にじゅ. Mangaka, Illustrator.
-284348	Ritsuo Mitsui	Q5		Q6581097	1981-10-31			https://anilist.co/staff/284348	三井律郎. Musician.
-285527	Chisato Akiba	Q5						https://anilist.co/staff/285527	秋庭千里. Animator.
-286953	Hokuto Matsumura	Q5	Q19831454	Q6581097	1995-06-18		2009	https://anilist.co/staff/286953	松村北斗. Voice Actor. From Shizuoka Prefecture.
-287998	Jun Morita	Q5		Q6581072	1948-02-18			https://anilist.co/staff/287998	もりたじゅん. Mangaka. From Hiroshima.
-289064	Ringo Morishita	Q5						https://anilist.co/staff/289064	森下りんご. Writer.
-290602	Rayu Furutani	Q5						https://anilist.co/staff/290602	古谷ラユ. Mangaka, Illustrator.
-290626	Soy Media	Q5						https://anilist.co/staff/290626	소이미디어. Writer.
-291832	rosca	Q5						https://anilist.co/staff/291832	rosca. Mangaka.
-293726	Zi You	Q5						https://anilist.co/staff/293726	紫幽. Artist, Writer.
-294169	Yuki Sanjou	Q5						https://anilist.co/staff/294169	三條裕紀. Production Manager.
 294457	kou							https://anilist.co/staff/294457	
 295186	Carolina Fuziy Kihara	Q5		Q6581072				https://anilist.co/staff/295186	
-296205	Yuu Ajina	Q5						https://anilist.co/staff/296205	あじな優. Writer, Mangaka.
-297422	Yuriko Onoue	Q5						https://anilist.co/staff/297422	尾上友莉子. Translator.
-299230	Moeno Watabe	Q5		Q6581072				https://anilist.co/staff/299230	渡部萌乃. Animator.
-300586	Mitsuko Gotou	Q5						https://anilist.co/staff/300586	後藤美津子.
-301070	Kazuya Ohyanagi	Q5		Q6581097				https://anilist.co/staff/301070	大柳和也. CG Artist.
 301307	TACCHI							https://anilist.co/staff/301307	
-301613	Miku Fukunishi	Q5						https://anilist.co/staff/301613	福西未来. CG Artist.
-302064	Sin-Hye Lee	Q5						https://anilist.co/staff/302064	이신혜. Animator.
-302900	Hieu Trong	Q5						https://anilist.co/staff/302900	Background Artist.
-303016	Kkumkku	Q5						https://anilist.co/staff/303016	꿈꾸. Mangaka.
-304268	Kurosaki	Q5						https://anilist.co/staff/304268	黒埼. Mangaka, Illustrator.
-304367	Arianna Vignoli	Q5		Q6581072	2002-11-18			https://anilist.co/staff/304367	Voice Actor. From Rome, Italy.
-305927	Mashami Watanabe	Q5						https://anilist.co/staff/305927	渡辺ましゃみ.
 308280	NongDarn	Q5						https://anilist.co/staff/308280	Animator.
-309144	Honoka Kagami	Q5		Q6581072			2023	https://anilist.co/staff/309144	加賀美帆. Composite Artist.
-309875	Miki Yokoyama	Q5						https://anilist.co/staff/309875	横山未来. Animator.
-310153	Zihau Wong	Q5						https://anilist.co/staff/310153	ウォンズィーハウ. Animator.
-311429	Martin Kiings	Q5		Q6581097				https://anilist.co/staff/311429	Animator.
-311848	Kiyoko Nakamori	Q5						https://anilist.co/staff/311848	中森清子. Mangaka.
-314258	Alessandro Parise	Q5		Q6581097	1976-11-19			https://anilist.co/staff/314258	Voice Actor. From Bari, Italy.
-314501	A-Choi Yang	Q5						https://anilist.co/staff/314501	양아최. Mangaka.
-316234	Elis Lindsten	Q5						https://anilist.co/staff/316234	Voice Actor.
-317143	Donghui Ji	Q5		Q6581097				https://anilist.co/staff/317143	紀東輝. Producer.
-317337	Agnieszka Matusik	Q5		Q6581072				https://anilist.co/staff/317337	Producer.
-317338	Paul Evans	Q5		Q6581097				https://anilist.co/staff/317338	Producer.
-318265	Daniela Neach	Q5		Q6581072	1989-08-31			https://anilist.co/staff/318265	From Mexico.
-318435	Hamunezuko	Q5						https://anilist.co/staff/318435	はむねずこ. Illustrator.
-319192	Kabukawa Chorus-tai	Q215380		Q6581072				https://anilist.co/staff/319192	カブクワコーラス隊. Band.
-319304	Camille Cordival	Q5		Q6581072			2021	https://anilist.co/staff/319304	Scriptwriter. From Lille, France.
-320119	Kaya Urakawa	Q5					1981	https://anilist.co/staff/320119	浦川佳弥. Mangaka. From Osaka, Japan.
-320636	Ulf Eklund	Q5			1951-04-23			https://anilist.co/staff/320636	Voice Actor. From Stockholm, Sweden.
-320718	Al Yankovic	Q5		Q6581097	1959-10-23		1976	https://anilist.co/staff/320718	Voice Actor, Vocalist, Musician. From Lynwood, California, United States.
-320795	Hatoba Kogarashi	Q5		Q6581072			2022	https://anilist.co/staff/320795	凩はとば. Mangaka, Illustrator.
-320905	Darong	Q5						https://anilist.co/staff/320905	다롱. Writer, Artist.
-321035	Linda Ulvaeus	Q5		Q6581072	1973-02-23		1980	https://anilist.co/staff/321035	Voice Actor, Vocalist. From Stockholm, Sweden.
 321369	ulma sound junction	Q215380					2005	https://anilist.co/staff/321369	Band. From Okinawa, Japan.
-321415	Angma	Q5						https://anilist.co/staff/321415	앙마. Mangaka.
-321711	Alessandro Gilardi	Q5		Q6581097			1996	https://anilist.co/staff/321711	Composer.
-321965	Yusyong	Q5						https://anilist.co/staff/321965	유숑. Writer.
 322561	Kouta Amana	Q5		Q6581097			2017	https://anilist.co/staff/322561	天那コータ. Writer.
-323483	Seonggu	Q5						https://anilist.co/staff/323483	성구. Artist, Mangaka.
 324168	Gamaliel Quintana	Q5		Q6581097			2022	https://anilist.co/staff/324168	
 325616	icchi	Q5						https://anilist.co/staff/325616	icchi. Illustrator.
-327766	Toyo Murai	Q5		Q6581072				https://anilist.co/staff/327766	むらいとよ. Mangaka, Artist.
-328184	Yuuna Tanaka	Q5						https://anilist.co/staff/328184	田中優菜. Painter.
-330593	Ye Qiu	Q5						https://anilist.co/staff/330593	球爺. Animator.
-331617	Mizuki Araki	Q5		Q6581072				https://anilist.co/staff/331617	Production Manager.
 333608	Ririka Ichijou	Q5		Q6581072	2000-05-12		2025	https://anilist.co/staff/333608	
-333985	Xin Wang	Q5						https://anilist.co/staff/333985	王鑫. Animator.
-335245	Björn Bengtsson	Q5		Q6581097	1972-10-28			https://anilist.co/staff/335245	Voice Actor. From Malmö, Sweden.
 335438	Uniwii	Q5		Q6581072				https://anilist.co/staff/335438	
 335440	ZONA	Q5		Q6581072				https://anilist.co/staff/335440	
 335443	Akemi Arlin	Q5		Q6581072				https://anilist.co/staff/335443	
-336772	Kie Yamashita	Q5						https://anilist.co/staff/336772	山下稀恵. CG Artist.
-336805	Yoshikazu Jouhou	Q5						https://anilist.co/staff/336805	城寳良和.
-336938	Miku Yoshikawa	Q5		Q6581072	2000-05-25			https://anilist.co/staff/336938	吉川美矩. Arranger.
 337051	Mark Gatiss	Q5		Q6581097	1966-10-17			https://anilist.co/staff/337051	
-337082	YUTO	Q5		Q6581097				https://anilist.co/staff/337082	Composer.
-337197	Luca Pernici	Q5		Q6581097	1969-06-10		1994	https://anilist.co/staff/337197	Composer. From Reggio Emilia, Italy.
-338619	Pongsakorn Sirikhamnerd	Q5		Q6581097				https://anilist.co/staff/338619	พงศกร ศิริกำเนิด. Scriptwriter.
-338620	Patiwesh Changasikupt	Q5		Q6581097	1989-01-29			https://anilist.co/staff/338620	ปฏิเวช ชาญกสิคุปต์. Scriptwriter.
-338848	Kana Fukudome	Q5						https://anilist.co/staff/338848	福留佳奈. Animator.
-340112	Lanh Thi	Q5						https://anilist.co/staff/340112	Background Artist.
-340114	Huyen Minh	Q5						https://anilist.co/staff/340114	Background Artist.
-341581	Yukikiyo Ueno	Q5						https://anilist.co/staff/341581	Writer, Composite Artist.
-342019	Shinji Tu	Q5						https://anilist.co/staff/342019	涂信之. Animator.
-342060	Richard Clay	Q5		Q6581097				https://anilist.co/staff/342060	Musician.
 343013	Aogiri Koukou	Q5						https://anilist.co/staff/343013	あおぎり高校職員室.
 344042	Takarazuka Revue	Q5					1913	https://anilist.co/staff/344042	宝塚歌劇団. From Takarazuka, Hyogo Prefecture, Japan.
-345012	Lemon Natsume	Q5						https://anilist.co/staff/345012	夏目レモン. Illustrator, Artist.
 346286	Halloween	Q5					2024	https://anilist.co/staff/346286	할로윈. Writer.
-346324	Anhelina Shpak	Q5						https://anilist.co/staff/346324	Animator.
-346625	Koya no Sora	Q5						https://anilist.co/staff/346625	小屋ノ空. Animator.
-346998	Kiyoshi Kumada	Q5		Q6581097			2018	https://anilist.co/staff/346998	熊田潔. Producer, Production Manager.
-347855	Arcana	Q5						https://anilist.co/staff/347855	아르카나. Writer.
-348334	Coleen Yang	Q5		Q6581072				https://anilist.co/staff/348334	Animator. From Philippines.
-348907	Kinata	Q5						https://anilist.co/staff/348907	葵奈太. Mangaka. From Chiba, Japan.
-349755	Nanano Kishimoto	Q5						https://anilist.co/staff/349755	岸本七子. Mangaka.
-350611	Sakie Shibata	Q5						https://anilist.co/staff/350611	柴田小希江.
-351641	Tanop Tananuchittikul	Q5		Q6581097				https://anilist.co/staff/351641	ธนพ ตันอนุชิตติกุล. Production Manager.
-352174	Chie Izumi	Q5						https://anilist.co/staff/352174	和泉智恵. Animator.
-353371	Satoshi Mizuno	Q5						https://anilist.co/staff/353371	水野智史. Producer.
-353777	Sena Tenryouji	Q5						https://anilist.co/staff/353777	天領寺セナ. Mangaka, Illustrator.
-353792	Misa Urata	Q5						https://anilist.co/staff/353792	浦田三彩.
-354196	Chung Thanh	Q5						https://anilist.co/staff/354196	Background Artist.
-354992	Yoshiko Naono	Q5		Q6581072			1968	https://anilist.co/staff/354992	直野祥子. Mangaka. From Kobe.
-356230	Chou Tokimeki♡Senden-bu	Q5		Q6581072			2015	https://anilist.co/staff/356230	超ときめき♡宣伝部.
-357141	Tomo Saegusa	Q5		Q6581072				https://anilist.co/staff/357141	さえぐさとも. Mangaka. From Nanporo, Hokkaido, Japan.
-357707	Scott McClennen	Q5		Q6581097				https://anilist.co/staff/357707	Producer.
-357728	Chung Hieu Le	Q5						https://anilist.co/staff/357728	レ・チュン・ヒェウ. CG Artist.
-357784	Takumi Ogasawara	Q5			1984-05-27			https://anilist.co/staff/357784	小笠原拓海. Drummer.
-358254	Kasuka Kokonoe	Q5						https://anilist.co/staff/358254	九重幽. Mangaka.
-359506	Eopaeryumegi	Q5						https://anilist.co/staff/359506	어패류메기. Writer.
-360431	Yeong-Seon Kang	Q5						https://anilist.co/staff/360431	강영선. Artist.
-360704	Suri	Q5						https://anilist.co/staff/360704	수리. Artist, Mangaka.
-362075	Mana Johnson	Q5						https://anilist.co/staff/362075	Voice Actor. From Minnesota, United States.
-362117	Seseo0	Q5						https://anilist.co/staff/362117	세서0. Artist, Writer.
-363316	Pirate Cat	Q5						https://anilist.co/staff/363316	パイレーツキャット. Illustrator, Mangaka.
-363429	Gyeong Hong	Q5		Q6581097	1996-02-14		2017	https://anilist.co/staff/363429	홍경. Voice Actor.
-363430	Tae-Ri Kim	Q5		Q6581072	1990-04-24		2014	https://anilist.co/staff/363430	김태리. Voice Actor. From Seoul, South Korea.
-363471	Shinta Iwamoto	Q5						https://anilist.co/staff/363471	岩本新太. Mangaka.
-363987	Rei Ichinomiya	Q5		Q6581072				https://anilist.co/staff/363987	一宮麗. Voice Actor. From Hokkaido, Japan.
-364110	Crimson Crat Clan	Q215380					2020	https://anilist.co/staff/364110	クリムゾン・クラット・クラン. Band.
-364867	Yu Ouyang	Q5						https://anilist.co/staff/364867	欧陽雨. Animator.
-365307	poza	Q5						https://anilist.co/staff/365307	Animator.
-365352	Peiying Lin	Q5					2025	https://anilist.co/staff/365352	林沛穎. Animator.
-365572	Jena Greco	Q5		Q6581072				https://anilist.co/staff/365572	Translator.
-365594	Kittitorn Himasuk	Q5						https://anilist.co/staff/365594	กิตติธร หิมะสุข. Editor.
-365596	Piyanet Kaewsaisang	Q5						https://anilist.co/staff/365596	ปิยเนตร แก้วใสแสง. Editor, Audio Engineer.
-365597	Athip Anantapoom	Q5		Q6581097				https://anilist.co/staff/365597	อธิป อนันตภูมิ. Audio Engineer.
-365599	Piyapong Pongkarun	Q5						https://anilist.co/staff/365599	ปิยะพงศ์ พงศ์การุณ. Coordinator.
-366150	Keisuke Ishikawa	Q5						https://anilist.co/staff/366150	石川圭介. Writer.
-366513	DANCE☆MAN	Q5		Q6581097	1963-10-12			https://anilist.co/staff/366513	ダンス☆マン. Musician, Composer, Arranger.
-369277	Jiji	Q5						https://anilist.co/staff/369277	ジジ. Animator.
-369299	Glen Isip	Q5						https://anilist.co/staff/369299	Letterer.
-370631	Laici He	Q5						https://anilist.co/staff/370631	何来茨. Animator.
-371280	Nuzutani	Q5	Q19831455	Q6581072				https://anilist.co/staff/371280	ぬずタニ. Mangaka. From Tokyo.
-371961	Na-Ri Sin	Q5		Q6581072	1994-02-22		2020	https://anilist.co/staff/371961	신나리. Voice Actor.
-372008	Jiamei You	Q5						https://anilist.co/staff/372008	游佳梅. Animator.
-372154	Shiki Yamatani	Q5						https://anilist.co/staff/372154	山谷しき. Mangaka.
-372284	Guanwen Chen	Q5						https://anilist.co/staff/372284	陳冠文. Animator.
-373103	Xuan Wang	Q5						https://anilist.co/staff/373103	王璇. Animator.
-373183	Akari Nakayama	Q5						https://anilist.co/staff/373183	中山明理. Animator.
-373251	Chuishuo Kong	Q5						https://anilist.co/staff/373251	孔垂碩. Background Artist.
-373800	Megumi Ookawa	Q5		Q6581072				https://anilist.co/staff/373800	大川恵実. Producer.
-374007	makeinufilm	Q5			1994			https://anilist.co/staff/374007	まけいぬふぃるむ. CG Artist.
-375913	Tsukasa Masuko	Q5		Q6581097	1963-04-03		1982	https://anilist.co/staff/375913	増子津可燦. Composer, Audio Engineer. From Hokkaido.
-376623	Ayana Kanno	Q5		Q6581072			2022	https://anilist.co/staff/376623	菅野彩奈. Production Manager.
-376830	Sasakisa	Q5						https://anilist.co/staff/376830	ささきさ. Mangaka.
-377074	Tsukasa Tokuda	Q5		Q6581097			2025	https://anilist.co/staff/377074	徳田つかさ. Animator.
-377507	Ryouji Tokito	Q5		Q6581097				https://anilist.co/staff/377507	時任良治. Musician, Vocalist.
-377831	Daiki Hattori	Q5						https://anilist.co/staff/377831	服部乃樹. Animator.
-378155	Sanho	Q5						https://anilist.co/staff/378155	산호. Artist, Mangaka.
 378716	ILLIT	Q215380					2024	https://anilist.co/staff/378716	ILLIT. Band. From Seoul, South Korea.
-379704	Duong Chung Hau Bach	Q5						https://anilist.co/staff/379704	バック・ズオン・チュン・ハウ. Background Artist.
-380633	Mikkamiban	Q5						https://anilist.co/staff/380633	三日三晩. Artist.
-381210	Hanaba	Q5						https://anilist.co/staff/381210	花々. Writer.
-382459	Yuuko	Q5						https://anilist.co/staff/382459	ユーコ. Writer.
-383115	Shinji Satou	Q5		Q6581097	1966-02-16	1999-03-15		https://anilist.co/staff/383115	佐藤伸治. Vocalist. From Tokyo, Japan.
-383625	Yixuan Lin	Q5						https://anilist.co/staff/383625	林羿萱. Animator.
-383626	Xinbo Tong	Q5						https://anilist.co/staff/383626	佟鑫鉑. Animator.
-384832	Dan-Won Kim	Q5						https://anilist.co/staff/384832	김단원. Writer.
 384925	Suzume Inaba	Q5						https://anilist.co/staff/384925	稲葉すずめ. Mangaka.
-385061	Hinata Matsunaga	Q5						https://anilist.co/staff/385061	松永陽向.
-385773	Fumiyasu Satou	Q5		Q6581097	1976-08-25			https://anilist.co/staff/385773	佐藤文康. Voice Actor. From Fuji City, Shizuoka, Japan.
-385775	Ryuusuke Itou	Q5		Q6581097	1983-07-23			https://anilist.co/staff/385775	伊藤隆佑. Voice Actor. From Saitama, Japan.
-385777	Ai Etou	Q5		Q6581072	1985-11-14			https://anilist.co/staff/385777	江藤愛. Voice Actor. From Hita City, Oita, Japan.
-385779	Kako Kondou	Q5		Q6581072	1996-08-04			https://anilist.co/staff/385779	近藤夏子. Voice Actor. From Tokyo, Japan.
-386109	Kinichi Motegi	Q5	Q19831453	Q6581097	1967-12-15		1987	https://anilist.co/staff/386109	茂木欣一. Musician. From Tokyo, Japan.
-387382	Machi Sugasawara	Q5						https://anilist.co/staff/387382	菅佐原万智. Animator.
-388288	Poon Buakaew	Q5						https://anilist.co/staff/388288	ปูรณ์ บัวแก้ว. Production Manager, Subtitle Editor .
-388371	BLACK BISCUITS	Q215380					1997	https://anilist.co/staff/388371	ブラック・ビスケッツ. Band.
-388372	SENTIMENTAL:BUS	Q215380					1996	https://anilist.co/staff/388372	センチメンタル・バス. Band. From Kanagawa Prefecture, Japan.
-388725	Ruohan Li	Q5						https://anilist.co/staff/388725	李若菡. Animator.
-389878	Yasukazu Someya	Q5						https://anilist.co/staff/389878	染谷靖和. CG Artist.
-390035	Pongpao Srichaikul	Q5		Q6581097				https://anilist.co/staff/390035	พงษ์เผ่า ศรีชัยกุล. Voice Actor, Audio Engineer.
-391190	Maetjibwang	Q5						https://anilist.co/staff/391190	맷집왕. Writer, Mangaka.
-392181	Fantera	Q5						https://anilist.co/staff/392181	판테라. Mangaka, Writer.
-393959	Sung-Min Choi	Q5		Q6581072				https://anilist.co/staff/393959	최성민. Mangaka.
-394500	Sasaki Ad0k:ss	Q5						https://anilist.co/staff/394500	佐々木Ad0k:ss. Animator.
-395362	Xiaobing Deng	Q5		Q6581072				https://anilist.co/staff/395362	邓小冰. Director, Artist.
-395562	Kouei Sasao	Q5						https://anilist.co/staff/395562	笹尾康瑛. CG Artist.
-396640	Hinata Oosawa	Q5						https://anilist.co/staff/396640	大澤ひなた. Animator.
-396641	Ringo Hoyama	Q5						https://anilist.co/staff/396641	穂山凛桜. Animator.
-396642	Miaki Kimijima	Q5						https://anilist.co/staff/396642	君島美朱. Animator.
-396643	Ayako Furukawa	Q5						https://anilist.co/staff/396643	古川絢子. Animator.
-396928	Chung Anh Tran	Q5						https://anilist.co/staff/396928	トラン・アン・チュン.
-396956	Chantu							https://anilist.co/staff/396956	チャントゥ.
-397154	NENU	Q5						https://anilist.co/staff/397154	Animator.
-397646	Tadayoshi Harada	Q5						https://anilist.co/staff/397646	原田宰佳.
-398645	Onkan Lemonade	Q215380					2023	https://anilist.co/staff/398645	音感れもねゐど. Band.
-398646	loku							https://anilist.co/staff/398646	
-398647	Seikatsuon							https://anilist.co/staff/398647	生活音.
-398648	Hyougo Onimushi	Q5						https://anilist.co/staff/398648	鬼虫兵庫.
-398649	Sugakumo							https://anilist.co/staff/398649	須賀かくも.
-398650	Sanninshou no Inu							https://anilist.co/staff/398650	三人称の犬.
-398651	Atsuko Fukuyama	Q5						https://anilist.co/staff/398651	福山敦子. Writer.
-398652	Soyoyo Nanaharu	Q5						https://anilist.co/staff/398652	七春そよよ. Mangaka.
-398653	Sawako Nagato	Q5						https://anilist.co/staff/398653	長門さわこ. Illustrator, Mangaka.
-398654	Sorao Mihana	Q5					2009	https://anilist.co/staff/398654	未華空央. Writer.
-398655	Peup2	Q5						https://anilist.co/staff/398655	픞2. Mangaka.
-398656	Himari Himejima	Q5		Q6581072				https://anilist.co/staff/398656	姫嶋ひまり. Mangaka.
-398657	Takkou	Q5						https://anilist.co/staff/398657	タッ公. Mangaka. From Osaka, Japan.
-398658	Higure Sakino	Q5		Q6581072			2015	https://anilist.co/staff/398658	咲野日暮. Mangaka.
-398659	Rou	Q5						https://anilist.co/staff/398659	ロウ. Writer.
-398660	Ranchiyo	Q5		Q6581072				https://anilist.co/staff/398660	らん千夜. Mangaka. From Fukuoka, Japan.
-398661	Kei	Q5						https://anilist.co/staff/398661	系. Mangaka.
-398662	Seong-Tae Park	Q5						https://anilist.co/staff/398662	박성태. Artist.
-398663	Noro	Q5						https://anilist.co/staff/398663	노로. Mangaka.
-398664	Kishi Nichiya	Q5						https://anilist.co/staff/398664	にちやきし.
-398665	Michihiro Mitsumune	Q5						https://anilist.co/staff/398665	光宗宙大.
-398666	Ishibuki Yasunari	Q5						https://anilist.co/staff/398666	石蕗泰成.
-398667	Bengal Arai	Q5						https://anilist.co/staff/398667	新井ベンガル.
-398668	Saki Aoyama	Q5						https://anilist.co/staff/398668	碧山彩希.
-398669	Miyu Kobashi	Q5						https://anilist.co/staff/398669	小橋美友. Producer.
-398670	Chiaki Satou	Q5						https://anilist.co/staff/398670	佐藤千秋. Producer.
-398671	Shouko Kawakami	Q5						https://anilist.co/staff/398671	川上翔子. Producer.
-398672	Emika Nema	Q5						https://anilist.co/staff/398672	根間笑花. Animator.
-398673	Nanae Takiguchi	Q5						https://anilist.co/staff/398673	滝口奈々恵.
-398674	Ryuu Ogata	Q5						https://anilist.co/staff/398674	緒方竜. Editor.
-398675	Riki Furman	Q5						https://anilist.co/staff/398675	ファーマン りき. Designer.
-398676	Takao Ogi	Q5						https://anilist.co/staff/398676	Composer.
-398677	Ruri Nagasawa	Q5		Q6581072				https://anilist.co/staff/398677	永澤るり. Mangaka.
-398678	Jacqueline Philippi	Q5						https://anilist.co/staff/398678	Translator.
-398679	Karin Betz	Q5		Q6581072	1968-03-07		2008	https://anilist.co/staff/398679	Translator. From Hanau.
-398680	Rumi Kazui	Q5						https://anilist.co/staff/398680	かずい流水. Mangaka.
-398681	Gump	Q5						https://anilist.co/staff/398681	ガンプ. Mangaka.
-398686	Hazuki Seto	Q5		Q6581072	2002-09-28			https://anilist.co/staff/398686	瀬戸芭月. Voice Actor. From Ehime Prefecture, Japan.
-398694	Mariko Kinoshita	Q5					2024	https://anilist.co/staff/398694	木下真梨子. Animator, Designer.
-398695	Megru Koshino	Q5						https://anilist.co/staff/398695	コシノメグル. Mangaka.
-398696	Umi Uota	Q5						https://anilist.co/staff/398696	うおたうみ. Mangaka.
-398697	Hayakawa	Q5						https://anilist.co/staff/398697	ハヤカワツクロ. Animator.
-398698	Michi Kuroshio	Q5						https://anilist.co/staff/398698	黒潮みち. Mangaka.
-398699	Noyoko Shinonome	Q5		Q6581072				https://anilist.co/staff/398699	しののめのよこ. Mangaka.
-398700	Rumiko Tama	Q5						https://anilist.co/staff/398700	田麻るみ子. Mangaka.
-398701	Yang Cao	Q5						https://anilist.co/staff/398701	曹陽.
-398702	Fa Ge							https://anilist.co/staff/398702	發哥.
-398703	Shuheng Jiang	Q5						https://anilist.co/staff/398703	蒋抒恒.
-398704	mihako							https://anilist.co/staff/398704	
-398709	Sanshirou Kozuka	Q5		Q6581097				https://anilist.co/staff/398709	小塚三四郎. Voice Actor. From Gunma Prefecture, Japan.
-398715	Talich Helfen	Q5						https://anilist.co/staff/398715	Composer, Arranger.
-398716	Gyeong-Ju Jo	Q5						https://anilist.co/staff/398716	조경주. Animator.
-398717	Riku Matsuo	Q5						https://anilist.co/staff/398717	松尾梨功.
-398718	Saku Haruno	Q5						https://anilist.co/staff/398718	春野さく. Mangaka.
-398719	Shouta Miyano	Q5						https://anilist.co/staff/398719	宮野翔太. Animator.
-398720	Hao Lin	Q5						https://anilist.co/staff/398720	Animator.
-398721	Gi-Cheol Na	Q5						https://anilist.co/staff/398721	나기철. Animator.
-398722	Momoko Hirokawa	Q5						https://anilist.co/staff/398722	廣川もも子. Animator.
-398723	Haruko Nakamura	Q5						https://anilist.co/staff/398723	中村春子. Animator.
-398733	Devon Stewart	Q5						https://anilist.co/staff/398733	Voice Actor.
-398736	Shou Sakamoto	Q5						https://anilist.co/staff/398736	坂本翔. Animator.
-398737	Masato Hiragawa	Q5						https://anilist.co/staff/398737	平川正人. Animator.
-398738	Yu Tian	Q5						https://anilist.co/staff/398738	Animator.
-398739	Shizuma Azuma	Q5						https://anilist.co/staff/398739	東静馬. Mangaka.
-398740	Miho Kitano	Q5						https://anilist.co/staff/398740	北野美穂. Mangaka.
-398741	Mirai Kiduki	Q5						https://anilist.co/staff/398741	きづき未来. Mangaka.
-398742	Akira Kisanagi	Q5						https://anilist.co/staff/398742	草薙明. Mangaka.
-398743	Kearuran	Q5						https://anilist.co/staff/398743	けあるらん. Mangaka.
-398744	Rena Hanazawa	Q5						https://anilist.co/staff/398744	華沢れな. Mangaka.
-398745	Rui Fushiki	Q5						https://anilist.co/staff/398745	伏喜瑠. Mangaka.
-398746	Masterlynx	Q5						https://anilist.co/staff/398746	Mangaka. From India.
-398747	Kurose Yuu	Q5						https://anilist.co/staff/398747	黒瀬夕. Mangaka.
-398748	Nako	Q5						https://anilist.co/staff/398748	なこ. Mangaka.
-398749	Horaengikong	Q5						https://anilist.co/staff/398749	호랭이콩. Writer.
-398750	Izuru Kamikura	Q5						https://anilist.co/staff/398750	紙倉イズル. Mangaka.
-398751	Shiori Kumooka	Q5						https://anilist.co/staff/398751	雲岡栞. Mangaka.
-398752	Ryouta Oikawa	Q5						https://anilist.co/staff/398752	及川亮太. Mangaka.
-398753	Sake	Q5						https://anilist.co/staff/398753	萨科. Writer.
-398754	Neru Shiodome	Q5						https://anilist.co/staff/398754	汐留ねる. Mangaka.
-398757	Touru Yoneyama	Q5		Q6581097				https://anilist.co/staff/398757	米山透. Mangaka.
-398761	Victoria Zach	Q5						https://anilist.co/staff/398761	Translator.
-398762	Korone Neko	Q5						https://anilist.co/staff/398762	ねこころね. Mangaka.
-398763	Akirannu	Q5						https://anilist.co/staff/398763	あきらんぬ. Mangaka, Illustrator.
-398764	Chiyaho	Q5						https://anilist.co/staff/398764	ちやほ. Mangaka.
-398765	Furape	Q5						https://anilist.co/staff/398765	浮らぺ. Mangaka.
-398766	Keiko Ikeda	Q5						https://anilist.co/staff/398766	池田桂子. Voice Actor.
-398767	Maguro Kaiyuu	Q5						https://anilist.co/staff/398767	回遊鮪. Painter.
-398768	Rei Kiyonaga	Q5						https://anilist.co/staff/398768	清永麗. Painter.
-398769	Yijun Yao	Q5						https://anilist.co/staff/398769	姚宜君. Painter.
-398770	Yuuto Shiina	Q5						https://anilist.co/staff/398770	椎名優斗. Director.
-398771	Seung-A Lee	Q5						https://anilist.co/staff/398771	Animator.
-398772	Okome-chan	Q5						https://anilist.co/staff/398772	おこめちゃん. Animator.
-398773	Liang Jie	Q5						https://anilist.co/staff/398773	結良. Animator.
-398774	Yuman Feng	Q5						https://anilist.co/staff/398774	馮雨蔓. Animator.
-398775	Chihiro Kanbayashi	Q5						https://anilist.co/staff/398775	神林知央. Painter.
-398776	Akira Sakata	Q5						https://anilist.co/staff/398776	坂田暁. Background Artist.
-398791	Manami Tsurugi	Q5						https://anilist.co/staff/398791	剣真奈美. Animator.
-398792	Tomorou Terada	Q5						https://anilist.co/staff/398792	寺田朋郎. Animator.
-398793	Kimiko Sugita	Q5						https://anilist.co/staff/398793	杉田貴美子. Animator.
-398794	Jong-I Lee Lee	Q5						https://anilist.co/staff/398794	이종이. Animator.
-398795	Mina Usui	Q5						https://anilist.co/staff/398795	臼井三奈. Painter.
-398796	Nobue Watanabe	Q5						https://anilist.co/staff/398796	渡辺信江. Painter.
-398797	Jouji Yoshi	Q5						https://anilist.co/staff/398797	吉錠司. Production Manager.
-398798	Yasuyuki Sasaki	Q5						https://anilist.co/staff/398798	佐々木保行.
-398799	Songnye	Q5						https://anilist.co/staff/398799	송녜. Writer.
-398808	Eiichi Miyashita	Q5						https://anilist.co/staff/398808	宮下英一. Producer.
-398809	Yuuichirou Yamaura	Q5						https://anilist.co/staff/398809	山浦勇一郎. Producer.
-398810	Reiko Kaminaga	Q5						https://anilist.co/staff/398810	神長れい子.
-398811	Kyouko Yamazaki	Q5						https://anilist.co/staff/398811	山崎鏡子. Animator.
-398812	Minoru Okamoto	Q5						https://anilist.co/staff/398812	岡本稔. Production Manager.
-398813	Mitsugu Nagai	Q5						https://anilist.co/staff/398813	長井貢. Producer.
-398814	Takamasa Ueno	Q5		Q6581097				https://anilist.co/staff/398814	植野隆正. Producer.
-398820	Tarou Nishimura	Q5						https://anilist.co/staff/398820	西村太郎. Painter.
-398821	Kenzou Tonda	Q5		Q6581097				https://anilist.co/staff/398821	頓田憲三.
-398822	Rikizou Ootake	Q5						https://anilist.co/staff/398822	大竹力三.
-398834	Rieko Yokochi	Q5						https://anilist.co/staff/398834	横地利恵子. Animator.
-398835	Yoshino Sasaki	Q5						https://anilist.co/staff/398835	佐々木芳野. Production Manager.
-398836	Akiyoshi Kataoka	Q5						https://anilist.co/staff/398836	片岡昭義. Scriptwriter.
-398837	Yoshiaki Wakabayashi	Q5						https://anilist.co/staff/398837	若林義明.
-398838	Itsushi Miyazaki	Q5						https://anilist.co/staff/398838	宮崎逸志. Designer.
-398839	Yukiko Nakadeguchi	Q5						https://anilist.co/staff/398839	中出口裕紀子. Designer.
-398840	Takuya Igarashi	Q5		Q6581097				https://anilist.co/staff/398840	五十嵐拓嵩.
-398841	Akane Uchibori	Q5		Q6581072				https://anilist.co/staff/398841	内堀茜.
-398842	Shin Matsuoka	Q5						https://anilist.co/staff/398842	松岡伸. Designer.
-398843	MIC MAC	Q5						https://anilist.co/staff/398843	Designer.
-398844	Rencheng Zhang	Q5						https://anilist.co/staff/398844	張仁誠. Designer, Illustrator.
-398845	Morihisa Shibuya	Q5		Q6581097	1939	1997-11-25		https://anilist.co/staff/398845	渋谷森久. Composer, Arranger, Musician.
-398846	Minoru Niihara	Q5		Q6581097	1960-03-12			https://anilist.co/staff/398846	二井原実. Lyricist, Vocalist, Musician. From Sumiyoshi, Osaka, Japan.
-398847	Mitsuhiro Koyama	Q5						https://anilist.co/staff/398847	小山光弘.
-398848	Akira Satou	Q5						https://anilist.co/staff/398848	佐藤朗. Animator.
-398849	Youji Oonishi	Q5						https://anilist.co/staff/398849	大西陽二. Animator.
-398850	Mitsuru Murakawa	Q5						https://anilist.co/staff/398850	村川満. Animator.
-398851	Masahiro Minesaki	Q5						https://anilist.co/staff/398851	峰崎雅広. Animator.
-398852	Katsumasa Hosoma	Q5						https://anilist.co/staff/398852	細馬勝正. Animator.
-398853	Arere Ochitsuki	Q5						https://anilist.co/staff/398853	落槻あれれ. Mangaka.
-398854	Sachiko Fukuda	Q5						https://anilist.co/staff/398854	福田幸子. Animator.
-398855	Noriko Funatsumaru	Q5						https://anilist.co/staff/398855	船津丸紀子. Animator.
-398856	Yuu Tanaka	Q5					1979	https://anilist.co/staff/398856	田中勇. Animator.
-398857	Yoshimi Fukuhara	Q5						https://anilist.co/staff/398857	福原よしみ. Animator.
-398858	Hidemi Sakamoto	Q5						https://anilist.co/staff/398858	坂本秀美. Animator.
-398859	Tomoo Yakou	Q5						https://anilist.co/staff/398859	谷古宇智生. Animator.
-398860	Masaaki Edono	Q5						https://anilist.co/staff/398860	衛土野正明. Animator.
-398861	Kenji Kobayashi	Q5						https://anilist.co/staff/398861	小林賢次. Animator.
-398862	Fumiko Nishizawa	Q5						https://anilist.co/staff/398862	西沢富美子. Animator.
-398863	Kazuhiro Noro	Q5						https://anilist.co/staff/398863	野呂和裕. Animator.
-398864	Eiichi Saijou	Q5						https://anilist.co/staff/398864	西條栄一. Animator.
-398865	Yoshihiko Ueno	Q5						https://anilist.co/staff/398865	上野芳彦. Animator.
-398866	Kenji Kakui	Q5						https://anilist.co/staff/398866	角井賢治. Animator.
-398867	Akemi Isagawa	Q5						https://anilist.co/staff/398867	去来川朱美. Animator.
-398868	Chikako Harada	Q5						https://anilist.co/staff/398868	原田慈子. Animator.
-398869	Kkoreureuk	Q5						https://anilist.co/staff/398869	꼬르륵. Artist.
-398870	Jeonghwa	Q5						https://anilist.co/staff/398870	정화. Writer.
-398871	Michiaki Suzuki	Q5						https://anilist.co/staff/398871	鈴木道明. Animator.
-398872	Rei Kyouso	Q5						https://anilist.co/staff/398872	教祖れい. Mangaka.
-398873	Mamiko Katori	Q5						https://anilist.co/staff/398873	鹿取真三子. Animator.
-398874	Kaori Nakamata	Q5						https://anilist.co/staff/398874	中俣かおり. Animator.
-398878	Tomoko Yoshida	Q5						https://anilist.co/staff/398878	吉田知子. Background Artist.
-398879	Tetsuo Anzai	Q5						https://anilist.co/staff/398879	安西哲夫. Background Artist.
-398880	Toshirou Nozaki	Q5						https://anilist.co/staff/398880	野崎敏朗. Background Artist.
-398882	Youko Haneda	Q5						https://anilist.co/staff/398882	羽田洋子. Background Artist.
-398883	Shinichi Takano	Q5						https://anilist.co/staff/398883	高野新一. Background Artist.
-398884	Kobato Tokieda	Q5						https://anilist.co/staff/398884	時枝小鳩. Writer.
-398885	Hiroshi Imamura	Q5						https://anilist.co/staff/398885	今村浩史. Painter.
-398886	Keiko Sugita	Q5						https://anilist.co/staff/398886	杉田恵子. Painter.
-398887	Kumi Yamashita	Q5						https://anilist.co/staff/398887	山下久美. Painter.
-398888	Nergar Kurage	Q5						https://anilist.co/staff/398888	水月ニャーガ. Mangaka.
-398889	Yoshiko Muramatsu	Q5						https://anilist.co/staff/398889	村松美子. Painter.
-398890	Kazumi Ooyama	Q5						https://anilist.co/staff/398890	大山和美. Painter.
-398891	Keiko Nishizawa	Q5						https://anilist.co/staff/398891	西沢奎子. Painter.
-398892	Yuuko Suzuki	Q5						https://anilist.co/staff/398892	鈴木悠子. Painter.
-398893	Hitomi Iijima	Q5						https://anilist.co/staff/398893	飯島ひとみ. Painter.
-398894	Hiroshi Satou	Q5						https://anilist.co/staff/398894	佐藤浩史. Painter.
-398895	Seiko Miyazaki	Q5						https://anilist.co/staff/398895	宮崎聖子. Painter.
-398896	Hatsumi Motomura	Q5						https://anilist.co/staff/398896	本村初美. Painter.
-398897	Mitsuharu Takahashi	Q5						https://anilist.co/staff/398897	高橋光晴. Painter.
-398898	Fumiko Izumi	Q5						https://anilist.co/staff/398898	和泉史子. Painter.
-398899	Katsuji Sakamaki	Q5						https://anilist.co/staff/398899	坂巻勝司. Painter.
-398900	Yoriko Watanabe	Q5						https://anilist.co/staff/398900	渡辺代利子. Painter.
-398901	Miroseonsaeng	Q5						https://anilist.co/staff/398901	미로선생. Writer.
-398902	Masahiro Nakamura	Q5						https://anilist.co/staff/398902	中村正弘. Production Manager.
-398903	Mayumi Oota	Q5						https://anilist.co/staff/398903	太田真弓. Composite Artist.
-398904	Hideya Kawabe	Q5						https://anilist.co/staff/398904	河辺秀哉. Composite Artist.
-398905	Eiichi Sugaya	Q5						https://anilist.co/staff/398905	菅谷英一. Composite Artist.
-398906	Jebena	Q5						https://anilist.co/staff/398906	제베나. Writer.
-398907	Katsuhiro Onodera	Q5						https://anilist.co/staff/398907	小野寺勝弘. Composite Artist.
-398908	Takuya Oono	Q5						https://anilist.co/staff/398908	大野卓也. Composite Artist.
-398909	Mitsuru Sugioka	Q5						https://anilist.co/staff/398909	杉岡充. Composite Artist.
-398910	Masanori Nakano	Q5						https://anilist.co/staff/398910	中野正則.
-398911	Posilhan Cream-ppang	Q5						https://anilist.co/staff/398911	포실한 크림빵. Mangaka.
-398912	Kenji Kawasaki	Q5						https://anilist.co/staff/398912	川崎健司.
-398913	Fumio Itou	Q5						https://anilist.co/staff/398913	伊藤文夫. Director.
-398914	Hitoshi Tsubakiyama	Q5						https://anilist.co/staff/398914	椿山仁志. Composite Artist.
-398915	Tooru Nakamura	Q5						https://anilist.co/staff/398915	中村通. Composite Artist.
-398916	Toshihisa Kajita	Q5						https://anilist.co/staff/398916	梶田利久. Producer.
-398917	Yuuko Komori	Q5						https://anilist.co/staff/398917	小森優子. Producer.
-398918	Shinichi Ide	Q5						https://anilist.co/staff/398918	井出信一. Production Manager.
-398919	Tsutomu Yamada	Q5						https://anilist.co/staff/398919	山田勉. Production Manager.
-398920	Kazuhiko Abe	Q5						https://anilist.co/staff/398920	阿部和彦. Production Manager.
-398921	Kouichi Mizutani	Q5						https://anilist.co/staff/398921	水谷光一. Production Manager.
-398922	Eiichi Miyauchi	Q5						https://anilist.co/staff/398922	宮内栄一. Audio Engineer.
-398923	Masayoshi Kobayashi	Q5						https://anilist.co/staff/398923	小林正義. Audio Engineer.
-398924	Youko Katori	Q5		Q6581072	1961-10-01			https://anilist.co/staff/398924	鹿取容子. Musician, Vocalist. From Kiyosu, Nishikasugai, Aichi Prefecture, Japan.
-398925	Masami Shiroishi	Q5						https://anilist.co/staff/398925	城石昌美. Producer.
-398926	Satoshi Nakajou	Q5						https://anilist.co/staff/398926	中城敏. Producer.
-398927	Junko Ikeda	Q5						https://anilist.co/staff/398927	池田順子. Producer.
-398949	Noboru Matsuhashi	Q5		Q6581097	1944-11-03		1967	https://anilist.co/staff/398949	松橋登. Voice Actor. From Ichikawa, Chiba Prefecture, Japan.
-398950	Hiroyuki Hira	Q5		Q6581097				https://anilist.co/staff/398950	平浩幸. Voice Actor.
-398952	Chilla's Art							https://anilist.co/staff/398952	チラズアート.
-398953	Sen Hazuki	Q5						https://anilist.co/staff/398953	葉月セン. Mangaka.
-398956	Kanade Kotozato	Q5		Q6581072				https://anilist.co/staff/398956	琴里奏. Mangaka. From Kurashiki, Okayama Prefecture, Japan.
-398989	Ryoukusuke Yanagiya	Q5		Q6581097	1994-05-10			https://anilist.co/staff/398989	柳家緑助. From Hamamatsu City, Shizuoka Prefecture, Japan.
-398991	Kikuhiko Hayashiya	Q5		Q6581097	1991-04-25			https://anilist.co/staff/398991	林家木久彦. From Saitama Prefecture, Japan.
-399001	Komon Yanagiya	Q5		Q6581097	1990-09-10			https://anilist.co/staff/399001	柳家小もん. From Maebashi City, Gunma Prefecture, Japan.
-399002	Rin Momokawa	Q5						https://anilist.co/staff/399002	百川凛. Writer.
-399016	Kohada Yanagiya	Q5		Q6581097	1989-11-08			https://anilist.co/staff/399016	柳家小はだ. From Meguro Ward, Tokyo, Japan.
-399017	Patrick Bonnel	Q5		Q6581097	1953-03-10		1976	https://anilist.co/staff/399017	Voice Actor.
-399018	Cédric Ingard	Q5		Q6581097				https://anilist.co/staff/399018	Voice Actor.
-399019	Asu	Q5						https://anilist.co/staff/399019	明巣. Writer.
-399020	Nike Mijamo	Q5						https://anilist.co/staff/399020	巳蛇百にけ. Mangaka.
-399021	Mimi Komota	Q5						https://anilist.co/staff/399021	菰田みみ. Mangaka.
-399022	Akari Madono	Q5						https://anilist.co/staff/399022	マドノアカリ. Mangaka.
-399023	Bappuul	Q5						https://anilist.co/staff/399023	밥푸울. Writer.
-399024	Takuhito Katou	Q5						https://anilist.co/staff/399024	加藤拓仁. Production Manager.
-399025	Utako	Q5						https://anilist.co/staff/399025	宇多子. Mangaka.
-399026	I-Ho Sin	Q5						https://anilist.co/staff/399026	신이호. Mangaka.
-399027	Haeru	Q5						https://anilist.co/staff/399027	해루. Artist.
-399028	Ja-Il	Q5						https://anilist.co/staff/399028	자일. Writer.
-399029	Kenaz	Q5						https://anilist.co/staff/399029	케나즈. Artist.
-399030	Ritu Amaya	Q5						https://anilist.co/staff/399030	天夜葎. Mangaka.
-399031	Hiromi Yuuin	Q5						https://anilist.co/staff/399031	有允ひろみ. Writer.
-399032	Haepssal	Q5						https://anilist.co/staff/399032	햅쌀. Artist.
-399033	Saru	Q5						https://anilist.co/staff/399033	Artist.
-399034	Ji-Won Han	Q5						https://anilist.co/staff/399034	한지원. Writer.
-399035	Lucas	Q5						https://anilist.co/staff/399035	Artist.
-399036	Su-Jin Baek	Q5						https://anilist.co/staff/399036	백수진. Writer.
-399037	Nia	Q5						https://anilist.co/staff/399037	Artist.
-399038	Smoothie	Q5						https://anilist.co/staff/399038	Artist.
-399039	Koni	Q5						https://anilist.co/staff/399039	Artist.
-399040	Chanzi	Q5						https://anilist.co/staff/399040	Artist.
-399051	ヨナガ	Q5						https://anilist.co/staff/399051	Yonaga. Mangaka.
-399057	Shizuku Aoyama	Q5						https://anilist.co/staff/399057	蒼山雫. Mangaka.
-399058	Io Misaki	Q5						https://anilist.co/staff/399058	岬イオ. Writer.
-399059	Eiko Oki	Q5		Q6581072	1987-11-30			https://anilist.co/staff/399059	オキエイコ. Illustrator.
-399062	Yuu Mayuzuki	Q5		Q6581097				https://anilist.co/staff/399062	眉月裕. Storyboard Artist.
-399063	Mitsuo Misawa	Q5						https://anilist.co/staff/399063	みさわみつお. Animator.
-399064	Youhei Fujimoto	Q5						https://anilist.co/staff/399064	藤元洋兵. Animator.
-399066	Miwako Asahi	Q5						https://anilist.co/staff/399066	旭美和子. Animator.
-399067	Furong Cuei	Q5						https://anilist.co/staff/399067	Animator.
-399068	Haijun Yu	Q5						https://anilist.co/staff/399068	Animator.
-399071	Mari Arahata	Q5						https://anilist.co/staff/399071	荒幡真理. Animator.
-399072	Kozue Kanazashi	Q5						https://anilist.co/staff/399072	金指こず江. Animator.
-399073	Chisato Kamiya	Q5						https://anilist.co/staff/399073	神谷知里. Animator.
-399074	Katsuhito Haneda	Q5						https://anilist.co/staff/399074	羽田雄仁. Animator.
-399075	Masashi Satou	Q5						https://anilist.co/staff/399075	佐藤将史. Animator.
-399076	Yasuko Yamashita	Q5						https://anilist.co/staff/399076	山下保子. Animator.
-399077	Mami Houri	Q5						https://anilist.co/staff/399077	宝利まみ. Animator.
-399078	Tomohiro Momota	Q5						https://anilist.co/staff/399078	百田智博. Animator.
-399079	Haruka Nakano	Q5						https://anilist.co/staff/399079	中野春香. Animator.
-399080	Risa Yamada	Q5						https://anilist.co/staff/399080	山田梨紗. Animator.
-399081	Hiroyuki Kume	Q5						https://anilist.co/staff/399081	久米博之. Animator.
-399082	Akimi Nozaki	Q5						https://anilist.co/staff/399082	野崎晶美. Animator.
-399083	Sawako Furuya	Q5						https://anilist.co/staff/399083	古屋佐和子. Animator.
-399084	Shinobu Arai	Q5						https://anilist.co/staff/399084	新井しのぶ. Painter.
-399085	Chika Yamauchi	Q5						https://anilist.co/staff/399085	山内千佳. Painter.
-399086	Eun-Ju Go	Q5						https://anilist.co/staff/399086	고은주. Painter.
-399087	Keiko Toyoshima	Q5						https://anilist.co/staff/399087	豊島圭子. Background Artist.
-399088	Jeong-Hyeon Ru	Q5						https://anilist.co/staff/399088	루정현. Background Artist.
-399089	Feng Xiao	Q5						https://anilist.co/staff/399089	蕭峰. Background Artist.
-399090	Zhenggang Huang	Q5						https://anilist.co/staff/399090	黄正剛. Background Artist.
-399091	Zhen Zhang	Q5						https://anilist.co/staff/399091	張震. Background Artist.
-399092	Masako Hata	Q5						https://anilist.co/staff/399092	秦雅子. Background Artist.
-399093	Masumi Izawa	Q5						https://anilist.co/staff/399093	井澤ますみ. Background Artist.
-399094	Se-Gwon Jeon	Q5						https://anilist.co/staff/399094	전세권. CG Artist.
-399095	Sun-Cheol Choi	Q5						https://anilist.co/staff/399095	최순철. CG Artist.
-399096	Sin-Geun An	Q5		Q6581097				https://anilist.co/staff/399096	안신근. CG Artist.
-399097	Yuu Fujiyama	Q5						https://anilist.co/staff/399097	藤山悠. Editor.
-399098	Kaori Koumoto	Q5		Q6581072	1974-07-07			https://anilist.co/staff/399098	河本香織. Producer. From Warabi, Saitama Prefecture, Japan.
-399099	Hitomi Kaiba	Q5						https://anilist.co/staff/399099	買場ひとみ. Producer.
-399100	Yousuke Kasahara	Q5						https://anilist.co/staff/399100	笠原陽介. Producer.
-399101	Osamu Taniguchi	Q5						https://anilist.co/staff/399101	谷口理. Production Manager.
-399102	Yasuhiro Nishio	Q5						https://anilist.co/staff/399102	西尾泰弘. Production Manager.
-399103	Yuuichi Suzuki	Q5						https://anilist.co/staff/399103	鈴木勇一. Production Manager.
-399104	Keiko Yozawa	Q5						https://anilist.co/staff/399104	與沢桂子. Production Manager.
-399106	Mai Akio	Q5						https://anilist.co/staff/399106	明生茉依. Writer.
-399107	Yuugata Natsuno	Q5						https://anilist.co/staff/399107	夏野夕方. Writer.
-399108	JURO	Q5						https://anilist.co/staff/399108	Mangaka.
-399109	Bamdaechu	Q5						https://anilist.co/staff/399109	밤대추. Mangaka.
-399110	Chiyang	Q5						https://anilist.co/staff/399110	치양. Mangaka.
-399111	Saki Sasaki	Q5						https://anilist.co/staff/399111	佐崎咲. Writer.
-399118	Gumi Ayada	Q5						https://anilist.co/staff/399118	彩田ぐみ. Mangaka.
-399119	Arata Hasumi	Q5						https://anilist.co/staff/399119	蓮実アラタ. Writer.
-399120	Tsukasa Kikouda	Q5						https://anilist.co/staff/399120	木公田つかさ. Mangaka.
-399121	Mayu Kumano	Q5						https://anilist.co/staff/399121	熊野まゆ. Writer.
-399122	Sakura Akizuki	Q5						https://anilist.co/staff/399122	秋月咲良. Mangaka.
-399134	Iri Uta	Q5						https://anilist.co/staff/399134	由多いり. Mangaka.
-399135	Hitsuji Hayama	Q5						https://anilist.co/staff/399135	葉山羊. Mangaka.
-399136	Ao Ayukawa	Q5						https://anilist.co/staff/399136	鮎川あお. Mangaka.
-399137	Mauu Nasu	Q5						https://anilist.co/staff/399137	那須まうー. Mangaka.
-399138	REBECCA	Q215380					1984	https://anilist.co/staff/399138	Band.
-399141	YUKI	Q5						https://anilist.co/staff/399141	YUKI. Mangaka.
-399142	Mai Ankou	Q5						https://anilist.co/staff/399142	安康マイ. Mangaka.
-399144	Shigehito Ohara	Q5						https://anilist.co/staff/399144	大原繁仁. Composer.
-399145	Chiharu Matsuyama	Q5		Q6581097	1955-12-16			https://anilist.co/staff/399145	松山千春. Musician. From Ashoro, Hokkaido Prefecture, Japan.
-399146	NOBODY	Q215380					1981	https://anilist.co/staff/399146	Band.
-399147	Yoshida Ou	Q5			1941-02-06			https://anilist.co/staff/399147	吉田旺. Lyricist.
-399148	Hideaki Tokunaga	Q5			1961-02-27			https://anilist.co/staff/399148	徳永英明. Musician.
-399149	Yasushi Nakamura	Q5			1939-05-21	2020-12-20		https://anilist.co/staff/399149	中村泰士. Composer.
-399150	Hako Yamasaki	Q5		Q6581072	1957-05-18			https://anilist.co/staff/399150	山崎ハコ. Musician.
-399151	Ryuun Nagai	Q5			1957-11-04			https://anilist.co/staff/399151	永井龍雲. Musician.
-399152	Shizue Abe	Q5			1951-11-28			https://anilist.co/staff/399152	あべ静江. Musician. From Nakamachi, Matsusaka, Mie Prefecture, Japan.
-399153	Naoko Ken	Q5			1953-07-07			https://anilist.co/staff/399153	研ナオコ. Musician.
-399154	Kenjirou Sakiya	Q5			1962-12-30			https://anilist.co/staff/399154	崎谷健次郎. Musician.
-399155	Midori Kinouchi	Q5			1957-06-10			https://anilist.co/staff/399155	木之内みどり. Musician. From Hokkaido Prefecture, Japan.
-399156	Ryou Shouji	Q5						https://anilist.co/staff/399156	東海林良. Lyricist.
-399157	sinner-Yang							https://anilist.co/staff/399157	
-399158	aCKy	Q5						https://anilist.co/staff/399158	Musician.
-399159	Hidetake Yamamoto	Q5						https://anilist.co/staff/399159	山本英武. Arranger.
-399160	Yuuya Ishii	Q5		Q6581097	1981-04-13			https://anilist.co/staff/399160	石井悠也. Drummer. From Kanagawa Prefecture, Japan.
-399161	Steve Eto	Q5		Q6581097	1958-04-20		1981	https://anilist.co/staff/399161	スティーヴ エトウ. Percussionist. From Los Angeles, United States.
-399162	Omokage Lucky Hole	Q215380					1994	https://anilist.co/staff/399162	面影ラッキーホール. Band.
-399163	Mio Okada	Q5	Q19831451	Q6581072	1965-04-21			https://anilist.co/staff/399163	岡田実音. Composer. From Chiba Prefecture, Japan.
-399164	Papa Daisuke	Q5						https://anilist.co/staff/399164	パパダイスケ. Arranger.
-399165	Miota Mizuho	Q5						https://anilist.co/staff/399165	みおたみずほ. Lyricist.
-399166	Takao Hirata	Q5			1939	2011-06-12		https://anilist.co/staff/399166	平田隆夫. Musician.
-399167	Masaru Suzuki	Q5			1916-07-07	1971-06-27		https://anilist.co/staff/399167	鈴木勝. Lyricist.
-399168	Yousui Inoue	Q5			1948-08-30			https://anilist.co/staff/399168	井上陽水. Musician.
-399169	Kazumasa Yoshimaru	Q5			1873-09-15	1916-03-07		https://anilist.co/staff/399169	吉丸一昌. Lyricist.
-399170	Akira Nakada	Q5			1886-07-08	1931-11-27		https://anilist.co/staff/399170	中田章. Composer.
-399171	Koumi Sone	Q5			1933-12-28	2017-04-20		https://anilist.co/staff/399171	曽根幸明. Composer.
-399175	Belpy	Q5						https://anilist.co/staff/399175	ベルピー. Writer.
-399176	Higuma Fujino	Q5						https://anilist.co/staff/399176	富士野ヒグマ. Mangaka.
-399177	rinoa	Q5						https://anilist.co/staff/399177	rinoa. Writer.
-399178	Kanipai	Q5						https://anilist.co/staff/399178	かにぱい. Artist.
-399179	Mio Odagi	Q5		Q6581072				https://anilist.co/staff/399179	おだぎみを. Mangaka. From Saitama Prefecture, Japan.
-399180	Shikinui	Q5						https://anilist.co/staff/399180	式nui. Mangaka.
-399181	Haru Utano	Q5						https://anilist.co/staff/399181	Mangaka.
-399182	Izumi Tsukise	Q5						https://anilist.co/staff/399182	月瀬いづみ. Writer.
-399183	Kitikon	Q5						https://anilist.co/staff/399183	키티콘. Writer.
-399184	Jong-Hwan Kim	Q5						https://anilist.co/staff/399184	김종환. Artist.
-399185	Danielle Ferguson	Q5		Q6581072				https://anilist.co/staff/399185	Voice Actor. From New York City, United States.
-399186	Patrick Hurt	Q5		Q6581097				https://anilist.co/staff/399186	Voice Actor. From Nashville, Tennessee, United States.
-399187	Michael Mishkin	Q5		Q6581097				https://anilist.co/staff/399187	Voice Actor.
-399188	Ellie Maeve	Q5		Q6581072				https://anilist.co/staff/399188	Voice Actor.
-399198	Stefania Roberti	Q5		Q6581072				https://anilist.co/staff/399198	
-399199	Fabrizia Chiappini	Q5		Q6581072				https://anilist.co/staff/399199	
-399200	Tonino Politanó	Q5		Q6581097				https://anilist.co/staff/399200	
-399201	Ppongsikkongsi	Q5						https://anilist.co/staff/399201	뽕시꽁시. Writer.
-399202	Usako Banmaru	Q5						https://anilist.co/staff/399202	万丸うさこ. Writer.
-399203	Arisa Uehara	Q5						https://anilist.co/staff/399203	上原有紗. Mangaka.
-399205	Ari Mason	Q5						https://anilist.co/staff/399205	Musician.
-399206	Tomomi Shiiki	Q5			1992-03-19			https://anilist.co/staff/399206	椎木知仁. Vocalist.
-399207	CHIVA	Q5						https://anilist.co/staff/399207	チバ. Composer, Musician.
-399208	Ketsumeishi	Q215380						https://anilist.co/staff/399208	ケツメイシ. Band.
-399209	Yuuno Marui	Q5						https://anilist.co/staff/399209	圓井ユウノ. Mangaka.
-399210	Aino Pukkila	Q5		Q6581072				https://anilist.co/staff/399210	Translator.
-399211	Hina Orii	Q5						https://anilist.co/staff/399211	折井雛. Mangaka.
-399212	Ikeda	Q5						https://anilist.co/staff/399212	いけだ. Mangaka.
-399213	Kimera Meido	Q5						https://anilist.co/staff/399213	メイドキメラ. Mangaka.
-399219	Nicolas Willame	Q5						https://anilist.co/staff/399219	
-399220	Chokkyuu Murano	Q5						https://anilist.co/staff/399220	村野直球. Lyricist.
-399221	Yoshihiro Kai	Q5			1953-04-07			https://anilist.co/staff/399221	甲斐よしひろ. Musician.
-399223	Takurou Yoshida	Q5			1946-04-05			https://anilist.co/staff/399223	吉田拓郎. Musician.
-399224	Ikuko Muraji	Q5						https://anilist.co/staff/399224	連依久子. Voice Actor.
-399225	Sayuri Kume	Q5	Q19831454		1958-05-11			https://anilist.co/staff/399225	久保田早紀. Musician.
-399226	Yoshinori Monta	Q5			1951-01-08	2023-10-18	1971	https://anilist.co/staff/399226	もんたよしのり. Musician.
-399227	Shuuichi Kamemoto	Q5						https://anilist.co/staff/399227	亀本秀一. Animator.
-399228	Masaya Ozeki	Q5						https://anilist.co/staff/399228	尾関昌也. Lyricist, Composer.
-399229	Nobuhiro Nishimura	Q5						https://anilist.co/staff/399229	西村亘弘. Animator.
-399230	Kazufumi Iwanaga	Q5						https://anilist.co/staff/399230	岩永和文. Animator.
-399231	Toshiro Sensui	Q5						https://anilist.co/staff/399231	泉水敏郎. Composer.
-399232	Osamu Takahashi	Q5						https://anilist.co/staff/399232	高橋修. Lyricist.
-399233	Rie Sezaki	Q5					1992	https://anilist.co/staff/399233	瀬崎利恵. Animator.
-399234	Hitoshi Yoshiyama	Q5						https://anilist.co/staff/399234	吉山均. Animator.
-399235	Tooru Kaneshiro	Q5						https://anilist.co/staff/399235	金城享. Animator.
-399236	Mikuri Hatta	Q5						https://anilist.co/staff/399236	八田未来里. Animator.
-399237	Yumiko Yokozai	Q5						https://anilist.co/staff/399237	横在由美子. Animator.
-399238	Kazuhiro Kozono	Q5						https://anilist.co/staff/399238	小園和広. Animator.
-399239	Daigo Akimoto	Q5						https://anilist.co/staff/399239	秋元大悟. Animator.
-399240	Tadanori Terada	Q5						https://anilist.co/staff/399240	寺田忠徳. Animator.
-399241	Keiko Tanaka	Q5						https://anilist.co/staff/399241	田中慶子. Painter.
-399242	Yuusuke Tanaka	Q5						https://anilist.co/staff/399242	田中雄介. Animator.
-399243	SCRAMBLES						2014	https://anilist.co/staff/399243	Company.
-399244	Polish National Radio Symphony Orchestra	Q42998						https://anilist.co/staff/399244	Narodowa Orkiestra Symfoniczna Polskiego Radia. Orchestra. From Katowice, Poland.
-399245	Michael Halász	Q5		Q6581097	1938-05-21			https://anilist.co/staff/399245	Conductor. From Cluj (Now Cluj-Napoca), Kingdom of Romania.
-399246	Marianne Beate Kielland	Q5		Q6581072	1975-10-12			https://anilist.co/staff/399246	Vocalist. From Lørenskog, Norway.
-399247	Helmut Müller-Brühl	Q5			1933-06-28	2012-01-02		https://anilist.co/staff/399247	Conductor.
-399248	Cologne Chamber Orchestra	Q42998						https://anilist.co/staff/399248	Kölner Kammerorchester. Orchestra.
-399249	Miyoko Ushiku	Q5						https://anilist.co/staff/399249	牛久美代子. Painter.
-399250	Yukiko Ushitaki	Q5						https://anilist.co/staff/399250	牛滝裕紀子. Painter.
-399251	Sayuri Makita	Q5						https://anilist.co/staff/399251	牧田小百合. Painter.
-399252	Sumiko Nagai	Q5						https://anilist.co/staff/399252	長井スミ子. Painter.
-399253	Junko Mizuguchi	Q5						https://anilist.co/staff/399253	水口純子. Painter.
-399254	Shigeko Aoki	Q5						https://anilist.co/staff/399254	青木滋子. Painter.
-399255	Masako Nakasara	Q5						https://anilist.co/staff/399255	仲皿昌子. Painter.
-399256	Yuka Matsumoto	Q5						https://anilist.co/staff/399256	松元有香. Painter.
-399257	Keiko Yamada	Q5						https://anilist.co/staff/399257	山田啓子. Painter.
-399258	Masuyo Saitou	Q5						https://anilist.co/staff/399258	斉藤益代. Painter.
-399259	Ai Shouji	Q5						https://anilist.co/staff/399259	庄司愛. Painter.
-399260	Aoi Oozora	Q5						https://anilist.co/staff/399260	大空碧. Painter.
-399261	Mika Kobayashi	Q5						https://anilist.co/staff/399261	小林美香. Painter.
-399262	Hiroko Watase	Q5						https://anilist.co/staff/399262	渡瀬弘子. Painter.
-399263	Junko Takamatsu	Q5						https://anilist.co/staff/399263	高松純子. Painter.
-399264	Yasushi Oomine	Q5						https://anilist.co/staff/399264	大嶺靖. Background Artist.
-399265	Cheongan	Q5						https://anilist.co/staff/399265	청안. Writer.
-399266	Minoru Takeda	Q5						https://anilist.co/staff/399266	竹田実. Background Artist.
-399267	Takashi Mizuguchi	Q5						https://anilist.co/staff/399267	水口貴司. Background Artist.
-399268	Naoki Imataka	Q5						https://anilist.co/staff/399268	今高直樹. Background Artist.
-399269	Tsuyoshi Suzuki	Q5						https://anilist.co/staff/399269	鈴木剛. Background Artist.
-399270	Shirou Basaki	Q5						https://anilist.co/staff/399270	場崎史郎. Background Artist.
-399271	Satoshi Higuchi	Q5						https://anilist.co/staff/399271	樋口智. Background Artist.
-399272	Toshikazu Katou	Q5						https://anilist.co/staff/399272	加藤寿一. Background Artist.
-399273	Hideyuki Sakurai	Q5						https://anilist.co/staff/399273	桜井秀行. Background Artist.
-399274	Takashi Yamagata	Q5						https://anilist.co/staff/399274	山県高. Background Artist.
-399275	Aoi Oozora	Q5						https://anilist.co/staff/399275	大空蒼. Background Artist.
-399276	Jun Kurihara	Q5						https://anilist.co/staff/399276	栗原純. Background Artist.
-399277	Motohiko Yasuide	Q5						https://anilist.co/staff/399277	安出元彦. Background Artist.
-399278	Yui Aomoto	Q5						https://anilist.co/staff/399278	蒼本唯. Background Artist.
-399279	Hiroshi Kase	Q5						https://anilist.co/staff/399279	加瀬浩. Background Artist.
-399280	Harumi Nakajima	Q5						https://anilist.co/staff/399280	中嶋晴美. Composite Artist.
-399281	Hatsumi Shibata	Q5		Q6581072	1952-04-11	2010-03-27	1968	https://anilist.co/staff/399281	しばたはつみ. Vocalist, Musician. From Tokyo, Japan.
-399284	Keiji Nagai	Q5						https://anilist.co/staff/399284	長井圭次. Producer.
-399285	Sachiko Aoki	Q5						https://anilist.co/staff/399285	青木佐智子. Production Manager.
-399286	Kouichirou Aoki	Q5						https://anilist.co/staff/399286	青木巧壱郎. Production Manager.
-399287	Yuuko Mizuguchi	Q5						https://anilist.co/staff/399287	水口優子. Production Manager.
-399288	Naomasa Furukawa	Q5						https://anilist.co/staff/399288	古川直正. Production Manager.
-399289	Keisuke Takada	Q5						https://anilist.co/staff/399289	高田圭佑.
-399290	Atsuo Seo	Q5						https://anilist.co/staff/399290	セオアツオ. Scriptwriter.
-399291	Haruto Watanabe	Q5						https://anilist.co/staff/399291	渡邊陽斗.
-399292	Shouya Yamamoto	Q5						https://anilist.co/staff/399292	Producer.
-399293	Natsumi Yoneda	Q5						https://anilist.co/staff/399293	米田夏海.
-399295	DJ MASTERKEY	Q5						https://anilist.co/staff/399295	Musician.
-399296	CHRIS	Q5		Q6581097	1980-12-24			https://anilist.co/staff/399296	Musician. From New York, United States.
-399297	Alessio Milani	Q5			1980-05-02			https://anilist.co/staff/399297	Composer.
-399299	Alberto Benati	Q5		Q6581097			1991	https://anilist.co/staff/399299	Composer. From Pegognaga, Lombardy, Italy.
-399300	BLACK MACHINE	Q215380					1991	https://anilist.co/staff/399300	Band.
-399301	Marius Percali	Q5						https://anilist.co/staff/399301	Musician.
-399302	Ottomix	Q5						https://anilist.co/staff/399302	Musician.
-399303	Pippo Landro	Q5						https://anilist.co/staff/399303	Musician.
-399304	Fulvio Zafret	Q5						https://anilist.co/staff/399304	Composer.
-399305	DFC						1987	https://anilist.co/staff/399305	
-399306	Riccardo Persi	Q5						https://anilist.co/staff/399306	Musician.
-399307	Claudio Collino	Q5						https://anilist.co/staff/399307	Musician.
-399308	Mr.CRAMBO & THE GO-GO RAPPERS	Q215380						https://anilist.co/staff/399308	Band.
-399309	Tom Greenwood	Q5						https://anilist.co/staff/399309	Musician.
-399310	Marc O'Tool	Q5						https://anilist.co/staff/399310	Arranger.
-399311	Ronald van Gelderen	Q5			1976-02-25			https://anilist.co/staff/399311	Musician. From Rotterdam, Netherlands.
-399312	Lee Gong Gong Gu	Q5						https://anilist.co/staff/399312	이공공구. Mangaka.
-399313	Andrea Berwitz	Q5						https://anilist.co/staff/399313	Musician.
-399314	lab-4	Q215380					1994	https://anilist.co/staff/399314	Band. From Oxford, United Kingdom.
-399315	Lez Elston	Q5						https://anilist.co/staff/399315	Musician.
-399316	Adam Newman	Q5						https://anilist.co/staff/399316	Musician.
-399317	Satoru Keelo	Q5						https://anilist.co/staff/399317	Arranger.
-399318	DJ Suku	Q5						https://anilist.co/staff/399318	DJ.
-399319	Shawn S.							https://anilist.co/staff/399319	
-399320	Kambui P.	Q5						https://anilist.co/staff/399320	Musician.
-399321	B'Zaro	Q5						https://anilist.co/staff/399321	Musician.
-399322	Rukus From Da Wyld Kingdom							https://anilist.co/staff/399322	
-399323	Ken H.							https://anilist.co/staff/399323	
-399324	Toshiyuki Takizawa	Q5						https://anilist.co/staff/399324	滝沢淑行. Arranger.
-399325	Takashi Kobayashi	Q5			1965-12-26			https://anilist.co/staff/399325	小林孝至. Composer.
-399326	Nyakki	Q5						https://anilist.co/staff/399326	にゃっき. Animator.
-399328	Beimian	Q5						https://anilist.co/staff/399328	杯面. Animator.
-399329	Asuka Murakami	Q5						https://anilist.co/staff/399329	村上明日花. Painter.
-399330	Hifumi Koga	Q5						https://anilist.co/staff/399330	小賀一二三. Background Artist.
-399331	Yuuhi Sumino	Q5						https://anilist.co/staff/399331	住野雄飛. Audio Engineer.
-399332	Hideto Ishida	Q5						https://anilist.co/staff/399332	石田秀登. Lyricist, Composer.
-399333	Natsu no Owari	Q5					2018	https://anilist.co/staff/399333	螟上?邨ゅｏ繧. Composer, Musician.
-399334	Geulsseuneunibeu	Q5						https://anilist.co/staff/399334	글쓰는이브. Writer.
-399335	Seong-Bae	Q5						https://anilist.co/staff/399335	성배. Artist.
-399336	Sanru Aitsu	Q5						https://anilist.co/staff/399336	天嗣さんる. Mangaka.
-399337	Yating Xu	Q5						https://anilist.co/staff/399337	許雅婷. Translator.
-399338	Yabura	Q5						https://anilist.co/staff/399338	やぶら. Mangaka.
-399339	Enju Sasaki	Q5			1996-05-08			https://anilist.co/staff/399339	ササキエンジュ. Mangaka.
-399340	Akikan							https://anilist.co/staff/399340	空き缶.
-399341	Mio Miyoshi	Q5			2006			https://anilist.co/staff/399341	三好ミオ. Mangaka. From Chiba Perfecture, Japan.
-399344	Peruna	Q5						https://anilist.co/staff/399344	Peruna. Mangaka.
-399349	Wooden	Q5						https://anilist.co/staff/399349	우든. Artist.
-399350	Moruu	Q5						https://anilist.co/staff/399350	모루우. Writer.
-399351	Si-Tal Kwak	Q5		Q6581097	1989-06-19			https://anilist.co/staff/399351	곽시탈. Mangaka.
-399354	Pan ANNN	Q5						https://anilist.co/staff/399354	判ANNN. Mangaka.
-399355	Fuuka Sano	Q5						https://anilist.co/staff/399355	佐野楓花.
-399356	Niina Kobayashi	Q5						https://anilist.co/staff/399356	小林にいな.
-399357	Shunpei Ishiguro	Q5						https://anilist.co/staff/399357	石黒峻平. Composer.
-399358	Makoto Kitajou	Q5			1947-10-24			https://anilist.co/staff/399358	喜多條忠. Lyricist.
-399359	Akihiko Kawai	Q5						https://anilist.co/staff/399359	河合明彦.
-399360	Niccolò Ippolito	Q5						https://anilist.co/staff/399360	Voice Actor.
-399361	Irene Geronimi	Q5		Q6581072				https://anilist.co/staff/399361	Voice Actor.
-399362	Ivan Morello	Q5						https://anilist.co/staff/399362	Voice Actor.
-399363	Aasis Beats	Q5		Q6581097	1996-08-17		2026	https://anilist.co/staff/399363	Audio Engineer, Composer. From Kathmandu, Nepal.
-399364	Massimiliano Cozzi	Q5						https://anilist.co/staff/399364	
-399365	Mirko Spanò	Q5						https://anilist.co/staff/399365	
-399366	Orlando Leone	Q5						https://anilist.co/staff/399366	
-399367	Francesco Donadell Campbell	Q5						https://anilist.co/staff/399367	
-399368	Francesca Conte	Q5						https://anilist.co/staff/399368	
-399369	Mariangela Geranio	Q5						https://anilist.co/staff/399369	
-399370	Haruo Sagara	Q5						https://anilist.co/staff/399370	相楽ハルオ.
-399371	Vittoria Scognamiglio	Q5						https://anilist.co/staff/399371	Voice Actor.
-399372	Francesco Calabrese	Q5						https://anilist.co/staff/399372	Voice Actor.
-399373	Loredana Acquaviva	Q5						https://anilist.co/staff/399373	Voice Actor.
-399374	Luna Massari	Q5		Q6581072				https://anilist.co/staff/399374	Voice Actor.
-399375	Giorgia Diaz	Q5		Q6581072				https://anilist.co/staff/399375	
-399376	Federica Martinelli	Q5						https://anilist.co/staff/399376	Voice Actor.
-399377	Francesco Raffaeli	Q5						https://anilist.co/staff/399377	Voice Actor.
-399378	Alice Porto	Q5						https://anilist.co/staff/399378	Voice Actor.
-399379	Gaia Tornitore	Q5						https://anilist.co/staff/399379	Voice Actor.
-399380	Alessia Ciccorelli	Q5						https://anilist.co/staff/399380	
-399381	Andrea D'Amico	Q5						https://anilist.co/staff/399381	
-399382	Marcantonio Infascelli	Q5						https://anilist.co/staff/399382	
-399383	Yousuke Sekiguchi	Q5						https://anilist.co/staff/399383	関口陽祐. Production Manager.
-399384	Gloria Calcagnile	Q5						https://anilist.co/staff/399384	Voice Actor.
-399385	Hirame Ou							https://anilist.co/staff/399385	ヒラメ王.
-399386	Yingxue Meng Fusheng							https://anilist.co/staff/399386	櫻雪夢浮生.
-399387	Ruihang Zhao	Q5						https://anilist.co/staff/399387	趙瑞航.
-399388	Qing Guo	Q5						https://anilist.co/staff/399388	郭慶.
-399389	Lujia Zhuiwei							https://anilist.co/staff/399389	緑頬錐尾.
-399390	Tongtong Wang	Q5						https://anilist.co/staff/399390	王彤彤.
-399391	Mami Saeki	Q5						https://anilist.co/staff/399391	佐伯真実.
-399392	Chika Shimizu	Q5						https://anilist.co/staff/399392	清水知香.
-399393	Kairi Miyauchi	Q5						https://anilist.co/staff/399393	宮内開陸.
-399394	Tomoki Kurano	Q5						https://anilist.co/staff/399394	倉野智輝.
-399395	Kaya Ooshima	Q5						https://anilist.co/staff/399395	大島夏矢.
-399396	Akira Nishi	Q5						https://anilist.co/staff/399396	西あきら.
-399397	Orbitten	Q5						https://anilist.co/staff/399397	Animator.
-399406	Castle North	Q5						https://anilist.co/staff/399406	きゃっするのーす. Mangaka.
-399407	Oumi Minami	Q5						https://anilist.co/staff/399407	三並央実. Mangaka.
-399408	Yurina Yuya	Q5						https://anilist.co/staff/399408	ゆやゆりな. Mangaka.
-399416	Arthur Fonseca	Q5		Q6581097	2013-08-06			https://anilist.co/staff/399416	Voice Actor. From Rio de Janeiro, Brazil.
-399425	Haru	Q5						https://anilist.co/staff/399425	하루. Writer.
-399440	Marie Mizuno	Q5						https://anilist.co/staff/399440	水野マリィ. Mangaka, Illustrator.
-399441	Sophie Murgia	Q5						https://anilist.co/staff/399441	Voice Actor.
-399442	Viola Ciolfi	Q5						https://anilist.co/staff/399442	Voice Actor.
-399449	Simone Bagnasco	Q5						https://anilist.co/staff/399449	Voice Actor.
-399450	Martina Merenda	Q5						https://anilist.co/staff/399450	Voice Actor.
-399451	Leah Sayers	Q5						https://anilist.co/staff/399451	Voice Actor.
-399452	Grant Ross	Q5						https://anilist.co/staff/399452	Voice Actor.
-399453	Grant Ross	Q5						https://anilist.co/staff/399453	Voice Actor.
-399454	Tamara Schilder	Q5						https://anilist.co/staff/399454	
-399455	Toshi Ryuugen	Q5		Q6581097				https://anilist.co/staff/399455	龍玄とし. Musician.
-399456	Michio Yamashita	Q5			1952-10-03			https://anilist.co/staff/399456	山下三智夫. Composer.
-399457	Kimiharu Nakamura	Q5			1952-05-30			https://anilist.co/staff/399457	中村公晴. Lyricist.
-399460	Myuye	Q5						https://anilist.co/staff/399460	뮤예. Artist.
-399461	Masako Matsuno	Q5		Q6581072	1935-07-12	2011-12-21		https://anilist.co/staff/399461	松野正子. Writer. From Niihama, Ehime Prefecture, Japan.
-399465	Yasuteru Oono	Q5		Q6581097				https://anilist.co/staff/399465	大野恭照. Director, Animator.
-399466	Canon Sakurai	Q5			2002			https://anilist.co/staff/399466	櫻井佳音. Music Composer.
-399467	Su-Hyeon Lee	Q5						https://anilist.co/staff/399467	이수현. Mangaka.
-399491	Takeko Nakazato	Q5						https://anilist.co/staff/399491	仲郷たけこ. Mangaka.
-399492	Hana Nishino	Q5						https://anilist.co/staff/399492	西野花. Writer.
-399510	7co	Q5					2022	https://anilist.co/staff/399510	7co. Musician.
-399517	Minoru Yatsukado	Q5						https://anilist.co/staff/399517	八門実. Mangaka.
-399518	Nozumo	Q5						https://anilist.co/staff/399518	のずも. Mangaka.
-399521	Oji Aino	Q5						https://anilist.co/staff/399521	愛野おぢ. Mangaka.
-399522	Shouyu Kayatani	Q5						https://anilist.co/staff/399522	茅谷しょうゆ. Mangaka.
-399523	Natsuki Shibasaki	Q5						https://anilist.co/staff/399523	しばさき南月. Mangaka.
-399525	Seika Ono	Q5		Q6581072				https://anilist.co/staff/399525	小埜聖華. Mangaka. From Fukuoka Prefecture, Japan.
-399526	Nuu	Q5						https://anilist.co/staff/399526	ぬー. Writer.
-399527	Horiho	Q5						https://anilist.co/staff/399527	호리호. Writer.
-399528	Hana	Q5						https://anilist.co/staff/399528	하나. Artist.
-399535	Ayumu Miya	Q5						https://anilist.co/staff/399535	ミヤアユム. Mangaka.
-399536	Bairi Huanxiang Jia	Q5						https://anilist.co/staff/399536	白日幻想家. Artist.
-399544	Luoke ROK	Q5						https://anilist.co/staff/399544	罗克ROK. Mangaka.
-399545	Xiaoliu Yuan	Q5		Q6581097				https://anilist.co/staff/399545	圆小刘.
-399547	Shinmei Hashimoto	Q5		Q6581097	1966-03-28			https://anilist.co/staff/399547	橋本しんめい. Voice Actor. From Aichi Prefecture, Japan.
-399564	Kurumi Hirokawa	Q5		Q6581072				https://anilist.co/staff/399564	廣川来美. Voice Actor. From Hokkaido, Japan.
-399588	Luna	Q5						https://anilist.co/staff/399588	루나. Mangaka.
-399594	Jokkachi	Q5						https://anilist.co/staff/399594	조까치. Writer.
-399595	Chalborippang	Q5						https://anilist.co/staff/399595	찰보리빵. Artist.
-399605	Saya	Q5		Q6581072	1995-12-13			https://anilist.co/staff/399605	サーヤ. Voice Actor, Musician. From Hachioji, Tokyo, Japan.
-399607	Dokgo Jae-Heon	Q5						https://anilist.co/staff/399607	독고재헌. Mangaka.
-399609	Naguko Amamiya	Q5						https://anilist.co/staff/399609	雨宮なぐ子. Mangaka.
-399610	Uta Aoi	Q5						https://anilist.co/staff/399610	碧井ウタ. Writer.
-399611	Waka	Q5						https://anilist.co/staff/399611	わか. Illustrator.
-399623	Miirai	Q5						https://anilist.co/staff/399623	미이라이. Writer.
-399624	Colbab	Q5						https://anilist.co/staff/399624	콜밥. Mangaka.
-399625	Nifu Niwahara	Q5						https://anilist.co/staff/399625	庭原にふ. Mangaka.
-399626	Nagasaki	Q5						https://anilist.co/staff/399626	ナガサキ. Mangaka.
-399627	Nasubinari	Q5						https://anilist.co/staff/399627	茄子也. Mangaka.
-399628	Tenkyuu Kyouno	Q5						https://anilist.co/staff/399628	響野天泣. Mangaka.
-399629	Sugata	Q5						https://anilist.co/staff/399629	スガタ. Illustrator.
-399630	Akihiko Mutobe	Q5						https://anilist.co/staff/399630	六人部彰彦. Writer.
-399631	aoki	Q5						https://anilist.co/staff/399631	aoki. Mangaka, Illustrator.
-399637	Jeonsonggi	Q5						https://anilist.co/staff/399637	전송기. Writer.
-399638	Ami_co	Q5						https://anilist.co/staff/399638	亜未子. Mangaka.
-399639	Daiun Miki	Q5		Q6581097	1972-06-17			https://anilist.co/staff/399639	三木大雲. Writer.
-399640	Eric Moussion	Q5						https://anilist.co/staff/399640	Voice Actor.
-399641	Cecilia Debergh	Q5						https://anilist.co/staff/399641	Voice Actor.
-399642	Yanni Lotta	Q5						https://anilist.co/staff/399642	Voice Actor.
-399643	Hugo Rezeda	Q5						https://anilist.co/staff/399643	Voice Actor.
-399644	Julien Chettle	Q5						https://anilist.co/staff/399644	Voice Actor.
-399645	Naomi Azran	Q5						https://anilist.co/staff/399645	Voice Actor.
-399646	Fanny Gatibelza	Q5						https://anilist.co/staff/399646	Voice Actor.
-399647	Chloé Guerin	Q5						https://anilist.co/staff/399647	Voice Actor.
-399648	Rikako Yoshino	Q5						https://anilist.co/staff/399648	好野りかこ. Mangaka.
-399652	Senri Ooe	Q5			1960-09-06		1983	https://anilist.co/staff/399652	大江千里. Musician. From Fujiidera, Osaka, Japan.
-399653	Kirari	Q5	Q19831453	Q6581072	1980-10-23		1997	https://anilist.co/staff/399653	きらり. Musician. From Tokyo, Japan.
-399654	Taku	Q5			1960-09-22			https://anilist.co/staff/399654	Arranger, Musician.
-399655	THE HONG KONG KNIFE	Q215380					1993	https://anilist.co/staff/399655	Band.
-399656	JOE ALCOHOL	Q5		Q6581097		2022-01-31		https://anilist.co/staff/399656	ジョー・アルコール. Musician.
-399657	Mihoko Uemura	Q5						https://anilist.co/staff/399657	上村美保子. Lyricist.
-399658	Vienna Shounen Gasshoudan	Q131186					1924	https://anilist.co/staff/399658	ウィーン少年合唱団. Choir.
-399659	Sachiko Yasuda	Q5			1941-09-09			https://anilist.co/staff/399659	安田祥子. Vocalist. From Kiryuu, Gunma Prefecture, Japan.
-399660	You Okazaki	Q5						https://anilist.co/staff/399660	岡崎葉. Lyricist.
-399661	Mitaka Takatsuki	Q5						https://anilist.co/staff/399661	高月みたか. Lyricist.
-399662	Dai	Q5						https://anilist.co/staff/399662	Vocalist.
-399663	TO DESTINATION	Q215380					1999	https://anilist.co/staff/399663	Band. From Nagano, Japan.
-399664	Umi Hinata	Q5						https://anilist.co/staff/399664	日奈田うみ. Mangaka.
-399665	Hato Ninjin	Q5						https://anilist.co/staff/399665	ニンジン鳩.
-399666	Eun-Rin Ju	Q5						https://anilist.co/staff/399666	주은린. Writer.
-399667	Ma Tang	Q5						https://anilist.co/staff/399667	麻糖. Writer.
-399668	Xiaoshen	Q5						https://anilist.co/staff/399668	小沈. Artist.
-399669	Jue Wei Xiang Ya Bo	Q5						https://anilist.co/staff/399669	绝味香鸭脖. Artist.
-399670	PiT	Q5						https://anilist.co/staff/399670	Mangaka.
-399673	Kaito Iwamatsu	Q5						https://anilist.co/staff/399673	岩松海豊. CG Artist.
-399674	Tatsuya Mochida	Q5						https://anilist.co/staff/399674	持田達也. CG Artist.
-399675	Takuya Kanazawa	Q5						https://anilist.co/staff/399675	金澤拓也. CG Artist.
-399676	Naoko Ikeda	Q5						https://anilist.co/staff/399676	池田尚子. CG Artist.
-399677	Gyeong-Min Jo	Q5						https://anilist.co/staff/399677	조경민. CG Artist.
-399678	Erika Kitamura	Q5						https://anilist.co/staff/399678	北村愛莉香. CG Artist.
-399679	Jin-Ho Kim	Q5						https://anilist.co/staff/399679	김진호. CG Artist.
-399680	Osamu Iwatani	Q5		Q6581097				https://anilist.co/staff/399680	岩谷修. Mangaka.
-399681	Shigeru Kayama	Q5		Q6581097	1904-07-01	1975-02-07	1946	https://anilist.co/staff/399681	香山滋. Writer. From Kagurazaka, Shinjuku-ku, Tokyo, Japan.
-399682	Nasu Tsukumo	Q5						https://anilist.co/staff/399682	つくも茄子. Writer.
-399683	Jorujo Oba	Q5						https://anilist.co/staff/399683	大庭ジョルジョ. Mangaka.
-399684	M.B	Q5						https://anilist.co/staff/399684	M.B. Illustrator.
-399685	Hajime Itsuki	Q5						https://anilist.co/staff/399685	伊月一. Mangaka.
-399686	Katsuki Kosuge	Q5						https://anilist.co/staff/399686	小菅かつき. Mangaka. From Fukushima Prefecture, Japan.
-399687	nina	Q5						https://anilist.co/staff/399687	仁奈. Mangaka.
-399700	Sora Suzukaze	Q5						https://anilist.co/staff/399700	涼風そら. Mangaka.
-399705	Salvador Avila Lopez	Q5						https://anilist.co/staff/399705	
-399706	Vera Plishch	Q5						https://anilist.co/staff/399706	
-399707	skeleton							https://anilist.co/staff/399707	
-399708	NINI	Q5						https://anilist.co/staff/399708	NINI. Mangaka.
+399709	Aaliyah Sun Huang	Q5						https://anilist.co/staff/399709	Voice Actor.
+399710	Ian Cardoni	Q5		Q6581097				https://anilist.co/staff/399710	Voice Actor. From Boston, Massachusetts, United States.
+399711	Juanita Jennings	Q5		Q6581072			1986	https://anilist.co/staff/399711	Voice Actor.
+399712	Aaron Encinas	Q5						https://anilist.co/staff/399712	Vocalist.
+399713	Arthur Christopher Benson	Q5			1862-04-24	1925-06-17		https://anilist.co/staff/399713	Lyricist.
+399714	Leeds Ongakusai Gasshoudan	Q131186						https://anilist.co/staff/399714	リーズ音楽祭 合唱団. Choir. From Leeds, West Yorkshire, England.
+399715	Biel Cano	Q5		Q6581097	2012-08-05			https://anilist.co/staff/399715	Voice Actor. From São Bernardo do Campo, Brazil.
+399716	Nobuo Sasahara	Q5						https://anilist.co/staff/399716	笹原信雄. Producer.
+399717	Jun Sasahara	Q5						https://anilist.co/staff/399717	笹原純. Composite Artist.
+399719	Takeshi Sadamura	Q5						https://anilist.co/staff/399719	定村武士. Producer.
+399720	Hirosuke Hamada	Q5		Q6581097	1893-05-25	1973-11-17		https://anilist.co/staff/399720	浜田広介. Writer. From Takahata, Higashiokitama, Yamagata Prefecture, Japan.
+399721	Clara Verardi	Q5		Q6581072	2005-03-29		2024	https://anilist.co/staff/399721	Voice Actor. From São Paulo, Brazil.
+399722	Marcelo Gouvêa	Q5		Q6581097	1990-12-05			https://anilist.co/staff/399722	Voice Actor, Translator. From Brazil.
+399724	Seishun Satou	Q5						https://anilist.co/staff/399724	佐藤晴春. Animator.
+399725	Makoto Uchida	Q5						https://anilist.co/staff/399725	内田真琴. CG Artist.
+399726	Takashi Miyake	Q5						https://anilist.co/staff/399726	三宅喬志. CG Artist.
+399727	Simona Meneghin	Q5						https://anilist.co/staff/399727	Voice Actor.
+399728	Francesca Melis	Q5						https://anilist.co/staff/399728	Voice Actor.
+399729	CASG	Q5						https://anilist.co/staff/399729	Vocalist.
+399736	Gianna Gesualdo	Q5		Q6581072				https://anilist.co/staff/399736	Voice Actor.
+399737	Brad Foster	Q5		Q6581097				https://anilist.co/staff/399737	Voice Actor.
+399738	Gabriele Ricci	Q5		Q6581097				https://anilist.co/staff/399738	Voice Actor.
+399739	Lorenzo Rossi Jacquier	Q5		Q6581097				https://anilist.co/staff/399739	Voice Actor.
+399742	Sam Saphr	Q5						https://anilist.co/staff/399742	Editor.
+399743	Sip-Sam O	Q5						https://anilist.co/staff/399743	오십삼. Writer.
+399746	Ren Kudou	Q5						https://anilist.co/staff/399746	久遠れん. Writer.
+399747	Kayo Mifuyu	Q5						https://anilist.co/staff/399747	深冬かよ. Writer.
+399748	Rioka Aoi	Q5						https://anilist.co/staff/399748	青井リオカ. Mangaka.
+399749	Kou Randou	Q5						https://anilist.co/staff/399749	藍銅紅. Writer.
+399750	Padadak	Q5						https://anilist.co/staff/399750	파다닭. Mangaka.
+399751	Jam-Hae Choi	Q5						https://anilist.co/staff/399751	최잠해. Mangaka.
+399752	Min Gyeong	Q5						https://anilist.co/staff/399752	경민. Mangaka.
+399753	Anna	Q5						https://anilist.co/staff/399753	안나. Writer.
+399754	Mikura	Q5						https://anilist.co/staff/399754	Mikura. Writer.
+399762	Asuka Mori	Q5						https://anilist.co/staff/399762	森飛鳥. Mangaka, Writer.
+399763	Shiro Ichiki	Q5						https://anilist.co/staff/399763	壱紀しろ. Mangaka.
+399764	Nao Masaki	Q5						https://anilist.co/staff/399764	誠樹ナオ. Writer.
+399765	PW	Q5						https://anilist.co/staff/399765	PW. Artist.
+399766	CG	Q5						https://anilist.co/staff/399766	CG. Writer.
+399767	F.GIRAUD	Q5						https://anilist.co/staff/399767	Composer.
+399768	hermin	Q5						https://anilist.co/staff/399768	Composer.
+399769	Shigeharu Sasago	Q5			1958-03-21			https://anilist.co/staff/399769	笹子重治. Composer.
+399770	micco	Q5						https://anilist.co/staff/399770	Vocalist.
+399771	Kokage Akino	Q5						https://anilist.co/staff/399771	秋乃こかげ. Mangaka.
+399772	Keiichi Ato	Q5						https://anilist.co/staff/399772	安登恵一. Writer.
+399773	Chiharu Arata	Q5						https://anilist.co/staff/399773	新田チハル. Mangaka.
+399774	Pitsu	Q5						https://anilist.co/staff/399774	핏수. Writer.
+399775	Jin-Hui Cheon	Q5						https://anilist.co/staff/399775	천진희. Artist.
+399776	Mokagae	Q5						https://anilist.co/staff/399776	모카개. Mangaka.
+399777	Tabata Grand Canyon	Q5						https://anilist.co/staff/399777	タバタグランドキャニオン. Mangaka.
+399778	Kinmokusei	Q215380					1998	https://anilist.co/staff/399778	キンモクセイ. Band.
+399779	Shungo Itou	Q5	Q19831455		1976-11-25			https://anilist.co/staff/399779	伊藤俊吾. Musician. From Sagamihara, Kanagawa Prefecture, Japan.
+399780	Takashi Hamazaki	Q5			1965-06-11			https://anilist.co/staff/399780	浜崎貴司. Musician. From Utsunomiya, Tochigi Prefecture, Japan.
+399781	Morisanchuu						1998	https://anilist.co/staff/399781	森三中.
+399782	Satoru Ono	Q5			1964			https://anilist.co/staff/399782	ヲノサトル. Composer. From Akita Prefecture, Japan.
+399783	pal@pop	Q5			1971-08-15			https://anilist.co/staff/399783	Composer.
+399784	Sachiko Ame	Q5						https://anilist.co/staff/399784	雨サチコ. Mangaka.
+399785	Kigurumichiko	Q215380					2007	https://anilist.co/staff/399785	キグルミチコ. Band.
+399786	Kouji Ide	Q5			1971-01-11			https://anilist.co/staff/399786	井手コウジ. Composer.
+399787	yoko	Q5			1985-11-12			https://anilist.co/staff/399787	Musician. From Tokyo, Japan.
+399788	Riho Okazaki	Q5						https://anilist.co/staff/399788	岡崎莉帆.
+399789	Misaki Fukuzumi	Q5						https://anilist.co/staff/399789	福住心咲.
+399795	CROWN HEAD	Q215380					2025	https://anilist.co/staff/399795	クラウンヘッド. Band.
+399808	Suguri Fusa	Q5						https://anilist.co/staff/399808	ふさすぐり. Mangaka.
+399809	Yu-Ri Lee	Q5						https://anilist.co/staff/399809	이유리. Voice Actor.
+399811	Yang-Uk Jin	Q5						https://anilist.co/staff/399811	진양욱. Voice Actor.
+399812	Ryuuko Funado	Q5						https://anilist.co/staff/399812	舩戸柳子. Production Manager.
+399813	Yuhi Seki	Q5						https://anilist.co/staff/399813	Composite Artist.
+399814	Takuya Ogawa	Q5						https://anilist.co/staff/399814	小川卓也. Composite Artist.
+399815	Yasuto Ishihama	Q5						https://anilist.co/staff/399815	石濱靖登. Composite Artist.
+399816	Takigi Himukai	Q5						https://anilist.co/staff/399816	ひむかいたきぎ. Mangaka.
+399817	Taiga Fujita	Q5						https://anilist.co/staff/399817	藤田大雅. Background Artist.
+399818	Rui Takahara	Q5						https://anilist.co/staff/399818	Composite Artist.
+399819	Ondo	Q5						https://anilist.co/staff/399819	온도. Writer.
+399820	Sumni	Q5						https://anilist.co/staff/399820	숨니. Artist.
+399821	Yi-Su A	Q5						https://anilist.co/staff/399821	아이수. Writer.
+399826	Marillin	Q5						https://anilist.co/staff/399826	마릴린. Writer.
+399827	Mangji	Q5						https://anilist.co/staff/399827	망지. Artist.
+399828	Hyeon-Ok Choi	Q5						https://anilist.co/staff/399828	최현옥. Writer.
+399829	Ru-Rang Mo	Q5						https://anilist.co/staff/399829	모루랑. Mangaka.
+399830	Sou Aoma	Q5						https://anilist.co/staff/399830	蒼磨奏. Writer.
+399831	Pil-Man Baek	Q5						https://anilist.co/staff/399831	백필만. Artist.
+399832	Cheongjadu	Q5						https://anilist.co/staff/399832	청자두. Writer.
+399833	Bijyam	Q5						https://anilist.co/staff/399833	비쟘. Writer.
+399834	Inseona-ssi	Q5						https://anilist.co/staff/399834	인선아씨. Mangaka.
+399838	Gung-In Nam	Q5						https://anilist.co/staff/399838	남궁인. Writer.
+399844	Hyang-Yeon Bu	Q5						https://anilist.co/staff/399844	부향연. Mangaka.
+399845	Jinyo	Q5						https://anilist.co/staff/399845	진요. Mangaka.
+399856	Yukari Sakura	Q5		Q6581072				https://anilist.co/staff/399856	佐倉紫. Writer.
+399857	Tooru Irie	Q5						https://anilist.co/staff/399857	入江達. Mangaka.
+399858	Komomo Kanayama	Q5						https://anilist.co/staff/399858	かなやまこもも. CG Artist.
+399859	Yutarou Jose Kobayashi	Q5						https://anilist.co/staff/399859	小林由太郎ホセ. Background Artist.
+399862	THE JET BOY BANGERZ from EXILE TRIBE	Q215380					2023	https://anilist.co/staff/399862	ザ・ジェット ボーイ バンガーズ フロム エグザイル トライブ. Band.
+399863	WOLF HOWL HARMONY from EXILE TRIBE	Q215380					2022	https://anilist.co/staff/399863	ウルフ ハウル ハーモニー フロム エグザイル トライブ. Band.
+399864	Haiguan Chen	Q5						https://anilist.co/staff/399864	陳海官.
+399865	Yuting Fu	Q5						https://anilist.co/staff/399865	傅玉婷.
+399866	Ting Li	Q5						https://anilist.co/staff/399866	劉婷.
+399867	Ruiqi Shen	Q5						https://anilist.co/staff/399867	沈瑞琪.
+399868	Shanshan Xu	Q5						https://anilist.co/staff/399868	徐闪闪.
+399869	Zijun Li	Q5						https://anilist.co/staff/399869	李子俊.
+399871	Luxe							https://anilist.co/staff/399871	
+399872	Nada	Q5						https://anilist.co/staff/399872	Animator.
+399873	Yuman Fang	Q5						https://anilist.co/staff/399873	冯雨蔓. Animator.
+399874	vodkuh	Q5						https://anilist.co/staff/399874	Animator.
+399875	Honoka Misaizu	Q5						https://anilist.co/staff/399875	美齊津歩乃花. Animator.
+399876	Hina Karato	Q5						https://anilist.co/staff/399876	唐戸ひな.
+399879	pehape							https://anilist.co/staff/399879	
+399880	Usop Ramly	Q5						https://anilist.co/staff/399880	Animator.
+399881	Yuqing Zhao	Q5						https://anilist.co/staff/399881	趙于清.
+399891	Norika Matsumoto	Q5						https://anilist.co/staff/399891	松本のりか.
+399892	Degarashi							https://anilist.co/staff/399892	
+399893	Sakura Yamada	Q5						https://anilist.co/staff/399893	山田桜. Animator.
+399894	Sumisi Kazuhana	Q5						https://anilist.co/staff/399894	和華すみし. Animator.
+399895	Zukei							https://anilist.co/staff/399895	づけい.
+399898	Hiyori Masuzaki	Q5						https://anilist.co/staff/399898	増﨑陽和.
+399905	Jeong-Bin Lee	Q5						https://anilist.co/staff/399905	이정빈​. Mangaka.
+399923	Masuoka	Q5						https://anilist.co/staff/399923	増岡. Mangaka.
+399927	Hyun Sik Choi	Q5						https://anilist.co/staff/399927	崔炫植.
+399928	Aki Chihachi	Q5						https://anilist.co/staff/399928	千蜂アキ. Mangaka.
+399929	Oden Yamabuki	Q5						https://anilist.co/staff/399929	山吹てふ. Writer.
+399930	Zhenxin Wu	Q5		Q6581072				https://anilist.co/staff/399930	武桢鑫. Voice Actor.
+399931	Feng Shi	Q5		Q6581097				https://anilist.co/staff/399931	逝枫. Voice Actor.
+399937	Dawei Su	Q5		Q6581097				https://anilist.co/staff/399937	粟大伟. Voice Actor.
+399938	Jiming Yu	Q5		Q6581097				https://anilist.co/staff/399938	余奇明. Voice Actor.
+399939	Chanchan Lin	Q5		Q6581072				https://anilist.co/staff/399939	蔺婵婵. Voice Actor.
+399940	Yiming Sun	Q5		Q6581072				https://anilist.co/staff/399940	孙一鸣. Voice Actor.
+399941	Yining Qi	Q5						https://anilist.co/staff/399941	祁怡宁. Voice Actor.
+399944	Kogattuo	Q5						https://anilist.co/staff/399944	コガッツオ. Writer, Mangaka.
+399949	Ji-Min Yu	Q5						https://anilist.co/staff/399949	유지민. Writer.
+399950	Ppiyo	Q5						https://anilist.co/staff/399950	삐요. Artist.
+399951	Cheonsaeng	Q5						https://anilist.co/staff/399951	천생. Artist.
+399952	Sun-Jeong	Q5						https://anilist.co/staff/399952	순정. Writer.
+399961	Ryesu	Q5						https://anilist.co/staff/399961	례수. Writer.
+399962	Baek	Q5						https://anilist.co/staff/399962	백. Artist.
+399965	Tororo Amano	Q5						https://anilist.co/staff/399965	天野とろろ. Mangaka.
+399966	Jun Kagari	Q5						https://anilist.co/staff/399966	篝ジュン. Mangaka.
+399967	Youkan	Q5						https://anilist.co/staff/399967	ようかん. Mangaka.
+399968	Rito	Q5						https://anilist.co/staff/399968	リト. Mangaka.
+399969	Nigiru Onigiri	Q5						https://anilist.co/staff/399969	おにぎりニギル. Mangaka.
+399970	Ushidima	Q5						https://anilist.co/staff/399970	うしぢま. Mangaka.
+399971	Hinata Tobiyama	Q5						https://anilist.co/staff/399971	鳶山ひな太. Mangaka.
+399972	Mosu Hine	Q5						https://anilist.co/staff/399972	陽寝もす. Mangaka.
+399973	Haruka Yoshinaga	Q5						https://anilist.co/staff/399973	吉永遥佳.
+399976	Mu Mu Kou Shi	Q5						https://anilist.co/staff/399976	目目口食. Mangaka.
+399980	Harumi Naka	Q5						https://anilist.co/staff/399980	仲春美. Mangaka.
+399981	Iz	Q5						https://anilist.co/staff/399981	Iz. Artist, Illustrator.
+399982	Satoko Shibata	Q5		Q6581072	1986-12-11		2010	https://anilist.co/staff/399982	柴田聡子. Musician. From Sapporo, Hokkaido.
+399983	Muhwakkotran	Q5						https://anilist.co/staff/399983	무화꽃란. Writer, Illustrator.
+399984	Burgerman	Q5						https://anilist.co/staff/399984	Writer.
+400000	Klaudia Kleina	Q5		Q6581072	1993-05-09			https://anilist.co/staff/400000	Voice Actor. From Olsztyn, Poland.
+400001	Jan Jakubik	Q5		Q6581097	1997-12-30			https://anilist.co/staff/400001	Voice Actor. From Warszawa, Poland.
+400002	Anna Żarnecka-Wójcik	Q5		Q6581072				https://anilist.co/staff/400002	Audio Engineer.
+400003	Magdalena Wolska	Q5		Q6581072				https://anilist.co/staff/400003	Audio Engineer.
+400004	Hideki Tanaka	Q5						https://anilist.co/staff/400004	田中秀基. Composer.
+400005	kazami	Q5			1986-04-08		2000	https://anilist.co/staff/400005	Musician.
+400006	YKZ	Q215380					1996	https://anilist.co/staff/400006	Band.
+400007	HOME GROWN	Q215380					1990	https://anilist.co/staff/400007	Band.
+400008	HΛL	Q5						https://anilist.co/staff/400008	Composer.
+400009	Yuka Matsumoto	Q5	Q19831454					https://anilist.co/staff/400009	松本有加. Lyricist.
+400010	Hoshino	Q5						https://anilist.co/staff/400010	ホシノ. Artist.
+400011	Tsurumi Nagataro	Q5						https://anilist.co/staff/400011	鶴見長汰朗. Writer.
+400012	Good Smile Company							https://anilist.co/staff/400012	グッドスマイルカンパニー.
+400013	Ayase Hiura	Q5						https://anilist.co/staff/400013	日浦あやせ. Writer.
+400014	Tara	Q5						https://anilist.co/staff/400014	鱈. Illustrator.
+400015	Burusamo							https://anilist.co/staff/400015	ぶるさも.
+400016	Denchi							https://anilist.co/staff/400016	でんち.
+400017	Nanase Nekomiya	Q5						https://anilist.co/staff/400017	猫宮ななせ. Illustrator.
+400018	Royston Stoffels	Q5						https://anilist.co/staff/400018	Voice Actor.
+400019	Hana Kobayashi	Q5		Q6581072	1991-05-17		2006	https://anilist.co/staff/400019	小林花菜. Voice Actor. From Koshigaya, Saitama, Japan.
+400020	Mizuki Fumitsuki	Q5						https://anilist.co/staff/400020	文月瑞輝. Voice Actor.
+400021	Haruka Sasaki	Q5	Q19831454		1997-02-18			https://anilist.co/staff/400021	佐々木春香. Vocalist.
+400024	Ryou Satou	Q5						https://anilist.co/staff/400024	佐藤涼. Voice Actor.
+400025	Ningyo Koizumi	Q5						https://anilist.co/staff/400025	小泉人魚. Mangaka.
+400026	Fuuko Takebe	Q5						https://anilist.co/staff/400026	竹部ふうこ. Mangaka.
+400027	Ten Marui	Q5						https://anilist.co/staff/400027	丸井テン. Mangaka.
+400028	Gero	Q5						https://anilist.co/staff/400028	げろ. Artist.
+400031	Mero Kurusu	Q5						https://anilist.co/staff/400031	来栖メロ. Mangaka.
+400032	Kono Amairo	Q5						https://anilist.co/staff/400032	あまいろ瑚乃. Mangaka.
+400033	Nell Pietrzyk	Q5		Q6581072				https://anilist.co/staff/400033	Voice Actor.
+400034	Ichi Misaki	Q5						https://anilist.co/staff/400034	三咲いちい. Mangaka.
+400035	Mónica Velasco	Q5		Q6581072				https://anilist.co/staff/400035	Voice Actor.
+400036	Daniel Lara	Q5		Q6581097	1998-04-14			https://anilist.co/staff/400036	Voice Actor.
+400037	Ana Banderas	Q5		Q6581072	1991-12-22		2023	https://anilist.co/staff/400037	Voice Actor.
+400038	Eva Coll	Q5		Q6581072				https://anilist.co/staff/400038	Voice Actor.
+400039	Ricky Delgado	Q5		Q6581097				https://anilist.co/staff/400039	Voice Actor.
+400040	Mireia Maymi	Q5		Q6581072				https://anilist.co/staff/400040	Voice Actor.
+400041	Juan Corredera	Q5		Q6581097				https://anilist.co/staff/400041	Voice Actor.
+400042	José Zambrana	Q5		Q6581097				https://anilist.co/staff/400042	Voice Actor.
+400043	Alexander Rodriguez	Q5		Q6581097				https://anilist.co/staff/400043	Voice Actor.
+400044	Joanna Rubio	Q5		Q6581072				https://anilist.co/staff/400044	Voice Actor.
+400045	Miki Hyura	Q5						https://anilist.co/staff/400045	ひゅら光希. Mangaka, Illustrator.
+400046	Akuta Kashima	Q5						https://anilist.co/staff/400046	鹿嶋アクタ. Writer.
+400047	Nathalie Leplay	Q5		Q6581072				https://anilist.co/staff/400047	Voice Actor.
+400048	Nicolas Reydet	Q5		Q6581097				https://anilist.co/staff/400048	Voice Actor.
+400049	Hamza Touijri	Q5		Q6581097				https://anilist.co/staff/400049	Voice Actor.
+400050	Adrien Caminada	Q5		Q6581097				https://anilist.co/staff/400050	Voice Actor.
+400051	Letizia Costantini	Q5		Q6581072				https://anilist.co/staff/400051	Voice Actor.
+400052	Ghita Dahoune	Q5		Q6581072				https://anilist.co/staff/400052	Voice Actor.
+400053	Emna Thabet	Q5		Q6581072				https://anilist.co/staff/400053	Voice Actor.
+400054	Gabriel Delmas	Q5		Q6581097				https://anilist.co/staff/400054	Voice Actor.
+400055	Kajal Meshram	Q5		Q6581072				https://anilist.co/staff/400055	Voice Actor.
+400056	Ketki Bat	Q5		Q6581072				https://anilist.co/staff/400056	केतकी भट. Voice Actor.
+400057	Anisa Pardiwala	Q5		Q6581072				https://anilist.co/staff/400057	अनिसा परडीवाला. Voice Actor.
+400058	Shivani Deshpande	Q5		Q6581072				https://anilist.co/staff/400058	शिवानी देशपांडे. Voice Actor.
+400059	Shivani Deshpande	Q5		Q6581072				https://anilist.co/staff/400059	शिवानी देशपांडे. Voice Actor.
+400060	Ashwani Sharma	Q5		Q6581097				https://anilist.co/staff/400060	अश्विनी शर्मा. Voice Actor.
+400061	Shubham Khodaskar	Q5		Q6581097				https://anilist.co/staff/400061	शुभम खोडसकर. Voice Actor.
+400062	Yash Gokhale	Q5		Q6581097				https://anilist.co/staff/400062	यश गोखले. Voice Actor.
+400063	Vaibhav Sooryavanshi	Q5		Q6581097				https://anilist.co/staff/400063	वैभव रंधावी. Voice Actor.
+400064	Kajal Meshram	Q5		Q6581072				https://anilist.co/staff/400064	काजल मेश्राम. Voice Actor.
+400065	Mónika Egyed	Q5		Q6581072				https://anilist.co/staff/400065	ADR Director.
+400066	Gergely Orosz	Q5		Q6581097				https://anilist.co/staff/400066	Translator.
+400067	Imre Erdélyi	Q5						https://anilist.co/staff/400067	Audio Engineer.
+400068	Zsuzsa Újréti	Q5						https://anilist.co/staff/400068	Production Manager.
+400069	Boldizsár Bálint	Q5						https://anilist.co/staff/400069	Audio Engineer.
+400070	Kata Gáspár	Q5		Q6581072				https://anilist.co/staff/400070	Voice Actor.
+400071	Enikő Dobó	Q5		Q6581072				https://anilist.co/staff/400071	Voice Actor.
+400072	Ádám Gascal	Q5		Q6581097				https://anilist.co/staff/400072	Voice Actor.
+400073	Clara Nugrahini	Q5		Q6581072				https://anilist.co/staff/400073	Voice Actor.
+400074	Cansın Açar	Q5		Q6581072				https://anilist.co/staff/400074	Voice Actor.
+400075	İlham Erdoğan	Q5		Q6581097				https://anilist.co/staff/400075	Voice Actor.
+400076	Ömer Çalışkan	Q5						https://anilist.co/staff/400076	Voice Actor.
+400077	Artur Efemberg	Q5		Q6581097				https://anilist.co/staff/400077	Translator.
+400078	Eun-Ji	Q5						https://anilist.co/staff/400078	은지. Writer.
+400079	Dine	Q5						https://anilist.co/staff/400079	디네. Artist.
+400087	Masuo Shiratori	Q5	Q19831451					https://anilist.co/staff/400087	Mangaka. From Chiba Prefecture, Japan.
+400088	Kai Tsukihi	Q5						https://anilist.co/staff/400088	月日かい. Mangaka.
+400089	Yongwang	Q5						https://anilist.co/staff/400089	용왕. Mangaka.
+400090	Gwakgyeoja	Q5						https://anilist.co/staff/400090	곽겨자. Writer.
+400091	Gagam	Q5						https://anilist.co/staff/400091	가감. Artist.
+400092	Chyuraeng	Q5						https://anilist.co/staff/400092	츄랭. Artist.
+400093	Shizuma	Q5						https://anilist.co/staff/400093	しづま. Mangaka.
+400101	Nyanmong	Q5						https://anilist.co/staff/400101	냔몽. Artist.
+400107	Naochika Hayashida	Q5		Q6581097	1962-08-31		1980	https://anilist.co/staff/400107	林田尚親. Voice Actor. From Tokyo, Japan.
+400109	Meoraengtokki	Q5						https://anilist.co/staff/400109	머랭토끼. Writer.
+400115	Mari Tomokawa	Q5		Q6581072	1969-08-04		1990	https://anilist.co/staff/400115	友川まり. Voice Actor. From Fukuoka Prefecture, Japan.
+400116	Beckett	Q5						https://anilist.co/staff/400116	베킷. Writer.
+400117	3-do	Q5						https://anilist.co/staff/400117	3度. Mangaka.
+400122	Akihi Enaka	Q5						https://anilist.co/staff/400122	えなかあきひ. Mangaka.
+400123	Max Andrade	Q5		Q6581097	1991-04-19			https://anilist.co/staff/400123	Editor, Illustrator, Mangaka. From Uberlandia, Minas Gerais, Brazil.
+400124	Masakazu Uehata	Q5						https://anilist.co/staff/400124	上畑正和. Composer.
+400125	Yoshiaki Itou	Q5						https://anilist.co/staff/400125	伊藤善章. Producer.
+400126	Minori Hashiki	Q5						https://anilist.co/staff/400126	端木みのり.
+400127	Muchuu Gori	Q5		Q6581072				https://anilist.co/staff/400127	五里ムチュウ. Mangaka.
+400128	Kaede Amasa	Q5						https://anilist.co/staff/400128	あまさかえで. Mangaka.
+400129	Naka	Q5						https://anilist.co/staff/400129	なか. Writer. From Shiga Prefecture, Japan.
+400209	Kanami Tsujino	Q5		Q6581072	1999-06-02			https://anilist.co/staff/400209	辻?野かなみ. Musician, Voice Actor. From Saitama Prefecture, Japan.
+400210	Julia An	Q5		Q6581072	2004-01-15			https://anilist.co/staff/400210	杏じゅりあ. Musician, Voice Actor.
+400211	Hitoka Sakai	Q5		Q6581072	2001-07-25			https://anilist.co/staff/400211	坂井仁香. Musician, Voice Actor. From Kanagawa Prefecture, Japan.
+400212	Haruka Koizumi	Q5		Q6581072	2001-01-05			https://anilist.co/staff/400212	小泉遥香. Musician, Voice Actor. From Saitama Prefecture, Japan.
+400213	Aki Suda	Q5		Q6581072	2004-12-20			https://anilist.co/staff/400213	菅田愛貴. Musician, Voice Actor. From Tokyo, Japan.
+400214	Hiyori Yoshikawa	Q5		Q6581072	2001-08-12			https://anilist.co/staff/400214	吉川ひより. Musician, Voice Actor. From Chiba Prefecture, Japan.
+400217	Nao Oyama	Q5		Q6581072	2007-09-10			https://anilist.co/staff/400217	小山奈桜. Voice Actor. From Tokyo, Japan.
+400236	Mochigome Seikatsu	Q5						https://anilist.co/staff/400236	もち米せいかつ. Mangaka.
+400245	Mantarou Hori	Q5		Q6581097				https://anilist.co/staff/400245	堀万太郎. Mangaka.
+400246	Hideo Komine	Q5		Q6581097				https://anilist.co/staff/400246	小峰秀夫. Mangaka.
+400247	Yasuyoshi Oomori	Q5		Q6581097				https://anilist.co/staff/400247	大森康由. Mangaka.
+400249	Igort	Q5		Q6581097	1958-09-26		1984	https://anilist.co/staff/400249	Mangaka. From Cagliari.
+400250	Midori Yamane	Q5						https://anilist.co/staff/400250	やまねみどり.
+400251	Shigeko Iyoda	Q5						https://anilist.co/staff/400251	成子伊予田. Mangaka.
+400254	Min Zhu	Q5		Q6581097				https://anilist.co/staff/400254	朱敏. Director.
+400259	Koame Amemiya	Q5						https://anilist.co/staff/400259	飴宮こあめ. Mangaka.
+400260	Kano Arima	Q5						https://anilist.co/staff/400260	有馬かの. Mangaka.
+400261	Ujii	Q5						https://anilist.co/staff/400261	うじい. Mangaka.
+400262	Yuuji	Q5						https://anilist.co/staff/400262	ユージ. Mangaka.
+400263	Chikuwa	Q5						https://anilist.co/staff/400263	竹輪. Writer.
+400264	Andre Podzierski	Q5						https://anilist.co/staff/400264	Translator.
+400265	Minatoda	Q5						https://anilist.co/staff/400265	ミナトダ. Mangaka.
+400268	Kommi	Q5						https://anilist.co/staff/400268	콤미. Artist.
+400269	Inu Sushihara	Q5						https://anilist.co/staff/400269	寿司原いぬ. Mangaka.
+400272	Kotatsu Hisyou	Q5						https://anilist.co/staff/400272	飛翔こたつ. Writer.
+400273	Jun Itoki	Q5						https://anilist.co/staff/400273	伊時潤. Mangaka.
+400274	Momonoki	Q5						https://anilist.co/staff/400274	もものき. Mangaka.
+400275	Mokusuke.	Q5						https://anilist.co/staff/400275	もくすけ。. Mangaka.
+400276	kuku	Q5						https://anilist.co/staff/400276	Artist.
+400277	Sehan	Q5						https://anilist.co/staff/400277	세한. Mangaka.
+400278	Yoshikazu Okada	Q5		Q6581097	1959-02-11			https://anilist.co/staff/400278	岡田惠和. Scriptwriter. From Tokyo, Japan.
+400285	Tsutomu Kusanagi	Q5						https://anilist.co/staff/400285	草薙勉. Mangaka.
+400287	Cleo Holdkamp	Q5						https://anilist.co/staff/400287	Translator.
+400288	Yvonne Jidoi	Q5		Q6581072				https://anilist.co/staff/400288	Translator.
+400294	Noi Tsukumo	Q5						https://anilist.co/staff/400294	つくものい. Mangaka.
+400295	Nikolaus Uno	Q5						https://anilist.co/staff/400295	Translator.
+400296	KOME KOME CLUB	Q215380					1982	https://anilist.co/staff/400296	米米CLUB. Band.
+400297	M830p	Q5						https://anilist.co/staff/400297	Artist.
+400298	Hyou	Q5						https://anilist.co/staff/400298	효우. Writer.
+400301	Tatsuya Ishii	Q5		Q6581097	1959-09-22			https://anilist.co/staff/400301	石井竜也. Musician.
+400302	Kenichi Mitsuda	Q5			1967-02-15			https://anilist.co/staff/400302	光田健一. Arranger.
+400303	Vivian or Kazuma	Q215380						https://anilist.co/staff/400303	Band.
+400304	Yasuo Ootani	Q5						https://anilist.co/staff/400304	大谷靖夫. Composer.
+400305	BOUNCEBACK	Q5						https://anilist.co/staff/400305	Composer.
+400306	Zentarou Watanabe	Q5			1963-08-09	2021-07-22		https://anilist.co/staff/400306	渡辺善太郎. Composer.
+400307	Lori Fine	Q5		Q6581072				https://anilist.co/staff/400307	Musician.
+400308	Hiroaki Arai	Q5						https://anilist.co/staff/400308	荒井洋明. Arranger.
+400309	Masayuki Tanaka	Q5			1951-06-30			https://anilist.co/staff/400309	田中昌之. Musician.
+400310	Hiromi Imakyuurei	Q5			1953-03-15			https://anilist.co/staff/400310	今給黎博美. Composer.
+400311	Hidetoshi Nomoto	Q5			1951-07			https://anilist.co/staff/400311	野元英俊. Musician.
+400312	Tsuyoshi Ujiki	Q5			1957-09-18			https://anilist.co/staff/400312	うじきつよし. Musician.
+400313	Light House Project	Q5						https://anilist.co/staff/400313	Arranger.
+400314	Kaoru Takagaki	Q5						https://anilist.co/staff/400314	高垣薫. Composer.
+400315	SCOOP	Q215380						https://anilist.co/staff/400315	Band.
+400316	Kazunori Serizawa	Q5						https://anilist.co/staff/400316	芹沢和則. Composer.
+400317	Beni Amaou	Q5						https://anilist.co/staff/400317	あまおう紅. Writer.
+400318	Sawa Nodo	Q5						https://anilist.co/staff/400318	のどさわ. Illustrator.
+400322	Api	Q5						https://anilist.co/staff/400322	あぴ. Mangaka.
+400323	Yuri Hatase	Q5						https://anilist.co/staff/400323	果瀬百合. Mangaka.
+400336	Roku Natsume	Q5						https://anilist.co/staff/400336	夏目ろく. Mangaka.
+400337	Seol-Ye Ban	Q5						https://anilist.co/staff/400337	반설예. Writer.
+400338	Wasuki	Q5						https://anilist.co/staff/400338	와스키. Artist.
+400339	Sakura	Q5						https://anilist.co/staff/400339	佐倉. Mangaka.
+400340	Mikoto Amane	Q5						https://anilist.co/staff/400340	あまね未琴. Mangaka.
+400341	9do	Q5						https://anilist.co/staff/400341	9도. Mangaka.
+400342	Haruhue	Q5						https://anilist.co/staff/400342	하루후에. Writer.
+400343	U-Yeon Lee	Q5						https://anilist.co/staff/400343	이우연. Mangaka.
+400344	Nao Miyamori	Q5						https://anilist.co/staff/400344	宮守ナオ. Mangaka.
+400345	Kouichirou Tokinori	Q5						https://anilist.co/staff/400345	時乗浩一郎. Arranger.
+400346	TAPIKO	Q5	Q19831455					https://anilist.co/staff/400346	Musician. From Saitama Prefecture, Japan.
+400347	can/goo	Q215380					2001	https://anilist.co/staff/400347	Band.
+400348	Masato Yamada	Q5			1959-07-01			https://anilist.co/staff/400348	山田正人. Composer.
+400349	D.R.Y	Q5						https://anilist.co/staff/400349	Arranger.
+400350	Takuma Wada	Q5						https://anilist.co/staff/400350	和田琢磨.
+400351	Hatsume Kojima	Q5						https://anilist.co/staff/400351	小嶋はつめ.
+400372	Tian Xuan	Q5						https://anilist.co/staff/400372	天玄. Artist.
+400373	Liao Liao	Q5						https://anilist.co/staff/400373	廖廖. Artist.
+400374	Zhen Youhuayaoshuo	Q5						https://anilist.co/staff/400374	朕有话要说. Writer.
+400375	banana	Q5						https://anilist.co/staff/400375	ba나나. Writer.
+400376	Boksunga	Q5						https://anilist.co/staff/400376	복숭아. Artist.
+400377	Huiri	Q5						https://anilist.co/staff/400377	희리. Mangaka.
+400381	In Jeong	Q5						https://anilist.co/staff/400381	정인. Artist.
+400382	Royeong	Q5						https://anilist.co/staff/400382	로영. Writer.
+400383	Bondi Lee	Q5						https://anilist.co/staff/400383	이본디. Writer.
+400384	Nago	Q5						https://anilist.co/staff/400384	나고. Artist.
+400385	Bananneu	Q5						https://anilist.co/staff/400385	바난느. Writer.
+400386	Rong-I Do	Q5						https://anilist.co/staff/400386	도롱이. Artist.
+400387	Phantom Siita	Q215380					2024	https://anilist.co/staff/400387	ファントムシータ. Band.
+400391	Uriko Urikita	Q5						https://anilist.co/staff/400391	うり北うりこ. Writer.
+400398	Awu	Q5						https://anilist.co/staff/400398	阿呜. Artist.
+400399	YUSER	Q5						https://anilist.co/staff/400399	Writer, Artist.
+400400	Yupin Wenhua	Q5						https://anilist.co/staff/400400	昱品文化. Writer.
+400401	Laoshi	Q5						https://anilist.co/staff/400401	老石. Artist.
+400408	Tony Noto	Q5						https://anilist.co/staff/400408	
+400409	Joshua Hires	Q5						https://anilist.co/staff/400409	Voice Actor.
+400410	Dustin Parsons	Q5						https://anilist.co/staff/400410	Voice Actor.
+400411	Elizabeth Evans	Q5						https://anilist.co/staff/400411	Voice Actor.
+400418	Kirayuki	Q5						https://anilist.co/staff/400418	綺良雪. Lyricist.
+400419	Momo Sakura	Q5						https://anilist.co/staff/400419	桜空もも.
+400435	Zaou Fukatsu	Q5					2022	https://anilist.co/staff/400435	深津ザオウ. Mangaka.
+400438	Motoko	Q5						https://anilist.co/staff/400438	百年子. Mangaka.
+400439	Munako Shiro	Q5						https://anilist.co/staff/400439	白ムナコ. Mangaka.
+400440	Han-Ji	Q5						https://anilist.co/staff/400440	한지. Mangaka.
+400441	Xia Wan	Q5						https://anilist.co/staff/400441	虾丸. Writer.
+400444	Xiang You Xiang Zou Manhua Gongzuoshi	Q5						https://anilist.co/staff/400444	向右向左漫画工作室. Mangaka.
+400447	Touka Irie	Q5						https://anilist.co/staff/400447	入江桃樺. Mangaka.
+400448	Asajiou	Q5						https://anilist.co/staff/400448	あさいじょう. Mangaka.
+400449	Kawaisan	Q5						https://anilist.co/staff/400449	かわいさん. Writer.
+400450	Mizuki Sena	Q5						https://anilist.co/staff/400450	汐凪みづき. Mangaka.
+400451	Yoshiki Matsuno	Q5						https://anilist.co/staff/400451	松野義己. Mangaka.
+400457	G2 Esports	Q5						https://anilist.co/staff/400457	Mangaka.
+400458	Daniel Chan	Q5		Q6581097				https://anilist.co/staff/400458	Writer.
+400459	Brandon Chen	Q5						https://anilist.co/staff/400459	Writer.
+400460	Dewi	Q5						https://anilist.co/staff/400460	Writer.
+400461	Ainlavendra	Q5						https://anilist.co/staff/400461	Artist.
+400462	Beng	Q5						https://anilist.co/staff/400462	Artist.
+400463	Lanlance	Q5						https://anilist.co/staff/400463	Artist.
+400464	Nazhief	Q5						https://anilist.co/staff/400464	Writer.
+400465	Kanon	Q5						https://anilist.co/staff/400465	Writer.
+400469	Kelleth Jackson	Q5						https://anilist.co/staff/400469	Translator.
+400472	Romanha Marshmallow	Q215380						https://anilist.co/staff/400472	浪漫派マシュマロ. Band. From Kushiro, Hokkaido Prefecute, Japan.
+400484	Renata Campos	Q5		Q6581072	1971-09-19			https://anilist.co/staff/400484	Voice Actor. From São Paulo, Brazil.
+400485	Joca Carvalho	Q5		Q6581097				https://anilist.co/staff/400485	Voice Actor. From São Paulo, Brazil.
+400486	Inara Cezar	Q5		Q6581072	2002-07-03		2025	https://anilist.co/staff/400486	Voice Actor. From São Paulo, Brazil.
+400487	Noboru Mizuma	Q5						https://anilist.co/staff/400487	水間ノボル. Writer.
+400488	Hanamizuki	Q5						https://anilist.co/staff/400488	ハナミズキ. Writer.
+400489	kadoi	Q5						https://anilist.co/staff/400489	kadoi. Artist.
+400490	Yuuki Kanome	Q5						https://anilist.co/staff/400490	鹿目ゆうき. Mangaka.
+400491	Chihiro Tanaka	Q5						https://anilist.co/staff/400491	田中千寛. Production Manager.
+400492	Hiroki Shimomura	Q5						https://anilist.co/staff/400492	下村弘樹. Production Manager.
+400493	Mai Tamura	Q5						https://anilist.co/staff/400493	田村麻衣. Production Manager.
+400494	Salad Express	Q5						https://anilist.co/staff/400494	Animator.
+400495	Sano	Q5						https://anilist.co/staff/400495	佐野. Animator.
+400496	FCO Meza	Q5						https://anilist.co/staff/400496	Animator.
+400497	Yoki	Q5						https://anilist.co/staff/400497	Animator.
+400498	Francisco Meza	Q5						https://anilist.co/staff/400498	Animator.
+400499	83	Q5						https://anilist.co/staff/400499	Artist.
+400500	Ri-Wa Lee	Q5						https://anilist.co/staff/400500	이리와. Writer.
+400501	Sa-Gok Ye	Q5						https://anilist.co/staff/400501	예사곡. Writer.
+400502	Anuruk	Q5						https://anilist.co/staff/400502	Animator.
+400503	Tiphanie Erickson	Q5						https://anilist.co/staff/400503	Animator.
+400504	Eileen Huang	Q5						https://anilist.co/staff/400504	Animator.
+400506	fides	Q5						https://anilist.co/staff/400506	Writer.
+400507	Ji-Won	Q5						https://anilist.co/staff/400507	지원. Artist.
+400508	Tokkaengi	Q5						https://anilist.co/staff/400508	토깽이. Mangaka.
+400509	Jipsoni	Q5						https://anilist.co/staff/400509	집손이. Mangaka.
+400510	Gae Lee	Q5						https://anilist.co/staff/400510	이개. Mangaka.
+400511	Dan Quan	Q5						https://anilist.co/staff/400511	全蛋.
+400512	Minmin	Q5						https://anilist.co/staff/400512	眠々. Mangaka.
+400513	Kei Kitagawa	Q5						https://anilist.co/staff/400513	北川慶. Animator.
+400514	MiruNeko	Q5						https://anilist.co/staff/400514	Animator.
+400515	Rie Ujiie	Q5						https://anilist.co/staff/400515	氏家理恵. Animator.
+400516	Fusang	Q5						https://anilist.co/staff/400516	扶桑. Animator.
+400517	Piichobnon	Q5						https://anilist.co/staff/400517	Animator.
+400518	XyZ	Q5						https://anilist.co/staff/400518	Animator.
+400519	Evelyn Thornton	Q5						https://anilist.co/staff/400519	Animator, Production Manager. From Memphis, Tennesse, USA.
+400520	Izumi Sakai	Q5						https://anilist.co/staff/400520	酒井泉.
+400521	ki89							https://anilist.co/staff/400521	
+400522	An Hong	Q5						https://anilist.co/staff/400522	
+400523	chicn							https://anilist.co/staff/400523	
+400524	Ping Wu	Q5						https://anilist.co/staff/400524	呉平. Animator.
+400525	Liang Zou	Q5						https://anilist.co/staff/400525	鄒亮. Animator.
+400526	Ying Wang	Q5						https://anilist.co/staff/400526	王瑩. Animator.
+400527	Yufeng Bai	Q5						https://anilist.co/staff/400527	白玉鳳.
+400528	Jinfeng Liu	Q5						https://anilist.co/staff/400528	劉錦鳳.
+400529	Jijun Huang	Q5						https://anilist.co/staff/400529	黄継軍.
+400530	Miwako Higuchi	Q5						https://anilist.co/staff/400530	樋口美和子.
+400531	Shigeru Araki	Q5						https://anilist.co/staff/400531	荒木シゲル.
+400532	Masanori Furusako	Q5						https://anilist.co/staff/400532	古迫将典.
+400533	Kazune							https://anilist.co/staff/400533	和音.
+400534	KAi MiWA	Q5						https://anilist.co/staff/400534	
+400535	Lana Toudou	Q5						https://anilist.co/staff/400535	藤堂ラナ.
+400536	Yuuki Nakamura	Q5						https://anilist.co/staff/400536	中村優希.
+400537	Noe Mita	Q5						https://anilist.co/staff/400537	三田のえ.
+400538	Marika Terao	Q5						https://anilist.co/staff/400538	寺尾茉理加.
+400539	Raku Higashihara	Q5						https://anilist.co/staff/400539	東原楽.
+400542	Szeling Tan	Q5						https://anilist.co/staff/400542	Production Manager.
+400543	Miyu Watanabe	Q5						https://anilist.co/staff/400543	渡邉みゆ. Editor.
+400544	Yuka Shibuya	Q5						https://anilist.co/staff/400544	澁谷有香.
+400545	Yinshe Cheng	Q5						https://anilist.co/staff/400545	程音拾. CG Artist.
+400546	Taku Sugiura	Q5						https://anilist.co/staff/400546	杉浦拓. CG Artist.
+400552	Dentsuku	Q5						https://anilist.co/staff/400552	でんつく. Animator.
+400553	Mao Ookumano	Q5						https://anilist.co/staff/400553	大熊乃まお. Mangaka.
+400558	Andrew Tyrrell	Q5						https://anilist.co/staff/400558	Translator.
+400563	Pochiko Oobayashi	Q5						https://anilist.co/staff/400563	大林ポチ子. Mangaka.
+400564	Mizuyu	Q5						https://anilist.co/staff/400564	ミズユ. Mangaka.
+400567	Masashi Fukunishi	Q5						https://anilist.co/staff/400567	福西将士. Production Manager.
+400568	Natsumi Tsukidate	Q5						https://anilist.co/staff/400568	月館夏実. Production Manager.
+400569	Go-Eun Lee	Q5						https://anilist.co/staff/400569	이고은. Production Manager.
+400570	Shouta Watanabe	Q5						https://anilist.co/staff/400570	渡辺翔太. Audio Engineer.
+400571	Keiji Ueno	Q5						https://anilist.co/staff/400571	上野恵嗣.
+400574	REIRIE	Q215380						https://anilist.co/staff/400574	REIRIE. Band.
+400575	Yukimura.	Q5						https://anilist.co/staff/400575	ゆきむら。. Vocalist.
+400576	Yui Yamashiro	Q5						https://anilist.co/staff/400576	山城悠以. Composite Artist.
+400577	Nana Koinuma	Q5						https://anilist.co/staff/400577	鯉沼菜奈. Designer.
+400578	METANICK	Q215380					2026	https://anilist.co/staff/400578	Band.
+400585	Buddy	Q5						https://anilist.co/staff/400585	버디. Artist.
+400586	Jodeon	Q5						https://anilist.co/staff/400586	조던. Artist.
+400587	Syana	Q5						https://anilist.co/staff/400587	샤나. Artist.
+400588	Rozy	Q5						https://anilist.co/staff/400588	로지. Artist.
+400592	Coa	Q5						https://anilist.co/staff/400592	こあ. Mangaka.
+400595	Gomi Kuzumi	Q5						https://anilist.co/staff/400595	くずみ五味. Mangaka.
+400596	RikKa	Q5						https://anilist.co/staff/400596	RikKa. Illustrator.
+400597	Jangdok	Q5						https://anilist.co/staff/400597	장독. Artist.
+400604	Jae-Do Yeon	Q5						https://anilist.co/staff/400604	연재도. Mangaka.
+400605	Hnin Htet Htet Aung							https://anilist.co/staff/400605	
+400606	Chit Oo							https://anilist.co/staff/400606	
+400607	Chaw Su Hlaing							https://anilist.co/staff/400607	
+400608	Chaw Su Paing							https://anilist.co/staff/400608	
+400609	Thu Minh	Q5						https://anilist.co/staff/400609	Animator.
+400610	Lam Thanh	Q5						https://anilist.co/staff/400610	Animator.
+400611	Manh Duc	Q5						https://anilist.co/staff/400611	
+400612	Giang Quynh	Q5						https://anilist.co/staff/400612	Animator.
+400613	Duc Minh	Q5						https://anilist.co/staff/400613	Animator.
+400614	Nhi Yen	Q5						https://anilist.co/staff/400614	Animator.
+400615	Dong Trung	Q5						https://anilist.co/staff/400615	Animator.
+400616	Hanh Hong	Q5						https://anilist.co/staff/400616	Animator.
+400617	Ha Thu	Q5						https://anilist.co/staff/400617	Animator.
+400618	Hoai Minh	Q5						https://anilist.co/staff/400618	Animator.
+400619	Phat Tan	Q5						https://anilist.co/staff/400619	Animator.
+400620	Quynh Nhat	Q5						https://anilist.co/staff/400620	Animator.
+400621	My Tra	Q5						https://anilist.co/staff/400621	
+400622	Yu-An Baek	Q5						https://anilist.co/staff/400622	백유안. Mangaka.
+400623	Rena Tachibana	Q5						https://anilist.co/staff/400623	橘玲奈.
+400624	Akemi Abe	Q5						https://anilist.co/staff/400624	阿部明美. Painter.
+400630	Rin Fujishiro	Q5		Q6581072	1999-08-12			https://anilist.co/staff/400630	藤城凛. Voice Actor. From Ibaraki Prefecture, Japan.
+400646	Hideyuki Shinbo	Q5		Q6581097				https://anilist.co/staff/400646	新保英幸. Voice Actor. From Tokyo, Japan.
+400649	Akihisa Miyauchi	Q5		Q6581097				https://anilist.co/staff/400649	宮内彰久. Voice Actor. From Chiba Prefecture, Japan.
+400653	Hoeorigamja	Q5						https://anilist.co/staff/400653	회오리감자. Mangaka.
+400654	Chunpok	Q5						https://anilist.co/staff/400654	춘폭. Artist.
