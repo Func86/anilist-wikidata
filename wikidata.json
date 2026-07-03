@@ -7056,7 +7056,9 @@
 		}
 	},
 	"1564": {
-		"dateModified": "2025-03-31T20:21:59Z",
+		"dateModified": "2026-07-03T03:51:10Z",
+		"page": "宝可梦系列",
+		"pageId": "21806",
 		"title": {
 			"zh": "神奇寶貝超世代",
 			"+zh-hans": "神奇宝贝超世代"
@@ -18151,6 +18153,14 @@
 		"pageId": "47123",
 		"title": {
 			"en": "Precure kara Minna e no Ouen Movie"
+		}
+	},
+	"10740": {
+		"dateModified": "2026-07-03T03:55:55Z",
+		"page": "宝可梦系列",
+		"pageId": "21806",
+		"title": {
+			"en": "Pokémon the Movie: Black—Victini and Reshiram"
 		}
 	},
 	"10774": {
