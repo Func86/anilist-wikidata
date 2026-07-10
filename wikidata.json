@@ -75,11 +75,12 @@
 		}
 	},
 	"21": {
-		"dateModified": "2025-07-18T04:43:59Z",
+		"dateModified": "2026-07-10T09:09:16Z",
 		"page": "海贼王",
 		"pageId": "88433",
 		"title": {
-			"zh": "ONE PIECE",
+			"zh": "One Piece",
+			"zh-hans": "ONE PIECE",
 			"zh-hant": "ONE PIECE",
 			"zh-tw": "海賊王"
 		}
@@ -1557,9 +1558,9 @@
 		}
 	},
 	"271": {
-		"dateModified": "2025-01-05T18:23:48Z",
+		"dateModified": "2026-07-10T09:10:31Z",
 		"title": {
-			"zh": "GAD GUARD"
+			"zh": "Gad Guard"
 		}
 	},
 	"272": {
@@ -17984,9 +17985,9 @@
 		}
 	},
 	"10490": {
-		"dateModified": "2024-11-03T13:10:44Z",
+		"dateModified": "2026-07-10T09:10:04Z",
 		"title": {
-			"zh": "BLOOD-C"
+			"zh": "Blood-C"
 		}
 	},
 	"10495": {
@@ -18387,9 +18388,9 @@
 		}
 	},
 	"11241": {
-		"dateModified": "2025-01-05T18:40:07Z",
+		"dateModified": "2026-07-10T09:10:47Z",
 		"title": {
-			"zh": "BRAVE10"
+			"zh": "Brave 10"
 		}
 	},
 	"11245": {
