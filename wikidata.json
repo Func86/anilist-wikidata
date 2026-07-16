@@ -42003,12 +42003,26 @@
 			"+zh-hans": "天狼热战"
 		}
 	},
+	"30596": {
+		"dateModified": "2026-07-16T04:06:22Z",
+		"title": {
+			"zh": "奇兵大冒險",
+			"zh-hans": "奇兵大冒险"
+		}
+	},
 	"30598": {
 		"dateModified": "2025-05-12T23:28:48Z",
 		"title": {
 			"zh": "FAIRY TAIL",
 			"zh-hant": "FAIRY TAIL",
 			"zh-tw": "FAIRY TAIL魔導少年"
+		}
+	},
+	"30600": {
+		"dateModified": "2026-07-16T04:12:32Z",
+		"title": {
+			"zh": "幻龙少女奥菲娜",
+			"zh-hant": "幻龍少女奧菲娜"
 		}
 	},
 	"30604": {
