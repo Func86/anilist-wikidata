@@ -320,7 +320,9 @@
 		}
 	},
 	"66": {
-		"dateModified": "2025-07-19T06:58:46Z",
+		"dateModified": "2026-07-10T09:54:55Z",
+		"page": "阿滋漫画大王",
+		"pageId": "146766",
 		"title": {
 			"zh": "笑園漫畫大王",
 			"+zh-hans": "笑园漫画大王"
@@ -347,12 +349,30 @@
 		}
 	},
 	"71": {
-		"dateModified": "2025-05-13T13:50:56Z",
+		"dateModified": "2026-07-18T16:14:47Z",
+		"page": "全金属狂潮",
+		"pageId": "70988",
 		"title": {
 			"zh": "驚爆危機",
 			"zh-cn": "全金属狂潮",
 			"zh-hans": "惊爆危机",
 			"zh-sg": "全金属狂潮"
+		}
+	},
+	"72": {
+		"dateModified": "2026-07-18T05:41:22Z",
+		"page": "全金属狂潮",
+		"pageId": "70988",
+		"title": {
+			"en": "Full Metal Panic? Fumoffu"
+		}
+	},
+	"73": {
+		"dateModified": "2026-07-18T05:41:37Z",
+		"page": "全金属狂潮",
+		"pageId": "70988",
+		"title": {
+			"en": "Full Metal Panic! The Second Raid"
 		}
 	},
 	"74": {
@@ -2336,7 +2356,9 @@
 		}
 	},
 	"431": {
-		"dateModified": "2025-03-12T14:46:41Z",
+		"dateModified": "2026-07-18T16:18:25Z",
+		"page": "哈尔的移动城堡",
+		"pageId": "304270",
 		"title": {
 			"zh": "哈尔的移动城堡",
 			"zh-hans": "哈尔的移动城堡",
@@ -8492,7 +8514,9 @@
 		}
 	},
 	"2001": {
-		"dateModified": "2025-04-07T08:23:13Z",
+		"dateModified": "2026-07-18T16:15:35Z",
+		"page": "天元突破红莲螺岩",
+		"pageId": "241365",
 		"title": {
 			"zh": "天元突破紅蓮螺巖",
 			"zh-hant": "天元突破 紅蓮螺巖",
@@ -16160,6 +16184,14 @@
 			"zh": "Kiss×sis"
 		}
 	},
+	"7596": {
+		"dateModified": "2024-02-23T17:12:00Z",
+		"page": "潜行吧！奈亚子",
+		"pageId": "36816",
+		"title": {
+			"en": "Haiyoru! Nyaruani"
+		}
+	},
 	"7598": {
 		"dateModified": "2024-11-06T12:41:04Z",
 		"title": {
@@ -17238,6 +17270,14 @@
 			"zh-sg": "腹黑妹妹控兄记"
 		}
 	},
+	"9598": {
+		"dateModified": "2025-08-01T18:55:55Z",
+		"page": "潜行吧！奈亚子",
+		"pageId": "36816",
+		"title": {
+			"en": "Haiyoru! Nyaruani: Remember My Love(craft-sensei)"
+		}
+	},
 	"9611": {
 		"dateModified": "2025-07-11T05:42:14Z",
 		"title": {
@@ -18044,7 +18084,9 @@
 		}
 	},
 	"10578": {
-		"dateModified": "2025-01-05T18:11:41Z",
+		"dateModified": "2026-07-18T16:18:14Z",
+		"page": "C3_-魔方少女-",
+		"pageId": "191558",
 		"title": {
 			"zh": "對詛咒立方體的好奇",
 			"zh-hans": "C³ -魔幻三次方-",
@@ -18144,7 +18186,9 @@
 		}
 	},
 	"10721": {
-		"dateModified": "2025-01-05T17:58:38Z",
+		"dateModified": "2026-07-18T16:16:26Z",
+		"page": "回转企鹅罐",
+		"pageId": "42673",
 		"title": {
 			"zh": "回转企鹅罐",
 			"+zh-hant": "迴轉企鵝罐"
@@ -18572,7 +18616,9 @@
 		}
 	},
 	"11759": {
-		"dateModified": "2025-06-22T18:52:38Z",
+		"dateModified": "2026-07-13T09:22:38Z",
+		"page": "加速世界",
+		"pageId": "23969",
 		"title": {
 			"zh": "加速世界"
 		}
@@ -18631,7 +18677,9 @@
 		}
 	},
 	"11785": {
-		"dateModified": "2025-01-05T08:35:14Z",
+		"dateModified": "2026-07-18T16:18:05Z",
+		"page": "潜行吧！奈亚子",
+		"pageId": "36816",
 		"title": {
 			"zh": "袭来！美少女邪神",
 			"+zh-tw": "襲來！美少女邪神"
@@ -19345,7 +19393,9 @@
 		}
 	},
 	"14131": {
-		"dateModified": "2025-06-05T17:57:41Z",
+		"dateModified": "2026-07-18T16:15:24Z",
+		"page": "少女与战车",
+		"pageId": "29303",
 		"title": {
 			"zh": "少女與戰車",
 			"zh-hans": "少女与战车"
@@ -19796,6 +19846,14 @@
 			"+zh-hans": "猫物语（黑）"
 		}
 	},
+	"15699": {
+		"dateModified": "2025-08-01T18:58:55Z",
+		"page": "潜行吧！奈亚子",
+		"pageId": "36816",
+		"title": {
+			"en": "Haiyore! Nyaruko-san W"
+		}
+	},
 	"15751": {
 		"dateModified": "2024-02-23T19:15:56Z",
 		"title": {
@@ -19980,7 +20038,9 @@
 		}
 	},
 	"16355": {
-		"dateModified": "2025-07-17T16:52:59Z",
+		"dateModified": "2026-07-18T16:17:19Z",
+		"page": "断裁分离的罪恶之剪",
+		"pageId": "177364",
 		"title": {
 			"zh": "斷裁分離的罪惡之剪",
 			"zh-hans": "断裁分离的罪恶之剪"
@@ -20450,8 +20510,8 @@
 		}
 	},
 	"17777": {
-		"dateModified": "2025-07-17T16:52:14Z",
-		"page": "最近妹妹的样子有点怪",
+		"dateModified": "2026-07-18T16:15:32Z",
+		"page": "最近，妹妹的样子有点怪？",
 		"pageId": "77160",
 		"title": {
 			"zh": "最近，妹妹的樣子有點怪？",
@@ -20654,6 +20714,14 @@
 		"title": {
 			"zh": "劇場版 少女與戰車",
 			"+zh-hans": "剧场版 少女与战车"
+		}
+	},
+	"18619": {
+		"dateModified": "2026-02-17T22:32:00Z",
+		"page": "少女与战车",
+		"pageId": "29303",
+		"title": {
+			"en": "Girls und Panzer: This Is the Real Anzio Battle!"
 		}
 	},
 	"18677": {
@@ -21572,8 +21640,8 @@
 		}
 	},
 	"20573": {
-		"dateModified": "2026-03-12T05:18:14Z",
-		"page": "最近妹妹的样子有点怪",
+		"dateModified": "2026-07-18T16:15:32Z",
+		"page": "最近，妹妹的样子有点怪？",
 		"pageId": "77160",
 		"title": {
 			"zh": "最近，妹妹的樣子有點怪？",
@@ -22406,6 +22474,14 @@
 			"zh-hans": "魔法少女奈叶ViVid"
 		}
 	},
+	"20824": {
+		"dateModified": "2026-05-03T06:07:13Z",
+		"page": "潜行吧！奈亚子",
+		"pageId": "36816",
+		"title": {
+			"en": "Haiyore! Nyaruko-san F"
+		}
+	},
 	"20827": {
 		"dateModified": "2025-01-05T18:36:12Z",
 		"title": {
@@ -23076,7 +23152,9 @@
 		}
 	},
 	"21126": {
-		"dateModified": "2025-05-26T08:49:03Z",
+		"dateModified": "2026-07-18T16:14:25Z",
+		"page": "CHAOS;CHILD",
+		"pageId": "530102",
 		"title": {
 			"zh": "混沌之子"
 		}
@@ -23827,7 +23905,9 @@
 		}
 	},
 	"21404": {
-		"dateModified": "2025-07-13T22:03:38Z",
+		"dateModified": "2026-02-21T12:55:41Z",
+		"page": "加速世界",
+		"pageId": "23969",
 		"title": {
 			"zh": "加速世界INFINITE BURST劇場版",
 			"zh-sg": "加速世界 Infinite Burst剧场版"
@@ -23941,6 +24021,14 @@
 		"pageId": "113226",
 		"title": {
 			"en": "JoJo's Bizarre Adventure: Diamond Is Unbreakable"
+		}
+	},
+	"21451": {
+		"dateModified": "2025-08-01T18:44:34Z",
+		"page": "全金属狂潮",
+		"pageId": "70988",
+		"title": {
+			"en": "Full Metal Panic! Invisible Victory"
 		}
 	},
 	"21452": {
@@ -25209,7 +25297,9 @@
 		}
 	},
 	"97765": {
-		"dateModified": "2024-02-23T16:24:01Z",
+		"dateModified": "2026-07-18T16:14:23Z",
+		"page": "灰姑娘女孩剧场",
+		"pageId": "220877",
 		"title": {
 			"zh": "灰姑娘女孩剧场",
 			"+zh-hant": "灰姑娘女孩劇場"
@@ -25375,7 +25465,9 @@
 		}
 	},
 	"97917": {
-		"dateModified": "2025-03-14T10:00:17Z",
+		"dateModified": "2026-06-25T21:00:43Z",
+		"page": "春宵苦短，少女前进吧！",
+		"pageId": "208101",
 		"title": {
 			"zh": "夜短夢長，少女前進吧！",
 			"+zh-hans": "夜短梦长，少女前进吧！"
@@ -26219,7 +26311,9 @@
 		}
 	},
 	"99413": {
-		"dateModified": "2025-01-05T18:41:35Z",
+		"dateModified": "2026-07-18T16:15:03Z",
+		"page": "RErideD_-穿越时空的德理达-",
+		"pageId": "272978",
 		"title": {
 			"zh": "RErideD -穿越時空的德理達-",
 			"+zh-hans": "RErideD -穿越时空的德理达-"
@@ -26285,7 +26379,9 @@
 		}
 	},
 	"99483": {
-		"dateModified": "2025-06-13T04:26:48Z",
+		"dateModified": "2026-07-18T16:17:01Z",
+		"page": "博多豚骨拉面",
+		"pageId": "239011",
 		"title": {
 			"zh": "博多豚骨拉面团",
 			"+zh-hant": "博多豚骨拉麵團"
@@ -26447,6 +26543,14 @@
 			"en": "Cardfight!! Vanguard G: Z"
 		}
 	},
+	"99742": {
+		"dateModified": "2026-04-13T10:22:02Z",
+		"page": "灰姑娘女孩剧场",
+		"pageId": "220877",
+		"title": {
+			"en": "The Idolmaster Cinderella Girls Theater, season 2"
+		}
+	},
 	"99748": {
 		"dateModified": "2025-06-13T14:24:56Z",
 		"title": {
@@ -26546,7 +26650,9 @@
 		}
 	},
 	"100085": {
-		"dateModified": "2025-06-13T04:26:50Z",
+		"dateModified": "2026-07-18T16:17:57Z",
+		"page": "昴宿七星",
+		"pageId": "272446",
 		"title": {
 			"zh": "昴宿七星"
 		}
@@ -26691,7 +26797,9 @@
 		}
 	},
 	"100298": {
-		"dateModified": "2025-01-24T09:09:30Z",
+		"dateModified": "2026-07-18T16:16:53Z",
+		"page": "MEGALO_BOX",
+		"pageId": "272604",
 		"title": {
 			"zh": "MEGALO BOX"
 		}
@@ -26853,7 +26961,9 @@
 		}
 	},
 	"100673": {
-		"dateModified": "2025-01-17T16:44:34Z",
+		"dateModified": "2026-07-18T16:18:16Z",
+		"page": "Hisone_&_Masotan",
+		"pageId": "267312",
 		"title": {
 			"zh": "飛龍女孩",
 			"+zh-hans": "飞龙女孩"
@@ -27244,6 +27354,14 @@
 			"zh": "皿三昧"
 		}
 	},
+	"101267": {
+		"dateModified": "2026-04-13T10:22:22Z",
+		"page": "灰姑娘女孩剧场",
+		"pageId": "220877",
+		"title": {
+			"en": "The Idolmaster Cinderella Girls Theater, season 3"
+		}
+	},
 	"101280": {
 		"dateModified": "2025-11-11T04:12:02Z",
 		"page": "关于我转生变成史莱姆这档事",
@@ -27425,7 +27543,9 @@
 		}
 	},
 	"101361": {
-		"dateModified": "2025-04-29T09:57:56Z",
+		"dateModified": "2026-07-18T16:17:31Z",
+		"page": "天狼_Sirius_the_Jaeger",
+		"pageId": "273298",
 		"title": {
 			"zh": "天狼 Sirius the Jaeger"
 		}
@@ -27473,7 +27593,9 @@
 		}
 	},
 	"101382": {
-		"dateModified": "2025-05-16T19:00:00Z",
+		"dateModified": "2026-07-18T16:16:35Z",
+		"page": "暮光幻影",
+		"pageId": "273614",
 		"title": {
 			"zh": "暮光幻影"
 		}
@@ -27514,7 +27636,9 @@
 		}
 	},
 	"101500": {
-		"dateModified": "2025-06-23T17:45:28Z",
+		"dateModified": "2026-07-13T17:32:11Z",
+		"page": "Ingress",
+		"pageId": "276352",
 		"title": {
 			"zh-hk": "虛擬入口：動畫版",
 			"zh-sg": "浸视界",
@@ -27806,7 +27930,9 @@
 		}
 	},
 	"102875": {
-		"dateModified": "2025-07-19T08:49:56Z",
+		"dateModified": "2026-07-18T16:15:21Z",
+		"page": "不受欢迎之家",
+		"pageId": "286082",
 		"title": {
 			"zh": "不受欢迎之家",
 			"+zh-hant": "不受歡迎之家"
@@ -28151,7 +28277,9 @@
 		}
 	},
 	"104252": {
-		"dateModified": "2025-06-22T00:59:16Z",
+		"dateModified": "2026-07-18T16:16:52Z",
+		"page": "重来吧，魔王大人！",
+		"pageId": "304348",
 		"title": {
 			"zh": "魔王陛下RETRY！",
 			"zh-hans": "重来吧，魔王大人！"
@@ -28492,15 +28620,17 @@
 		}
 	},
 	"105857": {
-		"dateModified": "2025-07-19T09:26:07Z",
-		"page": "光之美少女系列",
-		"pageId": "47123",
+		"dateModified": "2026-07-18T16:17:58Z",
+		"page": "STAR_TWINKLE光之美少女",
+		"pageId": "511737",
 		"title": {
 			"zh": "Star☆Twinkle 光之美少女"
 		}
 	},
 	"105914": {
-		"dateModified": "2025-07-15T22:51:52Z",
+		"dateModified": "2026-07-18T16:15:20Z",
+		"page": "贤惠幼妻仙狐小姐",
+		"pageId": "307480",
 		"title": {
 			"zh": "賢惠幼妻仙狐小姐",
 			"+zh-hans": "贤惠幼妻仙狐小姐"
@@ -28520,6 +28650,14 @@
 			"+zh-hans": "荒芜季节的少女们"
 		}
 	},
+	"105962": {
+		"dateModified": "2026-04-13T10:25:40Z",
+		"page": "灰姑娘女孩剧场",
+		"pageId": "220877",
+		"title": {
+			"en": "The Idolmaster Cinderella Girls Theater: Climax Season"
+		}
+	},
 	"105989": {
 		"dateModified": "2025-07-19T06:56:29Z",
 		"title": {
@@ -28528,20 +28666,26 @@
 		}
 	},
 	"106051": {
-		"dateModified": "2025-07-19T09:16:16Z",
+		"dateModified": "2026-07-10T09:42:08Z",
+		"page": "川柳少女",
+		"pageId": "306494",
 		"title": {
 			"zh": "川柳少女"
 		}
 	},
 	"106154": {
-		"dateModified": "2025-06-26T22:26:38Z",
+		"dateModified": "2026-07-18T16:17:20Z",
+		"page": "攻壳机动队_SAC_2045",
+		"pageId": "349010",
 		"title": {
 			"zh": "攻壳机动队：SAC 2045",
 			"+zh-hant": "攻殼機動隊：SAC 2045"
 		}
 	},
 	"106165": {
-		"dateModified": "2025-06-13T13:33:12Z",
+		"dateModified": "2026-04-26T21:03:42Z",
+		"page": "就算是爸爸也想做",
+		"pageId": "461621",
 		"title": {
 			"zh": "就算是爸爸，也想做"
 		}
@@ -28847,7 +28991,9 @@
 		}
 	},
 	"108092": {
-		"dateModified": "2025-07-16T15:54:31Z",
+		"dateModified": "2026-07-18T16:17:53Z",
+		"page": "恋爱小行星",
+		"pageId": "315710",
 		"title": {
 			"zh": "戀愛小行星",
 			"+zh-hans": "恋爱小行星"
@@ -29863,6 +30009,14 @@
 			"+zh-hans": "隐瞒之事"
 		}
 	},
+	"113359": {
+		"dateModified": "2024-02-23T18:38:40Z",
+		"page": "MEGALO_BOX",
+		"pageId": "272604",
+		"title": {
+			"en": "Megalobox 2: Nomad"
+		}
+	},
 	"113397": {
 		"dateModified": "2025-07-19T09:40:38Z",
 		"title": {
@@ -30272,7 +30426,9 @@
 		}
 	},
 	"115740": {
-		"dateModified": "2025-07-19T07:35:41Z",
+		"dateModified": "2026-07-10T09:49:28Z",
+		"page": "众神眷顾的男人",
+		"pageId": "388092",
 		"title": {
 			"zh": "眾神眷顧的男人",
 			"zh-hans": "众神眷顾的男人"
@@ -30512,7 +30668,9 @@
 		}
 	},
 	"117612": {
-		"dateModified": "2025-07-07T10:14:37Z",
+		"dateModified": "2026-07-18T16:17:25Z",
+		"page": "现实主义勇者的王国再建记",
+		"pageId": "422406",
 		"title": {
 			"zh": "現實主義勇者的王國重建記",
 			"zh-sg": "现实主义勇者的王国重建记"
@@ -30530,6 +30688,14 @@
 		"title": {
 			"zh": "光之戰記 -ZUERST-",
 			"+zh-hans": "光之战记 -ZUERST-"
+		}
+	},
+	"117757": {
+		"dateModified": "2026-07-10T09:47:56Z",
+		"page": "攀岩少女！",
+		"pageId": "392060",
+		"title": {
+			"en": "Iwa-Kakeru! Sport Climbing Girls"
 		}
 	},
 	"117763": {
@@ -30578,7 +30744,9 @@
 		}
 	},
 	"118399": {
-		"dateModified": "2025-07-19T10:05:40Z",
+		"dateModified": "2026-07-18T16:16:40Z",
+		"page": "半妖的夜叉姬",
+		"pageId": "397204",
 		"title": {
 			"zh": "半妖的夜叉姬"
 		}
@@ -31419,7 +31587,9 @@
 		}
 	},
 	"128715": {
-		"dateModified": "2025-01-05T19:15:22Z",
+		"dateModified": "2026-07-10T09:25:30Z",
+		"page": "祭品公主与兽之王",
+		"pageId": "535139",
 		"title": {
 			"zh": "獻祭公主與獸王",
 			"+zh-hans": "献祭公主与兽王"
@@ -31740,7 +31910,9 @@
 		}
 	},
 	"131083": {
-		"dateModified": "2025-06-13T13:23:03Z",
+		"dateModified": "2026-07-18T16:17:35Z",
+		"page": "看得见的女孩",
+		"pageId": "316678",
 		"title": {
 			"zh": "陰陽眼見子",
 			"+zh-hans": "阴阳眼见子"
@@ -31759,6 +31931,14 @@
 		"title": {
 			"zh": "緋紅結繫",
 			"+zh-hans": "绯红结系"
+		}
+	},
+	"131264": {
+		"dateModified": "2025-09-22T22:46:39Z",
+		"page": "半妖的夜叉姬",
+		"pageId": "397204",
+		"title": {
+			"en": "Yashahime, season 2"
 		}
 	},
 	"131516": {
@@ -31992,7 +32172,9 @@
 		}
 	},
 	"132456": {
-		"dateModified": "2025-07-16T14:59:49Z",
+		"dateModified": "2026-07-18T16:18:07Z",
+		"page": "贾希大人不气馁",
+		"pageId": "277374",
 		"title": {
 			"zh": "賈希大人不氣餒！",
 			"+zh-hans": "贾希大人不气馁！"
@@ -32125,6 +32307,14 @@
 			"zh-cn": "机动战士高达SEED FREEDOM",
 			"zh-hk": "機動戰士高達SEED FREEDOM",
 			"zh-tw": "機動戰士鋼彈SEED FREEDOM"
+		}
+	},
+	"135102": {
+		"dateModified": "2025-11-09T15:39:40Z",
+		"page": "众神眷顾的男人",
+		"pageId": "388092",
+		"title": {
+			"en": "By the Grace of the Gods, season 2"
 		}
 	},
 	"135108": {
@@ -32753,7 +32943,9 @@
 		}
 	},
 	"140842": {
-		"dateModified": "2026-02-18T00:31:28Z",
+		"dateModified": "2026-06-22T13:31:36Z",
+		"page": "吉伊卡哇",
+		"pageId": "503886",
 		"title": {
 			"zh": "吉伊卡哇"
 		}
@@ -32840,9 +33032,9 @@
 		}
 	},
 	"141391": {
-		"dateModified": "2025-08-01T19:01:32Z",
-		"page": "彻夜之歌(漫画)",
-		"pageId": "340994",
+		"dateModified": "2026-07-10T09:20:52Z",
+		"page": "彻夜之歌",
+		"pageId": "571277",
 		"title": {
 			"zh": "徹夜之歌",
 			"zh-hans": "彻夜之歌"
@@ -33056,7 +33248,9 @@
 		}
 	},
 	"142849": {
-		"dateModified": "2025-01-05T19:06:34Z",
+		"dateModified": "2026-07-10T09:20:51Z",
+		"page": "妖幻三重奏",
+		"pageId": "407996",
 		"title": {
 			"zh": "妖幻三重奏"
 		}
@@ -33620,7 +33814,9 @@
 		}
 	},
 	"147864": {
-		"dateModified": "2025-10-29T09:49:43Z",
+		"dateModified": "2026-07-10T09:29:02Z",
+		"page": "别当欧尼酱了",
+		"pageId": "538367",
 		"title": {
 			"zh": "別當歐尼醬了！",
 			"zh-sg": "不当哥哥了！",
@@ -34135,7 +34331,9 @@
 		}
 	},
 	"154116": {
-		"dateModified": "2025-07-10T15:31:31Z",
+		"dateModified": "2026-07-18T16:15:51Z",
+		"page": "不死不幸",
+		"pageId": "549511",
 		"title": {
 			"zh": "不死不運",
 			"+zh-hans": "不死不运"
@@ -34445,7 +34643,9 @@
 		}
 	},
 	"155963": {
-		"dateModified": "2025-07-16T11:54:03Z",
+		"dateModified": "2026-07-18T16:15:33Z",
+		"page": "北海道辣妹贼拉可爱",
+		"pageId": "455046",
 		"title": {
 			"zh": "北海道辣妹金古錐",
 			"+zh-hans": "北海道辣妹金古锥"
@@ -34668,6 +34868,14 @@
 			"zh-hant": "你的顏色"
 		}
 	},
+	"158287": {
+		"dateModified": "2026-07-03T08:36:24Z",
+		"page": "战斗天赋解析系统",
+		"pageId": "653307",
+		"title": {
+			"en": "#Compass 2.0"
+		}
+	},
 	"158417": {
 		"dateModified": "2025-01-21T17:14:14Z",
 		"title": {
@@ -34683,7 +34891,9 @@
 		}
 	},
 	"158559": {
-		"dateModified": "2025-08-19T09:37:49Z",
+		"dateModified": "2026-07-10T09:29:59Z",
+		"page": "2.5次元的诱惑",
+		"pageId": "439879",
 		"title": {
 			"zh": "2.5次元的诱惑",
 			"zh-hant": "2.5次元的誘惑"
@@ -35735,7 +35945,9 @@
 		}
 	},
 	"168138": {
-		"dateModified": "2025-01-05T19:25:57Z",
+		"dateModified": "2026-07-10T09:36:44Z",
+		"page": "老夫老妻重返青春",
+		"pageId": "439099",
 		"title": {
 			"zh": "老夫老妻重返青春"
 		}
@@ -36140,7 +36352,9 @@
 		}
 	},
 	"171018": {
-		"dateModified": "2025-01-05T19:29:10Z",
+		"dateModified": "2026-07-10T09:39:27Z",
+		"page": "胆大党",
+		"pageId": "608199",
 		"title": {
 			"zh": "膽大黨",
 			"+zh-hans": "胆大党"
@@ -36674,9 +36888,9 @@
 		}
 	},
 	"175914": {
-		"dateModified": "2025-07-07T14:28:31Z",
-		"page": "彻夜之歌(漫画)",
-		"pageId": "340994",
+		"dateModified": "2026-02-28T12:17:50Z",
+		"page": "彻夜之歌",
+		"pageId": "571277",
 		"title": {
 			"en": "Call of the Night, season 2"
 		}
@@ -37431,6 +37645,8 @@
 	},
 	"179930": {
 		"dateModified": "2026-01-14T17:11:36Z",
+		"page": "不死不幸",
+		"pageId": "549511",
 		"title": {
 			"zh": "不死不幸 冬季篇"
 		}
@@ -38232,6 +38448,14 @@
 			"zh": "蘑菇魔女"
 		}
 	},
+	"185515": {
+		"dateModified": "2025-06-30T06:57:24Z",
+		"page": "2.5次元的诱惑",
+		"pageId": "439879",
+		"title": {
+			"en": "2.5 Dimensional Seduction, season 2"
+		}
+	},
 	"185519": {
 		"dateModified": "2025-05-16T01:44:49Z",
 		"title": {
@@ -38258,6 +38482,14 @@
 		"title": {
 			"zh": "正能量企鵝",
 			"+zh-hans": "正能量企鹅"
+		}
+	},
+	"185660": {
+		"dateModified": "2025-09-18T19:49:36Z",
+		"page": "胆大党",
+		"pageId": "608199",
+		"title": {
+			"en": "Dandadan, season 2"
 		}
 	},
 	"185697": {
@@ -39437,6 +39669,14 @@
 		"title": {
 			"zh": "Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－",
 			"+zh-hans": "Clevatess Ⅱ－魔兽之王与虚假的勇者传承－"
+		}
+	},
+	"198966": {
+		"dateModified": "2025-11-11T01:22:58Z",
+		"page": "胆大党",
+		"pageId": "608199",
+		"title": {
+			"en": "Dandadan, season 3"
 		}
 	},
 	"199006": {
