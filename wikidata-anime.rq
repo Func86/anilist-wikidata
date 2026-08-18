@@ -4,7 +4,7 @@ SELECT (MIN(xsd:integer(?value)) AS ?id)
        ?lang
        (SAMPLE(?label) AS ?title)
        (SAMPLE(?finalPage) AS ?page)
-       (SAMPLE(?finalPageId) AS ?pageId)
+       (?finalPageId AS ?pageId)
        (SAMPLE(?dateModified) AS ?dateModified)
 WHERE {{
   BIND('anime' AS ?type)
@@ -181,5 +181,5 @@ WHERE {{
   BIND(COALESCE(?pageId, ?seriesPageId, ?seriesOriginPageId, ?originPageId, ?medmixPageId, ?seriesMedmixPageId) AS ?finalPageId)
   FILTER(STRSTARTS(?lang, "zh") || BOUND(?finalPage))
 }}
-GROUP BY ?item ?source ?lang ?index
-ORDER BY ?id ?source ?lang
+GROUP BY ?item ?source ?lang ?index ?finalPageId
+ORDER BY ?id ?source ?lang ?finalPageId
