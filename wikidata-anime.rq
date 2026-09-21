@@ -19,7 +19,11 @@ WHERE {{
 
     ?item rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
-    FILTER(STRSTARTS(?lang, "zh") || ?lang = "en")
+    FILTER(?lang IN (
+      "en",
+      "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+      "zh-hk", "zh-sg", "zh-mo", "zh-my"
+    ))
 
     ?item schema:dateModified ?dateModified.
     BIND(0 AS ?source).
@@ -32,42 +36,40 @@ WHERE {{
     OPTIONAL { ?item wdt:P364 ?originalLanguage. }
     FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
 
-    # In this branch of the UNION query, we only want items with a P144 (origin) statement, but somehow,
-    # keeping these inside an OPTIONAL block can make the query way faster, from >20s to 6-8s
-    OPTIONAL {
-      ?item wdt:P144 ?origin.
-      ?origin schema:dateModified ?dateModified.
-      SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
-        ?item rdfs:label ?autoLabel.
-        ?origin rdfs:label ?originLabel.
-      }
-      SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "en".
-        ?item rdfs:label ?enLabel.
-        ?origin rdfs:label ?originEnLabel.
-      }
-      SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "ja".
-        ?item rdfs:label ?jaLabel.
-        ?origin rdfs:label ?originJaLabel.
-      }
+    ?item wdt:P144 ?origin.
+    ?origin schema:dateModified ?dateModified.
+
+    # Only use the origin title when the item itself does not already
+    # have one of the wanted Chinese label variants.
+    FILTER NOT EXISTS {
+      ?item rdfs:label ?itemZhLabel.
+      FILTER(LANG(?itemZhLabel) IN (
+        "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+        "zh-hk", "zh-sg", "zh-mo", "zh-my"
+      ))
     }
 
-    # Query the title variants of the origin entity, when all of the following conditions are met:
-    # 1. The title of the item is in English or undefined
-    # 2. The title of the origin entity is in Chinese
-    # 3. The English or Japanese title of the item is the same as the origin entity
-    FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && (
-      LCASE(?enLabel) = LCASE(?originEnLabel) ||
-      LCASE(?jaLabel) = LCASE(?originJaLabel)
-    ))
+    # The English or Japanese title of the item must match the origin.
+    FILTER EXISTS {
+      ?item rdfs:label ?itemMatchLabel.
+      ?origin rdfs:label ?originMatchLabel.
+      FILTER(
+        LANG(?itemMatchLabel) = LANG(?originMatchLabel) &&
+        LANG(?itemMatchLabel) IN ("en", "ja") &&
+        LCASE(?itemMatchLabel) = LCASE(?originMatchLabel)
+      )
+    }
 
+    # Require and return the wanted Chinese title variants of the origin.
     # We have to keep these inside the UNION query because it would timeout/OOM when querying rdfs:label
-    # on variables that are bounded with BIND, even if it's as simple as `BIND(?item AS ?itemCopy)`.
+    # on variables that are bounded with BIND, e.g. `BIND(?origin AS ?labelItem)`.
     ?origin rdfs:label ?label.
     BIND(LANG(?label) AS ?lang)
-    FILTER(STRSTARTS(?lang, "zh"))
+    FILTER(?lang IN (
+      "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+      "zh-hk", "zh-sg", "zh-mo", "zh-my"
+    ))
+
     BIND(1 AS ?source).
   } UNION {
     ?item p:P8729 ?prop.
@@ -87,7 +89,10 @@ WHERE {{
     {
       ?series rdfs:label ?label.
       BIND(LANG(?label) AS ?lang).
-      FILTER(STRSTARTS(?lang, "zh")).
+      FILTER(?lang IN (
+        "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+        "zh-hk", "zh-sg", "zh-mo", "zh-my"
+      ))
 
       ?series schema:dateModified ?dateModified.
       BIND(2 AS ?source).
@@ -95,30 +100,30 @@ WHERE {{
       ?series wdt:P144 ?origin.
 
       # Similar to the branch above, but for the series
-      SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "zh,zh-hans,zh-hant,zh-cn,zh-tw,zh-hk,zh-sg,zh-mo,zh-my,en".
-        ?series rdfs:label ?autoLabel.
-        ?origin rdfs:label ?originLabel.
-      }
-      SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "en".
-        ?series rdfs:label ?enLabel.
-        ?origin rdfs:label ?originEnLabel.
-      }
-      SERVICE wikibase:label {
-        bd:serviceParam wikibase:language "ja".
-        ?series rdfs:label ?jaLabel.
-        ?origin rdfs:label ?originJaLabel.
+      FILTER NOT EXISTS {
+        ?series rdfs:label ?seriesZhLabel.
+        FILTER(LANG(?seriesZhLabel) IN (
+          "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+          "zh-hk", "zh-sg", "zh-mo", "zh-my"
+        ))
       }
 
-      FILTER(!STRSTARTS(LANG(?autoLabel), "zh") && STRSTARTS(LANG(?originLabel), "zh") && (
-        LCASE(?enLabel) = LCASE(?originEnLabel) ||
-        LCASE(?jaLabel) = LCASE(?originJaLabel)
-      ))
+      FILTER EXISTS {
+        ?series rdfs:label ?seriesMatchLabel.
+        ?origin rdfs:label ?originMatchLabel.
+        FILTER(
+          LANG(?seriesMatchLabel) = LANG(?originMatchLabel) &&
+          LANG(?seriesMatchLabel) IN ("en", "ja") &&
+          LCASE(?seriesMatchLabel) = LCASE(?originMatchLabel)
+        )
+      }
 
       ?origin rdfs:label ?label.
       BIND(LANG(?label) AS ?lang).
-      FILTER(STRSTARTS(?lang, "zh")).
+      FILTER(?lang IN (
+        "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+        "zh-hk", "zh-sg", "zh-mo", "zh-my"
+      )).
 
       ?origin schema:dateModified ?dateModified.
       BIND(3 AS ?source).
@@ -175,11 +180,14 @@ WHERE {{
     ?medmixPageStatement rdf:type wikibase:BestRank;
                          ps:P5737 ?medmixPage;
                          pq:P9675 ?medmixPageId.
-    }
+  }
 
   BIND(COALESCE(?page, ?seriesPage, ?seriesOriginPage, ?originPage, ?medmixPage, ?seriesMedmixPage) AS ?finalPage)
   BIND(COALESCE(?pageId, ?seriesPageId, ?seriesOriginPageId, ?originPageId, ?medmixPageId, ?seriesMedmixPageId) AS ?finalPageId)
-  FILTER(STRSTARTS(?lang, "zh") || BOUND(?finalPage))
+  FILTER(BOUND(?finalPage) || ?lang IN (
+    "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+    "zh-hk", "zh-sg", "zh-mo", "zh-my"
+  ))
 }}
 GROUP BY ?item ?source ?lang ?index ?finalPageId
 ORDER BY ?id ?source ?lang ?finalPageId
