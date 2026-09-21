@@ -12,31 +12,34 @@ WHERE {{
 
   ?item rdfs:label ?label.
   BIND(LANG(?label) AS ?lang)
-  FILTER(STRSTARTS(?lang, "zh"))
+  FILTER(?lang IN (
+    "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+    "zh-hk", "zh-sg", "zh-mo", "zh-my"
+  ))
 
   ?item schema:dateModified ?dateModified.
 } UNION {
   BIND('staff' AS ?type).
   ?item wdt:P11227 ?value.
 
-  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
-  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
-
   ?item rdfs:label ?label.
   BIND(LANG(?label) AS ?lang)
-  FILTER(STRSTARTS(?lang, "zh"))
+  FILTER(?lang IN (
+    "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+    "zh-hk", "zh-sg", "zh-mo", "zh-my"
+  ))
 
   ?item schema:dateModified ?dateModified.
 } UNION {
   BIND('character' AS ?type).
   ?item wdt:P11736 ?value.
 
-  OPTIONAL { ?item wdt:P364 ?originalLanguage. }
-  FILTER(?originalLanguage = wd:Q5287 || !BOUND(?originalLanguage))
-
   ?item rdfs:label ?label.
   BIND(LANG(?label) AS ?lang)
-  FILTER(STRSTARTS(?lang, "zh"))
+  FILTER(?lang IN (
+    "zh", "zh-hans", "zh-hant", "zh-cn", "zh-tw",
+    "zh-hk", "zh-sg", "zh-mo", "zh-my"
+  ))
 
   ?item schema:dateModified ?dateModified.
 }}
