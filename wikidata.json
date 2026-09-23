@@ -22778,9 +22778,10 @@
 		}
 	},
 	"20742": {
-		"dateModified": "2025-01-07T16:50:57Z",
+		"dateModified": "2026-09-23T19:50:47Z",
 		"title": {
-			"zh": "PuRiPaRa"
+			"zh": "星光樂園",
+			"+zh-hans": "星光乐园"
 		}
 	},
 	"20744": {
@@ -25901,13 +25902,6 @@
 		"pageId": "203781",
 		"title": {
 			"zh": "Shelter"
-		}
-	},
-	"97745": {
-		"dateModified": "2024-03-07T03:48:49Z",
-		"title": {
-			"zh": "Chiruran：新撰組鎮魂歌",
-			"+zh-hans": "Chiruran：新撰组镇魂歌"
 		}
 	},
 	"97757": {
