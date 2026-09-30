@@ -802,6 +802,14 @@
 			"zh-tw": "棋靈王"
 		}
 	},
+	"136": {
+		"dateModified": "2026-09-30T06:31:04Z",
+		"title": {
+			"zh": "HUNTER×HUNTER",
+			"zh-hans": "Hunter × Hunter",
+			"zh-hant": "Hunter × Hunter"
+		}
+	},
 	"141": {
 		"dateModified": "2024-10-27T13:44:43Z",
 		"title": {
@@ -6188,10 +6196,14 @@
 		}
 	},
 	"1316": {
-		"dateModified": "2026-09-30T04:12:26Z",
+		"dateModified": "2026-09-30T06:30:56Z",
 		"title": {
 			"zh": "韋駄天翔",
-			"+zh-hans": "韦駄天翔"
+			"zh-cn": "韦驮天翔",
+			"zh-hans": "韦駄天翔",
+			"zh-hant": "韋駄天翔",
+			"zh-hk": "單車新人王",
+			"zh-sg": "韦驮天翔"
 		}
 	},
 	"1327": {
@@ -66779,6 +66791,17 @@
 		"title": {
 			"zh": "月租獨棟庭院住宅附房東",
 			"+zh-hans": "月租独栋庭院住宅附房东"
+		}
+	},
+	"136259": {
+		"dateModified": "2026-09-30T06:30:56Z",
+		"title": {
+			"zh": "韋駄天翔",
+			"zh-cn": "韦驮天翔",
+			"zh-hans": "韦駄天翔",
+			"zh-hant": "韋駄天翔",
+			"zh-hk": "單車新人王",
+			"zh-sg": "韦驮天翔"
 		}
 	},
 	"136290": {

@@ -701,6 +701,13 @@
 			"zh-tw": "棋靈王"
 		}
 	},
+	"136": {
+		"title": {
+			"zh": "HUNTER×HUNTER",
+			"zh-hans": "Hunter × Hunter",
+			"zh-hant": "Hunter × Hunter"
+		}
+	},
 	"141": {
 		"title": {
 			"zh": "人機系列",
@@ -5362,7 +5369,11 @@
 	"1316": {
 		"title": {
 			"zh": "韋駄天翔",
-			"zh-hans": "韦駄天翔"
+			"zh-cn": "韦驮天翔",
+			"zh-hans": "韦駄天翔",
+			"zh-hant": "韋駄天翔",
+			"zh-hk": "單車新人王",
+			"zh-sg": "韦驮天翔"
 		}
 	},
 	"1327": {
