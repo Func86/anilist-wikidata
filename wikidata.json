@@ -8504,9 +8504,9 @@
 		}
 	},
 	"1932": {
-		"dateModified": "2025-01-05T18:18:34Z",
-		"page": "光之美少女系列",
-		"pageId": "47123",
+		"dateModified": "2026-10-16T22:51:12Z",
+		"page": "Yes！光之美少女5",
+		"pageId": "619488",
 		"title": {
 			"zh": "Yes! 光之美少女5"
 		}
@@ -12834,9 +12834,9 @@
 		}
 	},
 	"3692": {
-		"dateModified": "2026-10-16T22:48:15Z",
-		"page": "光之美少女系列",
-		"pageId": "47123",
+		"dateModified": "2026-10-16T23:18:19Z",
+		"page": "Yes!光之美少女5 GoGo！",
+		"pageId": "619492",
 		"title": {
 			"zh": "Yes! 光之美少女5 GoGo!"
 		}
@@ -15171,9 +15171,9 @@
 		}
 	},
 	"5684": {
-		"dateModified": "2025-01-05T18:18:43Z",
-		"page": "光之美少女系列",
-		"pageId": "47123",
+		"dateModified": "2026-10-16T23:32:47Z",
+		"page": "Fresh光之美少女！",
+		"pageId": "619652",
 		"title": {
 			"zh": "FRESH光之美少女！"
 		}
@@ -16655,9 +16655,9 @@
 		}
 	},
 	"7645": {
-		"dateModified": "2025-01-05T18:18:35Z",
-		"page": "光之美少女系列",
-		"pageId": "47123",
+		"dateModified": "2026-10-16T23:46:20Z",
+		"page": "HeartCatch光之美少女！",
+		"pageId": "619653",
 		"title": {
 			"zh": "Heartcatch 光之美少女！"
 		}
@@ -30069,6 +30069,13 @@
 		"title": {
 			"zh": "小魔女DoReMi 搞笑剧场",
 			"+zh-hant": "小魔女DoReMi 搞笑劇場"
+		}
+	},
+	"108750": {
+		"dateModified": "2026-10-16T23:20:57Z",
+		"title": {
+			"zh": "海底大冒險",
+			"+zh-hans": "海底大冒险"
 		}
 	},
 	"108767": {
