@@ -5699,10 +5699,10 @@
 		}
 	},
 	"1199": {
-		"dateModified": "2025-07-19T09:08:54Z",
+		"dateModified": "2026-10-19T05:59:01Z",
 		"title": {
-			"zh": "忍者乱太郎",
-			"zh-hant": "忍者亂太郎"
+			"zh": "忍者亂太郎",
+			"zh-hans": "忍者乱太郎"
 		}
 	},
 	"1200": {
@@ -27962,9 +27962,7 @@
 		}
 	},
 	"100745": {
-		"dateModified": "2025-07-19T10:09:55Z",
-		"page": "足球小将",
-		"pageId": "40992",
+		"dateModified": "2026-10-19T06:16:12Z",
 		"title": {
 			"zh": "足球小将",
 			"+zh-hant": "足球小將"
@@ -36600,14 +36598,6 @@
 		"title": {
 			"zh": "Metallic Rouge",
 			"zh-hant": "金屬口紅Metallic Rouge"
-		}
-	},
-	"163024": {
-		"dateModified": "2025-03-21T15:52:33Z",
-		"page": "足球小将",
-		"pageId": "40992",
-		"title": {
-			"en": "Captain Tsubasa 2018: season 2"
 		}
 	},
 	"163076": {
