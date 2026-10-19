@@ -2889,12 +2889,12 @@
 		}
 	},
 	"527": {
-		"dateModified": "2026-10-19T07:17:23Z",
+		"dateModified": "2026-10-19T08:11:36Z",
 		"page": "宝可梦系列",
 		"pageId": "21806",
 		"title": {
 			"zh": "宝可梦动画系列",
-			"+zh-hant": "寶可夢動畫系列"
+			"zh-hant": "寶可夢動畫系列"
 		}
 	},
 	"528": {
@@ -15696,6 +15696,12 @@
 			"+zh-hans": "元气妈妈"
 		}
 	},
+	"6119": {
+		"dateModified": "2026-10-19T08:10:19Z",
+		"title": {
+			"zh": "料理偶像"
+		}
+	},
 	"6129": {
 		"dateModified": "2025-07-19T09:33:51Z",
 		"title": {
@@ -27956,7 +27962,9 @@
 		}
 	},
 	"100745": {
-		"dateModified": "2026-10-19T06:16:12Z",
+		"dateModified": "2026-10-19T08:12:22Z",
+		"page": "足球小将",
+		"pageId": "40992",
 		"title": {
 			"zh": "足球小将",
 			"+zh-hant": "足球小將"
@@ -36592,6 +36600,14 @@
 		"title": {
 			"zh": "Metallic Rouge",
 			"zh-hant": "金屬口紅Metallic Rouge"
+		}
+	},
+	"163024": {
+		"dateModified": "2026-10-19T08:12:34Z",
+		"page": "足球小将",
+		"pageId": "40992",
+		"title": {
+			"en": "Captain Tsubasa 2018: season 2"
 		}
 	},
 	"163076": {
