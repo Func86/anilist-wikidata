@@ -21515,8 +21515,6 @@
 		}
 	},
 	"21403": {
-		"page": "刀剑神域",
-		"pageId": "23964",
 		"title": {
 			"zh": "刀劍神域劇場版: 序列爭戰",
 			"zh-hans": "刀剑神域：序列之争"
@@ -27228,6 +27226,13 @@
 			"zh": "BACK ARROW"
 		}
 	},
+	"114308": {
+		"page": "刀剑神域",
+		"pageId": "23964",
+		"title": {
+			"en": "Sword Art Online: Alicization"
+		}
+	},
 	"114317": {
 		"title": {
 			"zh": "Thunderbolt Fantasy 西幽玹歌"
@@ -28000,8 +28005,6 @@
 		}
 	},
 	"124140": {
-		"page": "刀剑神域",
-		"pageId": "23964",
 		"title": {
 			"zh": "刀劍神域劇場版 -Progressive- 無星夜的詠嘆調",
 			"zh-hans": "刀剑神域剧场版 -Progressive- 无星夜的咏叹调"
@@ -29672,8 +29675,6 @@
 		}
 	},
 	"140999": {
-		"page": "刀剑神域",
-		"pageId": "23964",
 		"title": {
 			"zh": "刀劍神域劇場版 -Progressive- 陰沉薄暮的詼諧曲",
 			"zh-cn": "刀剑神域进击篇：暮色黄昏"
